@@ -19,8 +19,8 @@ function startUI(){
  names.forEach((n,i)=>{
   let card=document.createElement('article');card.className='course';card.style.setProperty('--accent',colors[i]);
   let h=document.createElement('h3');h.textContent=(i+1)+'. '+n;card.append(h);
-  let p=document.createElement('p');p.textContent='Mémo original, carte mentale, 30 exercices (10 par niveau) et corrigés.';card.append(p);
-  for(const [label,path] of [['📘 Mémo','memos/'],['🧠 Carte mentale','cartes-mentales/'],['✍️ Exercices','exercices/'],['✅ Corrigés','corriges/']]){let a=document.createElement('a');a.className='linkbtn';a.textContent=label;a.href=path+String(i+1).padStart(2,'0')+(path==='memos/'?'_memo.pdf':path==='cartes-mentales/'?'_carte_mentale.pdf':path==='exercices/'?'_30_exercices.pdf':'_30_corriges.pdf');a.download='';card.append(a)}
+  let p=document.createElement('p');p.textContent='Mémo actualisé, carte mentale, exercices et corrigés accessibles dans la bibliothèque PDF.';card.append(p);
+  for(const [label,path] of [['📘 Mémo','memos/'],['🧠 Carte mentale','cartes-mentales/'],['✍️ Exercices','exercices/'],['✅ Corrigés','corriges/']]){let a=document.createElement('a');a.className='linkbtn';a.textContent=label;a.href=(path==='memos/'||path==='cartes-mentales/')?path+String(i+1).padStart(2,'0')+(path==='memos/'?'_memo.pdf':'_carte_mentale.pdf'):'#bibliotheque';if(a.href.endsWith('.pdf'))a.download='';card.append(a)}
   /* La bibliothèque complète des PDF est construite par pdf-library.js. */
   let option=document.createElement('option');option.value=String(i);option.textContent=n;$('topic').append(option);
   let label=document.createElement('label'),cb=document.createElement('input');cb.type='checkbox';cb.value=i;label.append(cb,document.createTextNode(n));$('topicchecks').append(label);
@@ -41,7 +41,7 @@ function begin(){if(!quizzes.length){$('alert').textContent='Questions indisponi
   if(checked.length!==3){$('alert').textContent='Sélectionne exactement trois thèmes.';return}
   questions=shuffle(checked.flatMap(i=>pickForTopic(i,'mixte').slice(0,5)));
  }else{questions=pickForTopic(+$('topic').value,mode==='chrono'?'mixte':$('level').value);questions=questions.slice(0,10)}
- if(questions.length<((mode==='custom')?15:10)){$('alert').textContent='Cette sélection n’a pas encore assez de questions vérifiées. Choisis un thème débutant.';return}
+ if(questions.length<((mode==='custom')?15:10)){$('alert').textContent='Cette sélection ne contient pas suffisamment de questions disponibles.';return}
  const player=$('player').value.trim()||'Participant';const opponent=$('opponent').value.trim()||'Adversaire';
  state={mode,questions,players:mode==='duel'?[player,opponent]:[player],turn:0,index:0,correct:0,answers:[],verified:false,started:Date.now(),deadline:0};
  $('alert').textContent='';$('results').hidden=true;$('quizgame').hidden=false;clearInterval(interval);

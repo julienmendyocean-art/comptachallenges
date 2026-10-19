@@ -175,9 +175,403 @@
         "reviewed_at": "2026-10-17",
         "review_method": "contrôle du fond + source officielle + réponse et distracteurs"
       }
-    ],
-    "desc": "20 questions originales par niveau : QCM corrigés",
-    "file": "01-debutant.html"
+    ]
+  },
+  {
+    "id": "01-intermediaire",
+    "fiche": "01",
+    "theme": "Comptes usuels",
+    "level": "Intermédiaire",
+    "questions": [
+      {
+        "n": 1,
+        "q": "Une facture de marchandises de 3 700,00 € HT, TVA 20 %, est passée à crédit. Quelle somme est inscrite au crédit de 401 ?",
+        "options": {
+          "A": "4 885,00 €",
+          "B": "5 330,00 €",
+          "C": "5 775,00 €",
+          "D": "4 440,00 €"
+        },
+        "correct": "D",
+        "explanation": "401 porte la dette TTC.",
+        "source": "https://www.anc.gouv.fr/plan-comptable-general-0",
+        "review_status": "recalcul_independant_2026_10_19",
+        "audit_type": "Calcul manuel modélisé indépendamment, cohérence du cas standard et contrôle des 4 choix ; sans certification comptable externe",
+        "review_method": "Recalcul indépendant par équation documentée, contrôle source officielle et quatre propositions distinctes",
+        "family": "calculation_01_1_00",
+        "id": "calc2026-01-1-00-1",
+        "reviewed_at": "2026-10-19"
+      },
+      {
+        "n": 2,
+        "q": "Une facture de vente de 4 600,00 € HT, TVA 20 %, est à crédit. Quel montant débiter au 411 ?",
+        "options": {
+          "A": "6 073,00 €",
+          "B": "5 520,00 €",
+          "C": "6 626,00 €",
+          "D": "7 179,00 €"
+        },
+        "correct": "B",
+        "explanation": "411 porte la créance TTC.",
+        "source": "https://www.anc.gouv.fr/plan-comptable-general-0",
+        "review_status": "recalcul_independant_2026_10_19",
+        "audit_type": "Calcul manuel modélisé indépendamment, cohérence du cas standard et contrôle des 4 choix ; sans certification comptable externe",
+        "review_method": "Recalcul indépendant par équation documentée, contrôle source officielle et quatre propositions distinctes",
+        "family": "calculation_01_1_01",
+        "id": "calc2026-01-1-01-1",
+        "reviewed_at": "2026-10-19"
+      },
+      {
+        "n": 3,
+        "q": "Vente de services de 5 500,00 € HT avec TVA 20 % exigible à la facturation. Quel montant créditer au 44571 ?",
+        "options": {
+          "A": "1 322,00 €",
+          "B": "1 211,00 €",
+          "C": "1 433,00 €",
+          "D": "1 100,00 €"
+        },
+        "correct": "D",
+        "explanation": "44571 porte la TVA collectée.",
+        "source": "https://www.anc.gouv.fr/plan-comptable-general-0",
+        "review_status": "recalcul_independant_2026_10_19",
+        "audit_type": "Calcul manuel modélisé indépendamment, cohérence du cas standard et contrôle des 4 choix ; sans certification comptable externe",
+        "review_method": "Recalcul indépendant par équation documentée, contrôle source officielle et quatre propositions distinctes",
+        "family": "calculation_01_1_02",
+        "id": "calc2026-01-1-02-1",
+        "reviewed_at": "2026-10-19"
+      },
+      {
+        "n": 4,
+        "q": "Achat taxable de 6 400,00 € HT, TVA 20 % totalement déductible. Quel montant débiter au 44566 ?",
+        "options": {
+          "A": "1 538,00 €",
+          "B": "1 409,00 €",
+          "C": "1 280,00 €",
+          "D": "1 667,00 €"
+        },
+        "correct": "C",
+        "explanation": "44566 porte la TVA déductible ABS.",
+        "source": "https://www.anc.gouv.fr/plan-comptable-general-0",
+        "review_status": "recalcul_independant_2026_10_19",
+        "audit_type": "Calcul manuel modélisé indépendamment, cohérence du cas standard et contrôle des 4 choix ; sans certification comptable externe",
+        "review_method": "Recalcul indépendant par équation documentée, contrôle source officielle et quatre propositions distinctes",
+        "family": "calculation_01_1_03",
+        "id": "calc2026-01-1-03-1",
+        "reviewed_at": "2026-10-19"
+      },
+      {
+        "n": 5,
+        "q": "Achat d’équipement de 7 300,00 € HT, TVA 20 % totalement déductible. Quel montant débiter au 44562 ?",
+        "options": {
+          "A": "1 754,00 €",
+          "B": "1 901,00 €",
+          "C": "1 607,00 €",
+          "D": "1 460,00 €"
+        },
+        "correct": "D",
+        "explanation": "44562 porte la TVA sur immobilisations.",
+        "source": "https://www.anc.gouv.fr/plan-comptable-general-0",
+        "review_status": "recalcul_independant_2026_10_19",
+        "audit_type": "Calcul manuel modélisé indépendamment, cohérence du cas standard et contrôle des 4 choix ; sans certification comptable externe",
+        "review_method": "Recalcul indépendant par équation documentée, contrôle source officielle et quatre propositions distinctes",
+        "family": "calculation_01_1_04",
+        "id": "calc2026-01-1-04-1",
+        "reviewed_at": "2026-10-19"
+      },
+      {
+        "n": 6,
+        "q": "Une entreprise encaisse 8 200,00 € d’une créance client préexistante et verse 315,00 € de frais par banque. Quel est le solde net des mouvements au 512 ?",
+        "options": {
+          "A": "10 252,00 €",
+          "B": "9 463,00 €",
+          "C": "7 885,00 €",
+          "D": "8 674,00 €"
+        },
+        "correct": "C",
+        "explanation": "512 reçoit le règlement et supporte le décaissement.",
+        "source": "https://www.anc.gouv.fr/plan-comptable-general-0",
+        "review_status": "recalcul_independant_2026_10_19",
+        "audit_type": "Calcul manuel modélisé indépendamment, cohérence du cas standard et contrôle des 4 choix ; sans certification comptable externe",
+        "review_method": "Recalcul indépendant par équation documentée, contrôle source officielle et quatre propositions distinctes",
+        "family": "calculation_01_1_05",
+        "id": "calc2026-01-1-05-1",
+        "reviewed_at": "2026-10-19"
+      },
+      {
+        "n": 7,
+        "q": "Une facture fournisseur TTC de 10 920,00 € a été réglée partiellement pour 3 500,00 €. Quelle dette reste au crédit du 401 ?",
+        "options": {
+          "A": "8 906,00 €",
+          "B": "8 163,00 €",
+          "C": "9 649,00 €",
+          "D": "7 420,00 €"
+        },
+        "correct": "D",
+        "explanation": "401 reste créditeur du solde impayé.",
+        "source": "https://www.anc.gouv.fr/plan-comptable-general-0",
+        "review_status": "recalcul_independant_2026_10_19",
+        "audit_type": "Calcul manuel modélisé indépendamment, cohérence du cas standard et contrôle des 4 choix ; sans certification comptable externe",
+        "review_method": "Recalcul indépendant par équation documentée, contrôle source officielle et quatre propositions distinctes",
+        "family": "calculation_01_1_06",
+        "id": "calc2026-01-1-06-1",
+        "reviewed_at": "2026-10-19"
+      },
+      {
+        "n": 8,
+        "q": "Une avance de 3 850,00 € à un fournisseur de marchandises est complétée par 385,00 €. Quel solde débiteur au 4091 avant imputation sur facture ?",
+        "options": {
+          "A": "5 507,00 €",
+          "B": "4 659,00 €",
+          "C": "5 083,00 €",
+          "D": "4 235,00 €"
+        },
+        "correct": "D",
+        "explanation": "4091 suit les avances versées.",
+        "source": "https://www.anc.gouv.fr/plan-comptable-general-0",
+        "review_status": "recalcul_independant_2026_10_19",
+        "audit_type": "Calcul manuel modélisé indépendamment, cohérence du cas standard et contrôle des 4 choix ; sans certification comptable externe",
+        "review_method": "Recalcul indépendant par équation documentée, contrôle source officielle et quatre propositions distinctes",
+        "family": "calculation_01_1_07",
+        "id": "calc2026-01-1-07-1",
+        "reviewed_at": "2026-10-19"
+      },
+      {
+        "n": 9,
+        "q": "Deux créances de 10 900,00 € et 420,00 € sont ouvertes au 411 ; un encaissement de 100,00 € intervient. Quel solde débiteur du 411 ?",
+        "options": {
+          "A": "12 343,00 €",
+          "B": "13 466,00 €",
+          "C": "11 220,00 €",
+          "D": "14 589,00 €"
+        },
+        "correct": "C",
+        "explanation": "Créances au débit, encaissement au crédit.",
+        "source": "https://www.anc.gouv.fr/plan-comptable-general-0",
+        "review_status": "recalcul_independant_2026_10_19",
+        "audit_type": "Calcul manuel modélisé indépendamment, cohérence du cas standard et contrôle des 4 choix ; sans certification comptable externe",
+        "review_method": "Recalcul indépendant par équation documentée, contrôle source officielle et quatre propositions distinctes",
+        "family": "calculation_01_1_08",
+        "id": "calc2026-01-1-08-1",
+        "reviewed_at": "2026-10-19"
+      },
+      {
+        "n": 10,
+        "q": "Une vente de marchandises de 11 800,00 € HT et une autre de 455,00 € HT sont comptabilisées au 707. Quel montant total au crédit du 707 ?",
+        "options": {
+          "A": "12 255,00 €",
+          "B": "15 933,00 €",
+          "C": "13 481,00 €",
+          "D": "14 707,00 €"
+        },
+        "correct": "A",
+        "explanation": "707 est crédité pour le chiffre d’affaires hors taxes.",
+        "source": "https://www.anc.gouv.fr/plan-comptable-general-0",
+        "review_status": "recalcul_independant_2026_10_19",
+        "audit_type": "Calcul manuel modélisé indépendamment, cohérence du cas standard et contrôle des 4 choix ; sans certification comptable externe",
+        "review_method": "Recalcul indépendant par équation documentée, contrôle source officielle et quatre propositions distinctes",
+        "family": "calculation_01_1_09",
+        "id": "calc2026-01-1-09-1",
+        "reviewed_at": "2026-10-19"
+      }
+    ]
+  },
+  {
+    "id": "01-expert",
+    "fiche": "01",
+    "theme": "Comptes usuels",
+    "level": "Expert",
+    "questions": [
+      {
+        "n": 1,
+        "q": "Deux ventes HT de 4 900,00 € et 200,00 € et un avoir HT de 20,00 € concernent le compte 707. Quel solde créditeur net ?",
+        "options": {
+          "A": "5 589,00 €",
+          "B": "6 098,00 €",
+          "C": "5 080,00 €",
+          "D": "6 607,00 €"
+        },
+        "correct": "C",
+        "explanation": "Produits HT nets = ventes moins avoir.",
+        "source": "https://www.anc.gouv.fr/plan-comptable-general-0",
+        "review_status": "recalcul_independant_2026_10_19",
+        "audit_type": "Calcul manuel modélisé indépendamment, cohérence du cas standard et contrôle des 4 choix ; sans certification comptable externe",
+        "review_method": "Recalcul indépendant par équation documentée, contrôle source officielle et quatre propositions distinctes",
+        "family": "calculation_01_2_00",
+        "id": "calc2026-01-2-00-1",
+        "reviewed_at": "2026-10-19"
+      },
+      {
+        "n": 2,
+        "q": "Créances clients initiales de 5 800,00 € ; nouvelles factures TTC de 235,00 € ; encaissements de 30,00 €. Solde débiteur du 411 ?",
+        "options": {
+          "A": "7 808,00 €",
+          "B": "6 606,00 €",
+          "C": "6 005,00 €",
+          "D": "7 207,00 €"
+        },
+        "correct": "C",
+        "explanation": "411 : solde initial + factures – règlements.",
+        "source": "https://www.anc.gouv.fr/plan-comptable-general-0",
+        "review_status": "recalcul_independant_2026_10_19",
+        "audit_type": "Calcul manuel modélisé indépendamment, cohérence du cas standard et contrôle des 4 choix ; sans certification comptable externe",
+        "review_method": "Recalcul indépendant par équation documentée, contrôle source officielle et quatre propositions distinctes",
+        "family": "calculation_01_2_01",
+        "id": "calc2026-01-2-01-1",
+        "reviewed_at": "2026-10-19"
+      },
+      {
+        "n": 3,
+        "q": "Dettes fournisseurs initiales de 6 700,00 € ; facture TTC de 270,00 € ; paiements de 40,00 €. Solde créditeur du 401 ?",
+        "options": {
+          "A": "9 012,00 €",
+          "B": "7 624,00 €",
+          "C": "6 930,00 €",
+          "D": "8 318,00 €"
+        },
+        "correct": "C",
+        "explanation": "401 : dettes initiales + factures – paiements.",
+        "source": "https://www.anc.gouv.fr/plan-comptable-general-0",
+        "review_status": "recalcul_independant_2026_10_19",
+        "audit_type": "Calcul manuel modélisé indépendamment, cohérence du cas standard et contrôle des 4 choix ; sans certification comptable externe",
+        "review_method": "Recalcul indépendant par équation documentée, contrôle source officielle et quatre propositions distinctes",
+        "family": "calculation_01_2_02",
+        "id": "calc2026-01-2-02-1",
+        "reviewed_at": "2026-10-19"
+      },
+      {
+        "n": 4,
+        "q": "TVA collectée au 44571 de 7 600,00 € ; avoir régularisant 50,00 € ; nouvelle TVA collectée 305,00 €. Solde créditeur ?",
+        "options": {
+          "A": "10 213,00 €",
+          "B": "7 855,00 €",
+          "C": "9 427,00 €",
+          "D": "8 641,00 €"
+        },
+        "correct": "B",
+        "explanation": "44571 est corrigé par l’avoir puis la vente.",
+        "source": "https://www.anc.gouv.fr/plan-comptable-general-0",
+        "review_status": "recalcul_independant_2026_10_19",
+        "audit_type": "Calcul manuel modélisé indépendamment, cohérence du cas standard et contrôle des 4 choix ; sans certification comptable externe",
+        "review_method": "Recalcul indépendant par équation documentée, contrôle source officielle et quatre propositions distinctes",
+        "family": "calculation_01_2_03",
+        "id": "calc2026-01-2-03-1",
+        "reviewed_at": "2026-10-19"
+      },
+      {
+        "n": 5,
+        "q": "Au 44566, TVA déductible de 8 500,00 €, complément 340,00 € et régularisation à retrancher de 60,00 €. Solde débiteur ?",
+        "options": {
+          "A": "10 538,00 €",
+          "B": "11 417,00 €",
+          "C": "9 659,00 €",
+          "D": "8 780,00 €"
+        },
+        "correct": "D",
+        "explanation": "TVA déductible nette des corrections.",
+        "source": "https://www.anc.gouv.fr/plan-comptable-general-0",
+        "review_status": "recalcul_independant_2026_10_19",
+        "audit_type": "Calcul manuel modélisé indépendamment, cohérence du cas standard et contrôle des 4 choix ; sans certification comptable externe",
+        "review_method": "Recalcul indépendant par équation documentée, contrôle source officielle et quatre propositions distinctes",
+        "family": "calculation_01_2_04",
+        "id": "calc2026-01-2-04-1",
+        "reviewed_at": "2026-10-19"
+      },
+      {
+        "n": 6,
+        "q": "Au compte 512, solde débiteur initial 9 400,00 €, encaissement de 375,00 €, virement sortant de 70,00 €. Solde débiteur final ?",
+        "options": {
+          "A": "12 618,00 €",
+          "B": "11 647,00 €",
+          "C": "9 705,00 €",
+          "D": "10 676,00 €"
+        },
+        "correct": "C",
+        "explanation": "512 = solde initial + entrées – sorties.",
+        "source": "https://www.anc.gouv.fr/plan-comptable-general-0",
+        "review_status": "recalcul_independant_2026_10_19",
+        "audit_type": "Calcul manuel modélisé indépendamment, cohérence du cas standard et contrôle des 4 choix ; sans certification comptable externe",
+        "review_method": "Recalcul indépendant par équation documentée, contrôle source officielle et quatre propositions distinctes",
+        "family": "calculation_01_2_05",
+        "id": "calc2026-01-2-05-1",
+        "reviewed_at": "2026-10-19"
+      },
+      {
+        "n": 7,
+        "q": "Compte 4191 : deux acomptes clients de 10 300,00 € et 410,00 €, imputation sur facture de 80,00 €. Solde créditeur ?",
+        "options": {
+          "A": "10 630,00 €",
+          "B": "12 758,00 €",
+          "C": "11 694,00 €",
+          "D": "13 822,00 €"
+        },
+        "correct": "A",
+        "explanation": "4191 représente les avances clients restant à imputer.",
+        "source": "https://www.anc.gouv.fr/plan-comptable-general-0",
+        "review_status": "recalcul_independant_2026_10_19",
+        "audit_type": "Calcul manuel modélisé indépendamment, cohérence du cas standard et contrôle des 4 choix ; sans certification comptable externe",
+        "review_method": "Recalcul indépendant par équation documentée, contrôle source officielle et quatre propositions distinctes",
+        "family": "calculation_01_2_06",
+        "id": "calc2026-01-2-06-1",
+        "reviewed_at": "2026-10-19"
+      },
+      {
+        "n": 8,
+        "q": "Compte 4091 : avances fournisseurs de 11 200,00 € et 445,00 €, imputation sur facture de 90,00 €. Solde débiteur ?",
+        "options": {
+          "A": "12 711,00 €",
+          "B": "13 867,00 €",
+          "C": "15 023,00 €",
+          "D": "11 555,00 €"
+        },
+        "correct": "D",
+        "explanation": "4091 représente les avances versées non imputées.",
+        "source": "https://www.anc.gouv.fr/plan-comptable-general-0",
+        "review_status": "recalcul_independant_2026_10_19",
+        "audit_type": "Calcul manuel modélisé indépendamment, cohérence du cas standard et contrôle des 4 choix ; sans certification comptable externe",
+        "review_method": "Recalcul indépendant par équation documentée, contrôle source officielle et quatre propositions distinctes",
+        "family": "calculation_01_2_07",
+        "id": "calc2026-01-2-07-1",
+        "reviewed_at": "2026-10-19"
+      },
+      {
+        "n": 9,
+        "q": "Compte 404 : équipement facturé TTC pour 12 100,00 € puis équipement supplémentaire 480,00 € ; paiement de 100,00 €. Solde créditeur ?",
+        "options": {
+          "A": "16 227,00 €",
+          "B": "14 978,00 €",
+          "C": "12 480,00 €",
+          "D": "13 729,00 €"
+        },
+        "correct": "C",
+        "explanation": "404 suit les fournisseurs d’immobilisations.",
+        "source": "https://www.anc.gouv.fr/plan-comptable-general-0",
+        "review_status": "recalcul_independant_2026_10_19",
+        "audit_type": "Calcul manuel modélisé indépendamment, cohérence du cas standard et contrôle des 4 choix ; sans certification comptable externe",
+        "review_method": "Recalcul indépendant par équation documentée, contrôle source officielle et quatre propositions distinctes",
+        "family": "calculation_01_2_08",
+        "id": "calc2026-01-2-08-1",
+        "reviewed_at": "2026-10-19"
+      },
+      {
+        "n": 10,
+        "q": "Charges 607 : achats HT de 13 000,00 € et 515,00 € ; avoir HT de 110,00 €. Charges nettes à débiter ?",
+        "options": {
+          "A": "14 746,00 €",
+          "B": "13 405,00 €",
+          "C": "17 428,00 €",
+          "D": "16 087,00 €"
+        },
+        "correct": "B",
+        "explanation": "Les achats sont débités ; l’avoir minore la charge.",
+        "source": "https://www.anc.gouv.fr/plan-comptable-general-0",
+        "review_status": "recalcul_independant_2026_10_19",
+        "audit_type": "Calcul manuel modélisé indépendamment, cohérence du cas standard et contrôle des 4 choix ; sans certification comptable externe",
+        "review_method": "Recalcul indépendant par équation documentée, contrôle source officielle et quatre propositions distinctes",
+        "family": "calculation_01_2_09",
+        "id": "calc2026-01-2-09-1",
+        "reviewed_at": "2026-10-19"
+      }
+    ]
   },
   {
     "id": "02-debutant",
@@ -355,9 +749,403 @@
         "reviewed_at": "2026-10-17",
         "review_method": "contrôle du fond + source officielle + réponse et distracteurs"
       }
-    ],
-    "desc": "20 questions originales par niveau : QCM corrigés",
-    "file": "02-debutant.html"
+    ]
+  },
+  {
+    "id": "02-intermediaire",
+    "fiche": "02",
+    "theme": "Opérations courantes",
+    "level": "Intermédiaire",
+    "questions": [
+      {
+        "n": 1,
+        "q": "Achat de 3 700,00 € HT, remise commerciale 10 %, puis TVA 20 %. TTC à payer ?",
+        "options": {
+          "A": "4 396,00 €",
+          "B": "4 796,00 €",
+          "C": "3 996,00 €",
+          "D": "5 196,00 €"
+        },
+        "correct": "C",
+        "explanation": "Appliquer remise puis TVA sur la base nette.",
+        "source": "https://www.anc.gouv.fr/plan-comptable-general-0",
+        "review_status": "recalcul_independant_2026_10_19",
+        "audit_type": "Calcul manuel modélisé indépendamment, cohérence du cas standard et contrôle des 4 choix ; sans certification comptable externe",
+        "review_method": "Recalcul indépendant par équation documentée, contrôle source officielle et quatre propositions distinctes",
+        "family": "calculation_02_1_00",
+        "id": "calc2026-02-1-00-1",
+        "reviewed_at": "2026-10-19"
+      },
+      {
+        "n": 2,
+        "q": "Facture de 4 600,00 € HT, rabais fixe 1 750,00 € HT puis TVA 20 %. TVA collectée ?",
+        "options": {
+          "A": "744,00 €",
+          "B": "686,00 €",
+          "C": "570,00 €",
+          "D": "628,00 €"
+        },
+        "correct": "C",
+        "explanation": "TVA assise sur le net HT.",
+        "source": "https://www.anc.gouv.fr/plan-comptable-general-0",
+        "review_status": "recalcul_independant_2026_10_19",
+        "audit_type": "Calcul manuel modélisé indépendamment, cohérence du cas standard et contrôle des 4 choix ; sans certification comptable externe",
+        "review_method": "Recalcul indépendant par équation documentée, contrôle source officielle et quatre propositions distinctes",
+        "family": "calculation_02_1_01",
+        "id": "calc2026-02-1-01-1",
+        "reviewed_at": "2026-10-19"
+      },
+      {
+        "n": 3,
+        "q": "Vente de 5 500,00 € HT, remise 10 %, acompte TTC 2 100,00 €. Quel solde TTC ?",
+        "options": {
+          "A": "4 610,00 €",
+          "B": "3 840,00 €",
+          "C": "4 225,00 €",
+          "D": "4 995,00 €"
+        },
+        "correct": "B",
+        "explanation": "Facture TTC nette moins acompte imputé.",
+        "source": "https://www.anc.gouv.fr/plan-comptable-general-0",
+        "review_status": "recalcul_independant_2026_10_19",
+        "audit_type": "Calcul manuel modélisé indépendamment, cohérence du cas standard et contrôle des 4 choix ; sans certification comptable externe",
+        "review_method": "Recalcul indépendant par équation documentée, contrôle source officielle et quatre propositions distinctes",
+        "family": "calculation_02_1_02",
+        "id": "calc2026-02-1-02-1",
+        "reviewed_at": "2026-10-19"
+      },
+      {
+        "n": 4,
+        "q": "Achat HT 6 400,00 €, avoir HT 2 450,00 €, TVA 20 %. TTC net après avoir ?",
+        "options": {
+          "A": "6 165,00 €",
+          "B": "5 215,00 €",
+          "C": "4 740,00 €",
+          "D": "5 690,00 €"
+        },
+        "correct": "C",
+        "explanation": "La base taxable nette est H – avoir.",
+        "source": "https://www.anc.gouv.fr/plan-comptable-general-0",
+        "review_status": "recalcul_independant_2026_10_19",
+        "audit_type": "Calcul manuel modélisé indépendamment, cohérence du cas standard et contrôle des 4 choix ; sans certification comptable externe",
+        "review_method": "Recalcul indépendant par équation documentée, contrôle source officielle et quatre propositions distinctes",
+        "family": "calculation_02_1_03",
+        "id": "calc2026-02-1-03-1",
+        "reviewed_at": "2026-10-19"
+      },
+      {
+        "n": 5,
+        "q": "Facture TTC à 20 % de 8 760,00 €, règlement 2 800,00 € et second règlement 600,00 €. Reste TTC ?",
+        "options": {
+          "A": "5 360,00 €",
+          "B": "6 971,00 €",
+          "C": "6 434,00 €",
+          "D": "5 897,00 €"
+        },
+        "correct": "A",
+        "explanation": "Solde = TTC – règlements.",
+        "source": "https://www.anc.gouv.fr/plan-comptable-general-0",
+        "review_status": "recalcul_independant_2026_10_19",
+        "audit_type": "Calcul manuel modélisé indépendamment, cohérence du cas standard et contrôle des 4 choix ; sans certification comptable externe",
+        "review_method": "Recalcul indépendant par équation documentée, contrôle source officielle et quatre propositions distinctes",
+        "family": "calculation_02_1_04",
+        "id": "calc2026-02-1-04-1",
+        "reviewed_at": "2026-10-19"
+      },
+      {
+        "n": 6,
+        "q": "Facture de 8 200,00 € HT, remise commerciale 10 % puis TVA 20 %. Montant à créditer au 707 ?",
+        "options": {
+          "A": "8 858,00 €",
+          "B": "8 119,00 €",
+          "C": "9 597,00 €",
+          "D": "7 380,00 €"
+        },
+        "correct": "D",
+        "explanation": "Le chiffre d’affaires est comptabilisé au net commercial HT.",
+        "source": "https://www.anc.gouv.fr/plan-comptable-general-0",
+        "review_status": "recalcul_independant_2026_10_19",
+        "audit_type": "Calcul manuel modélisé indépendamment, cohérence du cas standard et contrôle des 4 choix ; sans certification comptable externe",
+        "review_method": "Recalcul indépendant par équation documentée, contrôle source officielle et quatre propositions distinctes",
+        "family": "calculation_02_1_05",
+        "id": "calc2026-02-1-05-1",
+        "reviewed_at": "2026-10-19"
+      },
+      {
+        "n": 7,
+        "q": "Facture de services taxable de 9 100,00 € HT (TVA 20 %) réglée à hauteur de 3 500,00 € TTC. TVA devenue exigible lors du règlement (régime encaissements) ?",
+        "options": {
+          "A": "583,33 €",
+          "B": "760,00 €",
+          "C": "642,00 €",
+          "D": "701,00 €"
+        },
+        "correct": "A",
+        "explanation": "TVA sur encaissement TTC = 3 500 × 20/120 = 583,33 €, arrondie au centime.",
+        "source": "https://bofip.impots.gouv.fr/bofip/13901-PGP.html/identifiant=BOI-TVA-DECLA-20-30-60-20260930",
+        "review_status": "recalcul_independant_2026_10_19",
+        "audit_type": "Calcul manuel modélisé indépendamment, cohérence du cas standard et contrôle des 4 choix ; sans certification comptable externe",
+        "review_method": "Recalcul indépendant par équation documentée, contrôle source officielle et quatre propositions distinctes",
+        "family": "calculation_02_1_06",
+        "id": "calc2026-02-1-06-1",
+        "reviewed_at": "2026-10-19"
+      },
+      {
+        "n": 8,
+        "q": "Deux achats HT : 10 000,00 € et 3 850,00 €, TVA 20 % déductible. Total TVA déductible ?",
+        "options": {
+          "A": "2 770,00 €",
+          "B": "3 604,00 €",
+          "C": "3 326,00 €",
+          "D": "3 048,00 €"
+        },
+        "correct": "A",
+        "explanation": "TVA = 20 % des deux bases HT.",
+        "source": "https://bofip.impots.gouv.fr/bofip/13901-PGP.html/identifiant=BOI-TVA-DECLA-20-30-60-20260930",
+        "review_status": "recalcul_independant_2026_10_19",
+        "audit_type": "Calcul manuel modélisé indépendamment, cohérence du cas standard et contrôle des 4 choix ; sans certification comptable externe",
+        "review_method": "Recalcul indépendant par équation documentée, contrôle source officielle et quatre propositions distinctes",
+        "family": "calculation_02_1_07",
+        "id": "calc2026-02-1-07-1",
+        "reviewed_at": "2026-10-19"
+      },
+      {
+        "n": 9,
+        "q": "Facture HT de 10 900,00 € et avoir HT de 4 200,00 € : TVA à 10 %. Montant de taxe net ?",
+        "options": {
+          "A": "670,00 €",
+          "B": "806,00 €",
+          "C": "738,00 €",
+          "D": "874,00 €"
+        },
+        "correct": "A",
+        "explanation": "TVA nette = (facture – avoir) × 10 %.",
+        "source": "https://bofip.impots.gouv.fr/bofip/13901-PGP.html/identifiant=BOI-TVA-DECLA-20-30-60-20260930",
+        "review_status": "recalcul_independant_2026_10_19",
+        "audit_type": "Calcul manuel modélisé indépendamment, cohérence du cas standard et contrôle des 4 choix ; sans certification comptable externe",
+        "review_method": "Recalcul indépendant par équation documentée, contrôle source officielle et quatre propositions distinctes",
+        "family": "calculation_02_1_08",
+        "id": "calc2026-02-1-08-1",
+        "reviewed_at": "2026-10-19"
+      },
+      {
+        "n": 10,
+        "q": "Vente HT 11 800,00 €, acompte déjà facturé pour 4 550,00 € HT, TVA 20 %. TVA restant sur facture finale ?",
+        "options": {
+          "A": "1 596,00 €",
+          "B": "1 742,00 €",
+          "C": "1 450,00 €",
+          "D": "1 888,00 €"
+        },
+        "correct": "C",
+        "explanation": "TVA totale moins TVA sur acompte déjà exigible.",
+        "source": "https://bofip.impots.gouv.fr/bofip/13901-PGP.html/identifiant=BOI-TVA-DECLA-20-30-60-20260930",
+        "review_status": "recalcul_independant_2026_10_19",
+        "audit_type": "Calcul manuel modélisé indépendamment, cohérence du cas standard et contrôle des 4 choix ; sans certification comptable externe",
+        "review_method": "Recalcul indépendant par équation documentée, contrôle source officielle et quatre propositions distinctes",
+        "family": "calculation_02_1_09",
+        "id": "calc2026-02-1-09-1",
+        "reviewed_at": "2026-10-19"
+      }
+    ]
+  },
+  {
+    "id": "02-expert",
+    "fiche": "02",
+    "theme": "Opérations courantes",
+    "level": "Expert",
+    "questions": [
+      {
+        "n": 1,
+        "q": "Vente brute 4 900,00 € HT ; remise 10 %, puis rabais fixe de 2 000,00 € HT ; TVA 20 %. TTC net ?",
+        "options": {
+          "A": "3 182,00 €",
+          "B": "2 892,00 €",
+          "C": "3 762,00 €",
+          "D": "3 472,00 €"
+        },
+        "correct": "B",
+        "explanation": "Remise, rabais, puis calcul de TVA.",
+        "source": "https://www.anc.gouv.fr/plan-comptable-general-0",
+        "review_status": "recalcul_independant_2026_10_19",
+        "audit_type": "Calcul manuel modélisé indépendamment, cohérence du cas standard et contrôle des 4 choix ; sans certification comptable externe",
+        "review_method": "Recalcul indépendant par équation documentée, contrôle source officielle et quatre propositions distinctes",
+        "family": "calculation_02_2_00",
+        "id": "calc2026-02-2-00-1",
+        "reviewed_at": "2026-10-19"
+      },
+      {
+        "n": 2,
+        "q": "Facture HT 5 800,00 € ; remise 10 % ; avoir complémentaire HT 2 350,00 € ; TVA 20 %. Quelle taxe nette ?",
+        "options": {
+          "A": "632,00 €",
+          "B": "690,00 €",
+          "C": "574,00 €",
+          "D": "748,00 €"
+        },
+        "correct": "C",
+        "explanation": "TVA = base après remises/avoirs × 20 %.",
+        "source": "https://www.anc.gouv.fr/plan-comptable-general-0",
+        "review_status": "recalcul_independant_2026_10_19",
+        "audit_type": "Calcul manuel modélisé indépendamment, cohérence du cas standard et contrôle des 4 choix ; sans certification comptable externe",
+        "review_method": "Recalcul indépendant par équation documentée, contrôle source officielle et quatre propositions distinctes",
+        "family": "calculation_02_2_01",
+        "id": "calc2026-02-2-01-1",
+        "reviewed_at": "2026-10-19"
+      },
+      {
+        "n": 3,
+        "q": "Vente de 6 700,00 € HT et 2 700,00 € HT ; remise globale fixe de 400,00 € HT ; TVA 20 %. Quel TTC ?",
+        "options": {
+          "A": "11 881,00 €",
+          "B": "14 043,00 €",
+          "C": "10 800,00 €",
+          "D": "12 962,00 €"
+        },
+        "correct": "C",
+        "explanation": "Somme HT puis remise, avant TVA.",
+        "source": "https://www.anc.gouv.fr/plan-comptable-general-0",
+        "review_status": "recalcul_independant_2026_10_19",
+        "audit_type": "Calcul manuel modélisé indépendamment, cohérence du cas standard et contrôle des 4 choix ; sans certification comptable externe",
+        "review_method": "Recalcul indépendant par équation documentée, contrôle source officielle et quatre propositions distinctes",
+        "family": "calculation_02_2_02",
+        "id": "calc2026-02-2-02-1",
+        "reviewed_at": "2026-10-19"
+      },
+      {
+        "n": 4,
+        "q": "Facture TTC 9 120,00 € ; deux règlements TTC 3 050,00 € et 500,00 € ; avoir TTC 305,00 €. Solde TTC ?",
+        "options": {
+          "A": "6 846,00 €",
+          "B": "5 265,00 €",
+          "C": "5 792,00 €",
+          "D": "6 319,00 €"
+        },
+        "correct": "B",
+        "explanation": "Solde = facture – règlements – avoir.",
+        "source": "https://www.anc.gouv.fr/plan-comptable-general-0",
+        "review_status": "recalcul_independant_2026_10_19",
+        "audit_type": "Calcul manuel modélisé indépendamment, cohérence du cas standard et contrôle des 4 choix ; sans certification comptable externe",
+        "review_method": "Recalcul indépendant par équation documentée, contrôle source officielle et quatre propositions distinctes",
+        "family": "calculation_02_2_03",
+        "id": "calc2026-02-2-03-1",
+        "reviewed_at": "2026-10-19"
+      },
+      {
+        "n": 5,
+        "q": "Commande 8 500,00 € HT, TVA 20 % ; acompte TTC 3 400,00 € et règlement TTC 600,00 €. Restant dû TTC ?",
+        "options": {
+          "A": "8 063,00 €",
+          "B": "7 442,00 €",
+          "C": "6 200,00 €",
+          "D": "6 821,00 €"
+        },
+        "correct": "C",
+        "explanation": "Total TTC moins les sommes réglées.",
+        "source": "https://www.anc.gouv.fr/plan-comptable-general-0",
+        "review_status": "recalcul_independant_2026_10_19",
+        "audit_type": "Calcul manuel modélisé indépendamment, cohérence du cas standard et contrôle des 4 choix ; sans certification comptable externe",
+        "review_method": "Recalcul indépendant par équation documentée, contrôle source officielle et quatre propositions distinctes",
+        "family": "calculation_02_2_04",
+        "id": "calc2026-02-2-04-1",
+        "reviewed_at": "2026-10-19"
+      },
+      {
+        "n": 6,
+        "q": "Deux achats taxables HT de 9 400,00 € (20 %) et 3 750,00 € (10 %) ; avoir HT de 700,00 € portant sur achat à 20 %. TVA déductible nette ?",
+        "options": {
+          "A": "2 751,00 €",
+          "B": "2 539,00 €",
+          "C": "2 115,00 €",
+          "D": "2 327,00 €"
+        },
+        "correct": "C",
+        "explanation": "TVA par taux, moins la TVA sur l’avoir.",
+        "source": "https://www.anc.gouv.fr/plan-comptable-general-0",
+        "review_status": "recalcul_independant_2026_10_19",
+        "audit_type": "Calcul manuel modélisé indépendamment, cohérence du cas standard et contrôle des 4 choix ; sans certification comptable externe",
+        "review_method": "Recalcul indépendant par équation documentée, contrôle source officielle et quatre propositions distinctes",
+        "family": "calculation_02_2_05",
+        "id": "calc2026-02-2-05-1",
+        "reviewed_at": "2026-10-19"
+      },
+      {
+        "n": 7,
+        "q": "Service soumis aux encaissements : facture HT 10 300,00 € à 20 % ; deux acomptes TTC 4 100,00 € et 800,00 €. TVA exigible cumulée ?",
+        "options": {
+          "A": "898,67 €",
+          "B": "1 062,67 €",
+          "C": "816,67 €",
+          "D": "980,67 €"
+        },
+        "correct": "C",
+        "explanation": "Taxe incluse = encaissements TTC × 20/120.",
+        "source": "https://bofip.impots.gouv.fr/bofip/13901-PGP.html/identifiant=BOI-TVA-DECLA-20-30-60-20260930",
+        "review_status": "recalcul_independant_2026_10_19",
+        "audit_type": "Calcul manuel modélisé indépendamment, cohérence du cas standard et contrôle des 4 choix ; sans certification comptable externe",
+        "review_method": "Recalcul indépendant par équation documentée, contrôle source officielle et quatre propositions distinctes",
+        "family": "calculation_02_2_06",
+        "id": "calc2026-02-2-06-1",
+        "reviewed_at": "2026-10-19"
+      },
+      {
+        "n": 8,
+        "q": "Facture HT 11 200,00 € ; remise 10 % ; deux paiements TTC 4 450,00 € et 900,00 € ; TVA 20 %. Reste dû TTC ?",
+        "options": {
+          "A": "8 771,00 €",
+          "B": "7 421,00 €",
+          "C": "6 746,00 €",
+          "D": "8 096,00 €"
+        },
+        "correct": "C",
+        "explanation": "Net HT puis TVA, moins versements.",
+        "source": "https://bofip.impots.gouv.fr/bofip/13901-PGP.html/identifiant=BOI-TVA-DECLA-20-30-60-20260930",
+        "review_status": "recalcul_independant_2026_10_19",
+        "audit_type": "Calcul manuel modélisé indépendamment, cohérence du cas standard et contrôle des 4 choix ; sans certification comptable externe",
+        "review_method": "Recalcul indépendant par équation documentée, contrôle source officielle et quatre propositions distinctes",
+        "family": "calculation_02_2_07",
+        "id": "calc2026-02-2-07-1",
+        "reviewed_at": "2026-10-19"
+      },
+      {
+        "n": 9,
+        "q": "Facture de services HT 12 100,00 € et avoir HT 4 800,00 €, TVA 20 % ; acompte TTC 1 000,00 € déjà réglé. Solde TTC ?",
+        "options": {
+          "A": "9 314,00 €",
+          "B": "10 091,00 €",
+          "C": "8 537,00 €",
+          "D": "7 760,00 €"
+        },
+        "correct": "D",
+        "explanation": "Déduire l’avoir HT, taxer, puis imputer acompte TTC.",
+        "source": "https://bofip.impots.gouv.fr/bofip/13901-PGP.html/identifiant=BOI-TVA-DECLA-20-30-60-20260930",
+        "review_status": "recalcul_independant_2026_10_19",
+        "audit_type": "Calcul manuel modélisé indépendamment, cohérence du cas standard et contrôle des 4 choix ; sans certification comptable externe",
+        "review_method": "Recalcul indépendant par équation documentée, contrôle source officielle et quatre propositions distinctes",
+        "family": "calculation_02_2_08",
+        "id": "calc2026-02-2-08-1",
+        "reviewed_at": "2026-10-19"
+      },
+      {
+        "n": 10,
+        "q": "Facture HT 13 000,00 € au taux 20 % ; avoir HT 5 150,00 € et remise supplémentaire HT 1 100,00 €. Quel TTC final ?",
+        "options": {
+          "A": "9 722,00 €",
+          "B": "10 533,00 €",
+          "C": "8 911,00 €",
+          "D": "8 100,00 €"
+        },
+        "correct": "D",
+        "explanation": "Base nette ×1,20.",
+        "source": "https://bofip.impots.gouv.fr/bofip/13901-PGP.html/identifiant=BOI-TVA-DECLA-20-30-60-20260930",
+        "review_status": "recalcul_independant_2026_10_19",
+        "audit_type": "Calcul manuel modélisé indépendamment, cohérence du cas standard et contrôle des 4 choix ; sans certification comptable externe",
+        "review_method": "Recalcul indépendant par équation documentée, contrôle source officielle et quatre propositions distinctes",
+        "family": "calculation_02_2_09",
+        "id": "calc2026-02-2-09-1",
+        "reviewed_at": "2026-10-19"
+      }
+    ]
   },
   {
     "id": "03-debutant",
@@ -535,9 +1323,403 @@
         "reviewed_at": "2026-10-17",
         "review_method": "contrôle du fond + source officielle + réponse et distracteurs"
       }
-    ],
-    "desc": "20 questions originales par niveau : QCM corrigés",
-    "file": "03-debutant.html"
+    ]
+  },
+  {
+    "id": "03-intermediaire",
+    "fiche": "03",
+    "theme": "Immobilisations",
+    "level": "Intermédiaire",
+    "questions": [
+      {
+        "n": 1,
+        "q": "Machine acquise 20 000,00 € HT, frais attribuables 140,00 € HT, sans résiduel ; durée 5 ans. Annuité linéaire arrondie au centime ?",
+        "options": {
+          "A": "4 028,00 €",
+          "B": "4 834,00 €",
+          "C": "5 237,00 €",
+          "D": "4 431,00 €"
+        },
+        "correct": "A",
+        "explanation": "Base = acquisition + frais ; annuité = base / durée.",
+        "source": "https://www.anc.gouv.fr/plan-comptable-general-0",
+        "review_status": "recalcul_independant_2026_10_19",
+        "audit_type": "Calcul manuel modélisé indépendamment, cohérence du cas standard et contrôle des 4 choix ; sans certification comptable externe",
+        "review_method": "Recalcul indépendant par équation documentée, contrôle source officielle et quatre propositions distinctes",
+        "family": "calculation_03_1_00",
+        "id": "calc2026-03-1-00-1",
+        "reviewed_at": "2026-10-19"
+      },
+      {
+        "n": 2,
+        "q": "Immobilisation de 25 000,00 € amortie sur 5 ans, deux annuités complètes déjà pratiquées. VNC ?",
+        "options": {
+          "A": "18 002,00 €",
+          "B": "15 000,00 €",
+          "C": "19 503,00 €",
+          "D": "16 501,00 €"
+        },
+        "correct": "B",
+        "explanation": "VNC = brut – 2 dotations annuelles.",
+        "source": "https://www.anc.gouv.fr/plan-comptable-general-0",
+        "review_status": "recalcul_independant_2026_10_19",
+        "audit_type": "Calcul manuel modélisé indépendamment, cohérence du cas standard et contrôle des 4 choix ; sans certification comptable externe",
+        "review_method": "Recalcul indépendant par équation documentée, contrôle source officielle et quatre propositions distinctes",
+        "family": "calculation_03_1_01",
+        "id": "calc2026-03-1-01-1",
+        "reviewed_at": "2026-10-19"
+      },
+      {
+        "n": 3,
+        "q": "Immobilisation brute 30 000,00 €, dotation annuelle 6 000,00 € et trois dotations comptabilisées. VNC ?",
+        "options": {
+          "A": "15 603,00 €",
+          "B": "13 201,00 €",
+          "C": "14 402,00 €",
+          "D": "12 000,00 €"
+        },
+        "correct": "D",
+        "explanation": "Brut moins trois annuités.",
+        "source": "https://www.anc.gouv.fr/plan-comptable-general-0",
+        "review_status": "recalcul_independant_2026_10_19",
+        "audit_type": "Calcul manuel modélisé indépendamment, cohérence du cas standard et contrôle des 4 choix ; sans certification comptable externe",
+        "review_method": "Recalcul indépendant par équation documentée, contrôle source officielle et quatre propositions distinctes",
+        "family": "calculation_03_1_02",
+        "id": "calc2026-03-1-02-1",
+        "reviewed_at": "2026-10-19"
+      },
+      {
+        "n": 4,
+        "q": "Machine brute 35 000,00 €, dotation normale annuelle 7 000,00 €, mise en service au début du mois de mars ; prorata simplifié de 10 mois sur 12. Dotation de N ?",
+        "options": {
+          "A": "7 001,33 €",
+          "B": "5 833,33 €",
+          "C": "6 417,33 €",
+          "D": "7 585,33 €"
+        },
+        "correct": "B",
+        "explanation": "Dotation annuelle ×10/12 sous la convention explicitée.",
+        "source": "https://www.anc.gouv.fr/plan-comptable-general-0",
+        "review_status": "recalcul_independant_2026_10_19",
+        "audit_type": "Calcul manuel modélisé indépendamment, cohérence du cas standard et contrôle des 4 choix ; sans certification comptable externe",
+        "review_method": "Recalcul indépendant par équation documentée, contrôle source officielle et quatre propositions distinctes",
+        "family": "calculation_03_1_03",
+        "id": "calc2026-03-1-03-1",
+        "reviewed_at": "2026-10-19"
+      },
+      {
+        "n": 5,
+        "q": "Actif net comptable de 24 000,00 € ; cession HT à 32 000,00 € sans frais. Résultat de cession ?",
+        "options": {
+          "A": "8 801,00 €",
+          "B": "9 602,00 €",
+          "C": "8 000,00 €",
+          "D": "10 403,00 €"
+        },
+        "correct": "C",
+        "explanation": "Plus-value = prix HT – VNC.",
+        "source": "https://www.anc.gouv.fr/plan-comptable-general-0",
+        "review_status": "recalcul_independant_2026_10_19",
+        "audit_type": "Calcul manuel modélisé indépendamment, cohérence du cas standard et contrôle des 4 choix ; sans certification comptable externe",
+        "review_method": "Recalcul indépendant par équation documentée, contrôle source officielle et quatre propositions distinctes",
+        "family": "calculation_03_1_04",
+        "id": "calc2026-03-1-04-1",
+        "reviewed_at": "2026-10-19"
+      },
+      {
+        "n": 6,
+        "q": "Immobilisation 45 000,00 € ; amortissements cumulés de 9 000,00 € et dépréciation distincte de 315,00 €. VNC ?",
+        "options": {
+          "A": "46 392,00 €",
+          "B": "42 823,00 €",
+          "C": "39 254,00 €",
+          "D": "35 685,00 €"
+        },
+        "correct": "D",
+        "explanation": "VNC = brut – amortissements – dépréciation.",
+        "source": "https://www.anc.gouv.fr/plan-comptable-general-0",
+        "review_status": "recalcul_independant_2026_10_19",
+        "audit_type": "Calcul manuel modélisé indépendamment, cohérence du cas standard et contrôle des 4 choix ; sans certification comptable externe",
+        "review_method": "Recalcul indépendant par équation documentée, contrôle source officielle et quatre propositions distinctes",
+        "family": "calculation_03_1_05",
+        "id": "calc2026-03-1-05-1",
+        "reviewed_at": "2026-10-19"
+      },
+      {
+        "n": 7,
+        "q": "Coût HT 50 000,00 € ; frais directement attribuables 350,00 € ; réduction sur prix 80,00 €. Valeur d’entrée HT ?",
+        "options": {
+          "A": "65 354,00 €",
+          "B": "50 270,00 €",
+          "C": "60 326,00 €",
+          "D": "55 298,00 €"
+        },
+        "correct": "B",
+        "explanation": "Coût d’entrée = prix – réduction + frais attribuables.",
+        "source": "https://www.anc.gouv.fr/plan-comptable-general-0",
+        "review_status": "recalcul_independant_2026_10_19",
+        "audit_type": "Calcul manuel modélisé indépendamment, cohérence du cas standard et contrôle des 4 choix ; sans certification comptable externe",
+        "review_method": "Recalcul indépendant par équation documentée, contrôle source officielle et quatre propositions distinctes",
+        "family": "calculation_03_1_06",
+        "id": "calc2026-03-1-06-1",
+        "reviewed_at": "2026-10-19"
+      },
+      {
+        "n": 8,
+        "q": "Une immobilisation brut 55 000,00 € perd 11 000,00 € d’amortissement deux exercices de suite. Montant total amorti ?",
+        "options": {
+          "A": "22 000,00 €",
+          "B": "28 603,00 €",
+          "C": "26 402,00 €",
+          "D": "24 201,00 €"
+        },
+        "correct": "A",
+        "explanation": "Deux annuités identiques.",
+        "source": "https://www.anc.gouv.fr/plan-comptable-general-0",
+        "review_status": "recalcul_independant_2026_10_19",
+        "audit_type": "Calcul manuel modélisé indépendamment, cohérence du cas standard et contrôle des 4 choix ; sans certification comptable externe",
+        "review_method": "Recalcul indépendant par équation documentée, contrôle source officielle et quatre propositions distinctes",
+        "family": "calculation_03_1_07",
+        "id": "calc2026-03-1-07-1",
+        "reviewed_at": "2026-10-19"
+      },
+      {
+        "n": 9,
+        "q": "Un bien de coût 60 000,00 € amorti linéairement sur 5 ans ; en fin d’année 1, dépréciation de 420,00 € en plus. VNC ?",
+        "options": {
+          "A": "47 580,00 €",
+          "B": "52 339,00 €",
+          "C": "61 857,00 €",
+          "D": "57 098,00 €"
+        },
+        "correct": "A",
+        "explanation": "Brut – amortissement – dépréciation.",
+        "source": "https://www.anc.gouv.fr/plan-comptable-general-0",
+        "review_status": "recalcul_independant_2026_10_19",
+        "audit_type": "Calcul manuel modélisé indépendamment, cohérence du cas standard et contrôle des 4 choix ; sans certification comptable externe",
+        "review_method": "Recalcul indépendant par équation documentée, contrôle source officielle et quatre propositions distinctes",
+        "family": "calculation_03_1_08",
+        "id": "calc2026-03-1-08-1",
+        "reviewed_at": "2026-10-19"
+      },
+      {
+        "n": 10,
+        "q": "Prix de vente HT 65 000,00 € d’un actif dont VNC 52 000,00 € ; frais de cession directement imputés au résultat 455,00 €. Résultat net de cession ?",
+        "options": {
+          "A": "12 545,00 €",
+          "B": "16 310,00 €",
+          "C": "13 800,00 €",
+          "D": "15 055,00 €"
+        },
+        "correct": "A",
+        "explanation": "Prix – VNC – frais.",
+        "source": "https://www.anc.gouv.fr/plan-comptable-general-0",
+        "review_status": "recalcul_independant_2026_10_19",
+        "audit_type": "Calcul manuel modélisé indépendamment, cohérence du cas standard et contrôle des 4 choix ; sans certification comptable externe",
+        "review_method": "Recalcul indépendant par équation documentée, contrôle source officielle et quatre propositions distinctes",
+        "family": "calculation_03_1_09",
+        "id": "calc2026-03-1-09-1",
+        "reviewed_at": "2026-10-19"
+      }
+    ]
+  },
+  {
+    "id": "03-expert",
+    "fiche": "03",
+    "theme": "Immobilisations",
+    "level": "Expert",
+    "questions": [
+      {
+        "n": 1,
+        "q": "Machine 20 000,00 € HT, frais attribuables 200,00 € HT, remise HT 20,00 € ; durée 5 ans. Annuité théorique linéaire arrondie au centime ?",
+        "options": {
+          "A": "4 440,00 €",
+          "B": "4 844,00 €",
+          "C": "5 248,00 €",
+          "D": "4 036,00 €"
+        },
+        "correct": "D",
+        "explanation": "Base amortissable = prix + frais – remise ; / durée.",
+        "source": "https://www.anc.gouv.fr/plan-comptable-general-0",
+        "review_status": "recalcul_independant_2026_10_19",
+        "audit_type": "Calcul manuel modélisé indépendamment, cohérence du cas standard et contrôle des 4 choix ; sans certification comptable externe",
+        "review_method": "Recalcul indépendant par équation documentée, contrôle source officielle et quatre propositions distinctes",
+        "family": "calculation_03_2_00",
+        "id": "calc2026-03-2-00-1",
+        "reviewed_at": "2026-10-19"
+      },
+      {
+        "n": 2,
+        "q": "Coût initial 25 000,00 € ; amortissement annuel 5 000,00 € ; 3 années pleines et dépréciation 235,00 €. VNC ?",
+        "options": {
+          "A": "12 696,00 €",
+          "B": "9 765,00 €",
+          "C": "10 742,00 €",
+          "D": "11 719,00 €"
+        },
+        "correct": "B",
+        "explanation": "Brut – amortissements – dépréciation.",
+        "source": "https://www.anc.gouv.fr/plan-comptable-general-0",
+        "review_status": "recalcul_independant_2026_10_19",
+        "audit_type": "Calcul manuel modélisé indépendamment, cohérence du cas standard et contrôle des 4 choix ; sans certification comptable externe",
+        "review_method": "Recalcul indépendant par équation documentée, contrôle source officielle et quatre propositions distinctes",
+        "family": "calculation_03_2_01",
+        "id": "calc2026-03-2-01-1",
+        "reviewed_at": "2026-10-19"
+      },
+      {
+        "n": 3,
+        "q": "Bien de 30 000,00 € amorti sur 5 années ; entrée au 1er avril ; 9 mois d’utilisation en N selon prorata mensuel. Dotation N ?",
+        "options": {
+          "A": "4 951,00 €",
+          "B": "4 500,00 €",
+          "C": "5 853,00 €",
+          "D": "5 402,00 €"
+        },
+        "correct": "B",
+        "explanation": "Dotation × 9/12.",
+        "source": "https://www.anc.gouv.fr/plan-comptable-general-0",
+        "review_status": "recalcul_independant_2026_10_19",
+        "audit_type": "Calcul manuel modélisé indépendamment, cohérence du cas standard et contrôle des 4 choix ; sans certification comptable externe",
+        "review_method": "Recalcul indépendant par équation documentée, contrôle source officielle et quatre propositions distinctes",
+        "family": "calculation_03_2_02",
+        "id": "calc2026-03-2-02-1",
+        "reviewed_at": "2026-10-19"
+      },
+      {
+        "n": 4,
+        "q": "Prix cession HT 28 305,00 € ; coût d’origine 35 000,00 €, deux annuités 7 000,00 € ; frais de cession 50,00 €. Résultat de cession net ?",
+        "options": {
+          "A": "9 433,00 €",
+          "B": "8 707,00 €",
+          "C": "7 981,00 €",
+          "D": "7 255,00 €"
+        },
+        "correct": "D",
+        "explanation": "Prix – VNC – frais ; VNC = B–2A.",
+        "source": "https://www.anc.gouv.fr/plan-comptable-general-0",
+        "review_status": "recalcul_independant_2026_10_19",
+        "audit_type": "Calcul manuel modélisé indépendamment, cohérence du cas standard et contrôle des 4 choix ; sans certification comptable externe",
+        "review_method": "Recalcul indépendant par équation documentée, contrôle source officielle et quatre propositions distinctes",
+        "family": "calculation_03_2_03",
+        "id": "calc2026-03-2-03-1",
+        "reviewed_at": "2026-10-19"
+      },
+      {
+        "n": 5,
+        "q": "Bien de 40 000,00 € ; amortissement annuel 8 000,00 € ; 2 ans pleins puis dotation de 6 mois en N+2. Amortissement cumulé ?",
+        "options": {
+          "A": "20 000,00 €",
+          "B": "22 001,00 €",
+          "C": "24 002,00 €",
+          "D": "26 003,00 €"
+        },
+        "correct": "A",
+        "explanation": "2A + A/2.",
+        "source": "https://www.anc.gouv.fr/plan-comptable-general-0",
+        "review_status": "recalcul_independant_2026_10_19",
+        "audit_type": "Calcul manuel modélisé indépendamment, cohérence du cas standard et contrôle des 4 choix ; sans certification comptable externe",
+        "review_method": "Recalcul indépendant par équation documentée, contrôle source officielle et quatre propositions distinctes",
+        "family": "calculation_03_2_04",
+        "id": "calc2026-03-2-04-1",
+        "reviewed_at": "2026-10-19"
+      },
+      {
+        "n": 6,
+        "q": "Bien coût 45 000,00 €, amortissements cumulés 18 000,00 €, dépréciation de 375,00 € reprise intégralement avant cession. VNC après reprise ?",
+        "options": {
+          "A": "27 000,00 €",
+          "B": "29 701,00 €",
+          "C": "32 402,00 €",
+          "D": "35 103,00 €"
+        },
+        "correct": "A",
+        "explanation": "La reprise annule la dépréciation ; seule reste l’amortissement.",
+        "source": "https://www.anc.gouv.fr/plan-comptable-general-0",
+        "review_status": "recalcul_independant_2026_10_19",
+        "audit_type": "Calcul manuel modélisé indépendamment, cohérence du cas standard et contrôle des 4 choix ; sans certification comptable externe",
+        "review_method": "Recalcul indépendant par équation documentée, contrôle source officielle et quatre propositions distinctes",
+        "family": "calculation_03_2_05",
+        "id": "calc2026-03-2-05-1",
+        "reviewed_at": "2026-10-19"
+      },
+      {
+        "n": 7,
+        "q": "Immobilisation de 50 000,00 € HT ; remise commerciale 80,00 € ; installation attribuable 410,00 €. Coût HT amortissable avant valeur résiduelle ?",
+        "options": {
+          "A": "65 432,00 €",
+          "B": "60 398,00 €",
+          "C": "55 364,00 €",
+          "D": "50 330,00 €"
+        },
+        "correct": "D",
+        "explanation": "Prix net + installation attribuable.",
+        "source": "https://www.anc.gouv.fr/plan-comptable-general-0",
+        "review_status": "recalcul_independant_2026_10_19",
+        "audit_type": "Calcul manuel modélisé indépendamment, cohérence du cas standard et contrôle des 4 choix ; sans certification comptable externe",
+        "review_method": "Recalcul indépendant par équation documentée, contrôle source officielle et quatre propositions distinctes",
+        "family": "calculation_03_2_06",
+        "id": "calc2026-03-2-06-1",
+        "reviewed_at": "2026-10-19"
+      },
+      {
+        "n": 8,
+        "q": "Actif valeur brute 55 000,00 €, amortissements cumulés 33 000,00 €, dépréciation restante 445,00 €. Valeur nette ?",
+        "options": {
+          "A": "23 711,00 €",
+          "B": "28 023,00 €",
+          "C": "25 867,00 €",
+          "D": "21 555,00 €"
+        },
+        "correct": "D",
+        "explanation": "Brut moins corrections de valeur.",
+        "source": "https://www.anc.gouv.fr/plan-comptable-general-0",
+        "review_status": "recalcul_independant_2026_10_19",
+        "audit_type": "Calcul manuel modélisé indépendamment, cohérence du cas standard et contrôle des 4 choix ; sans certification comptable externe",
+        "review_method": "Recalcul indépendant par équation documentée, contrôle source officielle et quatre propositions distinctes",
+        "family": "calculation_03_2_07",
+        "id": "calc2026-03-2-07-1",
+        "reviewed_at": "2026-10-19"
+      },
+      {
+        "n": 9,
+        "q": "Actif cédé 60 000,00 € HT ; VNC 36 000,00 € et frais de cession 480,00 €. Résultat de cession net ?",
+        "options": {
+          "A": "30 579,00 €",
+          "B": "25 873,00 €",
+          "C": "28 226,00 €",
+          "D": "23 520,00 €"
+        },
+        "correct": "D",
+        "explanation": "Prix – VNC – frais.",
+        "source": "https://www.anc.gouv.fr/plan-comptable-general-0",
+        "review_status": "recalcul_independant_2026_10_19",
+        "audit_type": "Calcul manuel modélisé indépendamment, cohérence du cas standard et contrôle des 4 choix ; sans certification comptable externe",
+        "review_method": "Recalcul indépendant par équation documentée, contrôle source officielle et quatre propositions distinctes",
+        "family": "calculation_03_2_08",
+        "id": "calc2026-03-2-08-1",
+        "reviewed_at": "2026-10-19"
+      },
+      {
+        "n": 10,
+        "q": "Annuité 13 000,00 € ; 2 exercices pleins puis une période de 9 mois selon prorata mensuel. Dotations cumulées ?",
+        "options": {
+          "A": "35 750,00 €",
+          "B": "46 478,00 €",
+          "C": "39 326,00 €",
+          "D": "42 902,00 €"
+        },
+        "correct": "A",
+        "explanation": "Total = 2A + 9/12 A.",
+        "source": "https://www.anc.gouv.fr/plan-comptable-general-0",
+        "review_status": "recalcul_independant_2026_10_19",
+        "audit_type": "Calcul manuel modélisé indépendamment, cohérence du cas standard et contrôle des 4 choix ; sans certification comptable externe",
+        "review_method": "Recalcul indépendant par équation documentée, contrôle source officielle et quatre propositions distinctes",
+        "family": "calculation_03_2_09",
+        "id": "calc2026-03-2-09-1",
+        "reviewed_at": "2026-10-19"
+      }
+    ]
   },
   {
     "id": "04-debutant",
@@ -715,9 +1897,403 @@
         "reviewed_at": "2026-10-17",
         "review_method": "contrôle du fond + source officielle + réponse et distracteurs"
       }
-    ],
-    "desc": "20 questions originales par niveau : QCM corrigés",
-    "file": "04-debutant.html"
+    ]
+  },
+  {
+    "id": "04-intermediaire",
+    "fiche": "04",
+    "theme": "TVA",
+    "level": "Intermédiaire",
+    "questions": [
+      {
+        "n": 1,
+        "q": "TVA collectée 3 700,00 €, TVA ABS 1 400,00 € et TVA immobilisations 200,00 € ; pas de crédit antérieur. TVA nette à payer ?",
+        "options": {
+          "A": "2 311,00 €",
+          "B": "2 733,00 €",
+          "C": "2 100,00 €",
+          "D": "2 522,00 €"
+        },
+        "correct": "C",
+        "explanation": "Taxe due – les deux déductions.",
+        "source": "https://www.impots.gouv.fr/formulaire/3310-ca3-sd/tva-et-taxes-assimilees-regime-du-reel-normal-mini-reel",
+        "review_status": "recalcul_independant_2026_10_19",
+        "audit_type": "Calcul manuel modélisé indépendamment, cohérence du cas standard et contrôle des 4 choix ; sans certification comptable externe",
+        "review_method": "Recalcul indépendant par équation documentée, contrôle source officielle et quatre propositions distinctes",
+        "family": "calculation_04_1_00",
+        "id": "calc2026-04-1-00-1",
+        "reviewed_at": "2026-10-19"
+      },
+      {
+        "n": 2,
+        "q": "Ventes HT de 4 600,00 € taxées 20 % et 1 750,00 € taxées 10 %. TVA totale collectée ?",
+        "options": {
+          "A": "1 315,00 €",
+          "B": "1 205,00 €",
+          "C": "1 095,00 €",
+          "D": "1 425,00 €"
+        },
+        "correct": "C",
+        "explanation": "Calcul distinct par taux.",
+        "source": "https://www.impots.gouv.fr/formulaire/3310-ca3-sd/tva-et-taxes-assimilees-regime-du-reel-normal-mini-reel",
+        "review_status": "recalcul_independant_2026_10_19",
+        "audit_type": "Calcul manuel modélisé indépendamment, cohérence du cas standard et contrôle des 4 choix ; sans certification comptable externe",
+        "review_method": "Recalcul indépendant par équation documentée, contrôle source officielle et quatre propositions distinctes",
+        "family": "calculation_04_1_01",
+        "id": "calc2026-04-1-01-1",
+        "reviewed_at": "2026-10-19"
+      },
+      {
+        "n": 3,
+        "q": "Service TVA sur encaissements : facture HT 5 500,00 € à 20 %, règlement TTC 2 520,00 € reçu. TVA devenue exigible ?",
+        "options": {
+          "A": "420,00 €",
+          "B": "506,00 €",
+          "C": "549,00 €",
+          "D": "463,00 €"
+        },
+        "correct": "A",
+        "explanation": "Fraction 20/120 du règlement.",
+        "source": "https://bofip.impots.gouv.fr/bofip/13901-PGP.html/identifiant=BOI-TVA-DECLA-20-30-60-20260930",
+        "review_status": "recalcul_independant_2026_10_19",
+        "audit_type": "Calcul manuel modélisé indépendamment, cohérence du cas standard et contrôle des 4 choix ; sans certification comptable externe",
+        "review_method": "Recalcul indépendant par équation documentée, contrôle source officielle et quatre propositions distinctes",
+        "family": "calculation_04_1_02",
+        "id": "calc2026-04-1-02-1",
+        "reviewed_at": "2026-10-19"
+      },
+      {
+        "n": 4,
+        "q": "Achat intracommunautaire HT 6 400,00 €, autoliquidation à 20 % ; déduction à 100 %. Solde de TVA net de cet achat seul ?",
+        "options": {
+          "A": "1,00 €",
+          "B": "2,00 €",
+          "C": "3,00 €",
+          "D": "0,00 €"
+        },
+        "correct": "D",
+        "explanation": "Taxe due et déductible de même montant.",
+        "source": "https://www.impots.gouv.fr/formulaire/3310-ca3-sd/tva-et-taxes-assimilees-regime-du-reel-normal-mini-reel",
+        "review_status": "recalcul_independant_2026_10_19",
+        "audit_type": "Calcul manuel modélisé indépendamment, cohérence du cas standard et contrôle des 4 choix ; sans certification comptable externe",
+        "review_method": "Recalcul indépendant par équation documentée, contrôle source officielle et quatre propositions distinctes",
+        "family": "calculation_04_1_03",
+        "id": "calc2026-04-1-03-1",
+        "reviewed_at": "2026-10-19"
+      },
+      {
+        "n": 5,
+        "q": "TVA collectée 7 300,00 €, TVA déductible 2 800,00 € et crédit antérieur 600,00 € imputable. TVA à payer ?",
+        "options": {
+          "A": "4 291,00 €",
+          "B": "5 073,00 €",
+          "C": "4 682,00 €",
+          "D": "3 900,00 €"
+        },
+        "correct": "D",
+        "explanation": "TVA à payer après imputation du crédit.",
+        "source": "https://www.impots.gouv.fr/formulaire/3310-ca3-sd/tva-et-taxes-assimilees-regime-du-reel-normal-mini-reel",
+        "review_status": "recalcul_independant_2026_10_19",
+        "audit_type": "Calcul manuel modélisé indépendamment, cohérence du cas standard et contrôle des 4 choix ; sans certification comptable externe",
+        "review_method": "Recalcul indépendant par équation documentée, contrôle source officielle et quatre propositions distinctes",
+        "family": "calculation_04_1_04",
+        "id": "calc2026-04-1-04-1",
+        "reviewed_at": "2026-10-19"
+      },
+      {
+        "n": 6,
+        "q": "Opérations taxables HT de 8 200,00 €, TVA 20 %, et avoir de 3 150,00 € HT sur ces opérations. TVA collectée nette ?",
+        "options": {
+          "A": "1 214,00 €",
+          "B": "1 112,00 €",
+          "C": "1 010,00 €",
+          "D": "1 316,00 €"
+        },
+        "correct": "C",
+        "explanation": "Base nette = ventes – avoir.",
+        "source": "https://www.impots.gouv.fr/formulaire/3310-ca3-sd/tva-et-taxes-assimilees-regime-du-reel-normal-mini-reel",
+        "review_status": "recalcul_independant_2026_10_19",
+        "audit_type": "Calcul manuel modélisé indépendamment, cohérence du cas standard et contrôle des 4 choix ; sans certification comptable externe",
+        "review_method": "Recalcul indépendant par équation documentée, contrôle source officielle et quatre propositions distinctes",
+        "family": "calculation_04_1_05",
+        "id": "calc2026-04-1-05-1",
+        "reviewed_at": "2026-10-19"
+      },
+      {
+        "n": 7,
+        "q": "Achats HT de 9 100,00 € à 20 % et 3 500,00 € à 10 %, droit à déduction intégral. TVA déductible ?",
+        "options": {
+          "A": "2 606,00 €",
+          "B": "2 824,00 €",
+          "C": "2 170,00 €",
+          "D": "2 388,00 €"
+        },
+        "correct": "C",
+        "explanation": "Chaque taux sur sa base.",
+        "source": "https://www.impots.gouv.fr/formulaire/3310-ca3-sd/tva-et-taxes-assimilees-regime-du-reel-normal-mini-reel",
+        "review_status": "recalcul_independant_2026_10_19",
+        "audit_type": "Calcul manuel modélisé indépendamment, cohérence du cas standard et contrôle des 4 choix ; sans certification comptable externe",
+        "review_method": "Recalcul indépendant par équation documentée, contrôle source officielle et quatre propositions distinctes",
+        "family": "calculation_04_1_06",
+        "id": "calc2026-04-1-06-1",
+        "reviewed_at": "2026-10-19"
+      },
+      {
+        "n": 8,
+        "q": "Deux acomptes TTC de 4 620,00 € et 1 080,00 € pour services soumis aux encaissements à 20 %. TVA devenue exigible ?",
+        "options": {
+          "A": "950,00 €",
+          "B": "1 238,00 €",
+          "C": "1 142,00 €",
+          "D": "1 046,00 €"
+        },
+        "correct": "A",
+        "explanation": "Taxe contenue dans les encaissements.",
+        "source": "https://bofip.impots.gouv.fr/bofip/13901-PGP.html/identifiant=BOI-TVA-DECLA-20-30-60-20260930",
+        "review_status": "recalcul_independant_2026_10_19",
+        "audit_type": "Calcul manuel modélisé indépendamment, cohérence du cas standard et contrôle des 4 choix ; sans certification comptable externe",
+        "review_method": "Recalcul indépendant par équation documentée, contrôle source officielle et quatre propositions distinctes",
+        "family": "calculation_04_1_07",
+        "id": "calc2026-04-1-07-1",
+        "reviewed_at": "2026-10-19"
+      },
+      {
+        "n": 9,
+        "q": "Importation de biens HT de 10 900,00 € soumise à autoliquidation en France au taux de 20 %. TVA brute déclarée ?",
+        "options": {
+          "A": "2 618,00 €",
+          "B": "2 180,00 €",
+          "C": "2 837,00 €",
+          "D": "2 399,00 €"
+        },
+        "correct": "B",
+        "explanation": "TVA due sur l’importation autoliquidée.",
+        "source": "https://www.impots.gouv.fr/formulaire/3310-ca3-sd/tva-et-taxes-assimilees-regime-du-reel-normal-mini-reel",
+        "review_status": "recalcul_independant_2026_10_19",
+        "audit_type": "Calcul manuel modélisé indépendamment, cohérence du cas standard et contrôle des 4 choix ; sans certification comptable externe",
+        "review_method": "Recalcul indépendant par équation documentée, contrôle source officielle et quatre propositions distinctes",
+        "family": "calculation_04_1_08",
+        "id": "calc2026-04-1-08-1",
+        "reviewed_at": "2026-10-19"
+      },
+      {
+        "n": 10,
+        "q": "TVA collectée 11 800,00 €, achats déductibles 4 550,00 €, régularisation augmentant la taxe due de 1 100,00 €. TVA nette ?",
+        "options": {
+          "A": "10 858,00 €",
+          "B": "9 186,00 €",
+          "C": "8 350,00 €",
+          "D": "10 022,00 €"
+        },
+        "correct": "C",
+        "explanation": "Taxe due après régularisation – taxe déductible.",
+        "source": "https://bofip.impots.gouv.fr/bofip/13901-PGP.html/identifiant=BOI-TVA-DECLA-20-30-60-20260930",
+        "review_status": "recalcul_independant_2026_10_19",
+        "audit_type": "Calcul manuel modélisé indépendamment, cohérence du cas standard et contrôle des 4 choix ; sans certification comptable externe",
+        "review_method": "Recalcul indépendant par équation documentée, contrôle source officielle et quatre propositions distinctes",
+        "family": "calculation_04_1_09",
+        "id": "calc2026-04-1-09-1",
+        "reviewed_at": "2026-10-19"
+      }
+    ]
+  },
+  {
+    "id": "04-expert",
+    "fiche": "04",
+    "theme": "TVA",
+    "level": "Expert",
+    "questions": [
+      {
+        "n": 1,
+        "q": "TVA collectée 4 900,00 €, TVA AIC autoliquidée 2 000,00 €, TVA déductible 200,00 € et taxe AIC intégralement déductible 2 000,00 €. TVA nette ?",
+        "options": {
+          "A": "4 700,00 €",
+          "B": "6 113,00 €",
+          "C": "5 642,00 €",
+          "D": "5 171,00 €"
+        },
+        "correct": "A",
+        "explanation": "La TVA autoliquidée à 100 % s’annule en net.",
+        "source": "https://www.impots.gouv.fr/formulaire/3310-ca3-sd/tva-et-taxes-assimilees-regime-du-reel-normal-mini-reel",
+        "review_status": "recalcul_independant_2026_10_19",
+        "audit_type": "Calcul manuel modélisé indépendamment, cohérence du cas standard et contrôle des 4 choix ; sans certification comptable externe",
+        "review_method": "Recalcul indépendant par équation documentée, contrôle source officielle et quatre propositions distinctes",
+        "family": "calculation_04_2_00",
+        "id": "calc2026-04-2-00-1",
+        "reviewed_at": "2026-10-19"
+      },
+      {
+        "n": 2,
+        "q": "Ventes HT 5 800,00 € à 20 %, 2 350,00 € à 10 %, avoir HT 300,00 € concernant le taux 20 %. TVA nette collectée ?",
+        "options": {
+          "A": "1 469,00 €",
+          "B": "1 603,00 €",
+          "C": "1 737,00 €",
+          "D": "1 335,00 €"
+        },
+        "correct": "D",
+        "explanation": "Séparer les assiettes et déduire l’avoir.",
+        "source": "https://www.impots.gouv.fr/formulaire/3310-ca3-sd/tva-et-taxes-assimilees-regime-du-reel-normal-mini-reel",
+        "review_status": "recalcul_independant_2026_10_19",
+        "audit_type": "Calcul manuel modélisé indépendamment, cohérence du cas standard et contrôle des 4 choix ; sans certification comptable externe",
+        "review_method": "Recalcul indépendant par équation documentée, contrôle source officielle et quatre propositions distinctes",
+        "family": "calculation_04_2_01",
+        "id": "calc2026-04-2-01-1",
+        "reviewed_at": "2026-10-19"
+      },
+      {
+        "n": 3,
+        "q": "TVA collectée 6 700,00 €, TVA déductible 2 700,00 €, crédit N-1 400,00 €, régularisation due 40,00 €. TVA à payer ?",
+        "options": {
+          "A": "4 735,00 €",
+          "B": "3 640,00 €",
+          "C": "4 370,00 €",
+          "D": "4 005,00 €"
+        },
+        "correct": "B",
+        "explanation": "Taxe due plus régularisation, moins déduction et crédit.",
+        "source": "https://bofip.impots.gouv.fr/bofip/13901-PGP.html/identifiant=BOI-TVA-DECLA-20-30-60-20260930",
+        "review_status": "recalcul_independant_2026_10_19",
+        "audit_type": "Calcul manuel modélisé indépendamment, cohérence du cas standard et contrôle des 4 choix ; sans certification comptable externe",
+        "review_method": "Recalcul indépendant par équation documentée, contrôle source officielle et quatre propositions distinctes",
+        "family": "calculation_04_2_02",
+        "id": "calc2026-04-2-02-1",
+        "reviewed_at": "2026-10-19"
+      },
+      {
+        "n": 4,
+        "q": "TVA due 7 600,00 €, TVA ABS déductible 3 050,00 €, TVA immo 500,00 € et TVA import autoliquidée à 100 % 305,00 € (due et déductible). TVA nette ?",
+        "options": {
+          "A": "5 268,00 €",
+          "B": "4 050,00 €",
+          "C": "4 456,00 €",
+          "D": "4 862,00 €"
+        },
+        "correct": "B",
+        "explanation": "L’importation autoliquidée entièrement déductible est neutre en net.",
+        "source": "https://www.impots.gouv.fr/formulaire/3310-ca3-sd/tva-et-taxes-assimilees-regime-du-reel-normal-mini-reel",
+        "review_status": "recalcul_independant_2026_10_19",
+        "audit_type": "Calcul manuel modélisé indépendamment, cohérence du cas standard et contrôle des 4 choix ; sans certification comptable externe",
+        "review_method": "Recalcul indépendant par équation documentée, contrôle source officielle et quatre propositions distinctes",
+        "family": "calculation_04_2_03",
+        "id": "calc2026-04-2-03-1",
+        "reviewed_at": "2026-10-19"
+      },
+      {
+        "n": 5,
+        "q": "CA3 : taxe brute 8 500,00 €, TVA déductible 3 400,00 €, correction positive sur taxe brute 60,00 € et crédit reporté 600,00 €. TVA nette ?",
+        "options": {
+          "A": "5 017,00 €",
+          "B": "5 474,00 €",
+          "C": "5 931,00 €",
+          "D": "4 560,00 €"
+        },
+        "correct": "D",
+        "explanation": "Taxe brute corrigée – TVA déductible – crédit.",
+        "source": "https://www.impots.gouv.fr/formulaire/3310-ca3-sd/tva-et-taxes-assimilees-regime-du-reel-normal-mini-reel",
+        "review_status": "recalcul_independant_2026_10_19",
+        "audit_type": "Calcul manuel modélisé indépendamment, cohérence du cas standard et contrôle des 4 choix ; sans certification comptable externe",
+        "review_method": "Recalcul indépendant par équation documentée, contrôle source officielle et quatre propositions distinctes",
+        "family": "calculation_04_2_04",
+        "id": "calc2026-04-2-04-1",
+        "reviewed_at": "2026-10-19"
+      },
+      {
+        "n": 6,
+        "q": "TVA collectée 9 400,00 €, TVA déductible 3 750,00 €, TVA sur une AIC 700,00 € déductible à 50 %. TVA nette à payer ?",
+        "options": {
+          "A": "7 803,00 €",
+          "B": "6 601,00 €",
+          "C": "7 202,00 €",
+          "D": "6 000,00 €"
+        },
+        "correct": "D",
+        "explanation": "La moitié de la taxe due sur AIC reste non déductible.",
+        "source": "https://www.impots.gouv.fr/formulaire/3310-ca3-sd/tva-et-taxes-assimilees-regime-du-reel-normal-mini-reel",
+        "review_status": "recalcul_independant_2026_10_19",
+        "audit_type": "Calcul manuel modélisé indépendamment, cohérence du cas standard et contrôle des 4 choix ; sans certification comptable externe",
+        "review_method": "Recalcul indépendant par équation documentée, contrôle source officielle et quatre propositions distinctes",
+        "family": "calculation_04_2_05",
+        "id": "calc2026-04-2-05-1",
+        "reviewed_at": "2026-10-19"
+      },
+      {
+        "n": 7,
+        "q": "Vente à 20 % HT 10 300,00 €, vente à 10 % HT 4 100,00 €, achat totalement déductible à 20 % HT 800,00 €. TVA nette ?",
+        "options": {
+          "A": "2 542,00 €",
+          "B": "2 310,00 €",
+          "C": "3 006,00 €",
+          "D": "2 774,00 €"
+        },
+        "correct": "B",
+        "explanation": "TVA vente des deux taux – TVA achat.",
+        "source": "https://www.impots.gouv.fr/formulaire/3310-ca3-sd/tva-et-taxes-assimilees-regime-du-reel-normal-mini-reel",
+        "review_status": "recalcul_independant_2026_10_19",
+        "audit_type": "Calcul manuel modélisé indépendamment, cohérence du cas standard et contrôle des 4 choix ; sans certification comptable externe",
+        "review_method": "Recalcul indépendant par équation documentée, contrôle source officielle et quatre propositions distinctes",
+        "family": "calculation_04_2_06",
+        "id": "calc2026-04-2-06-1",
+        "reviewed_at": "2026-10-19"
+      },
+      {
+        "n": 8,
+        "q": "Prestations TVA sur encaissements : encaissements TTC à 20 % de 13 440,00 € et 5 340,00 €. TVA exigible ?",
+        "options": {
+          "A": "3 444,00 €",
+          "B": "4 072,00 €",
+          "C": "3 130,00 €",
+          "D": "3 758,00 €"
+        },
+        "correct": "C",
+        "explanation": "TVA = encaissements TTC × 20/120.",
+        "source": "https://bofip.impots.gouv.fr/bofip/13901-PGP.html/identifiant=BOI-TVA-DECLA-20-30-60-20260930",
+        "review_status": "recalcul_independant_2026_10_19",
+        "audit_type": "Calcul manuel modélisé indépendamment, cohérence du cas standard et contrôle des 4 choix ; sans certification comptable externe",
+        "review_method": "Recalcul indépendant par équation documentée, contrôle source officielle et quatre propositions distinctes",
+        "family": "calculation_04_2_07",
+        "id": "calc2026-04-2-07-1",
+        "reviewed_at": "2026-10-19"
+      },
+      {
+        "n": 9,
+        "q": "CA3 : TVA due 12 100,00 € ; TVA déductible 4 800,00 € ; crédit reportable imputé 1 000,00 € ; régularisation de TVA déductible supplémentaire 100,00 €. Net ?",
+        "options": {
+          "A": "8 063,00 €",
+          "B": "6 200,00 €",
+          "C": "6 821,00 €",
+          "D": "7 442,00 €"
+        },
+        "correct": "B",
+        "explanation": "TVA due diminuée de tous les droits à déduction.",
+        "source": "https://www.impots.gouv.fr/formulaire/3310-ca3-sd/tva-et-taxes-assimilees-regime-du-reel-normal-mini-reel",
+        "review_status": "recalcul_independant_2026_10_19",
+        "audit_type": "Calcul manuel modélisé indépendamment, cohérence du cas standard et contrôle des 4 choix ; sans certification comptable externe",
+        "review_method": "Recalcul indépendant par équation documentée, contrôle source officielle et quatre propositions distinctes",
+        "family": "calculation_04_2_08",
+        "id": "calc2026-04-2-08-1",
+        "reviewed_at": "2026-10-19"
+      },
+      {
+        "n": 10,
+        "q": "Autoliquidation AIC taxable à 20 % de 13 000,00 € HT, droit à déduction 75 %. Montant net non récupérable ?",
+        "options": {
+          "A": "782,00 €",
+          "B": "650,00 €",
+          "C": "716,00 €",
+          "D": "848,00 €"
+        },
+        "correct": "B",
+        "explanation": "25 % de la TVA autoliquidée reste à payer.",
+        "source": "https://bofip.impots.gouv.fr/bofip/13901-PGP.html/identifiant=BOI-TVA-DECLA-20-30-60-20260930",
+        "review_status": "recalcul_independant_2026_10_19",
+        "audit_type": "Calcul manuel modélisé indépendamment, cohérence du cas standard et contrôle des 4 choix ; sans certification comptable externe",
+        "review_method": "Recalcul indépendant par équation documentée, contrôle source officielle et quatre propositions distinctes",
+        "family": "calculation_04_2_09",
+        "id": "calc2026-04-2-09-1",
+        "reviewed_at": "2026-10-19"
+      }
+    ]
   },
   {
     "id": "05-debutant",
@@ -895,9 +2471,403 @@
         "reviewed_at": "2026-10-17",
         "review_method": "contrôle du fond + source officielle + réponse et distracteurs"
       }
-    ],
-    "desc": "20 questions originales par niveau : QCM corrigés",
-    "file": "05-debutant.html"
+    ]
+  },
+  {
+    "id": "05-intermediaire",
+    "fiche": "05",
+    "theme": "Lettrage et rapprochement",
+    "level": "Intermédiaire",
+    "questions": [
+      {
+        "n": 1,
+        "q": "Facture client 3 700,00 €, avoir 1 400,00 €, règlement 200,00 €. Solde ouvert ?",
+        "options": {
+          "A": "2 733,00 €",
+          "B": "2 522,00 €",
+          "C": "2 311,00 €",
+          "D": "2 100,00 €"
+        },
+        "correct": "D",
+        "explanation": "Facture moins avoir moins règlement.",
+        "source": "https://www.anc.gouv.fr/plan-comptable-general-0",
+        "review_status": "recalcul_independant_2026_10_19",
+        "audit_type": "Calcul manuel modélisé indépendamment, cohérence du cas standard et contrôle des 4 choix ; sans certification comptable externe",
+        "review_method": "Recalcul indépendant par équation documentée, contrôle source officielle et quatre propositions distinctes",
+        "family": "calculation_05_1_00",
+        "id": "calc2026-05-1-00-1",
+        "reviewed_at": "2026-10-19"
+      },
+      {
+        "n": 2,
+        "q": "Relevé 4 600,00 € ; dépôt en transit 1 750,00 € et chèque non débité 300,00 €. Solde bancaire ajusté ?",
+        "options": {
+          "A": "7 868,00 €",
+          "B": "6 050,00 €",
+          "C": "7 262,00 €",
+          "D": "6 656,00 €"
+        },
+        "correct": "B",
+        "explanation": "Relevé + dépôt – chèque.",
+        "source": "https://www.anc.gouv.fr/plan-comptable-general-0",
+        "review_status": "recalcul_independant_2026_10_19",
+        "audit_type": "Calcul manuel modélisé indépendamment, cohérence du cas standard et contrôle des 4 choix ; sans certification comptable externe",
+        "review_method": "Recalcul indépendant par équation documentée, contrôle source officielle et quatre propositions distinctes",
+        "family": "calculation_05_1_01",
+        "id": "calc2026-05-1-01-1",
+        "reviewed_at": "2026-10-19"
+      },
+      {
+        "n": 3,
+        "q": "Solde comptable 512 5 500,00 € ; frais bancaires non saisis 2 100,00 € et intérêt crédité non enregistré 400,00 €. Solde corrigé ?",
+        "options": {
+          "A": "3 800,00 €",
+          "B": "4 181,00 €",
+          "C": "4 943,00 €",
+          "D": "4 562,00 €"
+        },
+        "correct": "A",
+        "explanation": "Retirer frais, ajouter intérêts.",
+        "source": "https://www.anc.gouv.fr/plan-comptable-general-0",
+        "review_status": "recalcul_independant_2026_10_19",
+        "audit_type": "Calcul manuel modélisé indépendamment, cohérence du cas standard et contrôle des 4 choix ; sans certification comptable externe",
+        "review_method": "Recalcul indépendant par équation documentée, contrôle source officielle et quatre propositions distinctes",
+        "family": "calculation_05_1_02",
+        "id": "calc2026-05-1-02-1",
+        "reviewed_at": "2026-10-19"
+      },
+      {
+        "n": 4,
+        "q": "Compte fournisseur : deux factures 6 400,00 € et 2 450,00 €, puis avoir 500,00 €. Dette à régler ?",
+        "options": {
+          "A": "8 350,00 €",
+          "B": "10 858,00 €",
+          "C": "10 022,00 €",
+          "D": "9 186,00 €"
+        },
+        "correct": "A",
+        "explanation": "Factures – avoir.",
+        "source": "https://www.anc.gouv.fr/plan-comptable-general-0",
+        "review_status": "recalcul_independant_2026_10_19",
+        "audit_type": "Calcul manuel modélisé indépendamment, cohérence du cas standard et contrôle des 4 choix ; sans certification comptable externe",
+        "review_method": "Recalcul indépendant par équation documentée, contrôle source officielle et quatre propositions distinctes",
+        "family": "calculation_05_1_03",
+        "id": "calc2026-05-1-03-1",
+        "reviewed_at": "2026-10-19"
+      },
+      {
+        "n": 5,
+        "q": "Banque : solde initial 7 300,00 €, virement reçu 2 800,00 €, loyer payé 600,00 €. Solde ?",
+        "options": {
+          "A": "11 402,00 €",
+          "B": "10 451,00 €",
+          "C": "12 353,00 €",
+          "D": "9 500,00 €"
+        },
+        "correct": "D",
+        "explanation": "Entrée – sortie.",
+        "source": "https://www.anc.gouv.fr/plan-comptable-general-0",
+        "review_status": "recalcul_independant_2026_10_19",
+        "audit_type": "Calcul manuel modélisé indépendamment, cohérence du cas standard et contrôle des 4 choix ; sans certification comptable externe",
+        "review_method": "Recalcul indépendant par équation documentée, contrôle source officielle et quatre propositions distinctes",
+        "family": "calculation_05_1_04",
+        "id": "calc2026-05-1-04-1",
+        "reviewed_at": "2026-10-19"
+      },
+      {
+        "n": 6,
+        "q": "Client : facture 8 200,00 €, acompte imputé 3 150,00 €, avoir 700,00 €. Créance finale ?",
+        "options": {
+          "A": "4 786,00 €",
+          "B": "5 222,00 €",
+          "C": "5 658,00 €",
+          "D": "4 350,00 €"
+        },
+        "correct": "D",
+        "explanation": "Créance moins imputation et avoir.",
+        "source": "https://www.anc.gouv.fr/plan-comptable-general-0",
+        "review_status": "recalcul_independant_2026_10_19",
+        "audit_type": "Calcul manuel modélisé indépendamment, cohérence du cas standard et contrôle des 4 choix ; sans certification comptable externe",
+        "review_method": "Recalcul indépendant par équation documentée, contrôle source officielle et quatre propositions distinctes",
+        "family": "calculation_05_1_05",
+        "id": "calc2026-05-1-05-1",
+        "reviewed_at": "2026-10-19"
+      },
+      {
+        "n": 7,
+        "q": "Rapprochement : relevé 9 100,00 €, versement en transit 3 500,00 €, chèque en circulation 800,00 €. Banque corrigée ?",
+        "options": {
+          "A": "12 981,00 €",
+          "B": "14 162,00 €",
+          "C": "11 800,00 €",
+          "D": "15 343,00 €"
+        },
+        "correct": "C",
+        "explanation": "Relevé plus transit moins chèque.",
+        "source": "https://www.anc.gouv.fr/plan-comptable-general-0",
+        "review_status": "recalcul_independant_2026_10_19",
+        "audit_type": "Calcul manuel modélisé indépendamment, cohérence du cas standard et contrôle des 4 choix ; sans certification comptable externe",
+        "review_method": "Recalcul indépendant par équation documentée, contrôle source officielle et quatre propositions distinctes",
+        "family": "calculation_05_1_06",
+        "id": "calc2026-05-1-06-1",
+        "reviewed_at": "2026-10-19"
+      },
+      {
+        "n": 8,
+        "q": "Compte 512 10 000,00 €, règlement fournisseur 3 850,00 €, reçu client 900,00 €. Solde ?",
+        "options": {
+          "A": "9 168,00 €",
+          "B": "8 462,00 €",
+          "C": "7 050,00 €",
+          "D": "7 756,00 €"
+        },
+        "correct": "C",
+        "explanation": "Solde = initial – décaissement + encaissement.",
+        "source": "https://www.anc.gouv.fr/plan-comptable-general-0",
+        "review_status": "recalcul_independant_2026_10_19",
+        "audit_type": "Calcul manuel modélisé indépendamment, cohérence du cas standard et contrôle des 4 choix ; sans certification comptable externe",
+        "review_method": "Recalcul indépendant par équation documentée, contrôle source officielle et quatre propositions distinctes",
+        "family": "calculation_05_1_07",
+        "id": "calc2026-05-1-07-1",
+        "reviewed_at": "2026-10-19"
+      },
+      {
+        "n": 9,
+        "q": "Client : factures 10 900,00 € et 4 200,00 €, paiement 1 000,00 €. Solde restant ?",
+        "options": {
+          "A": "18 333,00 €",
+          "B": "15 511,00 €",
+          "C": "16 922,00 €",
+          "D": "14 100,00 €"
+        },
+        "correct": "D",
+        "explanation": "Total factures moins règlement.",
+        "source": "https://www.anc.gouv.fr/plan-comptable-general-0",
+        "review_status": "recalcul_independant_2026_10_19",
+        "audit_type": "Calcul manuel modélisé indépendamment, cohérence du cas standard et contrôle des 4 choix ; sans certification comptable externe",
+        "review_method": "Recalcul indépendant par équation documentée, contrôle source officielle et quatre propositions distinctes",
+        "family": "calculation_05_1_08",
+        "id": "calc2026-05-1-08-1",
+        "reviewed_at": "2026-10-19"
+      },
+      {
+        "n": 10,
+        "q": "Deux chèques en circulation 4 550,00 € et 1 100,00 €, relevé banque 11 800,00 €. Solde bancaire ajusté ?",
+        "options": {
+          "A": "6 150,00 €",
+          "B": "7 998,00 €",
+          "C": "6 766,00 €",
+          "D": "7 382,00 €"
+        },
+        "correct": "A",
+        "explanation": "Retrancher les deux chèques.",
+        "source": "https://www.anc.gouv.fr/plan-comptable-general-0",
+        "review_status": "recalcul_independant_2026_10_19",
+        "audit_type": "Calcul manuel modélisé indépendamment, cohérence du cas standard et contrôle des 4 choix ; sans certification comptable externe",
+        "review_method": "Recalcul indépendant par équation documentée, contrôle source officielle et quatre propositions distinctes",
+        "family": "calculation_05_1_09",
+        "id": "calc2026-05-1-09-1",
+        "reviewed_at": "2026-10-19"
+      }
+    ]
+  },
+  {
+    "id": "05-expert",
+    "fiche": "05",
+    "theme": "Lettrage et rapprochement",
+    "level": "Expert",
+    "questions": [
+      {
+        "n": 1,
+        "q": "Rapprochement bancaire : relevé 4 900,00 €, 2 dépôts non crédités 2 000,00 € et 200,00 €, chèque non débité 20,00 €. Solde ajusté ?",
+        "options": {
+          "A": "7 789,00 €",
+          "B": "8 498,00 €",
+          "C": "9 207,00 €",
+          "D": "7 080,00 €"
+        },
+        "correct": "D",
+        "explanation": "Relevé + dépôts – chèques.",
+        "source": "https://www.anc.gouv.fr/plan-comptable-general-0",
+        "review_status": "recalcul_independant_2026_10_19",
+        "audit_type": "Calcul manuel modélisé indépendamment, cohérence du cas standard et contrôle des 4 choix ; sans certification comptable externe",
+        "review_method": "Recalcul indépendant par équation documentée, contrôle source officielle et quatre propositions distinctes",
+        "family": "calculation_05_2_00",
+        "id": "calc2026-05-2-00-1",
+        "reviewed_at": "2026-10-19"
+      },
+      {
+        "n": 2,
+        "q": "Compte 512 : solde initial 5 800,00 €, frais non enregistrés 2 350,00 €, intérêts crédités 300,00 €, erreur comptable au débit à corriger 30,00 €. Solde corrigé ?",
+        "options": {
+          "A": "3 720,00 €",
+          "B": "4 093,00 €",
+          "C": "4 839,00 €",
+          "D": "4 466,00 €"
+        },
+        "correct": "A",
+        "explanation": "Déduire frais et débit erroné, ajouter intérêts.",
+        "source": "https://www.anc.gouv.fr/plan-comptable-general-0",
+        "review_status": "recalcul_independant_2026_10_19",
+        "audit_type": "Calcul manuel modélisé indépendamment, cohérence du cas standard et contrôle des 4 choix ; sans certification comptable externe",
+        "review_method": "Recalcul indépendant par équation documentée, contrôle source officielle et quatre propositions distinctes",
+        "family": "calculation_05_2_01",
+        "id": "calc2026-05-2-01-1",
+        "reviewed_at": "2026-10-19"
+      },
+      {
+        "n": 3,
+        "q": "Compte fournisseur : factures 6 700,00 € et 2 700,00 €, avoir 400,00 €, versement 40,00 €. Dette finale ?",
+        "options": {
+          "A": "11 651,00 €",
+          "B": "9 857,00 €",
+          "C": "10 754,00 €",
+          "D": "8 960,00 €"
+        },
+        "correct": "D",
+        "explanation": "Factures – avoir – paiement.",
+        "source": "https://www.anc.gouv.fr/plan-comptable-general-0",
+        "review_status": "recalcul_independant_2026_10_19",
+        "audit_type": "Calcul manuel modélisé indépendamment, cohérence du cas standard et contrôle des 4 choix ; sans certification comptable externe",
+        "review_method": "Recalcul indépendant par équation documentée, contrôle source officielle et quatre propositions distinctes",
+        "family": "calculation_05_2_02",
+        "id": "calc2026-05-2-02-1",
+        "reviewed_at": "2026-10-19"
+      },
+      {
+        "n": 4,
+        "q": "Créance client 7 600,00 €, nouvelle facture 3 050,00 €, avoir 500,00 €, encaissement 50,00 €. Solde ?",
+        "options": {
+          "A": "11 111,00 €",
+          "B": "10 100,00 €",
+          "C": "12 122,00 €",
+          "D": "13 133,00 €"
+        },
+        "correct": "B",
+        "explanation": "Créances – réductions – encaissement.",
+        "source": "https://www.anc.gouv.fr/plan-comptable-general-0",
+        "review_status": "recalcul_independant_2026_10_19",
+        "audit_type": "Calcul manuel modélisé indépendamment, cohérence du cas standard et contrôle des 4 choix ; sans certification comptable externe",
+        "review_method": "Recalcul indépendant par équation documentée, contrôle source officielle et quatre propositions distinctes",
+        "family": "calculation_05_2_03",
+        "id": "calc2026-05-2-03-1",
+        "reviewed_at": "2026-10-19"
+      },
+      {
+        "n": 5,
+        "q": "Banque : relevé 8 500,00 €, dépôt en transit 3 400,00 €, deux chèques non débités 600,00 € et 60,00 €. Solde ajusté ?",
+        "options": {
+          "A": "13 490,00 €",
+          "B": "11 240,00 €",
+          "C": "14 615,00 €",
+          "D": "12 365,00 €"
+        },
+        "correct": "B",
+        "explanation": "Relevé + dépôt – chèques.",
+        "source": "https://www.anc.gouv.fr/plan-comptable-general-0",
+        "review_status": "recalcul_independant_2026_10_19",
+        "audit_type": "Calcul manuel modélisé indépendamment, cohérence du cas standard et contrôle des 4 choix ; sans certification comptable externe",
+        "review_method": "Recalcul indépendant par équation documentée, contrôle source officielle et quatre propositions distinctes",
+        "family": "calculation_05_2_04",
+        "id": "calc2026-05-2-04-1",
+        "reviewed_at": "2026-10-19"
+      },
+      {
+        "n": 6,
+        "q": "Banque : solde 512 de 9 400,00 €, frais 3 750,00 € non enregistrés, virement entrant non comptabilisé 700,00 €, prélèvement manquant 70,00 €. Nouveau 512 ?",
+        "options": {
+          "A": "8 167,00 €",
+          "B": "7 538,00 €",
+          "C": "6 909,00 €",
+          "D": "6 280,00 €"
+        },
+        "correct": "D",
+        "explanation": "Corriger banque des opérations non saisies.",
+        "source": "https://www.anc.gouv.fr/plan-comptable-general-0",
+        "review_status": "recalcul_independant_2026_10_19",
+        "audit_type": "Calcul manuel modélisé indépendamment, cohérence du cas standard et contrôle des 4 choix ; sans certification comptable externe",
+        "review_method": "Recalcul indépendant par équation documentée, contrôle source officielle et quatre propositions distinctes",
+        "family": "calculation_05_2_05",
+        "id": "calc2026-05-2-05-1",
+        "reviewed_at": "2026-10-19"
+      },
+      {
+        "n": 7,
+        "q": "Lettrage client : factures 10 300,00 € et 4 100,00 €, paiement 800,00 €, avoir 80,00 €. Solde à reporter ?",
+        "options": {
+          "A": "17 579,00 €",
+          "B": "13 520,00 €",
+          "C": "16 226,00 €",
+          "D": "14 873,00 €"
+        },
+        "correct": "B",
+        "explanation": "Additionner factures, diminuer paiement et avoir.",
+        "source": "https://www.anc.gouv.fr/plan-comptable-general-0",
+        "review_status": "recalcul_independant_2026_10_19",
+        "audit_type": "Calcul manuel modélisé indépendamment, cohérence du cas standard et contrôle des 4 choix ; sans certification comptable externe",
+        "review_method": "Recalcul indépendant par équation documentée, contrôle source officielle et quatre propositions distinctes",
+        "family": "calculation_05_2_06",
+        "id": "calc2026-05-2-06-1",
+        "reviewed_at": "2026-10-19"
+      },
+      {
+        "n": 8,
+        "q": "Dette fournisseur 11 200,00 € ; achat TTC supplémentaire 4 450,00 € ; deux règlements 900,00 € et 90,00 €. Dette nette ?",
+        "options": {
+          "A": "16 127,00 €",
+          "B": "14 660,00 €",
+          "C": "17 594,00 €",
+          "D": "19 061,00 €"
+        },
+        "correct": "B",
+        "explanation": "Dette initiale + achat – règlements.",
+        "source": "https://www.anc.gouv.fr/plan-comptable-general-0",
+        "review_status": "recalcul_independant_2026_10_19",
+        "audit_type": "Calcul manuel modélisé indépendamment, cohérence du cas standard et contrôle des 4 choix ; sans certification comptable externe",
+        "review_method": "Recalcul indépendant par équation documentée, contrôle source officielle et quatre propositions distinctes",
+        "family": "calculation_05_2_07",
+        "id": "calc2026-05-2-07-1",
+        "reviewed_at": "2026-10-19"
+      },
+      {
+        "n": 9,
+        "q": "Relevé bancaire 12 100,00 € ; remises en attente 4 800,00 € et 1 000,00 € ; deux chèques non présentés de 100,00 € chacun. Solde ajusté ?",
+        "options": {
+          "A": "19 471,00 €",
+          "B": "21 242,00 €",
+          "C": "17 700,00 €",
+          "D": "23 013,00 €"
+        },
+        "correct": "C",
+        "explanation": "Solde relevé + dépôts – chèques.",
+        "source": "https://www.anc.gouv.fr/plan-comptable-general-0",
+        "review_status": "recalcul_independant_2026_10_19",
+        "audit_type": "Calcul manuel modélisé indépendamment, cohérence du cas standard et contrôle des 4 choix ; sans certification comptable externe",
+        "review_method": "Recalcul indépendant par équation documentée, contrôle source officielle et quatre propositions distinctes",
+        "family": "calculation_05_2_08",
+        "id": "calc2026-05-2-08-1",
+        "reviewed_at": "2026-10-19"
+      },
+      {
+        "n": 10,
+        "q": "Compte 512 de 13 000,00 € ; encaissements 5 150,00 € et 1 100,00 €, décaissements de 110,00 € chacun, deux fois. Solde ?",
+        "options": {
+          "A": "20 934,00 €",
+          "B": "19 030,00 €",
+          "C": "22 838,00 €",
+          "D": "24 742,00 €"
+        },
+        "correct": "B",
+        "explanation": "Solde initial + entrées – sorties.",
+        "source": "https://www.anc.gouv.fr/plan-comptable-general-0",
+        "review_status": "recalcul_independant_2026_10_19",
+        "audit_type": "Calcul manuel modélisé indépendamment, cohérence du cas standard et contrôle des 4 choix ; sans certification comptable externe",
+        "review_method": "Recalcul indépendant par équation documentée, contrôle source officielle et quatre propositions distinctes",
+        "family": "calculation_05_2_09",
+        "id": "calc2026-05-2-09-1",
+        "reviewed_at": "2026-10-19"
+      }
+    ]
   },
   {
     "id": "06-debutant",
@@ -1075,9 +3045,403 @@
         "reviewed_at": "2026-10-17",
         "review_method": "contrôle du fond + source officielle + réponse et distracteurs"
       }
-    ],
-    "desc": "20 questions originales par niveau : QCM corrigés",
-    "file": "06-debutant.html"
+    ]
+  },
+  {
+    "id": "06-intermediaire",
+    "fiche": "06",
+    "theme": "Compte de résultat",
+    "level": "Intermédiaire",
+    "questions": [
+      {
+        "n": 1,
+        "q": "Produits d’exploitation 3 700,00 €, charges externes 1 400,00 €, charges personnel 200,00 €. Résultat exploitation ?",
+        "options": {
+          "A": "2 100,00 €",
+          "B": "2 733,00 €",
+          "C": "2 311,00 €",
+          "D": "2 522,00 €"
+        },
+        "correct": "A",
+        "explanation": "Produits moins charges externes et personnel.",
+        "source": "https://www.anc.gouv.fr/plan-comptable-general-0",
+        "review_status": "recalcul_independant_2026_10_19",
+        "audit_type": "Calcul manuel modélisé indépendamment, cohérence du cas standard et contrôle des 4 choix ; sans certification comptable externe",
+        "review_method": "Recalcul indépendant par équation documentée, contrôle source officielle et quatre propositions distinctes",
+        "family": "calculation_06_1_00",
+        "id": "calc2026-06-1-00-1",
+        "reviewed_at": "2026-10-19"
+      },
+      {
+        "n": 2,
+        "q": "CA 4 600,00 €, coût d’achat vendu 1 750,00 €, autres charges 300,00 €. Résultat d’exploitation simplifié ?",
+        "options": {
+          "A": "3 062,00 €",
+          "B": "2 550,00 €",
+          "C": "2 806,00 €",
+          "D": "3 318,00 €"
+        },
+        "correct": "B",
+        "explanation": "CA – coût d’achat – autres charges.",
+        "source": "https://www.anc.gouv.fr/plan-comptable-general-0",
+        "review_status": "recalcul_independant_2026_10_19",
+        "audit_type": "Calcul manuel modélisé indépendamment, cohérence du cas standard et contrôle des 4 choix ; sans certification comptable externe",
+        "review_method": "Recalcul indépendant par équation documentée, contrôle source officielle et quatre propositions distinctes",
+        "family": "calculation_06_1_01",
+        "id": "calc2026-06-1-01-1",
+        "reviewed_at": "2026-10-19"
+      },
+      {
+        "n": 3,
+        "q": "Exploitation bénéficiaire 5 500,00 €, résultat financier négatif 2 100,00 € et impôt 400,00 €. Net ?",
+        "options": {
+          "A": "3 602,00 €",
+          "B": "3 301,00 €",
+          "C": "3 903,00 €",
+          "D": "3 000,00 €"
+        },
+        "correct": "D",
+        "explanation": "Exploitation + financier – impôt.",
+        "source": "https://www.anc.gouv.fr/plan-comptable-general-0",
+        "review_status": "recalcul_independant_2026_10_19",
+        "audit_type": "Calcul manuel modélisé indépendamment, cohérence du cas standard et contrôle des 4 choix ; sans certification comptable externe",
+        "review_method": "Recalcul indépendant par équation documentée, contrôle source officielle et quatre propositions distinctes",
+        "family": "calculation_06_1_02",
+        "id": "calc2026-06-1-02-1",
+        "reviewed_at": "2026-10-19"
+      },
+      {
+        "n": 4,
+        "q": "Ventes 6 400,00 € et prestations 2 450,00 € ; avoirs HT 500,00 €. Chiffre d’affaires net ?",
+        "options": {
+          "A": "8 350,00 €",
+          "B": "9 186,00 €",
+          "C": "10 858,00 €",
+          "D": "10 022,00 €"
+        },
+        "correct": "A",
+        "explanation": "Ventes + services – avoirs.",
+        "source": "https://www.anc.gouv.fr/plan-comptable-general-0",
+        "review_status": "recalcul_independant_2026_10_19",
+        "audit_type": "Calcul manuel modélisé indépendamment, cohérence du cas standard et contrôle des 4 choix ; sans certification comptable externe",
+        "review_method": "Recalcul indépendant par équation documentée, contrôle source officielle et quatre propositions distinctes",
+        "family": "calculation_06_1_03",
+        "id": "calc2026-06-1-03-1",
+        "reviewed_at": "2026-10-19"
+      },
+      {
+        "n": 5,
+        "q": "Produits exploitation 7 300,00 €, charges 2 800,00 €, dotations 600,00 €. Résultat d’exploitation ?",
+        "options": {
+          "A": "3 900,00 €",
+          "B": "4 291,00 €",
+          "C": "4 682,00 €",
+          "D": "5 073,00 €"
+        },
+        "correct": "A",
+        "explanation": "Dotations sont charges.",
+        "source": "https://www.anc.gouv.fr/plan-comptable-general-0",
+        "review_status": "recalcul_independant_2026_10_19",
+        "audit_type": "Calcul manuel modélisé indépendamment, cohérence du cas standard et contrôle des 4 choix ; sans certification comptable externe",
+        "review_method": "Recalcul indépendant par équation documentée, contrôle source officielle et quatre propositions distinctes",
+        "family": "calculation_06_1_04",
+        "id": "calc2026-06-1-04-1",
+        "reviewed_at": "2026-10-19"
+      },
+      {
+        "n": 6,
+        "q": "Résultat exploitation 8 200,00 €, produits financiers 3 150,00 €, charges financières 700,00 €. Résultat courant ?",
+        "options": {
+          "A": "13 848,00 €",
+          "B": "10 650,00 €",
+          "C": "11 716,00 €",
+          "D": "12 782,00 €"
+        },
+        "correct": "B",
+        "explanation": "Exploitation + produits fin – charges fin.",
+        "source": "https://www.anc.gouv.fr/plan-comptable-general-0",
+        "review_status": "recalcul_independant_2026_10_19",
+        "audit_type": "Calcul manuel modélisé indépendamment, cohérence du cas standard et contrôle des 4 choix ; sans certification comptable externe",
+        "review_method": "Recalcul indépendant par équation documentée, contrôle source officielle et quatre propositions distinctes",
+        "family": "calculation_06_1_05",
+        "id": "calc2026-06-1-05-1",
+        "reviewed_at": "2026-10-19"
+      },
+      {
+        "n": 7,
+        "q": "Produits de ventes 9 100,00 €, coût d’achat vendu 3 500,00 €, remise sur ventes 800,00 €. Marge commerciale nette ?",
+        "options": {
+          "A": "4 800,00 €",
+          "B": "5 762,00 €",
+          "C": "5 281,00 €",
+          "D": "6 243,00 €"
+        },
+        "correct": "A",
+        "explanation": "Ventes nettes – coût d’achat.",
+        "source": "https://www.anc.gouv.fr/plan-comptable-general-0",
+        "review_status": "recalcul_independant_2026_10_19",
+        "audit_type": "Calcul manuel modélisé indépendamment, cohérence du cas standard et contrôle des 4 choix ; sans certification comptable externe",
+        "review_method": "Recalcul indépendant par équation documentée, contrôle source officielle et quatre propositions distinctes",
+        "family": "calculation_06_1_06",
+        "id": "calc2026-06-1-06-1",
+        "reviewed_at": "2026-10-19"
+      },
+      {
+        "n": 8,
+        "q": "Exploitation 10 000,00 €, résultat exceptionnel négatif 3 850,00 €, impôt 900,00 €. Résultat net ?",
+        "options": {
+          "A": "5 250,00 €",
+          "B": "5 776,00 €",
+          "C": "6 828,00 €",
+          "D": "6 302,00 €"
+        },
+        "correct": "A",
+        "explanation": "Inclut résultat exceptionnel et impôt.",
+        "source": "https://www.anc.gouv.fr/plan-comptable-general-0",
+        "review_status": "recalcul_independant_2026_10_19",
+        "audit_type": "Calcul manuel modélisé indépendamment, cohérence du cas standard et contrôle des 4 choix ; sans certification comptable externe",
+        "review_method": "Recalcul indépendant par équation documentée, contrôle source officielle et quatre propositions distinctes",
+        "family": "calculation_06_1_07",
+        "id": "calc2026-06-1-07-1",
+        "reviewed_at": "2026-10-19"
+      },
+      {
+        "n": 9,
+        "q": "Services vendus 10 900,00 €, salaires 4 200,00 €, loyer 1 000,00 €. Résultat d’exploitation simplifié ?",
+        "options": {
+          "A": "5 700,00 €",
+          "B": "7 413,00 €",
+          "C": "6 842,00 €",
+          "D": "6 271,00 €"
+        },
+        "correct": "A",
+        "explanation": "CA – salaires – loyers.",
+        "source": "https://www.anc.gouv.fr/plan-comptable-general-0",
+        "review_status": "recalcul_independant_2026_10_19",
+        "audit_type": "Calcul manuel modélisé indépendamment, cohérence du cas standard et contrôle des 4 choix ; sans certification comptable externe",
+        "review_method": "Recalcul indépendant par équation documentée, contrôle source officielle et quatre propositions distinctes",
+        "family": "calculation_06_1_08",
+        "id": "calc2026-06-1-08-1",
+        "reviewed_at": "2026-10-19"
+      },
+      {
+        "n": 10,
+        "q": "CA 11 800,00 €, subventions d’exploitation 4 550,00 €, charges d’exploitation 1 100,00 €. Résultat exploitation ?",
+        "options": {
+          "A": "15 250,00 €",
+          "B": "19 828,00 €",
+          "C": "16 776,00 €",
+          "D": "18 302,00 €"
+        },
+        "correct": "A",
+        "explanation": "Inclure subvention dans produits d’exploitation.",
+        "source": "https://www.anc.gouv.fr/plan-comptable-general-0",
+        "review_status": "recalcul_independant_2026_10_19",
+        "audit_type": "Calcul manuel modélisé indépendamment, cohérence du cas standard et contrôle des 4 choix ; sans certification comptable externe",
+        "review_method": "Recalcul indépendant par équation documentée, contrôle source officielle et quatre propositions distinctes",
+        "family": "calculation_06_1_09",
+        "id": "calc2026-06-1-09-1",
+        "reviewed_at": "2026-10-19"
+      }
+    ]
+  },
+  {
+    "id": "06-expert",
+    "fiche": "06",
+    "theme": "Compte de résultat",
+    "level": "Expert",
+    "questions": [
+      {
+        "n": 1,
+        "q": "CA 4 900,00 €, autres produits 2 000,00 €, achats consommés 200,00 €, charges externes 20,00 €. Résultat exploitation ?",
+        "options": {
+          "A": "8 687,00 €",
+          "B": "6 680,00 €",
+          "C": "8 018,00 €",
+          "D": "7 349,00 €"
+        },
+        "correct": "B",
+        "explanation": "Produits d’exploitation – charges.",
+        "source": "https://www.anc.gouv.fr/plan-comptable-general-0",
+        "review_status": "recalcul_independant_2026_10_19",
+        "audit_type": "Calcul manuel modélisé indépendamment, cohérence du cas standard et contrôle des 4 choix ; sans certification comptable externe",
+        "review_method": "Recalcul indépendant par équation documentée, contrôle source officielle et quatre propositions distinctes",
+        "family": "calculation_06_2_00",
+        "id": "calc2026-06-2-00-1",
+        "reviewed_at": "2026-10-19"
+      },
+      {
+        "n": 2,
+        "q": "Produits exploitation 5 800,00 €, charges 2 350,00 €, produits financiers 300,00 € et charges financières 30,00 €. Résultat courant ?",
+        "options": {
+          "A": "3 720,00 €",
+          "B": "4 093,00 €",
+          "C": "4 839,00 €",
+          "D": "4 466,00 €"
+        },
+        "correct": "A",
+        "explanation": "Exploitation + résultat financier.",
+        "source": "https://www.anc.gouv.fr/plan-comptable-general-0",
+        "review_status": "recalcul_independant_2026_10_19",
+        "audit_type": "Calcul manuel modélisé indépendamment, cohérence du cas standard et contrôle des 4 choix ; sans certification comptable externe",
+        "review_method": "Recalcul indépendant par équation documentée, contrôle source officielle et quatre propositions distinctes",
+        "family": "calculation_06_2_01",
+        "id": "calc2026-06-2-01-1",
+        "reviewed_at": "2026-10-19"
+      },
+      {
+        "n": 3,
+        "q": "CA 6 700,00 €, coût des ventes 2 700,00 €, personnel 400,00 €, autres produits 40,00 €. Résultat ?",
+        "options": {
+          "A": "3 640,00 €",
+          "B": "4 370,00 €",
+          "C": "4 735,00 €",
+          "D": "4 005,00 €"
+        },
+        "correct": "A",
+        "explanation": "CA – coût – personnel + autres produits.",
+        "source": "https://www.anc.gouv.fr/plan-comptable-general-0",
+        "review_status": "recalcul_independant_2026_10_19",
+        "audit_type": "Calcul manuel modélisé indépendamment, cohérence du cas standard et contrôle des 4 choix ; sans certification comptable externe",
+        "review_method": "Recalcul indépendant par équation documentée, contrôle source officielle et quatre propositions distinctes",
+        "family": "calculation_06_2_02",
+        "id": "calc2026-06-2-02-1",
+        "reviewed_at": "2026-10-19"
+      },
+      {
+        "n": 4,
+        "q": "Exploitation 7 600,00 €, résultat financier négatif 3 050,00 €, résultat exceptionnel positif 500,00 € et impôt 50,00 €. Net ?",
+        "options": {
+          "A": "6 503,00 €",
+          "B": "5 501,00 €",
+          "C": "6 002,00 €",
+          "D": "5 000,00 €"
+        },
+        "correct": "D",
+        "explanation": "Addition des soldes puis impôt.",
+        "source": "https://www.anc.gouv.fr/plan-comptable-general-0",
+        "review_status": "recalcul_independant_2026_10_19",
+        "audit_type": "Calcul manuel modélisé indépendamment, cohérence du cas standard et contrôle des 4 choix ; sans certification comptable externe",
+        "review_method": "Recalcul indépendant par équation documentée, contrôle source officielle et quatre propositions distinctes",
+        "family": "calculation_06_2_03",
+        "id": "calc2026-06-2-03-1",
+        "reviewed_at": "2026-10-19"
+      },
+      {
+        "n": 5,
+        "q": "CA brut 8 500,00 €, avoirs 3 400,00 €, achats consommés 600,00 €, produit de subvention 60,00 €. Exploitation ?",
+        "options": {
+          "A": "5 474,00 €",
+          "B": "5 017,00 €",
+          "C": "4 560,00 €",
+          "D": "5 931,00 €"
+        },
+        "correct": "C",
+        "explanation": "CA net – achats + subvention.",
+        "source": "https://www.anc.gouv.fr/plan-comptable-general-0",
+        "review_status": "recalcul_independant_2026_10_19",
+        "audit_type": "Calcul manuel modélisé indépendamment, cohérence du cas standard et contrôle des 4 choix ; sans certification comptable externe",
+        "review_method": "Recalcul indépendant par équation documentée, contrôle source officielle et quatre propositions distinctes",
+        "family": "calculation_06_2_04",
+        "id": "calc2026-06-2-04-1",
+        "reviewed_at": "2026-10-19"
+      },
+      {
+        "n": 6,
+        "q": "Produits 9 400,00 € et 3 750,00 €, charges 700,00 € et 70,00 €. Résultat ?",
+        "options": {
+          "A": "14 858,00 €",
+          "B": "12 380,00 €",
+          "C": "13 619,00 €",
+          "D": "16 097,00 €"
+        },
+        "correct": "B",
+        "explanation": "Somme produits moins somme charges.",
+        "source": "https://www.anc.gouv.fr/plan-comptable-general-0",
+        "review_status": "recalcul_independant_2026_10_19",
+        "audit_type": "Calcul manuel modélisé indépendamment, cohérence du cas standard et contrôle des 4 choix ; sans certification comptable externe",
+        "review_method": "Recalcul indépendant par équation documentée, contrôle source officielle et quatre propositions distinctes",
+        "family": "calculation_06_2_05",
+        "id": "calc2026-06-2-05-1",
+        "reviewed_at": "2026-10-19"
+      },
+      {
+        "n": 7,
+        "q": "Exploitation avant dotation 10 300,00 €, dotation amortissements 4 100,00 €, dotation dépréciation 800,00 €, reprise de dépréciation 80,00 €. Exploitation net ?",
+        "options": {
+          "A": "6 578,00 €",
+          "B": "7 127,00 €",
+          "C": "5 480,00 €",
+          "D": "6 029,00 €"
+        },
+        "correct": "C",
+        "explanation": "Dotations – ; reprise +.",
+        "source": "https://www.anc.gouv.fr/plan-comptable-general-0",
+        "review_status": "recalcul_independant_2026_10_19",
+        "audit_type": "Calcul manuel modélisé indépendamment, cohérence du cas standard et contrôle des 4 choix ; sans certification comptable externe",
+        "review_method": "Recalcul indépendant par équation documentée, contrôle source officielle et quatre propositions distinctes",
+        "family": "calculation_06_2_06",
+        "id": "calc2026-06-2-06-1",
+        "reviewed_at": "2026-10-19"
+      },
+      {
+        "n": 8,
+        "q": "Produits financiers 11 200,00 €, charges financières 4 450,00 €, produits exceptionnels 900,00 €, charges exceptionnelles 90,00 €. Solde financier + exceptionnel ?",
+        "options": {
+          "A": "7 560,00 €",
+          "B": "8 317,00 €",
+          "C": "9 831,00 €",
+          "D": "9 074,00 €"
+        },
+        "correct": "A",
+        "explanation": "Addition des deux résultats.",
+        "source": "https://www.anc.gouv.fr/plan-comptable-general-0",
+        "review_status": "recalcul_independant_2026_10_19",
+        "audit_type": "Calcul manuel modélisé indépendamment, cohérence du cas standard et contrôle des 4 choix ; sans certification comptable externe",
+        "review_method": "Recalcul indépendant par équation documentée, contrôle source officielle et quatre propositions distinctes",
+        "family": "calculation_06_2_07",
+        "id": "calc2026-06-2-07-1",
+        "reviewed_at": "2026-10-19"
+      },
+      {
+        "n": 9,
+        "q": "Ventes marchandises 12 100,00 € ; coût marchandises 4 800,00 € ; frais externes 1 000,00 € ; charges de personnel 100,00 €. Résultat d’exploitation simplifié ?",
+        "options": {
+          "A": "6 821,00 €",
+          "B": "7 442,00 €",
+          "C": "6 200,00 €",
+          "D": "8 063,00 €"
+        },
+        "correct": "C",
+        "explanation": "CA moins trois familles de charges.",
+        "source": "https://www.anc.gouv.fr/plan-comptable-general-0",
+        "review_status": "recalcul_independant_2026_10_19",
+        "audit_type": "Calcul manuel modélisé indépendamment, cohérence du cas standard et contrôle des 4 choix ; sans certification comptable externe",
+        "review_method": "Recalcul indépendant par équation documentée, contrôle source officielle et quatre propositions distinctes",
+        "family": "calculation_06_2_08",
+        "id": "calc2026-06-2-08-1",
+        "reviewed_at": "2026-10-19"
+      },
+      {
+        "n": 10,
+        "q": "CA 13 000,00 €, charges hors impôt 5 150,00 € ; produit exceptionnel 1 100,00 € ; impôt sur bénéfice 110,00 €. Résultat net ?",
+        "options": {
+          "A": "10 610,00 €",
+          "B": "11 495,00 €",
+          "C": "8 840,00 €",
+          "D": "9 725,00 €"
+        },
+        "correct": "C",
+        "explanation": "Produits totaux – charges y compris impôt.",
+        "source": "https://www.anc.gouv.fr/plan-comptable-general-0",
+        "review_status": "recalcul_independant_2026_10_19",
+        "audit_type": "Calcul manuel modélisé indépendamment, cohérence du cas standard et contrôle des 4 choix ; sans certification comptable externe",
+        "review_method": "Recalcul indépendant par équation documentée, contrôle source officielle et quatre propositions distinctes",
+        "family": "calculation_06_2_09",
+        "id": "calc2026-06-2-09-1",
+        "reviewed_at": "2026-10-19"
+      }
+    ]
   },
   {
     "id": "07-debutant",
@@ -1255,8 +3619,402 @@
         "reviewed_at": "2026-10-17",
         "review_method": "contrôle du fond + source officielle + réponse et distracteurs"
       }
-    ],
-    "desc": "20 questions originales par niveau : QCM corrigés",
-    "file": "07-debutant.html"
+    ]
+  },
+  {
+    "id": "07-intermediaire",
+    "fiche": "07",
+    "theme": "Bilan",
+    "level": "Intermédiaire",
+    "questions": [
+      {
+        "n": 1,
+        "q": "BFR d’exploitation simplifié : stocks 3 700,00 €, créances clients 1 400,00 €, dettes fournisseurs 200,00 €. BFR ?",
+        "options": {
+          "A": "5 391,00 €",
+          "B": "6 373,00 €",
+          "C": "5 882,00 €",
+          "D": "4 900,00 €"
+        },
+        "correct": "D",
+        "explanation": "BFR = stocks + clients – fournisseurs.",
+        "source": "https://www.anc.gouv.fr/plan-comptable-general-0",
+        "review_status": "recalcul_independant_2026_10_19",
+        "audit_type": "Calcul manuel modélisé indépendamment, cohérence du cas standard et contrôle des 4 choix ; sans certification comptable externe",
+        "review_method": "Recalcul indépendant par équation documentée, contrôle source officielle et quatre propositions distinctes",
+        "family": "calculation_07_1_00",
+        "id": "calc2026-07-1-00-1",
+        "reviewed_at": "2026-10-19"
+      },
+      {
+        "n": 2,
+        "q": "FRNG : capitaux permanents 4 600,00 € ; actif immobilisé net 1 750,00 €. FRNG ?",
+        "options": {
+          "A": "3 136,00 €",
+          "B": "3 422,00 €",
+          "C": "2 850,00 €",
+          "D": "3 708,00 €"
+        },
+        "correct": "C",
+        "explanation": "Ressources stables – emplois stables.",
+        "source": "https://www.anc.gouv.fr/plan-comptable-general-0",
+        "review_status": "recalcul_independant_2026_10_19",
+        "audit_type": "Calcul manuel modélisé indépendamment, cohérence du cas standard et contrôle des 4 choix ; sans certification comptable externe",
+        "review_method": "Recalcul indépendant par équation documentée, contrôle source officielle et quatre propositions distinctes",
+        "family": "calculation_07_1_01",
+        "id": "calc2026-07-1-01-1",
+        "reviewed_at": "2026-10-19"
+      },
+      {
+        "n": 3,
+        "q": "Trésorerie nette : disponibilités 5 500,00 € et concours bancaires 2 100,00 €. TN ?",
+        "options": {
+          "A": "4 423,00 €",
+          "B": "3 400,00 €",
+          "C": "3 741,00 €",
+          "D": "4 082,00 €"
+        },
+        "correct": "B",
+        "explanation": "Disponibilités – dettes financières court terme.",
+        "source": "https://www.anc.gouv.fr/plan-comptable-general-0",
+        "review_status": "recalcul_independant_2026_10_19",
+        "audit_type": "Calcul manuel modélisé indépendamment, cohérence du cas standard et contrôle des 4 choix ; sans certification comptable externe",
+        "review_method": "Recalcul indépendant par équation documentée, contrôle source officielle et quatre propositions distinctes",
+        "family": "calculation_07_1_02",
+        "id": "calc2026-07-1-02-1",
+        "reviewed_at": "2026-10-19"
+      },
+      {
+        "n": 4,
+        "q": "Actif : immo 6 400,00 €, stocks 2 450,00 €, clients 500,00 €. Total actif ?",
+        "options": {
+          "A": "11 222,00 €",
+          "B": "12 158,00 €",
+          "C": "9 350,00 €",
+          "D": "10 286,00 €"
+        },
+        "correct": "C",
+        "explanation": "Somme postes de l’actif.",
+        "source": "https://www.anc.gouv.fr/plan-comptable-general-0",
+        "review_status": "recalcul_independant_2026_10_19",
+        "audit_type": "Calcul manuel modélisé indépendamment, cohérence du cas standard et contrôle des 4 choix ; sans certification comptable externe",
+        "review_method": "Recalcul indépendant par équation documentée, contrôle source officielle et quatre propositions distinctes",
+        "family": "calculation_07_1_03",
+        "id": "calc2026-07-1-03-1",
+        "reviewed_at": "2026-10-19"
+      },
+      {
+        "n": 5,
+        "q": "Passif : capitaux propres 7 300,00 €, emprunts 2 800,00 €, fournisseurs 600,00 €. Total passif ?",
+        "options": {
+          "A": "12 842,00 €",
+          "B": "11 771,00 €",
+          "C": "10 700,00 €",
+          "D": "13 913,00 €"
+        },
+        "correct": "C",
+        "explanation": "Somme ressources et dettes.",
+        "source": "https://www.anc.gouv.fr/plan-comptable-general-0",
+        "review_status": "recalcul_independant_2026_10_19",
+        "audit_type": "Calcul manuel modélisé indépendamment, cohérence du cas standard et contrôle des 4 choix ; sans certification comptable externe",
+        "review_method": "Recalcul indépendant par équation documentée, contrôle source officielle et quatre propositions distinctes",
+        "family": "calculation_07_1_04",
+        "id": "calc2026-07-1-04-1",
+        "reviewed_at": "2026-10-19"
+      },
+      {
+        "n": 6,
+        "q": "Immos brutes 8 200,00 €, amortissements 3 150,00 €, provisions pour dépréciation 700,00 €. Immos nettes ?",
+        "options": {
+          "A": "5 222,00 €",
+          "B": "4 786,00 €",
+          "C": "4 350,00 €",
+          "D": "5 658,00 €"
+        },
+        "correct": "C",
+        "explanation": "Brut – amortissement – dépréciation.",
+        "source": "https://www.anc.gouv.fr/plan-comptable-general-0",
+        "review_status": "recalcul_independant_2026_10_19",
+        "audit_type": "Calcul manuel modélisé indépendamment, cohérence du cas standard et contrôle des 4 choix ; sans certification comptable externe",
+        "review_method": "Recalcul indépendant par équation documentée, contrôle source officielle et quatre propositions distinctes",
+        "family": "calculation_07_1_05",
+        "id": "calc2026-07-1-05-1",
+        "reviewed_at": "2026-10-19"
+      },
+      {
+        "n": 7,
+        "q": "Actif total 9 100,00 €, dettes fournisseurs 3 500,00 €, emprunts 800,00 €. Capitaux propres ?",
+        "options": {
+          "A": "5 281,00 €",
+          "B": "5 762,00 €",
+          "C": "6 243,00 €",
+          "D": "4 800,00 €"
+        },
+        "correct": "D",
+        "explanation": "Capitaux propres = actif – toutes dettes.",
+        "source": "https://www.anc.gouv.fr/plan-comptable-general-0",
+        "review_status": "recalcul_independant_2026_10_19",
+        "audit_type": "Calcul manuel modélisé indépendamment, cohérence du cas standard et contrôle des 4 choix ; sans certification comptable externe",
+        "review_method": "Recalcul indépendant par équation documentée, contrôle source officielle et quatre propositions distinctes",
+        "family": "calculation_07_1_06",
+        "id": "calc2026-07-1-06-1",
+        "reviewed_at": "2026-10-19"
+      },
+      {
+        "n": 8,
+        "q": "Clients 10 000,00 €, stock 3 850,00 €, avance client d’exploitation 900,00 € assimilée ici à ressource BFR. BFR simplifié ?",
+        "options": {
+          "A": "16 838,00 €",
+          "B": "14 246,00 €",
+          "C": "15 542,00 €",
+          "D": "12 950,00 €"
+        },
+        "correct": "D",
+        "explanation": "Stocks+clients–ressource d’exploitation.",
+        "source": "https://www.anc.gouv.fr/plan-comptable-general-0",
+        "review_status": "recalcul_independant_2026_10_19",
+        "audit_type": "Calcul manuel modélisé indépendamment, cohérence du cas standard et contrôle des 4 choix ; sans certification comptable externe",
+        "review_method": "Recalcul indépendant par équation documentée, contrôle source officielle et quatre propositions distinctes",
+        "family": "calculation_07_1_07",
+        "id": "calc2026-07-1-07-1",
+        "reviewed_at": "2026-10-19"
+      },
+      {
+        "n": 9,
+        "q": "Actif brut 10 900,00 €, amortissements cumulés 4 200,00 € ; sortie d’un composant brut de 1 000,00 € sans amortissements rattachés. Actif net après sortie ?",
+        "options": {
+          "A": "5 700,00 €",
+          "B": "6 842,00 €",
+          "C": "7 413,00 €",
+          "D": "6 271,00 €"
+        },
+        "correct": "A",
+        "explanation": "Brut diminué des corrections et de la sortie nette.",
+        "source": "https://www.anc.gouv.fr/plan-comptable-general-0",
+        "review_status": "recalcul_independant_2026_10_19",
+        "audit_type": "Calcul manuel modélisé indépendamment, cohérence du cas standard et contrôle des 4 choix ; sans certification comptable externe",
+        "review_method": "Recalcul indépendant par équation documentée, contrôle source officielle et quatre propositions distinctes",
+        "family": "calculation_07_1_08",
+        "id": "calc2026-07-1-08-1",
+        "reviewed_at": "2026-10-19"
+      },
+      {
+        "n": 10,
+        "q": "Passif total 11 800,00 €, capital 4 550,00 €, dettes fournisseurs 1 100,00 €. Montant total des autres postes du passif ?",
+        "options": {
+          "A": "7 382,00 €",
+          "B": "6 150,00 €",
+          "C": "6 766,00 €",
+          "D": "7 998,00 €"
+        },
+        "correct": "B",
+        "explanation": "Solde équilibrant du passif.",
+        "source": "https://www.anc.gouv.fr/plan-comptable-general-0",
+        "review_status": "recalcul_independant_2026_10_19",
+        "audit_type": "Calcul manuel modélisé indépendamment, cohérence du cas standard et contrôle des 4 choix ; sans certification comptable externe",
+        "review_method": "Recalcul indépendant par équation documentée, contrôle source officielle et quatre propositions distinctes",
+        "family": "calculation_07_1_09",
+        "id": "calc2026-07-1-09-1",
+        "reviewed_at": "2026-10-19"
+      }
+    ]
+  },
+  {
+    "id": "07-expert",
+    "fiche": "07",
+    "theme": "Bilan",
+    "level": "Expert",
+    "questions": [
+      {
+        "n": 1,
+        "q": "BFR : stocks 4 900,00 €, clients 2 000,00 €, avances clients 200,00 €, fournisseurs 20,00 € ; ces avances sont ressources d’exploitation. BFR simplifié ?",
+        "options": {
+          "A": "7 349,00 €",
+          "B": "6 680,00 €",
+          "C": "8 687,00 €",
+          "D": "8 018,00 €"
+        },
+        "correct": "B",
+        "explanation": "Actif cyclique – passif cyclique.",
+        "source": "https://www.anc.gouv.fr/plan-comptable-general-0",
+        "review_status": "recalcul_independant_2026_10_19",
+        "audit_type": "Calcul manuel modélisé indépendamment, cohérence du cas standard et contrôle des 4 choix ; sans certification comptable externe",
+        "review_method": "Recalcul indépendant par équation documentée, contrôle source officielle et quatre propositions distinctes",
+        "family": "calculation_07_2_00",
+        "id": "calc2026-07-2-00-1",
+        "reviewed_at": "2026-10-19"
+      },
+      {
+        "n": 2,
+        "q": "FRNG : capitaux propres 5 800,00 €, emprunts long terme 2 350,00 €, immo nette 300,00 €. FRNG ?",
+        "options": {
+          "A": "10 208,00 €",
+          "B": "7 850,00 €",
+          "C": "8 636,00 €",
+          "D": "9 422,00 €"
+        },
+        "correct": "B",
+        "explanation": "Ressources stables moins actif immobilisé.",
+        "source": "https://www.anc.gouv.fr/plan-comptable-general-0",
+        "review_status": "recalcul_independant_2026_10_19",
+        "audit_type": "Calcul manuel modélisé indépendamment, cohérence du cas standard et contrôle des 4 choix ; sans certification comptable externe",
+        "review_method": "Recalcul indépendant par équation documentée, contrôle source officielle et quatre propositions distinctes",
+        "family": "calculation_07_2_01",
+        "id": "calc2026-07-2-01-1",
+        "reviewed_at": "2026-10-19"
+      },
+      {
+        "n": 3,
+        "q": "Trésorerie nette : FRNG 6 700,00 €, BFR 2 700,00 €. TN ?",
+        "options": {
+          "A": "5 203,00 €",
+          "B": "4 401,00 €",
+          "C": "4 000,00 €",
+          "D": "4 802,00 €"
+        },
+        "correct": "C",
+        "explanation": "Trésorerie nette = FRNG – BFR.",
+        "source": "https://www.anc.gouv.fr/plan-comptable-general-0",
+        "review_status": "recalcul_independant_2026_10_19",
+        "audit_type": "Calcul manuel modélisé indépendamment, cohérence du cas standard et contrôle des 4 choix ; sans certification comptable externe",
+        "review_method": "Recalcul indépendant par équation documentée, contrôle source officielle et quatre propositions distinctes",
+        "family": "calculation_07_2_02",
+        "id": "calc2026-07-2-02-1",
+        "reviewed_at": "2026-10-19"
+      },
+      {
+        "n": 4,
+        "q": "Actif : immo brute 7 600,00 €, amortissements 3 050,00 €, clients 500,00 €, banque 50,00 €. Total actif net ?",
+        "options": {
+          "A": "5 611,00 €",
+          "B": "6 633,00 €",
+          "C": "5 100,00 €",
+          "D": "6 122,00 €"
+        },
+        "correct": "C",
+        "explanation": "Immos nettes + circulant.",
+        "source": "https://www.anc.gouv.fr/plan-comptable-general-0",
+        "review_status": "recalcul_independant_2026_10_19",
+        "audit_type": "Calcul manuel modélisé indépendamment, cohérence du cas standard et contrôle des 4 choix ; sans certification comptable externe",
+        "review_method": "Recalcul indépendant par équation documentée, contrôle source officielle et quatre propositions distinctes",
+        "family": "calculation_07_2_03",
+        "id": "calc2026-07-2-03-1",
+        "reviewed_at": "2026-10-19"
+      },
+      {
+        "n": 5,
+        "q": "Passif : capital 8 500,00 €, réserves 3 400,00 €, résultat déficitaire 600,00 €, dettes 60,00 €. Total passif ?",
+        "options": {
+          "A": "13 634,00 €",
+          "B": "11 360,00 €",
+          "C": "12 497,00 €",
+          "D": "14 771,00 €"
+        },
+        "correct": "B",
+        "explanation": "Capitaux propres nets + dettes.",
+        "source": "https://www.anc.gouv.fr/plan-comptable-general-0",
+        "review_status": "recalcul_independant_2026_10_19",
+        "audit_type": "Calcul manuel modélisé indépendamment, cohérence du cas standard et contrôle des 4 choix ; sans certification comptable externe",
+        "review_method": "Recalcul indépendant par équation documentée, contrôle source officielle et quatre propositions distinctes",
+        "family": "calculation_07_2_04",
+        "id": "calc2026-07-2-04-1",
+        "reviewed_at": "2026-10-19"
+      },
+      {
+        "n": 6,
+        "q": "BFR : stocks 9 400,00 € et clients 3 750,00 €, dettes fournisseurs 700,00 € et dettes fiscales d’exploitation 70,00 €. BFR ?",
+        "options": {
+          "A": "16 097,00 €",
+          "B": "13 619,00 €",
+          "C": "14 858,00 €",
+          "D": "12 380,00 €"
+        },
+        "correct": "D",
+        "explanation": "Actif d’exploitation – passif exploitation.",
+        "source": "https://www.anc.gouv.fr/plan-comptable-general-0",
+        "review_status": "recalcul_independant_2026_10_19",
+        "audit_type": "Calcul manuel modélisé indépendamment, cohérence du cas standard et contrôle des 4 choix ; sans certification comptable externe",
+        "review_method": "Recalcul indépendant par équation documentée, contrôle source officielle et quatre propositions distinctes",
+        "family": "calculation_07_2_05",
+        "id": "calc2026-07-2-05-1",
+        "reviewed_at": "2026-10-19"
+      },
+      {
+        "n": 7,
+        "q": "Emplois stables 10 300,00 €, ressources stables 14 400,00 € ; BFR 800,00 €. Trésorerie nette ?",
+        "options": {
+          "A": "3 300,00 €",
+          "B": "3 631,00 €",
+          "C": "3 962,00 €",
+          "D": "4 293,00 €"
+        },
+        "correct": "A",
+        "explanation": "FRNG = ressources – emplois ; TN = FRNG – BFR.",
+        "source": "https://www.anc.gouv.fr/plan-comptable-general-0",
+        "review_status": "recalcul_independant_2026_10_19",
+        "audit_type": "Calcul manuel modélisé indépendamment, cohérence du cas standard et contrôle des 4 choix ; sans certification comptable externe",
+        "review_method": "Recalcul indépendant par équation documentée, contrôle source officielle et quatre propositions distinctes",
+        "family": "calculation_07_2_06",
+        "id": "calc2026-07-2-06-1",
+        "reviewed_at": "2026-10-19"
+      },
+      {
+        "n": 8,
+        "q": "Actif total 11 200,00 €, emprunt 4 450,00 €, fournisseurs 900,00 €, dettes fiscales 90,00 €. Capitaux propres ?",
+        "options": {
+          "A": "7 491,00 €",
+          "B": "5 760,00 €",
+          "C": "6 337,00 €",
+          "D": "6 914,00 €"
+        },
+        "correct": "B",
+        "explanation": "Capitaux propres = total actif – total dettes.",
+        "source": "https://www.anc.gouv.fr/plan-comptable-general-0",
+        "review_status": "recalcul_independant_2026_10_19",
+        "audit_type": "Calcul manuel modélisé indépendamment, cohérence du cas standard et contrôle des 4 choix ; sans certification comptable externe",
+        "review_method": "Recalcul indépendant par équation documentée, contrôle source officielle et quatre propositions distinctes",
+        "family": "calculation_07_2_07",
+        "id": "calc2026-07-2-07-1",
+        "reviewed_at": "2026-10-19"
+      },
+      {
+        "n": 9,
+        "q": "Actif net = immo brute 12 100,00 € moins amortissements 4 800,00 €, plus stocks 1 000,00 € et créances 100,00 €. Actif net total ?",
+        "options": {
+          "A": "10 082,00 €",
+          "B": "9 241,00 €",
+          "C": "10 923,00 €",
+          "D": "8 400,00 €"
+        },
+        "correct": "D",
+        "explanation": "Somme des valeurs nettes.",
+        "source": "https://www.anc.gouv.fr/plan-comptable-general-0",
+        "review_status": "recalcul_independant_2026_10_19",
+        "audit_type": "Calcul manuel modélisé indépendamment, cohérence du cas standard et contrôle des 4 choix ; sans certification comptable externe",
+        "review_method": "Recalcul indépendant par équation documentée, contrôle source officielle et quatre propositions distinctes",
+        "family": "calculation_07_2_08",
+        "id": "calc2026-07-2-08-1",
+        "reviewed_at": "2026-10-19"
+      },
+      {
+        "n": 10,
+        "q": "Ressources stables 13 000,00 €, actif immobilisé 5 150,00 €, stocks 1 100,00 €, fournisseurs 110,00 € ; sans créances, BFR simplifié. Trésorerie nette ?",
+        "options": {
+          "A": "8 921,00 €",
+          "B": "7 547,00 €",
+          "C": "6 860,00 €",
+          "D": "8 234,00 €"
+        },
+        "correct": "C",
+        "explanation": "FRNG – BFR (stocks – fournisseurs).",
+        "source": "https://www.anc.gouv.fr/plan-comptable-general-0",
+        "review_status": "recalcul_independant_2026_10_19",
+        "audit_type": "Calcul manuel modélisé indépendamment, cohérence du cas standard et contrôle des 4 choix ; sans certification comptable externe",
+        "review_method": "Recalcul indépendant par équation documentée, contrôle source officielle et quatre propositions distinctes",
+        "family": "calculation_07_2_09",
+        "id": "calc2026-07-2-09-1",
+        "reviewed_at": "2026-10-19"
+      }
+    ]
   }
 ]
