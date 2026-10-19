@@ -1,0 +1,9 @@
+# Fichiers locaux et secrets — ne jamais publier
+.env
+.env.*
+!.env.example
+*.log
+node_modules/
+.DS_Store
+Thumbs.db
+*.zip
