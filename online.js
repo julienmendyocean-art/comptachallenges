@@ -32,8 +32,8 @@
    await signGuest();await rpc('cc_set_profile',{p_nickname:nick,p_public:isRegistered()&&publicBox.checked});keepNick(nick);
    el('player').value=nick;el('privateName').value=nick;return nick;
  }
- el('online-guest').onclick=async()=>{try{if(isRegistered())throw Error('Tu es déjà connecté avec un compte e-mail. Utilise « Se déconnecter » pour changer de mode.');await setProfile();setStatus('Tu joues en invité. Tes résultats seront effacés après 5 jours.');await refreshAll()}catch(e){report(e)}};
- el('online-profile').onclick=async()=>{try{await setProfile();setStatus(isRegistered()?'Profil e-mail enregistré.':'Pseudonyme invité enregistré (5 jours).');await refreshAll()}catch(e){report(e)}};
+ el('online-guest').onclick=async()=>{try{if(isRegistered())throw Error('Tu es déjà connecté avec un compte e-mail. Utilise « Se déconnecter » pour changer de mode.');await setProfile();setStatus('Mode invité actif. Tes scores locaux expirent après 5 jours ; la purge côté serveur reste à vérifier.');await refreshAll()}catch(e){report(e)}};
+ el('online-profile').onclick=async()=>{try{await setProfile();setStatus(isRegistered()?'Profil e-mail enregistré.':'Pseudonyme invité enregistré localement (expiration à 5 jours).');await refreshAll()}catch(e){report(e)}};
  el('online-send-link').onclick=async()=>{
   const email=el('online-email').value.trim().toLowerCase();const nick=nickname.value.trim();
   if(!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)){setStatus('Saisis une adresse e-mail valide.',true);return}
@@ -142,7 +142,7 @@
  }
  async function refreshBoards(){if(boardBusy||!session)return;boardBusy=true;try{await Promise.all([loadLeaderboard(),loadRecent()])}catch(e){report(e)}finally{boardBusy=false}}
  async function loadProgress(){if(!session)return;
-  const root=el('online-server-progress');if(!isRegistered()){root.textContent='Invité : tes résultats sont consultables jusqu’à 5 jours. Inscris-toi par e-mail pour les retrouver sur d’autres appareils.';return}
+  const root=el('online-server-progress');if(!isRegistered()){root.textContent='Invité : les scores locaux expirent après 5 jours. La conservation des données côté Supabase reste à confirmer.';return}
   try{const d=await rpc('cc_my_progress');root.replaceChildren();root.append(textNode('p',`${d.all_played||0} quiz ou jeu(x) sauvegardé(s) dans ton compte.`));
    if(d.by_theme?.length){root.append(textNode('h4','Priorités de révision'));for(const x of d.by_theme.slice(0,7))root.append(textNode('p',`${topics[x.topic]||x.topic} : ${x.average_pct}% · ${x.games} partie(s)`))}
    else root.append(textNode('p','Pas encore de quiz ou de jeu sauvegardé.'));

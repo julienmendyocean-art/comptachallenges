@@ -1,0 +1,32 @@
+name: Compta Challenge - qualite avant publication
+
+on:
+  pull_request:
+    branches: [main]
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verifier-le-site:
+    name: Verifier le site
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Recuperer les fichiers
+        uses: actions/checkout@v4
+      - name: Controles de contenu et fichiers
+        run: python3 scripts/controle_publication.py
+      - name: Syntaxe JavaScript
+        shell: bash
+        run: |
+          set -euo pipefail
+          for f in ./*.js; do
+            [ -f "$f" ] || continue
+            node --check "$f"
+          done
+      - name: Aucune cle privee requise
+        run: echo 'Verifications locales seulement - aucune connexion a la base Supabase.'

@@ -1615,7 +1615,7 @@
           "D": "26 003,00 €"
         },
         "correct": "A",
-        "explanation": "2A + A/2.",
+        "explanation": "Amortissement cumulé : 2 années complètes × 8 000 € + une demi-année × 8 000 € = 20 000 €.",
         "source": "https://www.anc.gouv.fr/plan-comptable-general-0",
         "review_status": "recalcul_independant_2026_10_19",
         "audit_type": "Calcul manuel modélisé indépendamment, cohérence du cas standard et contrôle des 4 choix ; sans certification comptable externe",
