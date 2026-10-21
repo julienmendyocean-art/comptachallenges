@@ -1,0 +1,29 @@
+{
+  "nom": "MAJ COMPTA CHALLENGES 21.10",
+  "date": "2026-10-21",
+  "quiz_questions": 630,
+  "quiz_themes": 7,
+  "quiz_niveaux": 3,
+  "pdf_total": 212,
+  "memos_principaux": 7,
+  "cartes_principales": 7,
+  "ressources_sic_complementaires": 2,
+  "duels_distants_actifs": false,
+  "deploiement": "à vérifier sur GitHub / Netlify lors de la publication par le propriétaire",
+  "validations_ouvertes": [
+    "Supabase RLS et fonctions SQL",
+    "RGPD identite editeur",
+    "Duels distants deux comptes",
+    "GitHub Actions et Netlify production"
+  ],
+  "banque_version": "2026-10-21-QCM-630-mixte",
+  "quiz_questions_par_theme_niveau": 30,
+  "quiz_categories": [
+    "notion",
+    "application",
+    "calcul",
+    "analyse"
+  ],
+  "exercices_pdf_nouveaux": 84,
+  "exercices_pdf_historique": 112
+}
