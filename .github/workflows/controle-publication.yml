@@ -18,10 +18,50 @@ jobs:
     steps:
       - name: Recuperer les fichiers
         uses: actions/checkout@v4
+      - name: Installer le contrôle PDF reproductible
+        run: python3 -m pip install --disable-pip-version-check pymupdf==1.26.7
       - name: Controles de contenu et fichiers
         run: python3 scripts/controle_publication.py
       - name: Coherence version et documents PDF
         run: python3 scripts/controle_stabilisation.py
+      - name: Banque mixte de 810 questions et 35 calculs débutant
+        run: python3 scripts/controle_banque_810.py
+      - name: Tirages pédagogiques diversifiés (4320 sessions)
+        run: node scripts/controle_echantillonnage_810.js
+      - name: Recalcul indépendant de 140 réponses chiffrées
+        run: python3 scripts/controle_calculs_140.py
+      - name: Garde-fous métier et références
+        run: python3 scripts/controle_qualite_comptable.py
+      - name: Hygiene securite navigateur (pas audit Supabase)
+        run: python3 scripts/controle_securite_client.py
+      - name: Contrôles bloquants de la version finale
+        run: python3 scripts/controle_deploiement_final.py
+      - name: Memo propre version finale
+        run: python3 scripts/controle_memos_version_finale.py
+      - name: Cohérence des compteurs 810 et des cinq rubriques TVA
+        run: python3 scripts/controle_coherence_production_21_10.py
+      - name: Memo TVA 2026 cinq parties et carte correspondante
+        run: python3 scripts/controle_tva_cinq_parties.py
+      - name: Equilibre des exemples ecritures TVA
+        run: python3 scripts/controle_journaux_memo_tva.py
+      - name: Option sur les debits et acompte TVA
+        run: python3 scripts/controle_option_pour_les_debits.py
+      - name: Exercices PDF + sujets et corrigés
+        run: python3 scripts/controle_exercices_21.py
+      - name: Equilibre independant des 402 ecritures des corriges historiques
+        run: python3 scripts/controle_journaux_historiques.py
+      - name: Equilibre independant des 165 tableaux de journaux nouveaux
+        run: python3 scripts/controle_journaux_nouveaux.py
+      - name: Références PAIE 2026 et intégrité des 223 PDF
+        run: python3 scripts/controle_references_paie_2026.py
+      - name: Neuf cours chronologiques enrichis (502 pages)
+        run: python3 scripts/controle_cours_chronologiques_2026.py
+      - name: Contrôle R9 des 810 questions et notions essentielles
+        run: python3 scripts/controle_r9_810_et_notions.py
+      - name: Cohérence comptes usuels et plafond de Sécurité sociale 2026
+        run: python3 scripts/controle_r12_sic_pnss.py
+      - name: Contrôle croisé préalable à la publication (810 questions, PDF, liens)
+        run: python3 scripts/controle_integrite_publication.py
       - name: Syntaxe JavaScript
         shell: bash
         run: |

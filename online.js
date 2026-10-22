@@ -11,7 +11,19 @@
  catch(e){setStatus('Supabase ne se charge pas : vérifie la connexion réseau.',true);return}
  const db=createClient(url,key,{auth:{persistSession:true,autoRefreshToken:true,detectSessionInUrl:true}});
  const rpc=async(name,args={})=>{const {data,error}=await db.rpc(name,args);if(error)throw error;return data};
- const report=e=>setStatus('Erreur : '+(e?.message||String(e)),true);
+ const report=e=>{ // Ne jamais afficher les détails techniques RPC/Postgres/Supabase au public.
+  const message=String(e?.message||'');
+  const notices=[
+    [/pseudonyme/i,'Saisis un pseudonyme de 2 à 24 caractères.'],
+    [/code du duel/i,'Saisis le code du duel.'],
+    [/already.*join|déjà.*rejoin/i,'Tu participes déjà à ce duel.'],
+    [/rate.?limit|too many|429/i,'Trop de demandes : réessaie plus tard.'],
+    [/invalid.*otp|token.*expired|otp.*expired/i,'Le code de connexion est incorrect ou expiré.'],
+    [/network|fetch failed|connection/i,'Connexion indisponible. Vérifie ton réseau et réessaie.']
+  ];
+  const notice=notices.find(([pattern])=>pattern.test(message));
+  setStatus(notice?notice[1]:'Opération impossible pour le moment. Réessaie ou contacte l’éditeur du site.',true);
+ };
  let session=null,code='',timer=null,refreshBusy=false,boardBusy=false,feedBusy=false,notesBusy=false;
  let alreadyNotified=new Set();
  const nickname=el('online-name'),publicBox=el('online-public'),authLabel=el('online-auth-state');

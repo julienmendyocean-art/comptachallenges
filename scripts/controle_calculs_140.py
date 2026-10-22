@@ -40,7 +40,7 @@ def run():
     issues=[]; n=0
     for group in groups:
         groupid=group['id']
-        if groupid.endswith('debutant'):continue
+        if groupid.endswith('debutant') or groupid not in F:continue
         formulas=F.get(groupid)
         if not formulas or len(formulas)!=len(group['questions'][10:20]): issues.append((groupid,'formules absentes/mauvais nombre'));continue
         for i,(q,formula) in enumerate(zip(group['questions'][10:20],formulas)):

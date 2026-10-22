@@ -5,7 +5,7 @@ import json,sys
 R=Path(__file__).resolve().parents[1]
 fail=[]
 version=json.loads((R/'VERSION_SITE.json').read_text(encoding='utf-8'))
-if version.get('nom')!='MAJ COMPTA CHALLENGES 21.10':fail.append('Numéro de version incorrect')
+if version.get('correctif')!='2026-10-22-r12' or version.get('quiz_questions')!=810:fail.append('Numéro de version ou banque incorrect')
 if version.get('duels_distants_actifs') is not False:fail.append('Duels distants non audités activés')
 html=(R/'index.html').read_text(encoding='utf-8')
 if '<section id="duels-distance" hidden=' not in html:fail.append('Section en ligne non masquée')

@@ -73,7 +73,7 @@
  };
  window.ccPickExam=()=>{document.getElementById('mode').value='exam';document.getElementById('start').click()};
  const docs={
-  complet:{title:'PCG consolidé ANC — 1er janvier 2026',url:'https://www.anc.gouv.fr/files/anc/files/1_Normes_fran%C3%A7aises/Reglements/Recueils/PCG_janvier2026/PCG--1er-janvier-2026.pdf'}
+  complet:{title:'PCG consolidé ANC — 1er janvier 2026',url:'https://www.anc.gouv.fr/files/anc/files/1_Normes_fran%C3%A7aises/Plans%20comptables/2026/PCG--1er-janvier-2026.pdf'}
  };
  const dialog=$('pdf-dialog'),frame=$('pdf-frame');
  for(const b of document.querySelectorAll('[data-pcg-doc]'))b.addEventListener('click',()=>{
@@ -88,10 +88,10 @@
  if(resourceSection)resourceSection.addEventListener('click',event=>{
   const button=event.target.closest('[data-preview-local]');if(!button)return;
   const file=button.dataset.previewLocal;
-  if(!/^(memos|cartes-mentales|exercices|corriges|exercices-complets|corriges-complets|exercices-valides|corriges-valides)\/[A-Za-z0-9_-]+\.pdf$/.test(file))return;
+  if(!window.ComptaAllowedPdfPaths?.has(file))return;
   $('pdf-title').textContent=button.dataset.previewTitle||'Document de révision';
-  const link=$('pdf-download');link.href=file;link.textContent='⬇ Télécharger le PDF';link.setAttribute('download','');link.removeAttribute('target');
-  frame.src=file;
+  const link=$('pdf-download');link.href=file+(['memos/04 - TVA et CA3.pdf','cartes-mentales/04 - TVA et CA3.pdf'].includes(file)?'?v=20261022-r12':'');link.textContent='⬇ Télécharger le PDF';link.setAttribute('download','');link.removeAttribute('target');
+  frame.src=file+(['memos/04 - TVA et CA3.pdf','cartes-mentales/04 - TVA et CA3.pdf'].includes(file)?'?v=20261022-r12':'');
   if(typeof dialog.showModal==='function')dialog.showModal();else window.open(file,'_blank','noopener');
  });
  $('pdf-close').addEventListener('click',()=>dialog.close());

@@ -38,3 +38,21 @@
 .exo-type-group .resource-title{font-size:12px;color:#52647b;margin:8px 0 3px}
 .exo-type-group .resource-actions{display:flex;flex-wrap:wrap;gap:6px}
 .exo-type-group .btn,.exo-type-group .linkbtn{font-size:12px;padding:8px 10px}
+
+/* Accessibilité 20/10/2026 : parcours clavier et focus clairement visible. */
+.skip-link{position:absolute;left:12px;top:-100px;z-index:9999;background:#142a43;color:#fff;padding:10px 16px;border-radius:8px;text-decoration:none}
+.skip-link:focus{top:12px}
+:where(a,button,input,select,summary):focus-visible{outline:3px solid #e77c14;outline-offset:3px}
+
+/* Références officielles accessibles et lisibles sur petit écran. */
+.reference-table{overflow-x:auto}.reference-table table{border-collapse:collapse;width:100%;min-width:580px;font-size:13px}.reference-table th,.reference-table td{padding:12px;vertical-align:top;border-bottom:1px solid #dfe7ef;text-align:left}.reference-table th{background:#142a43;color:#fff}.reference-table a{color:#145ca4}
+
+/* Parcours des neuf cours complets - ordre chronologique de lecture */
+#cours{scroll-margin-top:75px;}
+.course-timeline{grid-template-columns:repeat(auto-fit,minmax(245px,1fr));gap:16px;margin-top:20px;}
+.chrono-course{border-left:5px solid #147e84;min-width:0;}
+.course-order{display:inline-block;color:#0c5662;background:#e1f5f1;border-radius:7px;padding:4px 10px;font-weight:700;font-size:0.82rem;margin-bottom:8px;}
+.chrono-course h3{margin:5px 0 12px;}
+.chrono-course p{min-height:60px;}
+.chrono-course .resource-actions{display:flex;flex-wrap:wrap;gap:9px;}
+@media(max-width:570px){.chrono-course p{min-height:0}.course-timeline{display:grid;grid-template-columns:1fr;}}

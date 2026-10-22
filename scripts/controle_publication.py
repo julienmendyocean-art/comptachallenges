@@ -71,7 +71,7 @@ def validate_quiz() -> None:
     data = load_json("questions.json")
     if not isinstance(data, list):
         return
-    check(len(data) == 21, f"21 groupes attendus (7 thèmes × 3 niveaux), obtenu : {len(data)}")
+    check(len(data) == 27, f"27 groupes attendus (9 thèmes × 3 niveaux), obtenu : {len(data)}")
     ids = Counter()
     questions_count = 0
     for group in data:
@@ -82,7 +82,7 @@ def validate_quiz() -> None:
         ids[identifier] += 1
         fich = str(group.get("fiche", ""))
         lev = identifier.rsplit("-", 1)[-1]
-        check(fich in [f"{i:02d}" for i in range(1, 8)], f"Fiche invalide : {identifier}")
+        check(fich in [f"{i:02d}" for i in range(1, 10)], f"Fiche invalide : {identifier}")
         check(identifier == f"{fich}-{lev}", f"Identifiant incohérent : {identifier}")
         qs = group.get("questions")
         check(isinstance(qs, list) and len(qs) >= 10,
@@ -106,12 +106,12 @@ def validate_quiz() -> None:
                   f"{loc} : explication absente")
             source = q.get("source", "")
             host = urlparse(source).hostname if isinstance(source, str) else None
-            check(host in {"www.anc.gouv.fr", "anc.gouv.fr", "bofip.impots.gouv.fr", "www.impots.gouv.fr", "impots.gouv.fr", "www.legifrance.gouv.fr"} and source.startswith("https://"),
+            check(host in {"www.urssaf.fr", "urssaf.fr", "www.anc.gouv.fr", "anc.gouv.fr", "bofip.impots.gouv.fr", "www.impots.gouv.fr", "impots.gouv.fr", "www.legifrance.gouv.fr", "www.cnil.fr", "cnil.fr", "code.travail.gouv.fr", "travail-emploi.gouv.fr", "entreprendre.service-public.gouv.fr", "www.service-public.gouv.fr"} and source.startswith("https://"),
                   f"{loc} : source institutionnelle HTTPS nécessaire")
             # Metadata requirement is a documentation check, not a legal certification.
             check(bool(q.get("review_status")) and bool(q.get("reviewed_at")),
                   f"{loc} : traçabilité de revue manquante")
-    expected = {f"{i:02d}-{lev}" for i in range(1, 8) for lev in ("debutant", "intermediaire", "expert")}
+    expected = {f"{i:02d}-{lev}" for i in range(1, 10) for lev in ("debutant", "intermediaire", "expert")}
     check(set(ids) == expected, f"Groupes incorrects — manquants: {sorted(expected - set(ids))}, inattendus: {sorted(set(ids) - expected)}")
     check(all(n == 1 for n in ids.values()), "Identifiants de groupes en double")
     print(f"Quiz : {len(data)} groupes / {questions_count} questions ; contrôles STRUCTURELS terminés.")
@@ -122,7 +122,7 @@ def validate_pdfs() -> None:
     data = load_json("pdf-manifest.json")
     if not isinstance(data, list):
         return
-    expected_count = 126
+    expected_count = 247
     check(len(data) >= expected_count, f"Manifest PDF : au moins {expected_count} entrées prévues (trouvé {len(data)})")
     files = []
     for entry in data:
@@ -145,9 +145,9 @@ def validate_pdfs() -> None:
             ends_pdf = b"%%EOF" in f.read()
         check(starts_pdf and ends_pdf, f"PDF visiblement mal formé : {rel}")
     check(len(files) == len(set(files)), "Manifest PDF : chemins en double")
-    for i in range(1, 8):
-        check(f"memos/{i:02d}_memo.pdf" in files, f"Mémo manquant pour thème {i}")
-        check(f"cartes-mentales/{i:02d}_carte_mentale.pdf" in files, f"Carte mentale manquante pour thème {i}")
+    for i, nom in enumerate(("Comptes usuels", "Opérations courantes", "Immobilisations", "TVA et CA3", "Lettrage et rapprochement bancaire", "Compte de résultat", "Bilan actif et passif"), 1):
+        check(f"memos/{i:02d} - {nom}.pdf" in files, f"Mémo manquant pour thème {i}")
+        check(f"cartes-mentales/{i:02d} - {nom}.pdf" in files, f"Carte mentale manquante pour thème {i}")
     print(f"PDF : {len(data)} chemins contrôlés (présence + signature du fichier, pas conformité pédagogique).")
 
 

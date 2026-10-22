@@ -10,5 +10,5 @@ for f in files:
  assert len(d)>0 and len(txt)>200,f
  assert 'rectification indispensable' not in txt and 'ancienne version' not in txt,f
  if f.name.startswith('08'):
-  assert len(d)==2,f'Le mémo SIC final doit avoir 2 pages : {len(d)}'
-print('OK: 8 mémos finaux, SIC 2 pages, pas de pages de rectification.')
+  assert len(d)==5,f'Le mémo SIC enrichi doit avoir 5 pages : {len(d)}'
+print('OK: 8 mémos finaux, SIC 5 pages, pas de pages de rectification.')

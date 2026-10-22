@@ -7,3 +7,9 @@ node_modules/
 .DS_Store
 Thumbs.db
 *.zip
+
+# Ne pas publier les dossiers d’audit contenant des métadonnées internes
+AUDIT_PRIVE/
+*_AUDIT_PRIVE*/
+.env
+.env.*
