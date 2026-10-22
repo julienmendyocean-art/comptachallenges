@@ -1,0 +1,562 @@
+[
+  {
+    "id": "01-1",
+    "theme": "Comptes usuels",
+    "question": "Quel compte désigne les fournisseurs d'achats courants ?",
+    "bonne_reponse": "401",
+    "lien_officiel": "https://www.anc.gouv.fr/files/anc/files/1_Normes_fran%C3%A7aises/Plans%20comptables/2026/Plan-de-comptes-2026.pdf",
+    "statut": "controle_documentaire"
+  },
+  {
+    "id": "01-2",
+    "theme": "Comptes usuels",
+    "question": "Quel compte représente une créance sur un client ?",
+    "bonne_reponse": "411",
+    "lien_officiel": "https://www.anc.gouv.fr/files/anc/files/1_Normes_fran%C3%A7aises/Plans%20comptables/2026/Plan-de-comptes-2026.pdf",
+    "statut": "controle_documentaire"
+  },
+  {
+    "id": "01-3",
+    "theme": "Comptes usuels",
+    "question": "Quelle classe réunit les charges ?",
+    "bonne_reponse": "Classe 6",
+    "lien_officiel": "https://www.anc.gouv.fr/files/anc/files/1_Normes_fran%C3%A7aises/Plans%20comptables/2026/Plan-de-comptes-2026.pdf",
+    "statut": "controle_documentaire"
+  },
+  {
+    "id": "01-4",
+    "theme": "Comptes usuels",
+    "question": "Quel compte suit la banque en comptabilité ?",
+    "bonne_reponse": "512",
+    "lien_officiel": "https://www.anc.gouv.fr/files/anc/files/1_Normes_fran%C3%A7aises/Plans%20comptables/2026/Plan-de-comptes-2026.pdf",
+    "statut": "controle_documentaire"
+  },
+  {
+    "id": "01-5",
+    "theme": "Comptes usuels",
+    "question": "Quel compte est utilisé pour les marchandises achetées en vue de les revendre ?",
+    "bonne_reponse": "607",
+    "lien_officiel": "https://www.anc.gouv.fr/files/anc/files/1_Normes_fran%C3%A7aises/Plans%20comptables/2026/Plan-de-comptes-2026.pdf",
+    "statut": "controle_documentaire"
+  },
+  {
+    "id": "01-6",
+    "theme": "Comptes usuels",
+    "question": "Quelle TVA est habituellement collectée lors d'une vente en France ?",
+    "bonne_reponse": "44571",
+    "lien_officiel": "https://www.anc.gouv.fr/files/anc/files/1_Normes_fran%C3%A7aises/Plans%20comptables/2026/Plan-de-comptes-2026.pdf",
+    "statut": "controle_documentaire"
+  },
+  {
+    "id": "01-7",
+    "theme": "Comptes usuels",
+    "question": "Lors de l’encaissement par virement bancaire d’une créance client, quel compte est débité ?",
+    "bonne_reponse": "512",
+    "lien_officiel": "https://www.anc.gouv.fr/files/anc/files/1_Normes_fran%C3%A7aises/Plans%20comptables/2026/Plan-de-comptes-2026.pdf",
+    "statut": "controle_documentaire"
+  },
+  {
+    "id": "01-8",
+    "theme": "Comptes usuels",
+    "question": "Quel compte constate une vente de marchandises ?",
+    "bonne_reponse": "707",
+    "lien_officiel": "https://www.anc.gouv.fr/files/anc/files/1_Normes_fran%C3%A7aises/Plans%20comptables/2026/Plan-de-comptes-2026.pdf",
+    "statut": "controle_documentaire"
+  },
+  {
+    "id": "01-9",
+    "theme": "Comptes usuels",
+    "question": "Quel compte principal du PCG 2026 identifie la caisse ?",
+    "bonne_reponse": "53",
+    "lien_officiel": "https://www.anc.gouv.fr/files/anc/files/1_Normes_fran%C3%A7aises/Plans%20comptables/2026/Plan-de-comptes-2026.pdf",
+    "statut": "controle_documentaire"
+  },
+  {
+    "id": "01-10",
+    "theme": "Comptes usuels",
+    "question": "Quel compte de tiers utilise-t-on normalement pour l'achat d'une machine ?",
+    "bonne_reponse": "404",
+    "lien_officiel": "https://www.anc.gouv.fr/files/anc/files/1_Normes_fran%C3%A7aises/Plans%20comptables/2026/Plan-de-comptes-2026.pdf",
+    "statut": "controle_documentaire"
+  },
+  {
+    "id": "02-1",
+    "theme": "Opérations courantes",
+    "question": "Pour une facture fournisseur à crédit, quelle est la règle d'équilibre ?",
+    "bonne_reponse": "Total débits = total crédits",
+    "lien_officiel": "https://www.anc.gouv.fr/files/anc/files/1_Normes_fran%C3%A7aises/Reglements/Recueils/PCG_janvier2026/PCG--1er-janvier-2026.pdf",
+    "statut": "controle_documentaire"
+  },
+  {
+    "id": "02-2",
+    "theme": "Opérations courantes",
+    "question": "Une facture de vente HT 400 € à TVA 20 % a un TTC de :",
+    "bonne_reponse": "480 €",
+    "lien_officiel": "https://www.impots.gouv.fr/international-professionnel/fiscalite-des-entreprises",
+    "statut": "controle_documentaire"
+  },
+  {
+    "id": "02-3",
+    "theme": "Opérations courantes",
+    "question": "En journal d'achat d'une marchandise, on débite normalement :",
+    "bonne_reponse": "607",
+    "lien_officiel": "https://www.anc.gouv.fr/files/anc/files/1_Normes_fran%C3%A7aises/Reglements/Recueils/PCG_janvier2026/PCG--1er-janvier-2026.pdf",
+    "statut": "controle_documentaire"
+  },
+  {
+    "id": "02-4",
+    "theme": "Opérations courantes",
+    "question": "Pour payer un fournisseur déjà comptabilisé, on :",
+    "bonne_reponse": "Débite 401 et crédite 512",
+    "lien_officiel": "https://www.anc.gouv.fr/files/anc/files/1_Normes_fran%C3%A7aises/Reglements/Recueils/PCG_janvier2026/PCG--1er-janvier-2026.pdf",
+    "statut": "controle_documentaire"
+  },
+  {
+    "id": "02-5",
+    "theme": "Opérations courantes",
+    "question": "Pour encaisser une facture client déjà comptabilisée, on :",
+    "bonne_reponse": "Débite 512 et crédite 411",
+    "lien_officiel": "https://www.anc.gouv.fr/files/anc/files/1_Normes_fran%C3%A7aises/Reglements/Recueils/PCG_janvier2026/PCG--1er-janvier-2026.pdf",
+    "statut": "controle_documentaire"
+  },
+  {
+    "id": "02-6",
+    "theme": "Opérations courantes",
+    "question": "Une remise commerciale de 10 % sur 1 000 € HT fait un net HT de :",
+    "bonne_reponse": "900 €",
+    "lien_officiel": "https://www.anc.gouv.fr/files/anc/files/1_Normes_fran%C3%A7aises/Reglements/Recueils/PCG_janvier2026/PCG--1er-janvier-2026.pdf",
+    "statut": "controle_documentaire"
+  },
+  {
+    "id": "02-7",
+    "theme": "Opérations courantes",
+    "question": "Le compte d'escompte accordé par le vendeur est :",
+    "bonne_reponse": "665",
+    "lien_officiel": "https://www.anc.gouv.fr/files/anc/files/1_Normes_fran%C3%A7aises/Reglements/Recueils/PCG_janvier2026/PCG--1er-janvier-2026.pdf",
+    "statut": "controle_documentaire"
+  },
+  {
+    "id": "02-8",
+    "theme": "Opérations courantes",
+    "question": "Le compte d'escompte obtenu par l'acheteur est :",
+    "bonne_reponse": "765",
+    "lien_officiel": "https://www.anc.gouv.fr/files/anc/files/1_Normes_fran%C3%A7aises/Reglements/Recueils/PCG_janvier2026/PCG--1er-janvier-2026.pdf",
+    "statut": "controle_documentaire"
+  },
+  {
+    "id": "02-9",
+    "theme": "Opérations courantes",
+    "question": "Un avoir client pour retour de biens a habituellement pour effet de :",
+    "bonne_reponse": "Réduire la créance client",
+    "lien_officiel": "https://www.anc.gouv.fr/files/anc/files/1_Normes_fran%C3%A7aises/Reglements/Recueils/PCG_janvier2026/PCG--1er-janvier-2026.pdf",
+    "statut": "controle_documentaire"
+  },
+  {
+    "id": "02-10",
+    "theme": "Opérations courantes",
+    "question": "Quel compte représente l'acompte reçu du client ?",
+    "bonne_reponse": "4191",
+    "lien_officiel": "https://www.anc.gouv.fr/files/anc/files/1_Normes_fran%C3%A7aises/Reglements/Recueils/PCG_janvier2026/PCG--1er-janvier-2026.pdf",
+    "statut": "controle_documentaire"
+  },
+  {
+    "id": "03-1",
+    "theme": "Immobilisations",
+    "question": "Le compte du matériel informatique durable est en général :",
+    "bonne_reponse": "2183",
+    "lien_officiel": "https://www.anc.gouv.fr/files/anc/files/1_Normes_fran%C3%A7aises/Plans%20comptables/2026/Plan-de-comptes-2026.pdf",
+    "statut": "controle_documentaire"
+  },
+  {
+    "id": "03-2",
+    "theme": "Immobilisations",
+    "question": "Quel compte de tiers porte la dette d'achat d'une immobilisation ?",
+    "bonne_reponse": "404",
+    "lien_officiel": "https://www.anc.gouv.fr/files/anc/files/1_Normes_fran%C3%A7aises/Plans%20comptables/2026/Plan-de-comptes-2026.pdf",
+    "statut": "controle_documentaire"
+  },
+  {
+    "id": "03-3",
+    "theme": "Immobilisations",
+    "question": "Quelle TVA déductible accompagne un achat de machine éligible ?",
+    "bonne_reponse": "44562",
+    "lien_officiel": "https://www.anc.gouv.fr/files/anc/files/1_Normes_fran%C3%A7aises/Plans%20comptables/2026/Plan-de-comptes-2026.pdf",
+    "statut": "controle_documentaire"
+  },
+  {
+    "id": "03-4",
+    "theme": "Immobilisations",
+    "question": "Dans une dotation corporelle, le compte de charge est :",
+    "bonne_reponse": "68112",
+    "lien_officiel": "https://www.anc.gouv.fr/files/anc/files/1_Normes_fran%C3%A7aises/Plans%20comptables/2026/Plan-de-comptes-2026.pdf",
+    "statut": "controle_documentaire"
+  },
+  {
+    "id": "03-5",
+    "theme": "Immobilisations",
+    "question": "Dans une dotation informatique, le compte d'amortissement cumulé est :",
+    "bonne_reponse": "28183",
+    "lien_officiel": "https://www.anc.gouv.fr/files/anc/files/1_Normes_fran%C3%A7aises/Plans%20comptables/2026/Plan-de-comptes-2026.pdf",
+    "statut": "controle_documentaire"
+  },
+  {
+    "id": "03-6",
+    "theme": "Immobilisations",
+    "question": "La valeur nette comptable est :",
+    "bonne_reponse": "Coût brut - amortissements - dépréciations",
+    "lien_officiel": "https://www.anc.gouv.fr/files/anc/files/1_Normes_fran%C3%A7aises/Plans%20comptables/2026/Plan-de-comptes-2026.pdf",
+    "statut": "controle_documentaire"
+  },
+  {
+    "id": "03-7",
+    "theme": "Immobilisations",
+    "question": "Une machine acquise pour être utilisée durablement pendant cinq ans pour l’activité de l’entreprise est normalement classée en :",
+    "bonne_reponse": "Une immobilisation",
+    "lien_officiel": "https://www.anc.gouv.fr/files/anc/files/1_Normes_fran%C3%A7aises/Plans%20comptables/2026/Plan-de-comptes-2026.pdf",
+    "statut": "controle_documentaire"
+  },
+  {
+    "id": "03-9",
+    "theme": "Immobilisations",
+    "question": "Le compte 238 concerne :",
+    "bonne_reponse": "Les avances sur immobilisations corporelles",
+    "lien_officiel": "https://www.anc.gouv.fr/files/anc/files/1_Normes_fran%C3%A7aises/Plans%20comptables/2026/Plan-de-comptes-2026.pdf",
+    "statut": "controle_documentaire"
+  },
+  {
+    "id": "03-11",
+    "theme": "Immobilisations",
+    "question": "Une machine a une base amortissable de 4 000 € (aucune valeur résiduelle), amortie linéairement sur cinq années complètes : quelle est la dotation annuelle ?",
+    "bonne_reponse": "800 €",
+    "lien_officiel": "https://www.anc.gouv.fr/files/anc/files/1_Normes_fran%C3%A7aises/Plans%20comptables/2026/Plan-de-comptes-2026.pdf",
+    "statut": "controle_documentaire"
+  },
+  {
+    "id": "03-13",
+    "theme": "Immobilisations",
+    "question": "Machine brute 2 400 € et amortissements cumulés 1 600 €, sans dépréciation. VNC ?",
+    "bonne_reponse": "800 €",
+    "lien_officiel": "https://www.anc.gouv.fr/files/anc/files/1_Normes_fran%C3%A7aises/Plans%20comptables/2026/Plan-de-comptes-2026.pdf",
+    "statut": "controle_documentaire"
+  },
+  {
+    "id": "04-1",
+    "theme": "TVA",
+    "question": "Pour une livraison ponctuelle de biens imposable en France, sans acompte et hors régime particulier, quand la TVA est-elle en principe exigible ?",
+    "bonne_reponse": "À la livraison",
+    "lien_officiel": "https://bofip.impots.gouv.fr/bofip/283-PGP.html/identifiant=BOI-TVA-BASE-20-20-20120912",
+    "statut": "controle_documentaire"
+  },
+  {
+    "id": "04-2",
+    "theme": "TVA",
+    "question": "Pour une prestation de services ordinaire imposable en France, sans option sur les débits ni régime dérogatoire, quel principe d’exigibilité s’applique ?",
+    "bonne_reponse": "TVA sur encaissements",
+    "lien_officiel": "https://bofip.impots.gouv.fr/bofip/127-PGP.html/identifiant=BOI-TVA-BASE-20-40-20230118",
+    "statut": "controle_documentaire"
+  },
+  {
+    "id": "04-4",
+    "theme": "TVA",
+    "question": "La TVA sur une facture de service de 500 € HT à 20 % est :",
+    "bonne_reponse": "100 €",
+    "lien_officiel": "https://www.impots.gouv.fr/international-professionnel/fiscalite-des-entreprises",
+    "statut": "controle_documentaire"
+  },
+  {
+    "id": "04-5",
+    "theme": "TVA",
+    "question": "La TVA sur une acquisition de machine éligible relève de :",
+    "bonne_reponse": "44562",
+    "lien_officiel": "https://www.anc.gouv.fr/files/anc/files/1_Normes_fran%C3%A7aises/Plans%20comptables/2026/Plan-de-comptes-2026.pdf",
+    "statut": "controle_documentaire"
+  },
+  {
+    "id": "04-6",
+    "theme": "TVA",
+    "question": "La TVA sur un achat courant déductible relève de :",
+    "bonne_reponse": "44566",
+    "lien_officiel": "https://www.anc.gouv.fr/files/anc/files/1_Normes_fran%C3%A7aises/Plans%20comptables/2026/Plan-de-comptes-2026.pdf",
+    "statut": "controle_documentaire"
+  },
+  {
+    "id": "04-7",
+    "theme": "TVA",
+    "question": "Sur une vente imposable, la TVA collectée est suivie en :",
+    "bonne_reponse": "44571",
+    "lien_officiel": "https://www.anc.gouv.fr/files/anc/files/1_Normes_fran%C3%A7aises/Plans%20comptables/2026/Plan-de-comptes-2026.pdf",
+    "statut": "controle_documentaire"
+  },
+  {
+    "id": "04-8",
+    "theme": "TVA",
+    "question": "Le compte 44551 correspond :",
+    "bonne_reponse": "À la TVA nette à décaisser",
+    "lien_officiel": "https://www.anc.gouv.fr/files/anc/files/1_Normes_fran%C3%A7aises/Plans%20comptables/2026/Plan-de-comptes-2026.pdf",
+    "statut": "controle_documentaire"
+  },
+  {
+    "id": "04-9",
+    "theme": "TVA",
+    "question": "Le compte 44567 correspond :",
+    "bonne_reponse": "Au crédit de TVA à reporter",
+    "lien_officiel": "https://www.anc.gouv.fr/files/anc/files/1_Normes_fran%C3%A7aises/Plans%20comptables/2026/Plan-de-comptes-2026.pdf",
+    "statut": "controle_documentaire"
+  },
+  {
+    "id": "04-10",
+    "theme": "TVA",
+    "question": "En prestation de service sur encaissements, un acompte encaissé :",
+    "bonne_reponse": "Rend exigible la TVA sur la part encaissée",
+    "lien_officiel": "https://bofip.impots.gouv.fr/bofip/283-PGP.html/identifiant=BOI-TVA-BASE-20-20-20120912",
+    "statut": "controle_documentaire"
+  },
+  {
+    "id": "04-11",
+    "theme": "TVA",
+    "question": "Vente taxable 500 € HT à 20 %. TVA collectée ?",
+    "bonne_reponse": "100 €",
+    "lien_officiel": "https://www.impots.gouv.fr/international-professionnel/fiscalite-des-entreprises",
+    "statut": "controle_documentaire"
+  },
+  {
+    "id": "05-1",
+    "theme": "Lettrage et rapprochement",
+    "question": "Le lettrage sert d'abord à :",
+    "bonne_reponse": "Associer factures, avoirs et règlements d'un même tiers",
+    "lien_officiel": "https://www.anc.gouv.fr/files/anc/files/1_Normes_fran%C3%A7aises/Reglements/Recueils/PCG_janvier2026/PCG--1er-janvier-2026.pdf",
+    "statut": "controle_documentaire"
+  },
+  {
+    "id": "05-2",
+    "theme": "Lettrage et rapprochement",
+    "question": "Le rapprochement bancaire confronte :",
+    "bonne_reponse": "Compte 512 et relevé bancaire",
+    "lien_officiel": "https://www.anc.gouv.fr/files/anc/files/1_Normes_fran%C3%A7aises/Reglements/Recueils/PCG_janvier2026/PCG--1er-janvier-2026.pdf",
+    "statut": "controle_documentaire"
+  },
+  {
+    "id": "05-3",
+    "theme": "Lettrage et rapprochement",
+    "question": "Quel compte rapproche-t-on avec le relevé bancaire ?",
+    "bonne_reponse": "512",
+    "lien_officiel": "https://www.anc.gouv.fr/files/anc/files/1_Normes_fran%C3%A7aises/Reglements/Recueils/PCG_janvier2026/PCG--1er-janvier-2026.pdf",
+    "statut": "controle_documentaire"
+  },
+  {
+    "id": "05-4",
+    "theme": "Lettrage et rapprochement",
+    "question": "Une facture 500 € et un paiement 500 € sur le même 411 sont :",
+    "bonne_reponse": "Lettrables intégralement",
+    "lien_officiel": "https://www.anc.gouv.fr/files/anc/files/1_Normes_fran%C3%A7aises/Reglements/Recueils/PCG_janvier2026/PCG--1er-janvier-2026.pdf",
+    "statut": "controle_documentaire"
+  },
+  {
+    "id": "05-5",
+    "theme": "Lettrage et rapprochement",
+    "question": "Une facture fournisseur se présente usuellement au 401 :",
+    "bonne_reponse": "Au crédit",
+    "lien_officiel": "https://www.anc.gouv.fr/files/anc/files/1_Normes_fran%C3%A7aises/Reglements/Recueils/PCG_janvier2026/PCG--1er-janvier-2026.pdf",
+    "statut": "controle_documentaire"
+  },
+  {
+    "id": "05-6",
+    "theme": "Lettrage et rapprochement",
+    "question": "Un paiement fournisseur est normalement passé :",
+    "bonne_reponse": "D 401 / C 512",
+    "lien_officiel": "https://www.anc.gouv.fr/files/anc/files/1_Normes_fran%C3%A7aises/Reglements/Recueils/PCG_janvier2026/PCG--1er-janvier-2026.pdf",
+    "statut": "controle_documentaire"
+  },
+  {
+    "id": "05-7",
+    "theme": "Lettrage et rapprochement",
+    "question": "Une recette bancaire enregistrée en comptabilité a pour sens 512 :",
+    "bonne_reponse": "Débit",
+    "lien_officiel": "https://www.anc.gouv.fr/files/anc/files/1_Normes_fran%C3%A7aises/Reglements/Recueils/PCG_janvier2026/PCG--1er-janvier-2026.pdf",
+    "statut": "controle_documentaire"
+  },
+  {
+    "id": "05-8",
+    "theme": "Lettrage et rapprochement",
+    "question": "Sur un relevé bancaire vu du côté de la banque, comment est normalement indiqué un virement reçu par le client ?",
+    "bonne_reponse": "Au crédit du relevé",
+    "lien_officiel": "https://www.anc.gouv.fr/files/anc/files/1_Normes_fran%C3%A7aises/Reglements/Recueils/PCG_janvier2026/PCG--1er-janvier-2026.pdf",
+    "statut": "controle_documentaire"
+  },
+  {
+    "id": "05-9",
+    "theme": "Lettrage et rapprochement",
+    "question": "Un chèque émis et saisi dans le 512 non encore débité sur relevé est :",
+    "bonne_reponse": "Une opération en transit",
+    "lien_officiel": "https://www.anc.gouv.fr/files/anc/files/1_Normes_fran%C3%A7aises/Reglements/Recueils/PCG_janvier2026/PCG--1er-janvier-2026.pdf",
+    "statut": "controle_documentaire"
+  },
+  {
+    "id": "05-10",
+    "theme": "Lettrage et rapprochement",
+    "question": "Des frais bancaires réels non comptabilisés doivent être :",
+    "bonne_reponse": "Enregistrés en comptabilité sur justificatif",
+    "lien_officiel": "https://www.anc.gouv.fr/files/anc/files/1_Normes_fran%C3%A7aises/Reglements/Recueils/PCG_janvier2026/PCG--1er-janvier-2026.pdf",
+    "statut": "controle_documentaire"
+  },
+  {
+    "id": "06-1",
+    "theme": "Compte de résultat",
+    "question": "Le compte de résultat présente :",
+    "bonne_reponse": "Les charges et produits d'une période",
+    "lien_officiel": "https://www.anc.gouv.fr/files/anc/files/1_Normes_fran%C3%A7aises/Plans%20comptables/2026/Plan-de-comptes-2026.pdf",
+    "statut": "controle_documentaire"
+  },
+  {
+    "id": "06-2",
+    "theme": "Compte de résultat",
+    "question": "Un bénéfice apparaît quand :",
+    "bonne_reponse": "Produits supérieurs aux charges",
+    "lien_officiel": "https://www.anc.gouv.fr/files/anc/files/1_Normes_fran%C3%A7aises/Plans%20comptables/2026/Plan-de-comptes-2026.pdf",
+    "statut": "controle_documentaire"
+  },
+  {
+    "id": "06-3",
+    "theme": "Compte de résultat",
+    "question": "Une perte apparaît quand :",
+    "bonne_reponse": "Charges supérieures aux produits",
+    "lien_officiel": "https://www.anc.gouv.fr/files/anc/files/1_Normes_fran%C3%A7aises/Plans%20comptables/2026/Plan-de-comptes-2026.pdf",
+    "statut": "controle_documentaire"
+  },
+  {
+    "id": "06-4",
+    "theme": "Compte de résultat",
+    "question": "Les charges comptables relèvent de :",
+    "bonne_reponse": "Classe 6",
+    "lien_officiel": "https://www.anc.gouv.fr/files/anc/files/1_Normes_fran%C3%A7aises/Plans%20comptables/2026/Plan-de-comptes-2026.pdf",
+    "statut": "controle_documentaire"
+  },
+  {
+    "id": "06-5",
+    "theme": "Compte de résultat",
+    "question": "Les produits comptables relèvent de :",
+    "bonne_reponse": "Classe 7",
+    "lien_officiel": "https://www.anc.gouv.fr/files/anc/files/1_Normes_fran%C3%A7aises/Plans%20comptables/2026/Plan-de-comptes-2026.pdf",
+    "statut": "controle_documentaire"
+  },
+  {
+    "id": "06-6",
+    "theme": "Compte de résultat",
+    "question": "Le compte 707 est :",
+    "bonne_reponse": "Une vente de marchandises",
+    "lien_officiel": "https://www.anc.gouv.fr/files/anc/files/1_Normes_fran%C3%A7aises/Plans%20comptables/2026/Plan-de-comptes-2026.pdf",
+    "statut": "controle_documentaire"
+  },
+  {
+    "id": "06-7",
+    "theme": "Compte de résultat",
+    "question": "Le compte 641 enregistre :",
+    "bonne_reponse": "Le salaire brut",
+    "lien_officiel": "https://www.anc.gouv.fr/files/anc/files/1_Normes_fran%C3%A7aises/Plans%20comptables/2026/Plan-de-comptes-2026.pdf",
+    "statut": "controle_documentaire"
+  },
+  {
+    "id": "06-8",
+    "theme": "Compte de résultat",
+    "question": "Le compte 681 du PCG 2026 regroupe principalement quelles dotations ?",
+    "bonne_reponse": "Les dotations aux amortissements, dépréciations et provisions d’exploitation",
+    "lien_officiel": "https://www.anc.gouv.fr/files/anc/files/1_Normes_fran%C3%A7aises/Plans%20comptables/2026/Plan-de-comptes-2026.pdf",
+    "statut": "controle_documentaire"
+  },
+  {
+    "id": "06-9",
+    "theme": "Compte de résultat",
+    "question": "La TVA collectée est-elle normalement un produit ?",
+    "bonne_reponse": "Non",
+    "lien_officiel": "https://www.anc.gouv.fr/files/anc/files/1_Normes_fran%C3%A7aises/Plans%20comptables/2026/Plan-de-comptes-2026.pdf",
+    "statut": "controle_documentaire"
+  },
+  {
+    "id": "06-10",
+    "theme": "Compte de résultat",
+    "question": "Produits 8 000 €, charges 6 500 € : résultat ?",
+    "bonne_reponse": "+1 500 €",
+    "lien_officiel": "https://www.anc.gouv.fr/files/anc/files/1_Normes_fran%C3%A7aises/Plans%20comptables/2026/Plan-de-comptes-2026.pdf",
+    "statut": "controle_documentaire"
+  },
+  {
+    "id": "07-1",
+    "theme": "Bilan",
+    "question": "Le bilan représente :",
+    "bonne_reponse": "La situation patrimoniale à une date",
+    "lien_officiel": "https://www.anc.gouv.fr/files/anc/files/1_Normes_fran%C3%A7aises/Plans%20comptables/2026/Plan-de-comptes-2026.pdf",
+    "statut": "controle_documentaire"
+  },
+  {
+    "id": "07-3",
+    "theme": "Bilan",
+    "question": "Le solde débiteur d'un compte 411 est normalement :",
+    "bonne_reponse": "Une créance à l'actif",
+    "lien_officiel": "https://www.anc.gouv.fr/files/anc/files/1_Normes_fran%C3%A7aises/Plans%20comptables/2026/Plan-de-comptes-2026.pdf",
+    "statut": "controle_documentaire"
+  },
+  {
+    "id": "07-4",
+    "theme": "Bilan",
+    "question": "Le solde créditeur d'un 401 est normalement :",
+    "bonne_reponse": "Une dette fournisseur au passif",
+    "lien_officiel": "https://www.anc.gouv.fr/files/anc/files/1_Normes_fran%C3%A7aises/Plans%20comptables/2026/Plan-de-comptes-2026.pdf",
+    "statut": "controle_documentaire"
+  },
+  {
+    "id": "07-5",
+    "theme": "Bilan",
+    "question": "Un solde 512 débiteur est normalement :",
+    "bonne_reponse": "Banque à l'actif",
+    "lien_officiel": "https://www.anc.gouv.fr/files/anc/files/1_Normes_fran%C3%A7aises/Plans%20comptables/2026/Plan-de-comptes-2026.pdf",
+    "statut": "controle_documentaire"
+  },
+  {
+    "id": "07-6",
+    "theme": "Bilan",
+    "question": "À la clôture, un solde créditeur de banque, correspondant à un découvert, est présenté comme :",
+    "bonne_reponse": "Un découvert/dette bancaire au passif",
+    "lien_officiel": "https://www.anc.gouv.fr/files/anc/files/1_Normes_fran%C3%A7aises/Plans%20comptables/2026/Plan-de-comptes-2026.pdf",
+    "statut": "controle_documentaire"
+  },
+  {
+    "id": "07-7",
+    "theme": "Bilan",
+    "question": "Le capital social est suivi en :",
+    "bonne_reponse": "101",
+    "lien_officiel": "https://www.anc.gouv.fr/files/anc/files/1_Normes_fran%C3%A7aises/Plans%20comptables/2026/Plan-de-comptes-2026.pdf",
+    "statut": "controle_documentaire"
+  },
+  {
+    "id": "07-8",
+    "theme": "Bilan",
+    "question": "Le compte d'emprunt auprès d'établissement de crédit est :",
+    "bonne_reponse": "164",
+    "lien_officiel": "https://www.anc.gouv.fr/files/anc/files/1_Normes_fran%C3%A7aises/Plans%20comptables/2026/Plan-de-comptes-2026.pdf",
+    "statut": "controle_documentaire"
+  },
+  {
+    "id": "07-9",
+    "theme": "Bilan",
+    "question": "Une immobilisation brute est corrigée au bilan notamment par :",
+    "bonne_reponse": "Les comptes 28 et 29",
+    "lien_officiel": "https://www.anc.gouv.fr/files/anc/files/1_Normes_fran%C3%A7aises/Plans%20comptables/2026/Plan-de-comptes-2026.pdf",
+    "statut": "controle_documentaire"
+  },
+  {
+    "id": "07-10",
+    "theme": "Bilan",
+    "question": "Un bénéfice de l'exercice est porté en capitaux propres via :",
+    "bonne_reponse": "120",
+    "lien_officiel": "https://www.anc.gouv.fr/files/anc/files/1_Normes_fran%C3%A7aises/Plans%20comptables/2026/Plan-de-comptes-2026.pdf",
+    "statut": "controle_documentaire"
+  },
+  {
+    "id": "07-19",
+    "theme": "Bilan",
+    "question": "À quoi le total de l’actif doit-il être égal dans un bilan comptable équilibré ?",
+    "bonne_reponse": "Au total du passif",
+    "lien_officiel": "https://www.anc.gouv.fr/files/anc/files/1_Normes_fran%C3%A7aises/Plans%20comptables/2026/Plan-de-comptes-2026.pdf",
+    "statut": "controle_documentaire"
+  }
+]

@@ -1,0 +1,216 @@
+{
+  "date": "2026-10-22",
+  "sources": [
+    "https://www.anc.gouv.fr/plan-comptable-general-0",
+    "https://www.cnil.fr/fr/securite-gerer-les-habilitations",
+    "https://www.cnil.fr/fr/securite-tracer-les-operations",
+    "https://entreprendre.service-public.gouv.fr/vosdroits/F34059"
+  ],
+  "groups": [
+    {
+      "theme": "08",
+      "level": "debutant",
+      "mode": "rapide",
+      "cases": 2,
+      "qcm": 5,
+      "categories": {
+        "notion": 1,
+        "application": 2,
+        "analyse": 1,
+        "calcul": 1
+      },
+      "subject": "exercices-2026-10-22/08_debutant_rapide_sujet.pdf",
+      "correction": "corriges-2026-10-22/08_debutant_rapide_corrige.pdf",
+      "entries": 5,
+      "source_questions_sha256": "8ef25592abc487a35918439f35b9bc1eb3e1b8bc5d8a9bd49fb23e1f3432a013"
+    },
+    {
+      "theme": "08",
+      "level": "debutant",
+      "mode": "complet",
+      "cases": 5,
+      "qcm": 10,
+      "categories": {
+        "notion": 4,
+        "application": 3,
+        "analyse": 1,
+        "calcul": 2
+      },
+      "subject": "exercices-2026-10-22/08_debutant_complet_sujet.pdf",
+      "correction": "corriges-2026-10-22/08_debutant_complet_corrige.pdf",
+      "entries": 14,
+      "source_questions_sha256": "ce2f35e3d0c05aba22b38e2edffadfa9ed7e50c17ea3b3413c04857c88da3995"
+    },
+    {
+      "theme": "08",
+      "level": "intermediaire",
+      "mode": "rapide",
+      "cases": 2,
+      "qcm": 5,
+      "categories": {
+        "notion": 1,
+        "application": 2,
+        "analyse": 1,
+        "calcul": 1
+      },
+      "subject": "exercices-2026-10-22/08_intermediaire_rapide_sujet.pdf",
+      "correction": "corriges-2026-10-22/08_intermediaire_rapide_corrige.pdf",
+      "entries": 6,
+      "source_questions_sha256": "2f62513b82aea1e1e309002f788760c8737d823d4c1efd5958019da9e7197d87"
+    },
+    {
+      "theme": "08",
+      "level": "intermediaire",
+      "mode": "complet",
+      "cases": 5,
+      "qcm": 10,
+      "categories": {
+        "notion": 1,
+        "application": 3,
+        "analyse": 4,
+        "calcul": 2
+      },
+      "subject": "exercices-2026-10-22/08_intermediaire_complet_sujet.pdf",
+      "correction": "corriges-2026-10-22/08_intermediaire_complet_corrige.pdf",
+      "entries": 10,
+      "source_questions_sha256": "7a42d1f1a4fd1f8db7d930b2b8ca05fbe2cb067b1a7dd2806eca5a3c8eab84a1"
+    },
+    {
+      "theme": "08",
+      "level": "expert",
+      "mode": "rapide",
+      "cases": 2,
+      "qcm": 5,
+      "categories": {
+        "notion": 1,
+        "application": 2,
+        "analyse": 1,
+        "calcul": 1
+      },
+      "subject": "exercices-2026-10-22/08_expert_rapide_sujet.pdf",
+      "correction": "corriges-2026-10-22/08_expert_rapide_corrige.pdf",
+      "entries": 5,
+      "source_questions_sha256": "da78eb277787b5a2e20745cd3d67f43359d047a63cff1915a182ffb405c589e9"
+    },
+    {
+      "theme": "08",
+      "level": "expert",
+      "mode": "complet",
+      "cases": 5,
+      "qcm": 10,
+      "categories": {
+        "notion": 1,
+        "application": 3,
+        "analyse": 4,
+        "calcul": 2
+      },
+      "subject": "exercices-2026-10-22/08_expert_complet_sujet.pdf",
+      "correction": "corriges-2026-10-22/08_expert_complet_corrige.pdf",
+      "entries": 12,
+      "source_questions_sha256": "6a575d13f96812859246bac7a8c52b7e1ca6e5eb0b17c9e1dccf9eedaf91753e"
+    },
+    {
+      "theme": "09",
+      "level": "debutant",
+      "mode": "rapide",
+      "cases": 2,
+      "qcm": 5,
+      "categories": {
+        "notion": 1,
+        "application": 2,
+        "analyse": 1,
+        "calcul": 1
+      },
+      "subject": "exercices-2026-10-22/09_debutant_rapide_sujet.pdf",
+      "correction": "corriges-2026-10-22/09_debutant_rapide_corrige.pdf",
+      "entries": 4,
+      "source_questions_sha256": "0bf86935e151aaa4882cfb2dce6a8bee079a396c88f40ecef2664f186d06eedd"
+    },
+    {
+      "theme": "09",
+      "level": "debutant",
+      "mode": "complet",
+      "cases": 5,
+      "qcm": 10,
+      "categories": {
+        "notion": 4,
+        "application": 3,
+        "analyse": 1,
+        "calcul": 2
+      },
+      "subject": "exercices-2026-10-22/09_debutant_complet_sujet.pdf",
+      "correction": "corriges-2026-10-22/09_debutant_complet_corrige.pdf",
+      "entries": 10,
+      "source_questions_sha256": "02062608dff7a5637062022f320e669064cff2a42dcae7264aafbfa303ba4b38"
+    },
+    {
+      "theme": "09",
+      "level": "intermediaire",
+      "mode": "rapide",
+      "cases": 2,
+      "qcm": 5,
+      "categories": {
+        "notion": 1,
+        "application": 2,
+        "analyse": 1,
+        "calcul": 1
+      },
+      "subject": "exercices-2026-10-22/09_intermediaire_rapide_sujet.pdf",
+      "correction": "corriges-2026-10-22/09_intermediaire_rapide_corrige.pdf",
+      "entries": 5,
+      "source_questions_sha256": "d6c9a3814f744abfd6ca11ad74a6bee1bd582d7da15e4b18d8de6e7af287f55f"
+    },
+    {
+      "theme": "09",
+      "level": "intermediaire",
+      "mode": "complet",
+      "cases": 5,
+      "qcm": 10,
+      "categories": {
+        "notion": 1,
+        "application": 3,
+        "analyse": 4,
+        "calcul": 2
+      },
+      "subject": "exercices-2026-10-22/09_intermediaire_complet_sujet.pdf",
+      "correction": "corriges-2026-10-22/09_intermediaire_complet_corrige.pdf",
+      "entries": 12,
+      "source_questions_sha256": "3104a138b2b472faa2c619379d9910cac7795283cd86fae77734886bf815a59d"
+    },
+    {
+      "theme": "09",
+      "level": "expert",
+      "mode": "rapide",
+      "cases": 2,
+      "qcm": 5,
+      "categories": {
+        "notion": 1,
+        "application": 2,
+        "analyse": 1,
+        "calcul": 1
+      },
+      "subject": "exercices-2026-10-22/09_expert_rapide_sujet.pdf",
+      "correction": "corriges-2026-10-22/09_expert_rapide_corrige.pdf",
+      "entries": 4,
+      "source_questions_sha256": "7bd5c5578f98f86fb64a8c183de3ba8b78051d9118a038361171c6667c367adb"
+    },
+    {
+      "theme": "09",
+      "level": "expert",
+      "mode": "complet",
+      "cases": 5,
+      "qcm": 10,
+      "categories": {
+        "notion": 1,
+        "application": 3,
+        "analyse": 4,
+        "calcul": 2
+      },
+      "subject": "exercices-2026-10-22/09_expert_complet_sujet.pdf",
+      "correction": "corriges-2026-10-22/09_expert_complet_corrige.pdf",
+      "entries": 12,
+      "source_questions_sha256": "fe489bdf56ed1a62174e331b463d0308907fb875eb66adc0d1071eb718c35518"
+    }
+  ],
+  "limitations": "Les taux de paie réels ne sont jamais calculés ; conventions et paramètres réels hors périmètre; contrôle des écritures et QCM documenté."
+}

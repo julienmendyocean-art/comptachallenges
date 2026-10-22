@@ -1,0 +1,10 @@
+COMPTACHALLENGES — R10 du 22 octobre 2026
+
+Cette archive UNIQUE contient toutes les dernières mises à jour R9 et les exercices SIC/PAIE (24 PDF).
+9 thèmes, 3 niveaux, 810 questions de quiz, 247 PDF.
+Nouveaux exercices : deux formats (rapide 2 écritures + 5 questions, complet 5 écritures + 10 questions) pour SIC et PAIE, chacun avec sujet et corrigé aux 3 niveaux.
+
+Aucun déploiement GitHub / Netlify effectué. Duels distants et authentification restent désactivés.
+Les cas de paie utilisent des montants de cotisations et de PAS donnés, non des taux généraux.
+Contrôles techniques et arithmétiques ≠ certification juridique de chaque scénario.
+Ne pas mélanger les fichiers R9 et R10. Déployer le contenu de CE ZIP comme un ensemble après passage des tests CI.

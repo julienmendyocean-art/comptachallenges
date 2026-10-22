@@ -20,6 +20,8 @@ jobs:
         uses: actions/checkout@v4
       - name: Controles de contenu et fichiers
         run: python3 scripts/controle_publication.py
+      - name: Coherence version et documents PDF
+        run: python3 scripts/controle_stabilisation.py
       - name: Syntaxe JavaScript
         shell: bash
         run: |

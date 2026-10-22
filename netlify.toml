@@ -1,3 +1,2 @@
-# Site statique : tous les fichiers publics sont à la racine.
 [build]
-  publish = "."
+publish = "."

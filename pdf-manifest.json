@@ -754,5 +754,17 @@
     "label": "EXO complet complémentaire · corrigé",
     "level": "debutant",
     "path": "corriges-valides/07_complet_debutant.pdf"
+  },
+  {
+    "theme": "08",
+    "label": "Mémo",
+    "level": "tous",
+    "path": "memos/08_memo.pdf"
+  },
+  {
+    "theme": "08",
+    "label": "Carte mentale",
+    "level": "tous",
+    "path": "cartes-mentales/08_carte_mentale.pdf"
   }
 ]

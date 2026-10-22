@@ -1,0 +1,1262 @@
+[
+  {
+    "id": "01-debutant",
+    "fiche": "01",
+    "theme": "Comptes usuels",
+    "level": "Débutant",
+    "questions": [
+      {
+        "n": 1,
+        "q": "Quel compte désigne les fournisseurs d'achats courants ?",
+        "options": {
+          "A": "404",
+          "B": "411",
+          "C": "401",
+          "D": "4191"
+        },
+        "correct": "C",
+        "explanation": "401. Le 401 enregistre les dettes auprès des fournisseurs courants. — Source de référence consultable : document officiel ANC / BOFiP / DGFiP lié à cette question.",
+        "source": "https://www.anc.gouv.fr/files/anc/files/1_Normes_fran%C3%A7aises/Plans%20comptables/2026/Plan-de-comptes-2026.pdf",
+        "review_status": "verification_documentaire_anc_bofip_2026_10_17",
+        "audit_type": "Rapprochement ANC 2026 ou règle BOFiP / calcul arithmétique contrôlé",
+        "reviewed_at": "2026-10-17",
+        "review_method": "contrôle du fond + source officielle + réponse et distracteurs"
+      },
+      {
+        "n": 2,
+        "q": "Quel compte représente une créance sur un client ?",
+        "options": {
+          "A": "401",
+          "B": "421",
+          "C": "44571",
+          "D": "411"
+        },
+        "correct": "D",
+        "explanation": "411. Le compte 411 suit les clients. — Source de référence consultable : document officiel ANC / BOFiP / DGFiP lié à cette question.",
+        "source": "https://www.anc.gouv.fr/files/anc/files/1_Normes_fran%C3%A7aises/Plans%20comptables/2026/Plan-de-comptes-2026.pdf",
+        "review_status": "verification_documentaire_anc_bofip_2026_10_17",
+        "audit_type": "Rapprochement ANC 2026 ou règle BOFiP / calcul arithmétique contrôlé",
+        "reviewed_at": "2026-10-17",
+        "review_method": "contrôle du fond + source officielle + réponse et distracteurs"
+      },
+      {
+        "n": 3,
+        "q": "Quelle classe réunit les charges ?",
+        "options": {
+          "A": "Classe 6",
+          "B": "Classe 7",
+          "C": "Classe 5",
+          "D": "Classe 1"
+        },
+        "correct": "A",
+        "explanation": "Classe 6. Les comptes de charges appartiennent à la classe 6. — Source de référence consultable : document officiel ANC / BOFiP / DGFiP lié à cette question.",
+        "source": "https://www.anc.gouv.fr/files/anc/files/1_Normes_fran%C3%A7aises/Plans%20comptables/2026/Plan-de-comptes-2026.pdf",
+        "review_status": "verification_documentaire_anc_bofip_2026_10_17",
+        "audit_type": "Rapprochement ANC 2026 ou règle BOFiP / calcul arithmétique contrôlé",
+        "reviewed_at": "2026-10-17",
+        "review_method": "contrôle du fond + source officielle + réponse et distracteurs"
+      },
+      {
+        "n": 4,
+        "q": "Quel compte suit la banque en comptabilité ?",
+        "options": {
+          "A": "53",
+          "B": "512",
+          "C": "401",
+          "D": "607"
+        },
+        "correct": "B",
+        "explanation": "512. Le compte bancaire de l'entreprise est le 512. — Source de référence consultable : document officiel ANC / BOFiP / DGFiP lié à cette question.",
+        "source": "https://www.anc.gouv.fr/files/anc/files/1_Normes_fran%C3%A7aises/Plans%20comptables/2026/Plan-de-comptes-2026.pdf",
+        "review_status": "verification_documentaire_anc_bofip_2026_10_17",
+        "audit_type": "Rapprochement ANC 2026 ou règle BOFiP / calcul arithmétique contrôlé",
+        "reviewed_at": "2026-10-17",
+        "review_method": "contrôle du fond + source officielle + réponse et distracteurs"
+      },
+      {
+        "n": 5,
+        "q": "Quel compte est utilisé pour les marchandises achetées en vue de les revendre ?",
+        "options": {
+          "A": "6064",
+          "B": "2183",
+          "C": "607",
+          "D": "707"
+        },
+        "correct": "C",
+        "explanation": "607. Les achats destinés à la revente relèvent du 607. — Source de référence consultable : document officiel ANC / BOFiP / DGFiP lié à cette question.",
+        "source": "https://www.anc.gouv.fr/files/anc/files/1_Normes_fran%C3%A7aises/Plans%20comptables/2026/Plan-de-comptes-2026.pdf",
+        "review_status": "verification_documentaire_anc_bofip_2026_10_17",
+        "audit_type": "Rapprochement ANC 2026 ou règle BOFiP / calcul arithmétique contrôlé",
+        "reviewed_at": "2026-10-17",
+        "review_method": "contrôle du fond + source officielle + réponse et distracteurs"
+      },
+      {
+        "n": 6,
+        "q": "Quelle TVA est habituellement collectée lors d'une vente en France ?",
+        "options": {
+          "A": "44566",
+          "B": "44562",
+          "C": "44567",
+          "D": "44571"
+        },
+        "correct": "D",
+        "explanation": "44571. Le 44571 enregistre la TVA collectée. — Source de référence consultable : document officiel ANC / BOFiP / DGFiP lié à cette question.",
+        "source": "https://www.anc.gouv.fr/files/anc/files/1_Normes_fran%C3%A7aises/Plans%20comptables/2026/Plan-de-comptes-2026.pdf",
+        "review_status": "verification_documentaire_anc_bofip_2026_10_17",
+        "audit_type": "Rapprochement ANC 2026 ou règle BOFiP / calcul arithmétique contrôlé",
+        "reviewed_at": "2026-10-17",
+        "review_method": "contrôle du fond + source officielle + réponse et distracteurs"
+      },
+      {
+        "n": 7,
+        "q": "Lors de l’encaissement par virement bancaire d’une créance client, quel compte est débité ?",
+        "options": {
+          "A": "512",
+          "B": "411",
+          "C": "707",
+          "D": "401"
+        },
+        "correct": "A",
+        "explanation": "Lors d’un virement entrant, on débite le compte 512 Banque et on crédite le compte 411 Clients. Voir le PCG, classes 4 et 5. — Source de référence consultable : document officiel ANC / BOFiP / DGFiP lié à cette question.",
+        "source": "https://www.anc.gouv.fr/files/anc/files/1_Normes_fran%C3%A7aises/Plans%20comptables/2026/Plan-de-comptes-2026.pdf",
+        "review_status": "verification_documentaire_anc_bofip_2026_10_17",
+        "audit_type": "Rapprochement ANC 2026 ou règle BOFiP / calcul arithmétique contrôlé",
+        "reviewed_at": "2026-10-17",
+        "review_method": "contrôle du fond + source officielle + réponse et distracteurs"
+      },
+      {
+        "n": 8,
+        "q": "Quel compte constate une vente de marchandises ?",
+        "options": {
+          "A": "607",
+          "B": "707",
+          "C": "706",
+          "D": "756"
+        },
+        "correct": "B",
+        "explanation": "707. Le 707 correspond aux ventes de marchandises. — Source de référence consultable : document officiel ANC / BOFiP / DGFiP lié à cette question.",
+        "source": "https://www.anc.gouv.fr/files/anc/files/1_Normes_fran%C3%A7aises/Plans%20comptables/2026/Plan-de-comptes-2026.pdf",
+        "review_status": "verification_documentaire_anc_bofip_2026_10_17",
+        "audit_type": "Rapprochement ANC 2026 ou règle BOFiP / calcul arithmétique contrôlé",
+        "reviewed_at": "2026-10-17",
+        "review_method": "contrôle du fond + source officielle + réponse et distracteurs"
+      },
+      {
+        "n": 9,
+        "q": "Quel compte principal du PCG 2026 identifie la caisse ?",
+        "options": {
+          "A": "5300 obligatoire",
+          "B": "512",
+          "C": "53",
+          "D": "580"
+        },
+        "correct": "C",
+        "explanation": "53. Le 53 est le compte officiel ; 530 est une subdivision interne possible. — Source de référence consultable : document officiel ANC / BOFiP / DGFiP lié à cette question.",
+        "source": "https://www.anc.gouv.fr/files/anc/files/1_Normes_fran%C3%A7aises/Plans%20comptables/2026/Plan-de-comptes-2026.pdf",
+        "review_status": "verification_documentaire_anc_bofip_2026_10_17",
+        "audit_type": "Rapprochement ANC 2026 ou règle BOFiP / calcul arithmétique contrôlé",
+        "reviewed_at": "2026-10-17",
+        "review_method": "contrôle du fond + source officielle + réponse et distracteurs"
+      },
+      {
+        "n": 10,
+        "q": "Quel compte de tiers utilise-t-on normalement pour l'achat d'une machine ?",
+        "options": {
+          "A": "401 exclusivement",
+          "B": "411",
+          "C": "4191",
+          "D": "404"
+        },
+        "correct": "D",
+        "explanation": "404. Le 404 représente les fournisseurs d'immobilisations. — Source de référence consultable : document officiel ANC / BOFiP / DGFiP lié à cette question.",
+        "source": "https://www.anc.gouv.fr/files/anc/files/1_Normes_fran%C3%A7aises/Plans%20comptables/2026/Plan-de-comptes-2026.pdf",
+        "review_status": "verification_documentaire_anc_bofip_2026_10_17",
+        "audit_type": "Rapprochement ANC 2026 ou règle BOFiP / calcul arithmétique contrôlé",
+        "reviewed_at": "2026-10-17",
+        "review_method": "contrôle du fond + source officielle + réponse et distracteurs"
+      }
+    ],
+    "desc": "20 questions originales par niveau : QCM corrigés",
+    "file": "01-debutant.html"
+  },
+  {
+    "id": "02-debutant",
+    "fiche": "02",
+    "theme": "Opérations courantes",
+    "level": "Débutant",
+    "questions": [
+      {
+        "n": 1,
+        "q": "Pour une facture fournisseur à crédit, quelle est la règle d'équilibre ?",
+        "options": {
+          "A": "Débits supérieurs aux crédits",
+          "B": "Une seule ligne à crédit",
+          "C": "Le montant HT est égal au TTC",
+          "D": "Total débits = total crédits"
+        },
+        "correct": "D",
+        "explanation": "Total débits = total crédits. Toute écriture doit être équilibrée. — Source de référence consultable : document officiel ANC / BOFiP / DGFiP lié à cette question.",
+        "source": "https://www.anc.gouv.fr/files/anc/files/1_Normes_fran%C3%A7aises/Reglements/Recueils/PCG_janvier2026/PCG--1er-janvier-2026.pdf",
+        "review_status": "verification_documentaire_anc_bofip_2026_10_17",
+        "audit_type": "Rapprochement ANC 2026 ou règle BOFiP / calcul arithmétique contrôlé",
+        "reviewed_at": "2026-10-17",
+        "review_method": "contrôle du fond + source officielle + réponse et distracteurs"
+      },
+      {
+        "n": 2,
+        "q": "Une facture de vente HT 400 € à TVA 20 % a un TTC de :",
+        "options": {
+          "A": "480 €",
+          "B": "420 €",
+          "C": "80 €",
+          "D": "400 €"
+        },
+        "correct": "A",
+        "explanation": "480 €. 400 × 1,20 = 480 €. — Source de référence consultable : document officiel ANC / BOFiP / DGFiP lié à cette question.",
+        "source": "https://www.impots.gouv.fr/international-professionnel/fiscalite-des-entreprises",
+        "review_status": "verification_documentaire_anc_bofip_2026_10_17",
+        "audit_type": "Rapprochement ANC 2026 ou règle BOFiP / calcul arithmétique contrôlé",
+        "reviewed_at": "2026-10-17",
+        "review_method": "contrôle du fond + source officielle + réponse et distracteurs"
+      },
+      {
+        "n": 3,
+        "q": "En journal d'achat d'une marchandise, on débite normalement :",
+        "options": {
+          "A": "707",
+          "B": "607",
+          "C": "401",
+          "D": "512"
+        },
+        "correct": "B",
+        "explanation": "607. Le compte d'achats est une charge débiteur. — Source de référence consultable : document officiel ANC / BOFiP / DGFiP lié à cette question.",
+        "source": "https://www.anc.gouv.fr/files/anc/files/1_Normes_fran%C3%A7aises/Reglements/Recueils/PCG_janvier2026/PCG--1er-janvier-2026.pdf",
+        "review_status": "verification_documentaire_anc_bofip_2026_10_17",
+        "audit_type": "Rapprochement ANC 2026 ou règle BOFiP / calcul arithmétique contrôlé",
+        "reviewed_at": "2026-10-17",
+        "review_method": "contrôle du fond + source officielle + réponse et distracteurs"
+      },
+      {
+        "n": 4,
+        "q": "Pour payer un fournisseur déjà comptabilisé, on :",
+        "options": {
+          "A": "Débite 607 et crédite 512 de nouveau",
+          "B": "Crédite 401 et débite 512",
+          "C": "Débite 401 et crédite 512",
+          "D": "Débite 411 et crédite 512"
+        },
+        "correct": "C",
+        "explanation": "Débite 401 et crédite 512. Le règlement réduit la dette sans dupliquer la charge. — Source de référence consultable : document officiel ANC / BOFiP / DGFiP lié à cette question.",
+        "source": "https://www.anc.gouv.fr/files/anc/files/1_Normes_fran%C3%A7aises/Reglements/Recueils/PCG_janvier2026/PCG--1er-janvier-2026.pdf",
+        "review_status": "verification_documentaire_anc_bofip_2026_10_17",
+        "audit_type": "Rapprochement ANC 2026 ou règle BOFiP / calcul arithmétique contrôlé",
+        "reviewed_at": "2026-10-17",
+        "review_method": "contrôle du fond + source officielle + réponse et distracteurs"
+      },
+      {
+        "n": 5,
+        "q": "Pour encaisser une facture client déjà comptabilisée, on :",
+        "options": {
+          "A": "Débite 707 et crédite 512",
+          "B": "Débite 411 et crédite 512",
+          "C": "Crédite 512 et crédite 411",
+          "D": "Débite 512 et crédite 411"
+        },
+        "correct": "D",
+        "explanation": "Débite 512 et crédite 411. L'encaissement augmente la banque et solde la créance. — Source de référence consultable : document officiel ANC / BOFiP / DGFiP lié à cette question.",
+        "source": "https://www.anc.gouv.fr/files/anc/files/1_Normes_fran%C3%A7aises/Reglements/Recueils/PCG_janvier2026/PCG--1er-janvier-2026.pdf",
+        "review_status": "verification_documentaire_anc_bofip_2026_10_17",
+        "audit_type": "Rapprochement ANC 2026 ou règle BOFiP / calcul arithmétique contrôlé",
+        "reviewed_at": "2026-10-17",
+        "review_method": "contrôle du fond + source officielle + réponse et distracteurs"
+      },
+      {
+        "n": 6,
+        "q": "Une remise commerciale de 10 % sur 1 000 € HT fait un net HT de :",
+        "options": {
+          "A": "900 €",
+          "B": "1 100 €",
+          "C": "100 €",
+          "D": "920 €"
+        },
+        "correct": "A",
+        "explanation": "900 €. 1 000 - 100 = 900 €. — Source de référence consultable : document officiel ANC / BOFiP / DGFiP lié à cette question.",
+        "source": "https://www.anc.gouv.fr/files/anc/files/1_Normes_fran%C3%A7aises/Reglements/Recueils/PCG_janvier2026/PCG--1er-janvier-2026.pdf",
+        "review_status": "verification_documentaire_anc_bofip_2026_10_17",
+        "audit_type": "Rapprochement ANC 2026 ou règle BOFiP / calcul arithmétique contrôlé",
+        "reviewed_at": "2026-10-17",
+        "review_method": "contrôle du fond + source officielle + réponse et distracteurs"
+      },
+      {
+        "n": 7,
+        "q": "Le compte d'escompte accordé par le vendeur est :",
+        "options": {
+          "A": "765",
+          "B": "665",
+          "C": "709",
+          "D": "609"
+        },
+        "correct": "B",
+        "explanation": "665. 665 pour l'escompte financier accordé. — Source de référence consultable : document officiel ANC / BOFiP / DGFiP lié à cette question.",
+        "source": "https://www.anc.gouv.fr/files/anc/files/1_Normes_fran%C3%A7aises/Reglements/Recueils/PCG_janvier2026/PCG--1er-janvier-2026.pdf",
+        "review_status": "verification_documentaire_anc_bofip_2026_10_17",
+        "audit_type": "Rapprochement ANC 2026 ou règle BOFiP / calcul arithmétique contrôlé",
+        "reviewed_at": "2026-10-17",
+        "review_method": "contrôle du fond + source officielle + réponse et distracteurs"
+      },
+      {
+        "n": 8,
+        "q": "Le compte d'escompte obtenu par l'acheteur est :",
+        "options": {
+          "A": "665",
+          "B": "707",
+          "C": "765",
+          "D": "607"
+        },
+        "correct": "C",
+        "explanation": "765. 765 pour l'escompte obtenu. — Source de référence consultable : document officiel ANC / BOFiP / DGFiP lié à cette question.",
+        "source": "https://www.anc.gouv.fr/files/anc/files/1_Normes_fran%C3%A7aises/Reglements/Recueils/PCG_janvier2026/PCG--1er-janvier-2026.pdf",
+        "review_status": "verification_documentaire_anc_bofip_2026_10_17",
+        "audit_type": "Rapprochement ANC 2026 ou règle BOFiP / calcul arithmétique contrôlé",
+        "reviewed_at": "2026-10-17",
+        "review_method": "contrôle du fond + source officielle + réponse et distracteurs"
+      },
+      {
+        "n": 9,
+        "q": "Un avoir client pour retour de biens a habituellement pour effet de :",
+        "options": {
+          "A": "Augmenter la créance client",
+          "B": "Augmenter le chiffre d'affaires",
+          "C": "Créer une seconde banque",
+          "D": "Réduire la créance client"
+        },
+        "correct": "D",
+        "explanation": "Réduire la créance client. Un avoir annule tout ou partie de la vente. — Source de référence consultable : document officiel ANC / BOFiP / DGFiP lié à cette question.",
+        "source": "https://www.anc.gouv.fr/files/anc/files/1_Normes_fran%C3%A7aises/Reglements/Recueils/PCG_janvier2026/PCG--1er-janvier-2026.pdf",
+        "review_status": "verification_documentaire_anc_bofip_2026_10_17",
+        "audit_type": "Rapprochement ANC 2026 ou règle BOFiP / calcul arithmétique contrôlé",
+        "reviewed_at": "2026-10-17",
+        "review_method": "contrôle du fond + source officielle + réponse et distracteurs"
+      },
+      {
+        "n": 10,
+        "q": "Quel compte représente l'acompte reçu du client ?",
+        "options": {
+          "A": "4191",
+          "B": "4091",
+          "C": "44581",
+          "D": "401"
+        },
+        "correct": "A",
+        "explanation": "4191. Le compte 4191 suit les acomptes clients. — Source de référence consultable : document officiel ANC / BOFiP / DGFiP lié à cette question.",
+        "source": "https://www.anc.gouv.fr/files/anc/files/1_Normes_fran%C3%A7aises/Reglements/Recueils/PCG_janvier2026/PCG--1er-janvier-2026.pdf",
+        "review_status": "verification_documentaire_anc_bofip_2026_10_17",
+        "audit_type": "Rapprochement ANC 2026 ou règle BOFiP / calcul arithmétique contrôlé",
+        "reviewed_at": "2026-10-17",
+        "review_method": "contrôle du fond + source officielle + réponse et distracteurs"
+      }
+    ],
+    "desc": "20 questions originales par niveau : QCM corrigés",
+    "file": "02-debutant.html"
+  },
+  {
+    "id": "03-debutant",
+    "fiche": "03",
+    "theme": "Immobilisations",
+    "level": "Débutant",
+    "questions": [
+      {
+        "n": 1,
+        "q": "Le compte du matériel informatique durable est en général :",
+        "options": {
+          "A": "2183",
+          "B": "607",
+          "C": "706",
+          "D": "512"
+        },
+        "correct": "A",
+        "explanation": "2183. Le matériel informatique corporel utilisé durablement est suivi en 2183. — Source de référence consultable : document officiel ANC / BOFiP / DGFiP lié à cette question.",
+        "source": "https://www.anc.gouv.fr/files/anc/files/1_Normes_fran%C3%A7aises/Plans%20comptables/2026/Plan-de-comptes-2026.pdf",
+        "review_status": "verification_documentaire_anc_bofip_2026_10_17",
+        "audit_type": "Rapprochement ANC 2026 ou règle BOFiP / calcul arithmétique contrôlé",
+        "reviewed_at": "2026-10-17",
+        "review_method": "contrôle du fond + source officielle + réponse et distracteurs"
+      },
+      {
+        "n": 2,
+        "q": "Quel compte de tiers porte la dette d'achat d'une immobilisation ?",
+        "options": {
+          "A": "411",
+          "B": "404",
+          "C": "401 toujours",
+          "D": "4191"
+        },
+        "correct": "B",
+        "explanation": "404. Les fournisseurs d'immobilisations sont suivis au 404. — Source de référence consultable : document officiel ANC / BOFiP / DGFiP lié à cette question.",
+        "source": "https://www.anc.gouv.fr/files/anc/files/1_Normes_fran%C3%A7aises/Plans%20comptables/2026/Plan-de-comptes-2026.pdf",
+        "review_status": "verification_documentaire_anc_bofip_2026_10_17",
+        "audit_type": "Rapprochement ANC 2026 ou règle BOFiP / calcul arithmétique contrôlé",
+        "reviewed_at": "2026-10-17",
+        "review_method": "contrôle du fond + source officielle + réponse et distracteurs"
+      },
+      {
+        "n": 3,
+        "q": "Quelle TVA déductible accompagne un achat de machine éligible ?",
+        "options": {
+          "A": "44566 systématiquement",
+          "B": "44571",
+          "C": "44562",
+          "D": "44551"
+        },
+        "correct": "C",
+        "explanation": "44562. 44562 concerne les acquisitions d'immobilisations. — Source de référence consultable : document officiel ANC / BOFiP / DGFiP lié à cette question.",
+        "source": "https://www.anc.gouv.fr/files/anc/files/1_Normes_fran%C3%A7aises/Plans%20comptables/2026/Plan-de-comptes-2026.pdf",
+        "review_status": "verification_documentaire_anc_bofip_2026_10_17",
+        "audit_type": "Rapprochement ANC 2026 ou règle BOFiP / calcul arithmétique contrôlé",
+        "reviewed_at": "2026-10-17",
+        "review_method": "contrôle du fond + source officielle + réponse et distracteurs"
+      },
+      {
+        "n": 4,
+        "q": "Dans une dotation corporelle, le compte de charge est :",
+        "options": {
+          "A": "28183",
+          "B": "757",
+          "C": "404",
+          "D": "68112"
+        },
+        "correct": "D",
+        "explanation": "68112. 68112 suit les dotations aux amortissements corporels. — Source de référence consultable : document officiel ANC / BOFiP / DGFiP lié à cette question.",
+        "source": "https://www.anc.gouv.fr/files/anc/files/1_Normes_fran%C3%A7aises/Plans%20comptables/2026/Plan-de-comptes-2026.pdf",
+        "review_status": "verification_documentaire_anc_bofip_2026_10_17",
+        "audit_type": "Rapprochement ANC 2026 ou règle BOFiP / calcul arithmétique contrôlé",
+        "reviewed_at": "2026-10-17",
+        "review_method": "contrôle du fond + source officielle + réponse et distracteurs"
+      },
+      {
+        "n": 5,
+        "q": "Dans une dotation informatique, le compte d'amortissement cumulé est :",
+        "options": {
+          "A": "28183",
+          "B": "2183",
+          "C": "68112",
+          "D": "707"
+        },
+        "correct": "A",
+        "explanation": "28183. 28183 est le correctif de l'actif informatique. — Source de référence consultable : document officiel ANC / BOFiP / DGFiP lié à cette question.",
+        "source": "https://www.anc.gouv.fr/files/anc/files/1_Normes_fran%C3%A7aises/Plans%20comptables/2026/Plan-de-comptes-2026.pdf",
+        "review_status": "verification_documentaire_anc_bofip_2026_10_17",
+        "audit_type": "Rapprochement ANC 2026 ou règle BOFiP / calcul arithmétique contrôlé",
+        "reviewed_at": "2026-10-17",
+        "review_method": "contrôle du fond + source officielle + réponse et distracteurs"
+      },
+      {
+        "n": 6,
+        "q": "La valeur nette comptable est :",
+        "options": {
+          "A": "Prix TTC payé",
+          "B": "Coût brut - amortissements - dépréciations",
+          "C": "Prix brut + amortissements",
+          "D": "Prix de revente estimé"
+        },
+        "correct": "B",
+        "explanation": "Coût brut - amortissements - dépréciations. La VNC tient compte des consommations et pertes de valeur comptabilisées. — Source de référence consultable : document officiel ANC / BOFiP / DGFiP lié à cette question.",
+        "source": "https://www.anc.gouv.fr/files/anc/files/1_Normes_fran%C3%A7aises/Plans%20comptables/2026/Plan-de-comptes-2026.pdf",
+        "review_status": "verification_documentaire_anc_bofip_2026_10_17",
+        "audit_type": "Rapprochement ANC 2026 ou règle BOFiP / calcul arithmétique contrôlé",
+        "reviewed_at": "2026-10-17",
+        "review_method": "contrôle du fond + source officielle + réponse et distracteurs"
+      },
+      {
+        "n": 7,
+        "q": "Une machine acquise pour être utilisée durablement pendant cinq ans pour l’activité de l’entreprise est normalement classée en :",
+        "options": {
+          "A": "Une vente",
+          "B": "Toujours une charge 607",
+          "C": "Une immobilisation",
+          "D": "Un avoir"
+        },
+        "correct": "C",
+        "explanation": "Une immobilisation. Un actif durable se classe en immobilisation sous conditions. — Source de référence consultable : document officiel ANC / BOFiP / DGFiP lié à cette question.",
+        "source": "https://www.anc.gouv.fr/files/anc/files/1_Normes_fran%C3%A7aises/Plans%20comptables/2026/Plan-de-comptes-2026.pdf",
+        "review_status": "verification_documentaire_anc_bofip_2026_10_17",
+        "audit_type": "Rapprochement ANC 2026 ou règle BOFiP / calcul arithmétique contrôlé",
+        "reviewed_at": "2026-10-17",
+        "review_method": "contrôle du fond + source officielle + réponse et distracteurs"
+      },
+      {
+        "n": 9,
+        "q": "Le compte 238 concerne :",
+        "options": {
+          "A": "Les avances sur immobilisations corporelles",
+          "B": "Les acomptes fournisseurs ordinaires",
+          "C": "Les clients",
+          "D": "La TVA sur acompte"
+        },
+        "correct": "A",
+        "explanation": "Les avances sur immobilisations corporelles. 238 pour les avances sur commandes d'immobilisations corporelles. — Source de référence consultable : document officiel ANC / BOFiP / DGFiP lié à cette question.",
+        "source": "https://www.anc.gouv.fr/files/anc/files/1_Normes_fran%C3%A7aises/Plans%20comptables/2026/Plan-de-comptes-2026.pdf",
+        "review_status": "verification_documentaire_anc_bofip_2026_10_17",
+        "audit_type": "Rapprochement ANC 2026 ou règle BOFiP / calcul arithmétique contrôlé",
+        "reviewed_at": "2026-10-17",
+        "review_method": "contrôle du fond + source officielle + réponse et distracteurs"
+      },
+      {
+        "n": 11,
+        "q": "Une machine a une base amortissable de 4 000 € (aucune valeur résiduelle), amortie linéairement sur cinq années complètes : quelle est la dotation annuelle ?",
+        "options": {
+          "A": "840 €",
+          "B": "720 €",
+          "C": "960 €",
+          "D": "800 €"
+        },
+        "correct": "D",
+        "explanation": "Annuité = coût amortissable / 5. — Source de référence consultable : document officiel ANC / BOFiP / DGFiP lié à cette question.",
+        "source": "https://www.anc.gouv.fr/files/anc/files/1_Normes_fran%C3%A7aises/Plans%20comptables/2026/Plan-de-comptes-2026.pdf",
+        "review_status": "verification_documentaire_anc_bofip_2026_10_17",
+        "audit_type": "Rapprochement ANC 2026 ou règle BOFiP / calcul arithmétique contrôlé",
+        "reviewed_at": "2026-10-17",
+        "review_method": "contrôle du fond + source officielle + réponse et distracteurs"
+      },
+      {
+        "n": 13,
+        "q": "Machine brute 2 400 € et amortissements cumulés 1 600 €, sans dépréciation. VNC ?",
+        "options": {
+          "A": "720 €",
+          "B": "840 €",
+          "C": "800 €",
+          "D": "960 €"
+        },
+        "correct": "C",
+        "explanation": "VNC = coût brut - amortissements cumulés. — Source de référence consultable : document officiel ANC / BOFiP / DGFiP lié à cette question.",
+        "source": "https://www.anc.gouv.fr/files/anc/files/1_Normes_fran%C3%A7aises/Plans%20comptables/2026/Plan-de-comptes-2026.pdf",
+        "review_status": "verification_documentaire_anc_bofip_2026_10_17",
+        "audit_type": "Rapprochement ANC 2026 ou règle BOFiP / calcul arithmétique contrôlé",
+        "reviewed_at": "2026-10-17",
+        "review_method": "contrôle du fond + source officielle + réponse et distracteurs"
+      }
+    ],
+    "desc": "20 questions originales par niveau : QCM corrigés",
+    "file": "03-debutant.html"
+  },
+  {
+    "id": "04-debutant",
+    "fiche": "04",
+    "theme": "TVA",
+    "level": "Débutant",
+    "questions": [
+      {
+        "n": 1,
+        "q": "Pour une livraison ponctuelle de biens imposable en France, sans acompte et hors régime particulier, quand la TVA est-elle en principe exigible ?",
+        "options": {
+          "A": "Au règlement bancaire exclusivement",
+          "B": "À la livraison",
+          "C": "À la commande",
+          "D": "Lors du lettrage client"
+        },
+        "correct": "B",
+        "explanation": "À la livraison. La livraison est le fait générateur et le principe d'exigibilité des ventes de biens. — Source de référence consultable : document officiel ANC / BOFiP / DGFiP lié à cette question.",
+        "source": "https://bofip.impots.gouv.fr/bofip/283-PGP.html/identifiant=BOI-TVA-BASE-20-20-20120912",
+        "review_status": "verification_documentaire_anc_bofip_2026_10_17",
+        "audit_type": "Rapprochement ANC 2026 ou règle BOFiP / calcul arithmétique contrôlé",
+        "reviewed_at": "2026-10-17",
+        "review_method": "contrôle du fond + source officielle + réponse et distracteurs"
+      },
+      {
+        "n": 2,
+        "q": "Pour une prestation de services ordinaire imposable en France, sans option sur les débits ni régime dérogatoire, quel principe d’exigibilité s’applique ?",
+        "options": {
+          "A": "TVA sur débits obligatoire",
+          "B": "Aucune TVA",
+          "C": "TVA sur encaissements",
+          "D": "TVA sur stocks"
+        },
+        "correct": "C",
+        "explanation": "En principe, la TVA des prestations est exigible à l’encaissement des acomptes ou du prix, sauf option sur les débits ou régime spécifique. Source : DGFiP/BOFiP, CGI art. 269.",
+        "source": "https://bofip.impots.gouv.fr/bofip/127-PGP.html/identifiant=BOI-TVA-BASE-20-40-20230118",
+        "review_status": "verification_documentaire_anc_bofip_2026_10_17",
+        "audit_type": "Rapprochement ANC 2026 ou règle BOFiP / calcul arithmétique contrôlé",
+        "reviewed_at": "2026-10-17",
+        "review_method": "contrôle du fond + source officielle + réponse et distracteurs"
+      },
+      {
+        "n": 4,
+        "q": "La TVA sur une facture de service de 500 € HT à 20 % est :",
+        "options": {
+          "A": "100 €",
+          "B": "500 €",
+          "C": "600 €",
+          "D": "20 €"
+        },
+        "correct": "A",
+        "explanation": "100 €. 500 × 20 % = 100. — Source de référence consultable : document officiel ANC / BOFiP / DGFiP lié à cette question.",
+        "source": "https://www.impots.gouv.fr/international-professionnel/fiscalite-des-entreprises",
+        "review_status": "verification_documentaire_anc_bofip_2026_10_17",
+        "audit_type": "Rapprochement ANC 2026 ou règle BOFiP / calcul arithmétique contrôlé",
+        "reviewed_at": "2026-10-17",
+        "review_method": "contrôle du fond + source officielle + réponse et distracteurs"
+      },
+      {
+        "n": 5,
+        "q": "La TVA sur une acquisition de machine éligible relève de :",
+        "options": {
+          "A": "44566 systématiquement",
+          "B": "44562",
+          "C": "44571",
+          "D": "44551"
+        },
+        "correct": "B",
+        "explanation": "44562. 44562 est la TVA déductible sur immobilisations. — Source de référence consultable : document officiel ANC / BOFiP / DGFiP lié à cette question.",
+        "source": "https://www.anc.gouv.fr/files/anc/files/1_Normes_fran%C3%A7aises/Plans%20comptables/2026/Plan-de-comptes-2026.pdf",
+        "review_status": "verification_documentaire_anc_bofip_2026_10_17",
+        "audit_type": "Rapprochement ANC 2026 ou règle BOFiP / calcul arithmétique contrôlé",
+        "reviewed_at": "2026-10-17",
+        "review_method": "contrôle du fond + source officielle + réponse et distracteurs"
+      },
+      {
+        "n": 6,
+        "q": "La TVA sur un achat courant déductible relève de :",
+        "options": {
+          "A": "44571",
+          "B": "44562 obligatoirement",
+          "C": "44566",
+          "D": "44583"
+        },
+        "correct": "C",
+        "explanation": "44566. 44566 pour les autres biens et services. — Source de référence consultable : document officiel ANC / BOFiP / DGFiP lié à cette question.",
+        "source": "https://www.anc.gouv.fr/files/anc/files/1_Normes_fran%C3%A7aises/Plans%20comptables/2026/Plan-de-comptes-2026.pdf",
+        "review_status": "verification_documentaire_anc_bofip_2026_10_17",
+        "audit_type": "Rapprochement ANC 2026 ou règle BOFiP / calcul arithmétique contrôlé",
+        "reviewed_at": "2026-10-17",
+        "review_method": "contrôle du fond + source officielle + réponse et distracteurs"
+      },
+      {
+        "n": 7,
+        "q": "Sur une vente imposable, la TVA collectée est suivie en :",
+        "options": {
+          "A": "44566",
+          "B": "44567",
+          "C": "44562",
+          "D": "44571"
+        },
+        "correct": "D",
+        "explanation": "44571. 44571 est le compte de TVA collectée. — Source de référence consultable : document officiel ANC / BOFiP / DGFiP lié à cette question.",
+        "source": "https://www.anc.gouv.fr/files/anc/files/1_Normes_fran%C3%A7aises/Plans%20comptables/2026/Plan-de-comptes-2026.pdf",
+        "review_status": "verification_documentaire_anc_bofip_2026_10_17",
+        "audit_type": "Rapprochement ANC 2026 ou règle BOFiP / calcul arithmétique contrôlé",
+        "reviewed_at": "2026-10-17",
+        "review_method": "contrôle du fond + source officielle + réponse et distracteurs"
+      },
+      {
+        "n": 8,
+        "q": "Le compte 44551 correspond :",
+        "options": {
+          "A": "À la TVA nette à décaisser",
+          "B": "À la TVA sur FNP",
+          "C": "À la TVA déductible sur immobilisations",
+          "D": "À une vente exonérée"
+        },
+        "correct": "A",
+        "explanation": "À la TVA nette à décaisser. 44551 est la TVA due après liquidation. — Source de référence consultable : document officiel ANC / BOFiP / DGFiP lié à cette question.",
+        "source": "https://www.anc.gouv.fr/files/anc/files/1_Normes_fran%C3%A7aises/Plans%20comptables/2026/Plan-de-comptes-2026.pdf",
+        "review_status": "verification_documentaire_anc_bofip_2026_10_17",
+        "audit_type": "Rapprochement ANC 2026 ou règle BOFiP / calcul arithmétique contrôlé",
+        "reviewed_at": "2026-10-17",
+        "review_method": "contrôle du fond + source officielle + réponse et distracteurs"
+      },
+      {
+        "n": 9,
+        "q": "Le compte 44567 correspond :",
+        "options": {
+          "A": "À la dette client",
+          "B": "Au crédit de TVA à reporter",
+          "C": "À la TVA collectée sur ventes",
+          "D": "À un paiement de fournisseur"
+        },
+        "correct": "B",
+        "explanation": "Au crédit de TVA à reporter. 44567 suit le crédit à reporter. — Source de référence consultable : document officiel ANC / BOFiP / DGFiP lié à cette question.",
+        "source": "https://www.anc.gouv.fr/files/anc/files/1_Normes_fran%C3%A7aises/Plans%20comptables/2026/Plan-de-comptes-2026.pdf",
+        "review_status": "verification_documentaire_anc_bofip_2026_10_17",
+        "audit_type": "Rapprochement ANC 2026 ou règle BOFiP / calcul arithmétique contrôlé",
+        "reviewed_at": "2026-10-17",
+        "review_method": "contrôle du fond + source officielle + réponse et distracteurs"
+      },
+      {
+        "n": 10,
+        "q": "En prestation de service sur encaissements, un acompte encaissé :",
+        "options": {
+          "A": "Ne concerne jamais la TVA",
+          "B": "Rend toute la TVA de la facture future exigible",
+          "C": "Rend exigible la TVA sur la part encaissée",
+          "D": "Est toujours enregistré en 44581"
+        },
+        "correct": "C",
+        "explanation": "Rend exigible la TVA sur la part encaissée. Les acomptes sur services déclenchent l'exigibilité sur leur montant. — Source de référence consultable : document officiel ANC / BOFiP / DGFiP lié à cette question.",
+        "source": "https://bofip.impots.gouv.fr/bofip/283-PGP.html/identifiant=BOI-TVA-BASE-20-20-20120912",
+        "review_status": "verification_documentaire_anc_bofip_2026_10_17",
+        "audit_type": "Rapprochement ANC 2026 ou règle BOFiP / calcul arithmétique contrôlé",
+        "reviewed_at": "2026-10-17",
+        "review_method": "contrôle du fond + source officielle + réponse et distracteurs"
+      },
+      {
+        "n": 11,
+        "q": "Vente taxable 500 € HT à 20 %. TVA collectée ?",
+        "options": {
+          "A": "100 €",
+          "B": "120 €",
+          "C": "105 €",
+          "D": "90 €"
+        },
+        "correct": "A",
+        "explanation": "TVA collectée = HT × 20 %. — Source de référence consultable : document officiel ANC / BOFiP / DGFiP lié à cette question.",
+        "source": "https://www.impots.gouv.fr/international-professionnel/fiscalite-des-entreprises",
+        "review_status": "verification_documentaire_anc_bofip_2026_10_17",
+        "audit_type": "Rapprochement ANC 2026 ou règle BOFiP / calcul arithmétique contrôlé",
+        "reviewed_at": "2026-10-17",
+        "review_method": "contrôle du fond + source officielle + réponse et distracteurs"
+      }
+    ],
+    "desc": "20 questions originales par niveau : QCM corrigés",
+    "file": "04-debutant.html"
+  },
+  {
+    "id": "05-debutant",
+    "fiche": "05",
+    "theme": "Lettrage et rapprochement",
+    "level": "Débutant",
+    "questions": [
+      {
+        "n": 1,
+        "q": "Le lettrage sert d'abord à :",
+        "options": {
+          "A": "Calculer l'amortissement",
+          "B": "Éditer la déclaration de TVA",
+          "C": "Associer factures, avoirs et règlements d'un même tiers",
+          "D": "Mesurer le stock"
+        },
+        "correct": "C",
+        "explanation": "Associer factures, avoirs et règlements d'un même tiers. Le lettrage justifie les soldes des comptes de tiers. — Source de référence consultable : document officiel ANC / BOFiP / DGFiP lié à cette question.",
+        "source": "https://www.anc.gouv.fr/files/anc/files/1_Normes_fran%C3%A7aises/Reglements/Recueils/PCG_janvier2026/PCG--1er-janvier-2026.pdf",
+        "review_status": "verification_documentaire_anc_bofip_2026_10_17",
+        "audit_type": "Rapprochement ANC 2026 ou règle BOFiP / calcul arithmétique contrôlé",
+        "reviewed_at": "2026-10-17",
+        "review_method": "contrôle du fond + source officielle + réponse et distracteurs"
+      },
+      {
+        "n": 2,
+        "q": "Le rapprochement bancaire confronte :",
+        "options": {
+          "A": "401 et 707",
+          "B": "641 et 645",
+          "C": "2183 et 28183",
+          "D": "Compte 512 et relevé bancaire"
+        },
+        "correct": "D",
+        "explanation": "Compte 512 et relevé bancaire. Il cherche les écarts entre la comptabilité et la banque. — Source de référence consultable : document officiel ANC / BOFiP / DGFiP lié à cette question.",
+        "source": "https://www.anc.gouv.fr/files/anc/files/1_Normes_fran%C3%A7aises/Reglements/Recueils/PCG_janvier2026/PCG--1er-janvier-2026.pdf",
+        "review_status": "verification_documentaire_anc_bofip_2026_10_17",
+        "audit_type": "Rapprochement ANC 2026 ou règle BOFiP / calcul arithmétique contrôlé",
+        "reviewed_at": "2026-10-17",
+        "review_method": "contrôle du fond + source officielle + réponse et distracteurs"
+      },
+      {
+        "n": 3,
+        "q": "Quel compte rapproche-t-on avec le relevé bancaire ?",
+        "options": {
+          "A": "512",
+          "B": "411",
+          "C": "607",
+          "D": "44571"
+        },
+        "correct": "A",
+        "explanation": "512. Le 512 représente la banque dans le grand-livre. — Source de référence consultable : document officiel ANC / BOFiP / DGFiP lié à cette question.",
+        "source": "https://www.anc.gouv.fr/files/anc/files/1_Normes_fran%C3%A7aises/Reglements/Recueils/PCG_janvier2026/PCG--1er-janvier-2026.pdf",
+        "review_status": "verification_documentaire_anc_bofip_2026_10_17",
+        "audit_type": "Rapprochement ANC 2026 ou règle BOFiP / calcul arithmétique contrôlé",
+        "reviewed_at": "2026-10-17",
+        "review_method": "contrôle du fond + source officielle + réponse et distracteurs"
+      },
+      {
+        "n": 4,
+        "q": "Une facture 500 € et un paiement 500 € sur le même 411 sont :",
+        "options": {
+          "A": "Une erreur forcément",
+          "B": "Lettrables intégralement",
+          "C": "Une avance à mettre en 44581",
+          "D": "Non lettrables avant bilan"
+        },
+        "correct": "B",
+        "explanation": "Lettrables intégralement. Le solde du groupe est nul et les pièces sont associées. — Source de référence consultable : document officiel ANC / BOFiP / DGFiP lié à cette question.",
+        "source": "https://www.anc.gouv.fr/files/anc/files/1_Normes_fran%C3%A7aises/Reglements/Recueils/PCG_janvier2026/PCG--1er-janvier-2026.pdf",
+        "review_status": "verification_documentaire_anc_bofip_2026_10_17",
+        "audit_type": "Rapprochement ANC 2026 ou règle BOFiP / calcul arithmétique contrôlé",
+        "reviewed_at": "2026-10-17",
+        "review_method": "contrôle du fond + source officielle + réponse et distracteurs"
+      },
+      {
+        "n": 5,
+        "q": "Une facture fournisseur se présente usuellement au 401 :",
+        "options": {
+          "A": "Au débit",
+          "B": "En classe 7",
+          "C": "Au crédit",
+          "D": "Sans compte de tiers"
+        },
+        "correct": "C",
+        "explanation": "Au crédit. La dette fournisseur crédite le 401. — Source de référence consultable : document officiel ANC / BOFiP / DGFiP lié à cette question.",
+        "source": "https://www.anc.gouv.fr/files/anc/files/1_Normes_fran%C3%A7aises/Reglements/Recueils/PCG_janvier2026/PCG--1er-janvier-2026.pdf",
+        "review_status": "verification_documentaire_anc_bofip_2026_10_17",
+        "audit_type": "Rapprochement ANC 2026 ou règle BOFiP / calcul arithmétique contrôlé",
+        "reviewed_at": "2026-10-17",
+        "review_method": "contrôle du fond + source officielle + réponse et distracteurs"
+      },
+      {
+        "n": 6,
+        "q": "Un paiement fournisseur est normalement passé :",
+        "options": {
+          "A": "D 512 / C 401",
+          "B": "D 607 / C 707",
+          "C": "D 411 / C 512",
+          "D": "D 401 / C 512"
+        },
+        "correct": "D",
+        "explanation": "D 401 / C 512. On diminue la dette et la banque. — Source de référence consultable : document officiel ANC / BOFiP / DGFiP lié à cette question.",
+        "source": "https://www.anc.gouv.fr/files/anc/files/1_Normes_fran%C3%A7aises/Reglements/Recueils/PCG_janvier2026/PCG--1er-janvier-2026.pdf",
+        "review_status": "verification_documentaire_anc_bofip_2026_10_17",
+        "audit_type": "Rapprochement ANC 2026 ou règle BOFiP / calcul arithmétique contrôlé",
+        "reviewed_at": "2026-10-17",
+        "review_method": "contrôle du fond + source officielle + réponse et distracteurs"
+      },
+      {
+        "n": 7,
+        "q": "Une recette bancaire enregistrée en comptabilité a pour sens 512 :",
+        "options": {
+          "A": "Débit",
+          "B": "Crédit",
+          "C": "Ni débit ni crédit",
+          "D": "Compte 53 seulement"
+        },
+        "correct": "A",
+        "explanation": "Débit. L'encaissement augmente la banque comptable. — Source de référence consultable : document officiel ANC / BOFiP / DGFiP lié à cette question.",
+        "source": "https://www.anc.gouv.fr/files/anc/files/1_Normes_fran%C3%A7aises/Reglements/Recueils/PCG_janvier2026/PCG--1er-janvier-2026.pdf",
+        "review_status": "verification_documentaire_anc_bofip_2026_10_17",
+        "audit_type": "Rapprochement ANC 2026 ou règle BOFiP / calcul arithmétique contrôlé",
+        "reviewed_at": "2026-10-17",
+        "review_method": "contrôle du fond + source officielle + réponse et distracteurs"
+      },
+      {
+        "n": 8,
+        "q": "Sur un relevé bancaire vu du côté de la banque, comment est normalement indiqué un virement reçu par le client ?",
+        "options": {
+          "A": "Au débit du relevé",
+          "B": "Au crédit du relevé",
+          "C": "Au crédit de 401",
+          "D": "Au débit de 607"
+        },
+        "correct": "B",
+        "explanation": "Au crédit du relevé. Le relevé exprime le point de vue de la banque. — Source de référence consultable : document officiel ANC / BOFiP / DGFiP lié à cette question.",
+        "source": "https://www.anc.gouv.fr/files/anc/files/1_Normes_fran%C3%A7aises/Reglements/Recueils/PCG_janvier2026/PCG--1er-janvier-2026.pdf",
+        "review_status": "verification_documentaire_anc_bofip_2026_10_17",
+        "audit_type": "Rapprochement ANC 2026 ou règle BOFiP / calcul arithmétique contrôlé",
+        "reviewed_at": "2026-10-17",
+        "review_method": "contrôle du fond + source officielle + réponse et distracteurs"
+      },
+      {
+        "n": 9,
+        "q": "Un chèque émis et saisi dans le 512 non encore débité sur relevé est :",
+        "options": {
+          "A": "Une erreur de charge",
+          "B": "Une facture à établir",
+          "C": "Une opération en transit",
+          "D": "Une TVA déductible"
+        },
+        "correct": "C",
+        "explanation": "Une opération en transit. On le maintient dans l'état de rapprochement. — Source de référence consultable : document officiel ANC / BOFiP / DGFiP lié à cette question.",
+        "source": "https://www.anc.gouv.fr/files/anc/files/1_Normes_fran%C3%A7aises/Reglements/Recueils/PCG_janvier2026/PCG--1er-janvier-2026.pdf",
+        "review_status": "verification_documentaire_anc_bofip_2026_10_17",
+        "audit_type": "Rapprochement ANC 2026 ou règle BOFiP / calcul arithmétique contrôlé",
+        "reviewed_at": "2026-10-17",
+        "review_method": "contrôle du fond + source officielle + réponse et distracteurs"
+      },
+      {
+        "n": 10,
+        "q": "Des frais bancaires réels non comptabilisés doivent être :",
+        "options": {
+          "A": "Effacés du relevé",
+          "B": "Lettrés en 411",
+          "C": "Ignorés définitivement",
+          "D": "Enregistrés en comptabilité sur justificatif"
+        },
+        "correct": "D",
+        "explanation": "Enregistrés en comptabilité sur justificatif. Les omissions du 512 doivent être régularisées. — Source de référence consultable : document officiel ANC / BOFiP / DGFiP lié à cette question.",
+        "source": "https://www.anc.gouv.fr/files/anc/files/1_Normes_fran%C3%A7aises/Reglements/Recueils/PCG_janvier2026/PCG--1er-janvier-2026.pdf",
+        "review_status": "verification_documentaire_anc_bofip_2026_10_17",
+        "audit_type": "Rapprochement ANC 2026 ou règle BOFiP / calcul arithmétique contrôlé",
+        "reviewed_at": "2026-10-17",
+        "review_method": "contrôle du fond + source officielle + réponse et distracteurs"
+      }
+    ],
+    "desc": "20 questions originales par niveau : QCM corrigés",
+    "file": "05-debutant.html"
+  },
+  {
+    "id": "06-debutant",
+    "fiche": "06",
+    "theme": "Compte de résultat",
+    "level": "Débutant",
+    "questions": [
+      {
+        "n": 1,
+        "q": "Le compte de résultat présente :",
+        "options": {
+          "A": "Les actifs et dettes à une date",
+          "B": "Les mouvements de caisse uniquement",
+          "C": "Les créances clients uniquement",
+          "D": "Les charges et produits d'une période"
+        },
+        "correct": "D",
+        "explanation": "Les charges et produits d'une période. Le résultat mesure la performance d'un exercice. — Source de référence consultable : document officiel ANC / BOFiP / DGFiP lié à cette question.",
+        "source": "https://www.anc.gouv.fr/files/anc/files/1_Normes_fran%C3%A7aises/Plans%20comptables/2026/Plan-de-comptes-2026.pdf",
+        "review_status": "verification_documentaire_anc_bofip_2026_10_17",
+        "audit_type": "Rapprochement ANC 2026 ou règle BOFiP / calcul arithmétique contrôlé",
+        "reviewed_at": "2026-10-17",
+        "review_method": "contrôle du fond + source officielle + réponse et distracteurs"
+      },
+      {
+        "n": 2,
+        "q": "Un bénéfice apparaît quand :",
+        "options": {
+          "A": "Produits supérieurs aux charges",
+          "B": "Charges supérieures aux produits",
+          "C": "Actif inférieur au passif",
+          "D": "Banque négative obligatoirement"
+        },
+        "correct": "A",
+        "explanation": "Produits supérieurs aux charges. Résultat = produits - charges. — Source de référence consultable : document officiel ANC / BOFiP / DGFiP lié à cette question.",
+        "source": "https://www.anc.gouv.fr/files/anc/files/1_Normes_fran%C3%A7aises/Plans%20comptables/2026/Plan-de-comptes-2026.pdf",
+        "review_status": "verification_documentaire_anc_bofip_2026_10_17",
+        "audit_type": "Rapprochement ANC 2026 ou règle BOFiP / calcul arithmétique contrôlé",
+        "reviewed_at": "2026-10-17",
+        "review_method": "contrôle du fond + source officielle + réponse et distracteurs"
+      },
+      {
+        "n": 3,
+        "q": "Une perte apparaît quand :",
+        "options": {
+          "A": "Produits supérieurs aux charges",
+          "B": "Charges supérieures aux produits",
+          "C": "TVA collectée supérieure à déductible",
+          "D": "Banque positive"
+        },
+        "correct": "B",
+        "explanation": "Charges supérieures aux produits. Une perte traduit un résultat net négatif. — Source de référence consultable : document officiel ANC / BOFiP / DGFiP lié à cette question.",
+        "source": "https://www.anc.gouv.fr/files/anc/files/1_Normes_fran%C3%A7aises/Plans%20comptables/2026/Plan-de-comptes-2026.pdf",
+        "review_status": "verification_documentaire_anc_bofip_2026_10_17",
+        "audit_type": "Rapprochement ANC 2026 ou règle BOFiP / calcul arithmétique contrôlé",
+        "reviewed_at": "2026-10-17",
+        "review_method": "contrôle du fond + source officielle + réponse et distracteurs"
+      },
+      {
+        "n": 4,
+        "q": "Les charges comptables relèvent de :",
+        "options": {
+          "A": "Classe 7",
+          "B": "Classe 2",
+          "C": "Classe 6",
+          "D": "Classe 4"
+        },
+        "correct": "C",
+        "explanation": "Classe 6. La classe 6 retrace les charges. — Source de référence consultable : document officiel ANC / BOFiP / DGFiP lié à cette question.",
+        "source": "https://www.anc.gouv.fr/files/anc/files/1_Normes_fran%C3%A7aises/Plans%20comptables/2026/Plan-de-comptes-2026.pdf",
+        "review_status": "verification_documentaire_anc_bofip_2026_10_17",
+        "audit_type": "Rapprochement ANC 2026 ou règle BOFiP / calcul arithmétique contrôlé",
+        "reviewed_at": "2026-10-17",
+        "review_method": "contrôle du fond + source officielle + réponse et distracteurs"
+      },
+      {
+        "n": 5,
+        "q": "Les produits comptables relèvent de :",
+        "options": {
+          "A": "Classe 5",
+          "B": "Classe 3",
+          "C": "Classe 1",
+          "D": "Classe 7"
+        },
+        "correct": "D",
+        "explanation": "Classe 7. La classe 7 retrace les produits. — Source de référence consultable : document officiel ANC / BOFiP / DGFiP lié à cette question.",
+        "source": "https://www.anc.gouv.fr/files/anc/files/1_Normes_fran%C3%A7aises/Plans%20comptables/2026/Plan-de-comptes-2026.pdf",
+        "review_status": "verification_documentaire_anc_bofip_2026_10_17",
+        "audit_type": "Rapprochement ANC 2026 ou règle BOFiP / calcul arithmétique contrôlé",
+        "reviewed_at": "2026-10-17",
+        "review_method": "contrôle du fond + source officielle + réponse et distracteurs"
+      },
+      {
+        "n": 6,
+        "q": "Le compte 707 est :",
+        "options": {
+          "A": "Une vente de marchandises",
+          "B": "Un achat de marchandises",
+          "C": "Une dotation",
+          "D": "Une dette bancaire"
+        },
+        "correct": "A",
+        "explanation": "Une vente de marchandises. 707 suit les ventes de marchandises. — Source de référence consultable : document officiel ANC / BOFiP / DGFiP lié à cette question.",
+        "source": "https://www.anc.gouv.fr/files/anc/files/1_Normes_fran%C3%A7aises/Plans%20comptables/2026/Plan-de-comptes-2026.pdf",
+        "review_status": "verification_documentaire_anc_bofip_2026_10_17",
+        "audit_type": "Rapprochement ANC 2026 ou règle BOFiP / calcul arithmétique contrôlé",
+        "reviewed_at": "2026-10-17",
+        "review_method": "contrôle du fond + source officielle + réponse et distracteurs"
+      },
+      {
+        "n": 7,
+        "q": "Le compte 641 enregistre :",
+        "options": {
+          "A": "Le net bancaire",
+          "B": "Le salaire brut",
+          "C": "Les ventes",
+          "D": "La TVA collectée"
+        },
+        "correct": "B",
+        "explanation": "Le salaire brut. 641 correspond aux rémunérations du personnel. — Source de référence consultable : document officiel ANC / BOFiP / DGFiP lié à cette question.",
+        "source": "https://www.anc.gouv.fr/files/anc/files/1_Normes_fran%C3%A7aises/Plans%20comptables/2026/Plan-de-comptes-2026.pdf",
+        "review_status": "verification_documentaire_anc_bofip_2026_10_17",
+        "audit_type": "Rapprochement ANC 2026 ou règle BOFiP / calcul arithmétique contrôlé",
+        "reviewed_at": "2026-10-17",
+        "review_method": "contrôle du fond + source officielle + réponse et distracteurs"
+      },
+      {
+        "n": 8,
+        "q": "Le compte 681 du PCG 2026 regroupe principalement quelles dotations ?",
+        "options": {
+          "A": "Les intérêts d'emprunt",
+          "B": "Le capital social",
+          "C": "Les dotations aux amortissements, dépréciations et provisions d’exploitation",
+          "D": "Les créances clients"
+        },
+        "correct": "C",
+        "explanation": "681 : dotations aux amortissements, aux dépréciations et aux provisions inscrites dans les charges d’exploitation. Voir ANC, plan de comptes 2026.",
+        "source": "https://www.anc.gouv.fr/files/anc/files/1_Normes_fran%C3%A7aises/Plans%20comptables/2026/Plan-de-comptes-2026.pdf",
+        "review_status": "verification_documentaire_anc_bofip_2026_10_17",
+        "audit_type": "Rapprochement ANC 2026 ou règle BOFiP / calcul arithmétique contrôlé",
+        "reviewed_at": "2026-10-17",
+        "review_method": "contrôle du fond + source officielle + réponse et distracteurs"
+      },
+      {
+        "n": 9,
+        "q": "La TVA collectée est-elle normalement un produit ?",
+        "options": {
+          "A": "Oui toujours",
+          "B": "Oui sur une vente à 20 %",
+          "C": "Oui si impayée",
+          "D": "Non"
+        },
+        "correct": "D",
+        "explanation": "Non. La TVA due pour le compte de l'État est au bilan. — Source de référence consultable : document officiel ANC / BOFiP / DGFiP lié à cette question.",
+        "source": "https://www.anc.gouv.fr/files/anc/files/1_Normes_fran%C3%A7aises/Plans%20comptables/2026/Plan-de-comptes-2026.pdf",
+        "review_status": "verification_documentaire_anc_bofip_2026_10_17",
+        "audit_type": "Rapprochement ANC 2026 ou règle BOFiP / calcul arithmétique contrôlé",
+        "reviewed_at": "2026-10-17",
+        "review_method": "contrôle du fond + source officielle + réponse et distracteurs"
+      },
+      {
+        "n": 10,
+        "q": "Produits 8 000 €, charges 6 500 € : résultat ?",
+        "options": {
+          "A": "+1 500 €",
+          "B": "-1 500 €",
+          "C": "14 500 €",
+          "D": "+6 500 €"
+        },
+        "correct": "A",
+        "explanation": "+1 500 €. 8 000 - 6 500 = 1 500. — Source de référence consultable : document officiel ANC / BOFiP / DGFiP lié à cette question.",
+        "source": "https://www.anc.gouv.fr/files/anc/files/1_Normes_fran%C3%A7aises/Plans%20comptables/2026/Plan-de-comptes-2026.pdf",
+        "review_status": "verification_documentaire_anc_bofip_2026_10_17",
+        "audit_type": "Rapprochement ANC 2026 ou règle BOFiP / calcul arithmétique contrôlé",
+        "reviewed_at": "2026-10-17",
+        "review_method": "contrôle du fond + source officielle + réponse et distracteurs"
+      }
+    ],
+    "desc": "20 questions originales par niveau : QCM corrigés",
+    "file": "06-debutant.html"
+  },
+  {
+    "id": "07-debutant",
+    "fiche": "07",
+    "theme": "Bilan",
+    "level": "Débutant",
+    "questions": [
+      {
+        "n": 1,
+        "q": "Le bilan représente :",
+        "options": {
+          "A": "La situation patrimoniale à une date",
+          "B": "Uniquement les ventes annuelles",
+          "C": "Le cumul des salaires",
+          "D": "La marge commerciale seulement"
+        },
+        "correct": "A",
+        "explanation": "La situation patrimoniale à une date. Le bilan est une photographie des actifs, dettes et capitaux propres. — Source de référence consultable : document officiel ANC / BOFiP / DGFiP lié à cette question.",
+        "source": "https://www.anc.gouv.fr/files/anc/files/1_Normes_fran%C3%A7aises/Plans%20comptables/2026/Plan-de-comptes-2026.pdf",
+        "review_status": "verification_documentaire_anc_bofip_2026_10_17",
+        "audit_type": "Rapprochement ANC 2026 ou règle BOFiP / calcul arithmétique contrôlé",
+        "reviewed_at": "2026-10-17",
+        "review_method": "contrôle du fond + source officielle + réponse et distracteurs"
+      },
+      {
+        "n": 3,
+        "q": "Le solde débiteur d'un compte 411 est normalement :",
+        "options": {
+          "A": "Une dette au passif",
+          "B": "Un produit financier",
+          "C": "Une créance à l'actif",
+          "D": "Un emprunt"
+        },
+        "correct": "C",
+        "explanation": "Une créance à l'actif. Les créances clients sont à l'actif. — Source de référence consultable : document officiel ANC / BOFiP / DGFiP lié à cette question.",
+        "source": "https://www.anc.gouv.fr/files/anc/files/1_Normes_fran%C3%A7aises/Plans%20comptables/2026/Plan-de-comptes-2026.pdf",
+        "review_status": "verification_documentaire_anc_bofip_2026_10_17",
+        "audit_type": "Rapprochement ANC 2026 ou règle BOFiP / calcul arithmétique contrôlé",
+        "reviewed_at": "2026-10-17",
+        "review_method": "contrôle du fond + source officielle + réponse et distracteurs"
+      },
+      {
+        "n": 4,
+        "q": "Le solde créditeur d'un 401 est normalement :",
+        "options": {
+          "A": "Une vente au résultat",
+          "B": "Une immobilisation",
+          "C": "Une caisse positive",
+          "D": "Une dette fournisseur au passif"
+        },
+        "correct": "D",
+        "explanation": "Une dette fournisseur au passif. Le solde créditeur du fournisseur est une dette. — Source de référence consultable : document officiel ANC / BOFiP / DGFiP lié à cette question.",
+        "source": "https://www.anc.gouv.fr/files/anc/files/1_Normes_fran%C3%A7aises/Plans%20comptables/2026/Plan-de-comptes-2026.pdf",
+        "review_status": "verification_documentaire_anc_bofip_2026_10_17",
+        "audit_type": "Rapprochement ANC 2026 ou règle BOFiP / calcul arithmétique contrôlé",
+        "reviewed_at": "2026-10-17",
+        "review_method": "contrôle du fond + source officielle + réponse et distracteurs"
+      },
+      {
+        "n": 5,
+        "q": "Un solde 512 débiteur est normalement :",
+        "options": {
+          "A": "Banque à l'actif",
+          "B": "Dette bancaire au passif",
+          "C": "Produit financier",
+          "D": "Stock"
+        },
+        "correct": "A",
+        "explanation": "Banque à l'actif. La banque disponible à l'actif correspond à un solde débiteur comptable. — Source de référence consultable : document officiel ANC / BOFiP / DGFiP lié à cette question.",
+        "source": "https://www.anc.gouv.fr/files/anc/files/1_Normes_fran%C3%A7aises/Plans%20comptables/2026/Plan-de-comptes-2026.pdf",
+        "review_status": "verification_documentaire_anc_bofip_2026_10_17",
+        "audit_type": "Rapprochement ANC 2026 ou règle BOFiP / calcul arithmétique contrôlé",
+        "reviewed_at": "2026-10-17",
+        "review_method": "contrôle du fond + source officielle + réponse et distracteurs"
+      },
+      {
+        "n": 6,
+        "q": "À la clôture, un solde créditeur de banque, correspondant à un découvert, est présenté comme :",
+        "options": {
+          "A": "Une trésorerie active disponible",
+          "B": "Un découvert/dette bancaire au passif",
+          "C": "Une vente à crédit",
+          "D": "Une immobilisation amortie"
+        },
+        "correct": "B",
+        "explanation": "Un découvert/dette bancaire au passif. Le 512 créditeur n'est pas une disponibilité positive. — Source de référence consultable : document officiel ANC / BOFiP / DGFiP lié à cette question.",
+        "source": "https://www.anc.gouv.fr/files/anc/files/1_Normes_fran%C3%A7aises/Plans%20comptables/2026/Plan-de-comptes-2026.pdf",
+        "review_status": "verification_documentaire_anc_bofip_2026_10_17",
+        "audit_type": "Rapprochement ANC 2026 ou règle BOFiP / calcul arithmétique contrôlé",
+        "reviewed_at": "2026-10-17",
+        "review_method": "contrôle du fond + source officielle + réponse et distracteurs"
+      },
+      {
+        "n": 7,
+        "q": "Le capital social est suivi en :",
+        "options": {
+          "A": "411",
+          "B": "607",
+          "C": "101",
+          "D": "512"
+        },
+        "correct": "C",
+        "explanation": "101. 101 représente le capital. — Source de référence consultable : document officiel ANC / BOFiP / DGFiP lié à cette question.",
+        "source": "https://www.anc.gouv.fr/files/anc/files/1_Normes_fran%C3%A7aises/Plans%20comptables/2026/Plan-de-comptes-2026.pdf",
+        "review_status": "verification_documentaire_anc_bofip_2026_10_17",
+        "audit_type": "Rapprochement ANC 2026 ou règle BOFiP / calcul arithmétique contrôlé",
+        "reviewed_at": "2026-10-17",
+        "review_method": "contrôle du fond + source officielle + réponse et distracteurs"
+      },
+      {
+        "n": 8,
+        "q": "Le compte d'emprunt auprès d'établissement de crédit est :",
+        "options": {
+          "A": "661",
+          "B": "641",
+          "C": "44551",
+          "D": "164"
+        },
+        "correct": "D",
+        "explanation": "164. Le capital restant dû du prêt est une dette 164. — Source de référence consultable : document officiel ANC / BOFiP / DGFiP lié à cette question.",
+        "source": "https://www.anc.gouv.fr/files/anc/files/1_Normes_fran%C3%A7aises/Plans%20comptables/2026/Plan-de-comptes-2026.pdf",
+        "review_status": "verification_documentaire_anc_bofip_2026_10_17",
+        "audit_type": "Rapprochement ANC 2026 ou règle BOFiP / calcul arithmétique contrôlé",
+        "reviewed_at": "2026-10-17",
+        "review_method": "contrôle du fond + source officielle + réponse et distracteurs"
+      },
+      {
+        "n": 9,
+        "q": "Une immobilisation brute est corrigée au bilan notamment par :",
+        "options": {
+          "A": "Les comptes 28 et 29",
+          "B": "Les comptes 707 et 706",
+          "C": "Le compte 401",
+          "D": "Le compte 53"
+        },
+        "correct": "A",
+        "explanation": "Les comptes 28 et 29. Les amortissements et dépréciations diminuent l'actif net. — Source de référence consultable : document officiel ANC / BOFiP / DGFiP lié à cette question.",
+        "source": "https://www.anc.gouv.fr/files/anc/files/1_Normes_fran%C3%A7aises/Plans%20comptables/2026/Plan-de-comptes-2026.pdf",
+        "review_status": "verification_documentaire_anc_bofip_2026_10_17",
+        "audit_type": "Rapprochement ANC 2026 ou règle BOFiP / calcul arithmétique contrôlé",
+        "reviewed_at": "2026-10-17",
+        "review_method": "contrôle du fond + source officielle + réponse et distracteurs"
+      },
+      {
+        "n": 10,
+        "q": "Un bénéfice de l'exercice est porté en capitaux propres via :",
+        "options": {
+          "A": "129",
+          "B": "120",
+          "C": "44567",
+          "D": "4191"
+        },
+        "correct": "B",
+        "explanation": "120. Le résultat positif alimente les capitaux propres. — Source de référence consultable : document officiel ANC / BOFiP / DGFiP lié à cette question.",
+        "source": "https://www.anc.gouv.fr/files/anc/files/1_Normes_fran%C3%A7aises/Plans%20comptables/2026/Plan-de-comptes-2026.pdf",
+        "review_status": "verification_documentaire_anc_bofip_2026_10_17",
+        "audit_type": "Rapprochement ANC 2026 ou règle BOFiP / calcul arithmétique contrôlé",
+        "reviewed_at": "2026-10-17",
+        "review_method": "contrôle du fond + source officielle + réponse et distracteurs"
+      },
+      {
+        "n": 19,
+        "q": "À quoi le total de l’actif doit-il être égal dans un bilan comptable équilibré ?",
+        "options": {
+          "A": "À la TVA collectée",
+          "B": "Au chiffre d’affaires",
+          "C": "Au total du passif",
+          "D": "À la trésorerie"
+        },
+        "correct": "C",
+        "explanation": "Le total de l'actif égale toujours le total du passif dans un bilan équilibré. Source : ANC, PCG 2026.",
+        "source": "https://www.anc.gouv.fr/files/anc/files/1_Normes_fran%C3%A7aises/Plans%20comptables/2026/Plan-de-comptes-2026.pdf",
+        "review_status": "verification_documentaire_anc_bofip_2026_10_17",
+        "audit_type": "Rapprochement ANC 2026 ou règle BOFiP / calcul arithmétique contrôlé",
+        "reviewed_at": "2026-10-17",
+        "review_method": "contrôle du fond + source officielle + réponse et distracteurs"
+      }
+    ],
+    "desc": "20 questions originales par niveau : QCM corrigés",
+    "file": "07-debutant.html"
+  }
+]

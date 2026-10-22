@@ -1,0 +1,49 @@
+COMPTACHALLENGES - PRIORITÉ 1 / CONSOLIDATION 20-10-2026
+
+STATUT: archive locale prête à vérifier et déployer. GitHub et Netlify n'ont pas été modifiés.
+La publication réelle n'a pas été constatée.
+
+SOURCE DE BASE: Compta_Challenge_V4_9_5_Pret_a_publier_Netlify.zip.
+Correctifs appliqués:
+- COMPTA_CHALLENGE_MAJ_GITHUB_QUIZ_PDF_19_OCT_2026.zip (3 niveaux, 210 questions, pas 1120 questions non certifiées).
+- COMPTA_CHALLENGE_GITHUB_CONTROLES_SECURITE_2026-10-19.zip (audit CI, FAQ/RGPD prudente, messages Supabase non trompeurs).
+- COMPTA_16_MEMOS_CARTES_MAJ_DRIVE_2026-10-20.zip (8 mémos et 8 cartes mentales; TVA ordonnée du 20/10).
+
+NOTE IMPORTANTE: le 8e thème SIC est disponible EN PDF mais ne possède pas de quiz validé.
+Les 7 autres thèmes ont chacun 3 niveaux de quiz. L'examen et les jeux
+non validés restent désactivés. Les duels à distance restent soumis à un audit Supabase réel.
+
+Contrôles: scripts/controle_publication.py + scripts/controle_stabilisation.py;
+node --check pour tous les scripts JS.
+
+Déploiement sûr (sans écraser la version en ligne avant vérification):
+1. Effectuer une sauvegarde du dépôt / branche main actuel et du déploiement Netlify.
+2. Comparer les fichiers de cette archive à la version GitHub actuelle : ne pas écraser
+   un changement plus récent sans analyse (notamment fichiers Supabase et RGPD).
+3. Créer une branche de travail; y copier le CONTENU décompressé, non le ZIP.
+4. Exécuter les deux scripts Python et node --check *.js; comparer et ouvrir une Pull Request.
+5. Déployer d'abord un aperçu Netlify (Deploy Preview); tester les 21 quiz,
+   le nouveau 8e mémo, les 128 PDF, les liens et le comportement mobile.
+6. Après validation, fusionner en main puis vérifier l'état Published dans Netlify.
+7. Configurer ensuite des règles GitHub imposant le contrôle « Verifier le site »
+   avant toute fusion ultérieure, sans imposer de reviewer tiers si vous êtes seul.
+
+LIMITES: aucune connexion authentifiée GitHub/Netlify/Supabase n'était disponible
+lors de cette consolidation. Les tests structurels ne remplacent ni
+l'audit de sécurité serveur ni la validation comptable exhaustive.
+
+IMPORTANT: ne pas utiliser les anciennes archives à la suite: ce package réunit
+les modifications pertinentes, les anciennes pièces justificatives sont préservées.
+
+TESTS EXÉCUTÉS LE 20 OCTOBRE 2026
+- Contrôle automatique de publication: PASS.
+- Contrôle de cohérence et d’empreintes des PDF: PASS.
+- Syntaxe de tous les fichiers JavaScript: PASS.
+- Chromium (DOM local en mémoire, réponses et clics simulés):
+  21 parcours, 10 questions par parcours = 210 questions présentées, PASS.
+  Filtre 8e thème et ses 2 documents: PASS.
+  Largeur mobile 375 px: PASS.
+- NON TESTÉS: site réel Netlify, comptes Supabase, duels distants, envoi OTP,
+  audits juridiques de l'intégralité de la banque, vraie navigation HTTP.
+
+Un changement GitHub n'est pas une preuve de publication: vérifier le Deploy Netlify.

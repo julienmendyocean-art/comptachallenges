@@ -1,0 +1,128 @@
+{
+  "date": "2026-10-22",
+  "sources": {
+    "ANC": "https://www.anc.gouv.fr/plan-comptable-general-0",
+    "CNIL": "https://www.cnil.fr/fr/guide-de-la-securite-des-donnees-personnelles",
+    "DGFiP": "https://www.impots.gouv.fr/professionnel/achatvente-de-biens",
+    "TVA": "https://bofip.impots.gouv.fr/",
+    "TRAVAIL": "https://code.travail.gouv.fr/fiche-service-public/fiche-de-paie",
+    "COTIS": "https://entreprendre.service-public.gouv.fr/vosdroits/F24013",
+    "DSN": "https://entreprendre.service-public.gouv.fr/vosdroits/F34059",
+    "CP": "https://www.service-public.gouv.fr/particuliers/vosdroits/F37482",
+    "HS": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2391",
+    "HC": "https://www.service-public.gouv.fr/particuliers/vosdroits/F32428",
+    "DPAE": "https://entreprendre.service-public.gouv.fr/vosdroits/F23107",
+    "PAS": "https://www.impots.gouv.fr/particulier/je-debute-une-activite-professionnelle"
+  },
+  "pdfs": {
+    "memos/01 - Comptes usuels.pdf": {
+      "original_pages": 2,
+      "final_pages": 5,
+      "concepts": 15,
+      "sha256": "9d24e4876d5573add299d86e8cbbd2ab5468d454056f19c64c9695c8c9d82321"
+    },
+    "cours-complets/01_COURS_COMPTES_USUELS_2026.pdf": {
+      "original_pages": 51,
+      "final_pages": 54,
+      "concepts": 15,
+      "sha256": "ee7a1a5ef321bf07487451592b338666f0c2ea972d3da658b955f5d2a41e698f"
+    },
+    "memos/02 - Opérations courantes.pdf": {
+      "original_pages": 3,
+      "final_pages": 6,
+      "concepts": 15,
+      "sha256": "63e0826f47d6a382cf11f4bef4ef22b13b3783dadead7415d9c0d933db36ac35"
+    },
+    "cours-complets/03_COURS_OPERATIONS_COURANTES_2026.pdf": {
+      "original_pages": 51,
+      "final_pages": 54,
+      "concepts": 15,
+      "sha256": "95ac0c2a24b13a05b93e0ecf764bc157465c0f670763325afd156cdaae722705"
+    },
+    "memos/03 - Immobilisations.pdf": {
+      "original_pages": 2,
+      "final_pages": 5,
+      "concepts": 15,
+      "sha256": "3b54c1163bf4ce22d26b42e11584e89660fe5c18c19fbb89457ee3056662c994"
+    },
+    "cours-complets/05_COURS_IMMOBILISATIONS_2026.pdf": {
+      "original_pages": 51,
+      "final_pages": 54,
+      "concepts": 15,
+      "sha256": "c97cc7ffb765c8e1e1cbfe7bd675b0928221383344f0e2309d1e032c83731a75"
+    },
+    "memos/04 - TVA et CA3.pdf": {
+      "original_pages": 13,
+      "final_pages": 16,
+      "concepts": 15,
+      "sha256": "30e49e150f1dcb09322ea3cb93582734f7a13cb08892c265d6432b665a7a8570"
+    },
+    "cours-complets/04_COURS_TVA_CA3_2026.pdf": {
+      "original_pages": 51,
+      "final_pages": 54,
+      "concepts": 15,
+      "sha256": "9e68a07b01d065ffae1fa152e487be27b481cc92b5ed37f012046033d136071e"
+    },
+    "memos/05 - Lettrage et rapprochement bancaire.pdf": {
+      "original_pages": 2,
+      "final_pages": 5,
+      "concepts": 15,
+      "sha256": "1ddac61a64c642b2ccc60459cb840b30e35c348893ca3dff7884c2d3035b37c0"
+    },
+    "cours-complets/07_COURS_LETTRAGE_RAPPROCHEMENT_2026.pdf": {
+      "original_pages": 51,
+      "final_pages": 54,
+      "concepts": 15,
+      "sha256": "ac11005a5bb3d20c70b2fd68ea73ca82b7bfbd725772c5a10604015269fe3a43"
+    },
+    "memos/06 - Compte de résultat.pdf": {
+      "original_pages": 2,
+      "final_pages": 5,
+      "concepts": 15,
+      "sha256": "864748d4c92ae2e72ad07f6ea06a12e533fa4fe28863589fdb41593e2b542a3e"
+    },
+    "cours-complets/08_COURS_COMPTE_DE_RESULTAT_2026.pdf": {
+      "original_pages": 51,
+      "final_pages": 54,
+      "concepts": 15,
+      "sha256": "5d502bbff63f660558915fe45fa8f41fe5a9219e5ac7abd39897a4b8e8525804"
+    },
+    "memos/07 - Bilan actif et passif.pdf": {
+      "original_pages": 2,
+      "final_pages": 5,
+      "concepts": 15,
+      "sha256": "14cef3e69d3fdbbf4908af728a7849d3991dc4618a206f8deb3345a93778f8ba"
+    },
+    "cours-complets/09_COURS_BILAN_ACTIF_PASSIF_2026.pdf": {
+      "original_pages": 51,
+      "final_pages": 54,
+      "concepts": 15,
+      "sha256": "11b0448f846b08b3a22db3ff3100da5d9a82206743988dcef23baae855e23673"
+    },
+    "memos/08 - Système d'information comptable.pdf": {
+      "original_pages": 2,
+      "final_pages": 5,
+      "concepts": 16,
+      "sha256": "82908e27e81f6bcb9d907438778f9088d4fbc3ba0310d7d23b61a682be5c1cd1"
+    },
+    "cours-complets/02_COURS_SYSTEME_INFORMATION_COMPTABLE_2026.pdf": {
+      "original_pages": 51,
+      "final_pages": 54,
+      "concepts": 16,
+      "sha256": "80c969a956f65276cccf5a9b96472647b17d2b5ceb9d36acdf02aa9743294b24"
+    },
+    "references-paie/PAIE - Mémo consolidé 2026.pdf": {
+      "original_pages": 7,
+      "final_pages": 10,
+      "concepts": 20,
+      "sha256": "74afea32fe50e4612b549a9ba96c8c4ef4a69f411b45d2167bd994164ba91925"
+    },
+    "cours-complets/06_COURS_PAIE_2026.pdf": {
+      "original_pages": 67,
+      "final_pages": 70,
+      "concepts": 20,
+      "sha256": "587a6c44562fcdb9274fc6a3a8c059288ef5cf3adec91e0a0cb1b9bc0900048c"
+    }
+  },
+  "precision": "Ajouts de notions explicatives ; ne constitue pas une certification juridique individualisée."
+}

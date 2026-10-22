@@ -1,0 +1,161 @@
+{
+  "date": "2026-10-21",
+  "source_versions": [
+    "ANC — Plan comptable général consolidé 01/01/2026",
+    "DGFiP — Achats et ventes de biens UE/hors UE",
+    "DGFiP — Prestations entre assujettis",
+    "DGFiP — Conditions de déduction",
+    "DGFiP — Formulaire CA3 et notice 2026",
+    "BOFiP — Exigibilité des acomptes sur biens",
+    "BOFiP — Option paiement TVA d’après les débits, BOI-TVA-BASE-20-50-10",
+    "BOFiP — Mention débits sur facture, BOI-TVA-DECLA-30-20-20-30"
+  ],
+  "journaux": [
+    {
+      "title": "A. Vente de marchandises — 1 000 € HT + 200 € TVA",
+      "debit": 1200.0,
+      "credit": 1200.0,
+      "rows": 3
+    },
+    {
+      "title": "B. Achat de marchandises — 400 € HT + 80 € TVA",
+      "debit": 480.0,
+      "credit": 480.0,
+      "rows": 3
+    },
+    {
+      "title": "C. Achat d’une immobilisation — ordinateur 1 000 € HT + 200 € TVA",
+      "debit": 1200.0,
+      "credit": 1200.0,
+      "rows": 3
+    },
+    {
+      "title": "D1 · Octobre — émission de la facture",
+      "debit": 1200.0,
+      "credit": 1200.0,
+      "rows": 3
+    },
+    {
+      "title": "D2 · Novembre — encaissement ET transfert de TVA",
+      "debit": 1400.0,
+      "credit": 1400.0,
+      "rows": 4
+    },
+    {
+      "title": "E1 · Octobre — facture fournisseur",
+      "debit": 1200.0,
+      "credit": 1200.0,
+      "rows": 3
+    },
+    {
+      "title": "E2 · Novembre — paiement ET transfert de déductibilité",
+      "debit": 1400.0,
+      "credit": 1400.0,
+      "rows": 4
+    },
+    {
+      "title": "P1 · Vendeur : facture du 10 octobre (TVA exigible immédiatement)",
+      "debit": 1200.0,
+      "credit": 1200.0,
+      "rows": 3
+    },
+    {
+      "title": "P2 · Acheteur : facture de service d’un fournisseur ayant opté",
+      "debit": 1200.0,
+      "credit": 1200.0,
+      "rows": 3
+    },
+    {
+      "title": "Q1 · 5 octobre — réception de l’acompte, TVA exigible de 60 €",
+      "debit": 360.0,
+      "credit": 360.0,
+      "rows": 3
+    },
+    {
+      "title": "Q2 · 20 octobre — facture définitive totale de 1 200 € TTC",
+      "debit": 1200.0,
+      "credit": 1200.0,
+      "rows": 3
+    },
+    {
+      "title": "Q3 · 20 octobre — imputation de l’acompte déjà enregistré",
+      "debit": 360.0,
+      "credit": 360.0,
+      "rows": 3
+    },
+    {
+      "title": "Q4 · 10 novembre — règlement du solde TTC",
+      "debit": 840.0,
+      "credit": 840.0,
+      "rows": 2
+    },
+    {
+      "title": "F · Facture du vendeur français — LIC exonérée",
+      "debit": 1000.0,
+      "credit": 1000.0,
+      "rows": 2
+    },
+    {
+      "title": "G · Facture du fournisseur UE et autoliquidation AIC",
+      "debit": 1200.0,
+      "credit": 1200.0,
+      "rows": 4
+    },
+    {
+      "title": "H · Facture française sans TVA française",
+      "debit": 1000.0,
+      "credit": 1000.0,
+      "rows": 2
+    },
+    {
+      "title": "I · Achat B2B de service UE, autoliquidation française",
+      "debit": 1200.0,
+      "credit": 1200.0,
+      "rows": 4
+    },
+    {
+      "title": "J · Vente de biens exportés hors UE",
+      "debit": 1000.0,
+      "credit": 1000.0,
+      "rows": 2
+    },
+    {
+      "title": "K1 · Comptabilisation de la facture étrangère",
+      "debit": 1000.0,
+      "credit": 1000.0,
+      "rows": 2
+    },
+    {
+      "title": "K2 · TVA à l’importation autoliquidée (base simplifiée)",
+      "debit": 200.0,
+      "credit": 200.0,
+      "rows": 2
+    },
+    {
+      "title": "L · Facture de service au client hors UE",
+      "debit": 1000.0,
+      "credit": 1000.0,
+      "rows": 2
+    },
+    {
+      "title": "M · Achat de service hors UE et autoliquidation",
+      "debit": 1200.0,
+      "credit": 1200.0,
+      "rows": 4
+    },
+    {
+      "title": "N. Liquidation de TVA : 1 100 € à décaisser après crédit antérieur",
+      "debit": 2900.0,
+      "credit": 2900.0,
+      "rows": 6
+    },
+    {
+      "title": "O. Paiement de la CA3 par banque",
+      "debit": 1100.0,
+      "credit": 1100.0,
+      "rows": 2
+    }
+  ],
+  "all_balanced": true,
+  "version": "2026-10-21-r4"
+}

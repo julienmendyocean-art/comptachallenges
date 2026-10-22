@@ -1,0 +1,27 @@
+{
+  "updated_at": "2026-10-22",
+  "theme": "09 - PAIE",
+  "term": "PSS (PMSS / PASS) — intitulé officiel, non PNSS",
+  "values_2026": {
+    "annuel": 48060,
+    "trimestriel": 12015,
+    "mensuel": 4005,
+    "hebdomadaire": 924,
+    "journalier": 220,
+    "horaire": 30
+  },
+  "scope": "Métropole et territoires hors Mayotte, au 1er janvier 2026",
+  "prorata": "Certaines situations: entrée-sortie, absence entière non rémunérée, temps partiel selon conditions, employeurs multiples",
+  "sources": [
+    "https://www.urssaf.fr/accueil/outils-documentation/taux-baremes/plafonds-securite-sociale.html",
+    "https://www.urssaf.fr/accueil/employeur/cotisations/comprendre-cotisations/calcul-cotisations-employeur.html",
+    "https://www.legifrance.gouv.fr/eli/arrete/2025/12/22/CPPS2536168A/jo/texte",
+    "https://www.ameli.fr/entreprise/vos-salaries/montants-reference/plafond-securite-sociale"
+  ],
+  "concordance": {
+    "cours": "cours-complets/06_COURS_PAIE_2026.pdf",
+    "memo": "references-paie/PAIE - Mémo consolidé 2026.pdf",
+    "carte": "references-paie/PAIE - Carte mentale consolidée 2026.pdf",
+    "quiz": "questions.json (question n° 15 des niveaux 09-débutant, 09-intermédiaire, 09-expert)"
+  }
+}

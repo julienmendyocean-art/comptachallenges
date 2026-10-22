@@ -1,0 +1,674 @@
+[
+  {
+    "theme": "01",
+    "niveau": "debutant",
+    "mode": "rapide",
+    "cases": 2,
+    "steps": 2,
+    "qcm": 5,
+    "categories": {
+      "notion": 1,
+      "application": 2,
+      "calcul": 1,
+      "analyse": 1
+    },
+    "source": "exercices-2026-10-21/01_debutant_rapide_sujet.pdf",
+    "correction": "corriges-2026-10-21/01_debutant_rapide_corrige.pdf"
+  },
+  {
+    "theme": "01",
+    "niveau": "debutant",
+    "mode": "complet",
+    "cases": 5,
+    "steps": 5,
+    "qcm": 10,
+    "categories": {
+      "notion": 3,
+      "application": 3,
+      "calcul": 3,
+      "analyse": 1
+    },
+    "source": "exercices-2026-10-21/01_debutant_complet_sujet.pdf",
+    "correction": "corriges-2026-10-21/01_debutant_complet_corrige.pdf"
+  },
+  {
+    "theme": "01",
+    "niveau": "intermediaire",
+    "mode": "rapide",
+    "cases": 2,
+    "steps": 4,
+    "qcm": 5,
+    "categories": {
+      "notion": 1,
+      "application": 2,
+      "calcul": 1,
+      "analyse": 1
+    },
+    "source": "exercices-2026-10-21/01_intermediaire_rapide_sujet.pdf",
+    "correction": "corriges-2026-10-21/01_intermediaire_rapide_corrige.pdf"
+  },
+  {
+    "theme": "01",
+    "niveau": "intermediaire",
+    "mode": "complet",
+    "cases": 5,
+    "steps": 7,
+    "qcm": 10,
+    "categories": {
+      "notion": 2,
+      "application": 3,
+      "calcul": 3,
+      "analyse": 2
+    },
+    "source": "exercices-2026-10-21/01_intermediaire_complet_sujet.pdf",
+    "correction": "corriges-2026-10-21/01_intermediaire_complet_corrige.pdf"
+  },
+  {
+    "theme": "01",
+    "niveau": "expert",
+    "mode": "rapide",
+    "cases": 2,
+    "steps": 4,
+    "qcm": 5,
+    "categories": {
+      "notion": 1,
+      "application": 2,
+      "calcul": 1,
+      "analyse": 1
+    },
+    "source": "exercices-2026-10-21/01_expert_rapide_sujet.pdf",
+    "correction": "corriges-2026-10-21/01_expert_rapide_corrige.pdf"
+  },
+  {
+    "theme": "01",
+    "niveau": "expert",
+    "mode": "complet",
+    "cases": 5,
+    "steps": 8,
+    "qcm": 10,
+    "categories": {
+      "notion": 3,
+      "application": 2,
+      "calcul": 3,
+      "analyse": 2
+    },
+    "source": "exercices-2026-10-21/01_expert_complet_sujet.pdf",
+    "correction": "corriges-2026-10-21/01_expert_complet_corrige.pdf"
+  },
+  {
+    "theme": "02",
+    "niveau": "debutant",
+    "mode": "rapide",
+    "cases": 2,
+    "steps": 2,
+    "qcm": 5,
+    "categories": {
+      "notion": 1,
+      "application": 2,
+      "calcul": 1,
+      "analyse": 1
+    },
+    "source": "exercices-2026-10-21/02_debutant_rapide_sujet.pdf",
+    "correction": "corriges-2026-10-21/02_debutant_rapide_corrige.pdf"
+  },
+  {
+    "theme": "02",
+    "niveau": "debutant",
+    "mode": "complet",
+    "cases": 5,
+    "steps": 6,
+    "qcm": 10,
+    "categories": {
+      "notion": 3,
+      "application": 3,
+      "calcul": 3,
+      "analyse": 1
+    },
+    "source": "exercices-2026-10-21/02_debutant_complet_sujet.pdf",
+    "correction": "corriges-2026-10-21/02_debutant_complet_corrige.pdf"
+  },
+  {
+    "theme": "02",
+    "niveau": "intermediaire",
+    "mode": "rapide",
+    "cases": 2,
+    "steps": 3,
+    "qcm": 5,
+    "categories": {
+      "notion": 1,
+      "application": 2,
+      "calcul": 1,
+      "analyse": 1
+    },
+    "source": "exercices-2026-10-21/02_intermediaire_rapide_sujet.pdf",
+    "correction": "corriges-2026-10-21/02_intermediaire_rapide_corrige.pdf"
+  },
+  {
+    "theme": "02",
+    "niveau": "intermediaire",
+    "mode": "complet",
+    "cases": 5,
+    "steps": 8,
+    "qcm": 10,
+    "categories": {
+      "notion": 3,
+      "application": 2,
+      "calcul": 3,
+      "analyse": 2
+    },
+    "source": "exercices-2026-10-21/02_intermediaire_complet_sujet.pdf",
+    "correction": "corriges-2026-10-21/02_intermediaire_complet_corrige.pdf"
+  },
+  {
+    "theme": "02",
+    "niveau": "expert",
+    "mode": "rapide",
+    "cases": 2,
+    "steps": 3,
+    "qcm": 5,
+    "categories": {
+      "notion": 1,
+      "application": 2,
+      "calcul": 1,
+      "analyse": 1
+    },
+    "source": "exercices-2026-10-21/02_expert_rapide_sujet.pdf",
+    "correction": "corriges-2026-10-21/02_expert_rapide_corrige.pdf"
+  },
+  {
+    "theme": "02",
+    "niveau": "expert",
+    "mode": "complet",
+    "cases": 5,
+    "steps": 8,
+    "qcm": 10,
+    "categories": {
+      "notion": 1,
+      "application": 2,
+      "calcul": 3,
+      "analyse": 4
+    },
+    "source": "exercices-2026-10-21/02_expert_complet_sujet.pdf",
+    "correction": "corriges-2026-10-21/02_expert_complet_corrige.pdf"
+  },
+  {
+    "theme": "03",
+    "niveau": "debutant",
+    "mode": "rapide",
+    "cases": 2,
+    "steps": 2,
+    "qcm": 5,
+    "categories": {
+      "notion": 1,
+      "application": 2,
+      "calcul": 1,
+      "analyse": 1
+    },
+    "source": "exercices-2026-10-21/03_debutant_rapide_sujet.pdf",
+    "correction": "corriges-2026-10-21/03_debutant_rapide_corrige.pdf"
+  },
+  {
+    "theme": "03",
+    "niveau": "debutant",
+    "mode": "complet",
+    "cases": 5,
+    "steps": 5,
+    "qcm": 10,
+    "categories": {
+      "notion": 3,
+      "application": 3,
+      "calcul": 3,
+      "analyse": 1
+    },
+    "source": "exercices-2026-10-21/03_debutant_complet_sujet.pdf",
+    "correction": "corriges-2026-10-21/03_debutant_complet_corrige.pdf"
+  },
+  {
+    "theme": "03",
+    "niveau": "intermediaire",
+    "mode": "rapide",
+    "cases": 2,
+    "steps": 2,
+    "qcm": 5,
+    "categories": {
+      "notion": 1,
+      "application": 2,
+      "calcul": 1,
+      "analyse": 1
+    },
+    "source": "exercices-2026-10-21/03_intermediaire_rapide_sujet.pdf",
+    "correction": "corriges-2026-10-21/03_intermediaire_rapide_corrige.pdf"
+  },
+  {
+    "theme": "03",
+    "niveau": "intermediaire",
+    "mode": "complet",
+    "cases": 5,
+    "steps": 5,
+    "qcm": 10,
+    "categories": {
+      "notion": 2,
+      "application": 3,
+      "calcul": 3,
+      "analyse": 2
+    },
+    "source": "exercices-2026-10-21/03_intermediaire_complet_sujet.pdf",
+    "correction": "corriges-2026-10-21/03_intermediaire_complet_corrige.pdf"
+  },
+  {
+    "theme": "03",
+    "niveau": "expert",
+    "mode": "rapide",
+    "cases": 2,
+    "steps": 2,
+    "qcm": 5,
+    "categories": {
+      "notion": 1,
+      "application": 2,
+      "calcul": 1,
+      "analyse": 1
+    },
+    "source": "exercices-2026-10-21/03_expert_rapide_sujet.pdf",
+    "correction": "corriges-2026-10-21/03_expert_rapide_corrige.pdf"
+  },
+  {
+    "theme": "03",
+    "niveau": "expert",
+    "mode": "complet",
+    "cases": 5,
+    "steps": 5,
+    "qcm": 10,
+    "categories": {
+      "notion": 2,
+      "application": 3,
+      "calcul": 3,
+      "analyse": 2
+    },
+    "source": "exercices-2026-10-21/03_expert_complet_sujet.pdf",
+    "correction": "corriges-2026-10-21/03_expert_complet_corrige.pdf"
+  },
+  {
+    "theme": "04",
+    "niveau": "debutant",
+    "mode": "rapide",
+    "cases": 2,
+    "steps": 2,
+    "qcm": 5,
+    "categories": {
+      "notion": 1,
+      "application": 2,
+      "calcul": 1,
+      "analyse": 1
+    },
+    "source": "exercices-2026-10-21/04_debutant_rapide_sujet.pdf",
+    "correction": "corriges-2026-10-21/04_debutant_rapide_corrige.pdf"
+  },
+  {
+    "theme": "04",
+    "niveau": "debutant",
+    "mode": "complet",
+    "cases": 5,
+    "steps": 5,
+    "qcm": 10,
+    "categories": {
+      "notion": 3,
+      "application": 3,
+      "calcul": 3,
+      "analyse": 1
+    },
+    "source": "exercices-2026-10-21/04_debutant_complet_sujet.pdf",
+    "correction": "corriges-2026-10-21/04_debutant_complet_corrige.pdf"
+  },
+  {
+    "theme": "04",
+    "niveau": "intermediaire",
+    "mode": "rapide",
+    "cases": 2,
+    "steps": 2,
+    "qcm": 5,
+    "categories": {
+      "notion": 1,
+      "application": 2,
+      "calcul": 1,
+      "analyse": 1
+    },
+    "source": "exercices-2026-10-21/04_intermediaire_rapide_sujet.pdf",
+    "correction": "corriges-2026-10-21/04_intermediaire_rapide_corrige.pdf"
+  },
+  {
+    "theme": "04",
+    "niveau": "intermediaire",
+    "mode": "complet",
+    "cases": 5,
+    "steps": 5,
+    "qcm": 10,
+    "categories": {
+      "notion": 3,
+      "application": 3,
+      "calcul": 3,
+      "analyse": 1
+    },
+    "source": "exercices-2026-10-21/04_intermediaire_complet_sujet.pdf",
+    "correction": "corriges-2026-10-21/04_intermediaire_complet_corrige.pdf"
+  },
+  {
+    "theme": "04",
+    "niveau": "expert",
+    "mode": "rapide",
+    "cases": 2,
+    "steps": 2,
+    "qcm": 5,
+    "categories": {
+      "notion": 1,
+      "application": 2,
+      "calcul": 1,
+      "analyse": 1
+    },
+    "source": "exercices-2026-10-21/04_expert_rapide_sujet.pdf",
+    "correction": "corriges-2026-10-21/04_expert_rapide_corrige.pdf"
+  },
+  {
+    "theme": "04",
+    "niveau": "expert",
+    "mode": "complet",
+    "cases": 5,
+    "steps": 5,
+    "qcm": 10,
+    "categories": {
+      "notion": 2,
+      "application": 3,
+      "calcul": 3,
+      "analyse": 2
+    },
+    "source": "exercices-2026-10-21/04_expert_complet_sujet.pdf",
+    "correction": "corriges-2026-10-21/04_expert_complet_corrige.pdf"
+  },
+  {
+    "theme": "05",
+    "niveau": "debutant",
+    "mode": "rapide",
+    "cases": 2,
+    "steps": 2,
+    "qcm": 5,
+    "categories": {
+      "notion": 1,
+      "application": 2,
+      "calcul": 1,
+      "analyse": 1
+    },
+    "source": "exercices-2026-10-21/05_debutant_rapide_sujet.pdf",
+    "correction": "corriges-2026-10-21/05_debutant_rapide_corrige.pdf"
+  },
+  {
+    "theme": "05",
+    "niveau": "debutant",
+    "mode": "complet",
+    "cases": 5,
+    "steps": 5,
+    "qcm": 10,
+    "categories": {
+      "notion": 3,
+      "application": 3,
+      "calcul": 3,
+      "analyse": 1
+    },
+    "source": "exercices-2026-10-21/05_debutant_complet_sujet.pdf",
+    "correction": "corriges-2026-10-21/05_debutant_complet_corrige.pdf"
+  },
+  {
+    "theme": "05",
+    "niveau": "intermediaire",
+    "mode": "rapide",
+    "cases": 2,
+    "steps": 2,
+    "qcm": 5,
+    "categories": {
+      "notion": 1,
+      "application": 2,
+      "calcul": 1,
+      "analyse": 1
+    },
+    "source": "exercices-2026-10-21/05_intermediaire_rapide_sujet.pdf",
+    "correction": "corriges-2026-10-21/05_intermediaire_rapide_corrige.pdf"
+  },
+  {
+    "theme": "05",
+    "niveau": "intermediaire",
+    "mode": "complet",
+    "cases": 5,
+    "steps": 5,
+    "qcm": 10,
+    "categories": {
+      "notion": 2,
+      "application": 2,
+      "calcul": 3,
+      "analyse": 3
+    },
+    "source": "exercices-2026-10-21/05_intermediaire_complet_sujet.pdf",
+    "correction": "corriges-2026-10-21/05_intermediaire_complet_corrige.pdf"
+  },
+  {
+    "theme": "05",
+    "niveau": "expert",
+    "mode": "rapide",
+    "cases": 2,
+    "steps": 2,
+    "qcm": 5,
+    "categories": {
+      "notion": 1,
+      "application": 2,
+      "calcul": 1,
+      "analyse": 1
+    },
+    "source": "exercices-2026-10-21/05_expert_rapide_sujet.pdf",
+    "correction": "corriges-2026-10-21/05_expert_rapide_corrige.pdf"
+  },
+  {
+    "theme": "05",
+    "niveau": "expert",
+    "mode": "complet",
+    "cases": 5,
+    "steps": 5,
+    "qcm": 10,
+    "categories": {
+      "notion": 2,
+      "application": 3,
+      "calcul": 3,
+      "analyse": 2
+    },
+    "source": "exercices-2026-10-21/05_expert_complet_sujet.pdf",
+    "correction": "corriges-2026-10-21/05_expert_complet_corrige.pdf"
+  },
+  {
+    "theme": "06",
+    "niveau": "debutant",
+    "mode": "rapide",
+    "cases": 2,
+    "steps": 2,
+    "qcm": 5,
+    "categories": {
+      "notion": 1,
+      "application": 2,
+      "calcul": 1,
+      "analyse": 1
+    },
+    "source": "exercices-2026-10-21/06_debutant_rapide_sujet.pdf",
+    "correction": "corriges-2026-10-21/06_debutant_rapide_corrige.pdf"
+  },
+  {
+    "theme": "06",
+    "niveau": "debutant",
+    "mode": "complet",
+    "cases": 5,
+    "steps": 5,
+    "qcm": 10,
+    "categories": {
+      "notion": 3,
+      "application": 3,
+      "calcul": 3,
+      "analyse": 1
+    },
+    "source": "exercices-2026-10-21/06_debutant_complet_sujet.pdf",
+    "correction": "corriges-2026-10-21/06_debutant_complet_corrige.pdf"
+  },
+  {
+    "theme": "06",
+    "niveau": "intermediaire",
+    "mode": "rapide",
+    "cases": 2,
+    "steps": 2,
+    "qcm": 5,
+    "categories": {
+      "notion": 1,
+      "application": 2,
+      "calcul": 1,
+      "analyse": 1
+    },
+    "source": "exercices-2026-10-21/06_intermediaire_rapide_sujet.pdf",
+    "correction": "corriges-2026-10-21/06_intermediaire_rapide_corrige.pdf"
+  },
+  {
+    "theme": "06",
+    "niveau": "intermediaire",
+    "mode": "complet",
+    "cases": 5,
+    "steps": 5,
+    "qcm": 10,
+    "categories": {
+      "notion": 2,
+      "application": 3,
+      "calcul": 3,
+      "analyse": 2
+    },
+    "source": "exercices-2026-10-21/06_intermediaire_complet_sujet.pdf",
+    "correction": "corriges-2026-10-21/06_intermediaire_complet_corrige.pdf"
+  },
+  {
+    "theme": "06",
+    "niveau": "expert",
+    "mode": "rapide",
+    "cases": 2,
+    "steps": 2,
+    "qcm": 5,
+    "categories": {
+      "notion": 1,
+      "application": 2,
+      "calcul": 1,
+      "analyse": 1
+    },
+    "source": "exercices-2026-10-21/06_expert_rapide_sujet.pdf",
+    "correction": "corriges-2026-10-21/06_expert_rapide_corrige.pdf"
+  },
+  {
+    "theme": "06",
+    "niveau": "expert",
+    "mode": "complet",
+    "cases": 5,
+    "steps": 5,
+    "qcm": 10,
+    "categories": {
+      "notion": 3,
+      "application": 2,
+      "calcul": 3,
+      "analyse": 2
+    },
+    "source": "exercices-2026-10-21/06_expert_complet_sujet.pdf",
+    "correction": "corriges-2026-10-21/06_expert_complet_corrige.pdf"
+  },
+  {
+    "theme": "07",
+    "niveau": "debutant",
+    "mode": "rapide",
+    "cases": 2,
+    "steps": 2,
+    "qcm": 5,
+    "categories": {
+      "notion": 1,
+      "application": 2,
+      "calcul": 1,
+      "analyse": 1
+    },
+    "source": "exercices-2026-10-21/07_debutant_rapide_sujet.pdf",
+    "correction": "corriges-2026-10-21/07_debutant_rapide_corrige.pdf"
+  },
+  {
+    "theme": "07",
+    "niveau": "debutant",
+    "mode": "complet",
+    "cases": 5,
+    "steps": 5,
+    "qcm": 10,
+    "categories": {
+      "notion": 3,
+      "application": 3,
+      "calcul": 3,
+      "analyse": 1
+    },
+    "source": "exercices-2026-10-21/07_debutant_complet_sujet.pdf",
+    "correction": "corriges-2026-10-21/07_debutant_complet_corrige.pdf"
+  },
+  {
+    "theme": "07",
+    "niveau": "intermediaire",
+    "mode": "rapide",
+    "cases": 2,
+    "steps": 2,
+    "qcm": 5,
+    "categories": {
+      "notion": 1,
+      "application": 2,
+      "calcul": 1,
+      "analyse": 1
+    },
+    "source": "exercices-2026-10-21/07_intermediaire_rapide_sujet.pdf",
+    "correction": "corriges-2026-10-21/07_intermediaire_rapide_corrige.pdf"
+  },
+  {
+    "theme": "07",
+    "niveau": "intermediaire",
+    "mode": "complet",
+    "cases": 5,
+    "steps": 5,
+    "qcm": 10,
+    "categories": {
+      "notion": 3,
+      "application": 3,
+      "calcul": 3,
+      "analyse": 1
+    },
+    "source": "exercices-2026-10-21/07_intermediaire_complet_sujet.pdf",
+    "correction": "corriges-2026-10-21/07_intermediaire_complet_corrige.pdf"
+  },
+  {
+    "theme": "07",
+    "niveau": "expert",
+    "mode": "rapide",
+    "cases": 2,
+    "steps": 2,
+    "qcm": 5,
+    "categories": {
+      "notion": 1,
+      "application": 2,
+      "calcul": 1,
+      "analyse": 1
+    },
+    "source": "exercices-2026-10-21/07_expert_rapide_sujet.pdf",
+    "correction": "corriges-2026-10-21/07_expert_rapide_corrige.pdf"
+  },
+  {
+    "theme": "07",
+    "niveau": "expert",
+    "mode": "complet",
+    "cases": 5,
+    "steps": 5,
+    "qcm": 10,
+    "categories": {
+      "notion": 2,
+      "application": 3,
+      "calcul": 3,
+      "analyse": 2
+    },
+    "source": "exercices-2026-10-21/07_expert_complet_sujet.pdf",
+    "correction": "corriges-2026-10-21/07_expert_complet_corrige.pdf"
+  }
+]

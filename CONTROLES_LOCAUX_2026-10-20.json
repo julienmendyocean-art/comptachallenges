@@ -1,0 +1,138 @@
+{
+  "url": "simulation DOM locale (sans Netlify ni Supabase)",
+  "tests": [
+    {
+      "theme": "01",
+      "level": "debutant",
+      "questions": 10,
+      "status": "PASS"
+    },
+    {
+      "theme": "01",
+      "level": "intermediaire",
+      "questions": 10,
+      "status": "PASS"
+    },
+    {
+      "theme": "01",
+      "level": "expert",
+      "questions": 10,
+      "status": "PASS"
+    },
+    {
+      "theme": "02",
+      "level": "debutant",
+      "questions": 10,
+      "status": "PASS"
+    },
+    {
+      "theme": "02",
+      "level": "intermediaire",
+      "questions": 10,
+      "status": "PASS"
+    },
+    {
+      "theme": "02",
+      "level": "expert",
+      "questions": 10,
+      "status": "PASS"
+    },
+    {
+      "theme": "03",
+      "level": "debutant",
+      "questions": 10,
+      "status": "PASS"
+    },
+    {
+      "theme": "03",
+      "level": "intermediaire",
+      "questions": 10,
+      "status": "PASS"
+    },
+    {
+      "theme": "03",
+      "level": "expert",
+      "questions": 10,
+      "status": "PASS"
+    },
+    {
+      "theme": "04",
+      "level": "debutant",
+      "questions": 10,
+      "status": "PASS"
+    },
+    {
+      "theme": "04",
+      "level": "intermediaire",
+      "questions": 10,
+      "status": "PASS"
+    },
+    {
+      "theme": "04",
+      "level": "expert",
+      "questions": 10,
+      "status": "PASS"
+    },
+    {
+      "theme": "05",
+      "level": "debutant",
+      "questions": 10,
+      "status": "PASS"
+    },
+    {
+      "theme": "05",
+      "level": "intermediaire",
+      "questions": 10,
+      "status": "PASS"
+    },
+    {
+      "theme": "05",
+      "level": "expert",
+      "questions": 10,
+      "status": "PASS"
+    },
+    {
+      "theme": "06",
+      "level": "debutant",
+      "questions": 10,
+      "status": "PASS"
+    },
+    {
+      "theme": "06",
+      "level": "intermediaire",
+      "questions": 10,
+      "status": "PASS"
+    },
+    {
+      "theme": "06",
+      "level": "expert",
+      "questions": 10,
+      "status": "PASS"
+    },
+    {
+      "theme": "07",
+      "level": "debutant",
+      "questions": 10,
+      "status": "PASS"
+    },
+    {
+      "theme": "07",
+      "level": "intermediaire",
+      "questions": 10,
+      "status": "PASS"
+    },
+    {
+      "theme": "07",
+      "level": "expert",
+      "questions": 10,
+      "status": "PASS"
+    }
+  ],
+  "count": 21,
+  "smartphone_width": {
+    "width": 375,
+    "viewport": 375
+  },
+  "javascript_errors": [],
+  "status": "PASS"
+}

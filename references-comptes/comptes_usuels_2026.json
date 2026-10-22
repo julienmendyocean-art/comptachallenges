@@ -1,0 +1,677 @@
+{
+  "title": "Comptes usuels - index transversal par thème",
+  "edition": "2026-10-22",
+  "source": "https://www.anc.gouv.fr/files/anc/files/1_Normes_fran%C3%A7aises/Plans%20comptables/2026/Plan-de-comptes-2026.pdf",
+  "source_version": "1er janvier 2026",
+  "source_note": "Codes fondés sur le plan de comptes ANC 2026. Intitulés abrégés pédagogiquement. Sous-compte 28183 déduit de la ventilation des 2818 selon les 218, et non cité individuellement dans la liste abrégée.",
+  "topics": [
+    {
+      "id": "01",
+      "title": "Les repères de base",
+      "description": "Sept classes, sens débit/crédit et comptes que l’on retrouve partout.",
+      "accounts": [
+        {
+          "code": "101",
+          "label": "Capital",
+          "purpose": "Argent ou apports inscrits au capital"
+        },
+        {
+          "code": "2183",
+          "label": "Matériel de bureau et informatique",
+          "purpose": "Ordinateurs immobilisés"
+        },
+        {
+          "code": "37",
+          "label": "Stocks de marchandises",
+          "purpose": "Biens achetés pour être revendus"
+        },
+        {
+          "code": "401",
+          "label": "Fournisseurs",
+          "purpose": "Dette après achat de biens ou services"
+        },
+        {
+          "code": "411",
+          "label": "Clients",
+          "purpose": "Créance liée aux ventes"
+        },
+        {
+          "code": "512",
+          "label": "Banques",
+          "purpose": "Solde et mouvements du compte bancaire"
+        },
+        {
+          "code": "607",
+          "label": "Achats de marchandises",
+          "purpose": "Biens achetés pour être revendus"
+        },
+        {
+          "code": "707",
+          "label": "Ventes de marchandises",
+          "purpose": "Ventes de biens achetés pour revente"
+        }
+      ],
+      "related": [
+        "Les cours associés",
+        "Mémo 01"
+      ],
+      "vigilance": "Une somme débitée n’est pas forcément une dépense; un crédit n’est pas forcément une recette."
+    },
+    {
+      "id": "03",
+      "title": "Opérations courantes : achats et ventes",
+      "description": "Factures, acomptes, avoirs, réductions financières et commerciales.",
+      "accounts": [
+        {
+          "code": "401",
+          "label": "Fournisseurs",
+          "purpose": "Dette après achat de biens ou services"
+        },
+        {
+          "code": "411",
+          "label": "Clients",
+          "purpose": "Créance liée aux ventes"
+        },
+        {
+          "code": "607",
+          "label": "Achats de marchandises",
+          "purpose": "Biens achetés pour être revendus"
+        },
+        {
+          "code": "6064",
+          "label": "Fournitures administratives",
+          "purpose": "Petites fournitures administratives"
+        },
+        {
+          "code": "707",
+          "label": "Ventes de marchandises",
+          "purpose": "Ventes de biens achetés pour revente"
+        },
+        {
+          "code": "706",
+          "label": "Prestations de services",
+          "purpose": "Ventes de services"
+        },
+        {
+          "code": "4091",
+          "label": "Avances et acomptes aux fournisseurs",
+          "purpose": "Somme versée avant facture ou livraison"
+        },
+        {
+          "code": "4191",
+          "label": "Clients - avances et acomptes reçus",
+          "purpose": "Somme encaissée d’un client avant la facture"
+        },
+        {
+          "code": "4097",
+          "label": "Fournisseurs - autres avoirs",
+          "purpose": "Avoir à recevoir ou reçu du fournisseur"
+        },
+        {
+          "code": "4197",
+          "label": "Clients - autres avoirs",
+          "purpose": "Avoir accordé à un client"
+        },
+        {
+          "code": "609",
+          "label": "Rabais, remises, ristournes obtenus",
+          "purpose": "Réduction commerciale sur achats"
+        },
+        {
+          "code": "7097",
+          "label": "RRR accordés sur ventes de marchandises",
+          "purpose": "Réduction commerciale accordée au client"
+        },
+        {
+          "code": "665",
+          "label": "Escomptes accordés",
+          "purpose": "Réduction financière accordée au client"
+        },
+        {
+          "code": "765",
+          "label": "Escomptes obtenus",
+          "purpose": "Réduction financière obtenue du fournisseur"
+        },
+        {
+          "code": "656",
+          "label": "Pertes de change commerciales",
+          "purpose": "Écart défavorable sur dette/créance commerciale"
+        },
+        {
+          "code": "756",
+          "label": "Gains de change commerciaux",
+          "purpose": "Écart favorable sur dette/créance commerciale"
+        }
+      ],
+      "related": [
+        "Cours 03 : Opérations courantes",
+        "Mémo 02 : Opérations courantes",
+        "Carte 02 : Opérations courantes"
+      ],
+      "vigilance": "665/765 = escompte financier ; 609/709 = réduction commerciale ; 656/756 = change COMMERCIAL."
+    },
+    {
+      "id": "04",
+      "title": "TVA et déclaration CA3",
+      "description": "Facture, exigibilité, déduction, liquidation puis déclaration.",
+      "accounts": [
+        {
+          "code": "44571",
+          "label": "TVA collectée",
+          "purpose": "TVA due sur opérations imposables"
+        },
+        {
+          "code": "44566",
+          "label": "TVA sur autres biens et services",
+          "purpose": "TVA potentiellement déductible sur achats courants"
+        },
+        {
+          "code": "44562",
+          "label": "TVA sur immobilisations",
+          "purpose": "TVA potentiellement déductible liée aux biens durables"
+        },
+        {
+          "code": "4452",
+          "label": "TVA due intracommunautaire",
+          "purpose": "TVA à autoliquider sur des acquisitions UE concernées"
+        },
+        {
+          "code": "44551",
+          "label": "TVA à décaisser",
+          "purpose": "Solde de TVA à verser"
+        },
+        {
+          "code": "44567",
+          "label": "Crédit de TVA à reporter",
+          "purpose": "Crédit de TVA porté sur une période ultérieure"
+        },
+        {
+          "code": "4458",
+          "label": "TVA à régulariser ou en attente",
+          "purpose": "Compte parent, subdivisions selon les situations"
+        },
+        {
+          "code": "44583",
+          "label": "Remboursement de TVA demandé",
+          "purpose": "Créance lors d’une demande de remboursement"
+        },
+        {
+          "code": "44584",
+          "label": "TVA récupérée d’avance",
+          "purpose": "Compte spécifique de régularisation"
+        },
+        {
+          "code": "44586",
+          "label": "TVA sur factures non parvenues",
+          "purpose": "TVA suivie sur FNP à la clôture"
+        },
+        {
+          "code": "44587",
+          "label": "TVA sur factures à établir",
+          "purpose": "TVA suivie sur FAE à la clôture"
+        }
+      ],
+      "related": [
+        "Cours 04 : TVA et CA3",
+        "Mémo 04 : TVA et CA3",
+        "Carte 04 : TVA et CA3"
+      ],
+      "vigilance": "4458 n’est pas automatiquement 44586/44587. Débits/encaissements et acomptes sont des règles fiscales distinctes du choix du compte."
+    },
+    {
+      "id": "05",
+      "title": "Immobilisations et cessions",
+      "description": "Acheter, utiliser, amortir puis éventuellement céder un bien durable.",
+      "accounts": [
+        {
+          "code": "205",
+          "label": "Droits, licences et solutions informatiques",
+          "purpose": "Immobilisations incorporelles éligibles"
+        },
+        {
+          "code": "211",
+          "label": "Terrains",
+          "purpose": "Terrain immobilisé"
+        },
+        {
+          "code": "213",
+          "label": "Constructions",
+          "purpose": "Bâtiments et aménagements immobilisés"
+        },
+        {
+          "code": "215",
+          "label": "Installations, matériels et outillages industriels",
+          "purpose": "Matériel durable d’exploitation"
+        },
+        {
+          "code": "2182",
+          "label": "Matériel de transport",
+          "purpose": "Véhicules immobilisés"
+        },
+        {
+          "code": "2183",
+          "label": "Matériel de bureau et informatique",
+          "purpose": "Ordinateurs immobilisés"
+        },
+        {
+          "code": "2184",
+          "label": "Mobilier",
+          "purpose": "Mobilier immobilisé"
+        },
+        {
+          "code": "238",
+          "label": "Avances / acomptes sur immobilisations corporelles",
+          "purpose": "Sommes versées avant livraison de certaines immobilisations"
+        },
+        {
+          "code": "404",
+          "label": "Fournisseurs d’immobilisations",
+          "purpose": "Dette après achat d’un bien durable"
+        },
+        {
+          "code": "2818",
+          "label": "Amortissements des autres immobilisations corporelles",
+          "purpose": "Cumul d’amortissement des biens classés en 218"
+        },
+        {
+          "code": "28183",
+          "label": "Amortissement du matériel de bureau et informatique (subdivision)",
+          "purpose": "Sous-compte obtenu par ventilation 2818 selon 2183"
+        },
+        {
+          "code": "68112",
+          "label": "Dotations aux amortissements corporels",
+          "purpose": "Charge d’amortissement d’un bien corporel"
+        },
+        {
+          "code": "462",
+          "label": "Créances sur cessions d’immobilisations",
+          "purpose": "Acheteur doit le prix d’une immobilisation cédée"
+        },
+        {
+          "code": "657",
+          "label": "Valeur comptable des immobilisations cédées",
+          "purpose": "Sortie d’immobilisations incorporelles et corporelles"
+        },
+        {
+          "code": "757",
+          "label": "Produits des cessions d’immobilisations",
+          "purpose": "Prix de vente d’immobilisations incorporelles et corporelles"
+        }
+      ],
+      "related": [
+        "Cours 05 : Immobilisations",
+        "Mémo 03 : Immobilisations",
+        "Carte 03 : Immobilisations"
+      ],
+      "vigilance": "657/757 : cessions incorporelles et corporelles. 6671/7671 : immobilisations financières. 28183 est une subdivision issue de la ventilation 2818/2183."
+    },
+    {
+      "id": "06",
+      "title": "PAIE",
+      "description": "Salaire brut, cotisations, net, prélèvement à la source, paiements.",
+      "accounts": [
+        {
+          "code": "6411",
+          "label": "Salaires et appointements",
+          "purpose": "Salaire de base et rémunération"
+        },
+        {
+          "code": "6413",
+          "label": "Primes et gratifications",
+          "purpose": "Primes versées au personnel"
+        },
+        {
+          "code": "6414",
+          "label": "Indemnités et avantages divers",
+          "purpose": "Autres éléments de rémunération"
+        },
+        {
+          "code": "6451",
+          "label": "Cotisations à l’Urssaf",
+          "purpose": "Cotisations employeur dues à l’Urssaf"
+        },
+        {
+          "code": "6452",
+          "label": "Cotisations aux mutuelles",
+          "purpose": "Part patronale de mutuelle, selon les règles"
+        },
+        {
+          "code": "6453",
+          "label": "Cotisations aux caisses de retraite",
+          "purpose": "Retraite complémentaire employeur"
+        },
+        {
+          "code": "421",
+          "label": "Personnel - rémunérations dues",
+          "purpose": "Net dû au salarié, avant prélèvements du net"
+        },
+        {
+          "code": "425",
+          "label": "Personnel - avances et acomptes",
+          "purpose": "Acomptes ou avances versés aux salariés"
+        },
+        {
+          "code": "427",
+          "label": "Personnel - oppositions",
+          "purpose": "Retenues sur rémunération suivant procédure"
+        },
+        {
+          "code": "4282",
+          "label": "Dettes provisionnées pour congés à payer",
+          "purpose": "Congés dus à la clôture"
+        },
+        {
+          "code": "431",
+          "label": "Sécurité sociale",
+          "purpose": "Dettes envers l’organisme de Sécurité sociale"
+        },
+        {
+          "code": "437",
+          "label": "Autres organismes sociaux",
+          "purpose": "Mutuelle, retraite et autres organismes"
+        },
+        {
+          "code": "4382",
+          "label": "Charges sociales sur congés à payer",
+          "purpose": "Charges sociales liées aux congés dus"
+        },
+        {
+          "code": "4421",
+          "label": "Prélèvement à la source (IR)",
+          "purpose": "Impôt sur le revenu retenu sur la paie"
+        },
+        {
+          "code": "512",
+          "label": "Banques",
+          "purpose": "Solde et mouvements du compte bancaire"
+        }
+      ],
+      "related": [
+        "Cours 06 : PAIE",
+        "Mémo PAIE consolidé",
+        "Carte mentale PAIE consolidée"
+      ],
+      "vigilance": "641 : brut et autres rémunérations ; 645 : charges patronales ; 421 : rémunérations dues ; 4421 : PAS. Les taux dépendent du cas."
+    },
+    {
+      "id": "07",
+      "title": "Lettrage et rapprochement bancaire",
+      "description": "Raccorder chaque facture à son règlement; comparer journal et banque.",
+      "accounts": [
+        {
+          "code": "401",
+          "label": "Fournisseurs",
+          "purpose": "Dette après achat de biens ou services"
+        },
+        {
+          "code": "411",
+          "label": "Clients",
+          "purpose": "Créance liée aux ventes"
+        },
+        {
+          "code": "512",
+          "label": "Banques",
+          "purpose": "Solde et mouvements du compte bancaire"
+        },
+        {
+          "code": "5112",
+          "label": "Chèques à encaisser",
+          "purpose": "Chèques reçus non encore crédités en banque"
+        },
+        {
+          "code": "53",
+          "label": "Caisse",
+          "purpose": "Espèces de l’entreprise"
+        },
+        {
+          "code": "58",
+          "label": "Virements internes",
+          "purpose": "Transfert entre comptes financiers"
+        },
+        {
+          "code": "627",
+          "label": "Services bancaires et assimilés",
+          "purpose": "Frais facturés par la banque"
+        },
+        {
+          "code": "4091",
+          "label": "Avances et acomptes aux fournisseurs",
+          "purpose": "Somme versée avant facture ou livraison"
+        },
+        {
+          "code": "4191",
+          "label": "Clients - avances et acomptes reçus",
+          "purpose": "Somme encaissée d’un client avant la facture"
+        },
+        {
+          "code": "471",
+          "label": "Compte d’attente",
+          "purpose": "Compte provisoire à justifier puis solder"
+        }
+      ],
+      "related": [
+        "Cours 07 : Lettrage et rapprochement",
+        "Mémo 05 : Lettrage",
+        "Carte 05 : Lettrage"
+      ],
+      "vigilance": "Lettrage et rapprochement sont deux contrôles différents; le relevé bancaire peut contenir des mouvements non encore saisis."
+    },
+    {
+      "id": "08",
+      "title": "Compte de résultat",
+      "description": "Distinguer charges (classe 6) et produits (classe 7).",
+      "accounts": [
+        {
+          "code": "606",
+          "label": "Achats non stockés",
+          "purpose": "Achats consommables ou fournitures"
+        },
+        {
+          "code": "607",
+          "label": "Achats de marchandises",
+          "purpose": "Biens achetés pour être revendus"
+        },
+        {
+          "code": "613",
+          "label": "Locations",
+          "purpose": "Loyers et locations"
+        },
+        {
+          "code": "6226",
+          "label": "Honoraires",
+          "purpose": "Services d’experts, certains prestataires"
+        },
+        {
+          "code": "641",
+          "label": "Rémunérations du personnel",
+          "purpose": "Salaires et rémunérations du personnel"
+        },
+        {
+          "code": "645",
+          "label": "Cotisations de sécurité sociale et prévoyance",
+          "purpose": "Charges sociales à la charge de l’entreprise"
+        },
+        {
+          "code": "68112",
+          "label": "Dotations aux amortissements corporels",
+          "purpose": "Charge d’amortissement d’un bien corporel"
+        },
+        {
+          "code": "665",
+          "label": "Escomptes accordés",
+          "purpose": "Réduction financière accordée au client"
+        },
+        {
+          "code": "656",
+          "label": "Pertes de change commerciales",
+          "purpose": "Écart défavorable sur dette/créance commerciale"
+        },
+        {
+          "code": "657",
+          "label": "Valeur comptable des immobilisations cédées",
+          "purpose": "Sortie d’immobilisations incorporelles et corporelles"
+        },
+        {
+          "code": "695",
+          "label": "Impôt sur les bénéfices",
+          "purpose": "Charge d’impôt sur les bénéfices"
+        },
+        {
+          "code": "706",
+          "label": "Prestations de services",
+          "purpose": "Ventes de services"
+        },
+        {
+          "code": "707",
+          "label": "Ventes de marchandises",
+          "purpose": "Ventes de biens achetés pour revente"
+        },
+        {
+          "code": "741",
+          "label": "Subventions d’exploitation",
+          "purpose": "Subventions liées à l’activité"
+        },
+        {
+          "code": "747",
+          "label": "Quote-part des subventions d’investissement virée au résultat",
+          "purpose": "Part annuelle portée au résultat"
+        },
+        {
+          "code": "756",
+          "label": "Gains de change commerciaux",
+          "purpose": "Écart favorable sur dette/créance commerciale"
+        },
+        {
+          "code": "757",
+          "label": "Produits des cessions d’immobilisations",
+          "purpose": "Prix de vente d’immobilisations incorporelles et corporelles"
+        },
+        {
+          "code": "765",
+          "label": "Escomptes obtenus",
+          "purpose": "Réduction financière obtenue du fournisseur"
+        }
+      ],
+      "related": [
+        "Cours 08 : Compte de résultat",
+        "Mémo 06 : Compte de résultat",
+        "Carte 06 : Compte de résultat"
+      ],
+      "vigilance": "Le produit 757 et la charge 657 ne sont pas les anciens comptes exceptionnels 775/675 dans les opérations de cessions ordinaires visées par le PCG 2026."
+    },
+    {
+      "id": "09",
+      "title": "Bilan : actif et passif",
+      "description": "Photographie des ressources, des biens et des dettes à une date.",
+      "accounts": [
+        {
+          "code": "101",
+          "label": "Capital",
+          "purpose": "Argent ou apports inscrits au capital"
+        },
+        {
+          "code": "1061",
+          "label": "Réserve légale",
+          "purpose": "Bénéfices mis en réserve selon les règles"
+        },
+        {
+          "code": "110",
+          "label": "Report à nouveau créditeur",
+          "purpose": "Bénéfices antérieurs non encore affectés"
+        },
+        {
+          "code": "119",
+          "label": "Report à nouveau débiteur",
+          "purpose": "Pertes antérieures non encore affectées"
+        },
+        {
+          "code": "120",
+          "label": "Résultat : bénéfice",
+          "purpose": "Bénéfice constaté pour l’exercice"
+        },
+        {
+          "code": "129",
+          "label": "Résultat : perte",
+          "purpose": "Perte constatée pour l’exercice"
+        },
+        {
+          "code": "164",
+          "label": "Emprunts bancaires",
+          "purpose": "Capital restant dû sur des emprunts auprès de banques"
+        },
+        {
+          "code": "205",
+          "label": "Droits, licences et solutions informatiques",
+          "purpose": "Immobilisations incorporelles éligibles"
+        },
+        {
+          "code": "2183",
+          "label": "Matériel de bureau et informatique",
+          "purpose": "Ordinateurs immobilisés"
+        },
+        {
+          "code": "2818",
+          "label": "Amortissements des autres immobilisations corporelles",
+          "purpose": "Cumul d’amortissement des biens classés en 218"
+        },
+        {
+          "code": "37",
+          "label": "Stocks de marchandises",
+          "purpose": "Biens achetés pour être revendus"
+        },
+        {
+          "code": "397",
+          "label": "Dépréciations des stocks de marchandises",
+          "purpose": "Perte de valeur estimée du stock"
+        },
+        {
+          "code": "401",
+          "label": "Fournisseurs",
+          "purpose": "Dette après achat de biens ou services"
+        },
+        {
+          "code": "411",
+          "label": "Clients",
+          "purpose": "Créance liée aux ventes"
+        },
+        {
+          "code": "512",
+          "label": "Banques",
+          "purpose": "Solde et mouvements du compte bancaire"
+        },
+        {
+          "code": "44551",
+          "label": "TVA à décaisser",
+          "purpose": "Solde de TVA à verser"
+        },
+        {
+          "code": "44567",
+          "label": "Crédit de TVA à reporter",
+          "purpose": "Crédit de TVA porté sur une période ultérieure"
+        },
+        {
+          "code": "486",
+          "label": "Charges constatées d’avance",
+          "purpose": "Charge payée/constatée concernant une période future"
+        },
+        {
+          "code": "487",
+          "label": "Produits constatés d’avance",
+          "purpose": "Produit facturé concernant une période future"
+        }
+      ],
+      "related": [
+        "Cours 09 : Bilan actif/passif",
+        "Mémo 07 : Bilan",
+        "Carte 07 : Bilan"
+      ],
+      "vigilance": "Un compte de charge ou de produit n’est pas directement un poste de bilan ; vérifier classement, échéance, amortissement et dépréciation."
+    }
+  ],
+  "stats": {
+    "theme_count": 8,
+    "references_count": 112,
+    "unique_codes": 81
+  }
+}

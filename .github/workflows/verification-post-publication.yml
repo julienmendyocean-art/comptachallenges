@@ -1,0 +1,41 @@
+name: ComptaChallenges - verifier site publie
+on:
+  workflow_dispatch:
+    inputs:
+      url:
+        description: Adresse du site à vérifier
+        required: true
+        default: https://comptachallenges.netlify.app/
+        type: string
+      all_pdf:
+        description: Vérifier les 247 PDF (plus lent)
+        required: true
+        default: false
+        type: boolean
+permissions:
+  contents: read
+jobs:
+  verifier-publication:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - name: Contrôles internes de l'archive
+        run: python3 scripts/controle_integrite_publication.py
+      - name: Contrôler Netlify après publication
+        env:
+          TARGET_URL: ${{ inputs.url }}
+          FULL_PDF: ${{ inputs.all_pdf }}
+        run: |
+          if [ "$FULL_PDF" = "true" ]; then
+            python3 scripts/verification_netlify_publie.py --url "$TARGET_URL" --all-pdf --output rapport_netlify.json
+          else
+            python3 scripts/verification_netlify_publie.py --url "$TARGET_URL" --output rapport_netlify.json
+          fi
+      - name: Conserver le rapport même en cas d'écart
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: verification-deploiement
+          path: rapport_netlify.json
+          if-no-files-found: ignore

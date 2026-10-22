@@ -71,7 +71,7 @@
   originalStart();
   /* Les cartes PDF sont conservées telles que construites et contrôlées dans index.html. */
  };
- window.ccPickExam=()=>{throw new Error('Examen final temporairement suspendu : validation des questions en cours.')};
+ window.ccPickExam=()=>{document.getElementById('mode').value='exam';document.getElementById('start').click()};
  const docs={
   complet:{title:'PCG consolidé ANC — 1er janvier 2026',url:'https://www.anc.gouv.fr/files/anc/files/1_Normes_fran%C3%A7aises/Reglements/Recueils/PCG_janvier2026/PCG--1er-janvier-2026.pdf'}
  };

@@ -1,0 +1,12 @@
+COMPTACHALLENGES — PROCHAINE MISE À JOUR R9 — 22.10.2026
+
+PRÉPARÉ LOCAL, PAS PUBLIÉ SUR GITHUB / NETLIFY.
+- 9 thèmes de quiz, 3 niveaux, 30 QCM par thème/niveau : 810 questions.
+- 630 questions R8 conservées intactes ; 180 nouveaux QCM pour SIC et PAIE.
+- 223 PDF : 18 enrichis (9 mémos et 9 cours) + 205 inchangés.
+- Cours détaillés sans exercices à réaliser ni corrigés ; les PDF historiques des exercices/corrigés du site restent présents.
+- Duels distants et examen non audités : restent désactivés.
+
+POUR PUBLIER : extraire à la racine du dépôt GitHub sur une branche ; lancer GitHub Actions ; vérifier toutes les ressources et le compteur (810) sur Netlify avant fusion en production.
+
+ATTENTION : ces contrôles techniques ne certifient pas toutes les réponses individuellement ; les nouveaux quiz portent un statut de revue documentaire ciblée, et non d’audit juridique exhaustif. La sécurité Supabase/RGPD reste à examiner sur les vrais services.

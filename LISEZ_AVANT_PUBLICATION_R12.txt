@@ -1,0 +1,11 @@
+COMPTACHALLENGES — MAJ FINALE R12 (22 octobre 2026)
+
+810 QCM (9 thèmes x 3 niveaux), 247 PDF dont exercices rapides/complets SIC et PAIE.
+Correction Comptes usuels : rubrique SIC retirée du référentiel transversal (8 rubriques), MAIS SIC demeure un thème pédagogique autonome.
+PAIE : ajout PSS / PMSS / PASS avec barèmes 2026 officiels (PMSS 4 005 €, PASS 48 060 €), bases plafonnées, proratisation, régularisation.
+Cours PAIE : 72 pages ; mémo PAIE : 11 pages ; carte mentale PAIE : 2 pages A2 dans un PDF.
+Trois QCM PAIE actualisés, total 810 conservé.
+
+NON PUBLIÉ : aucun commit GitHub, aucun déploiement Netlify. Sécurité Supabase et conformité RGPD serveur à valider.
+Les vérifications techniques et les sources officielles ne remplacent pas une revue métier/juridique exhaustive.
+Ne pas mélanger les fichiers R9/R10/R11/R12. Déployer l'ensemble R12 comme une version unique après contrôles.

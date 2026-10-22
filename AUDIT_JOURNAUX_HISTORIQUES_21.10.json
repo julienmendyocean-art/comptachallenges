@@ -1,0 +1,338 @@
+[
+  {
+    "file": "corriges/01_debutant_corrige.pdf",
+    "pages": 3,
+    "rows": 28,
+    "groups": 11,
+    "unbalanced": [],
+    "examples": []
+  },
+  {
+    "file": "corriges/01_expert_corrige.pdf",
+    "pages": 3,
+    "rows": 28,
+    "groups": 11,
+    "unbalanced": [],
+    "examples": []
+  },
+  {
+    "file": "corriges/01_intermediaire_corrige.pdf",
+    "pages": 4,
+    "rows": 28,
+    "groups": 11,
+    "unbalanced": [],
+    "examples": []
+  },
+  {
+    "file": "corriges/02_debutant_corrige.pdf",
+    "pages": 3,
+    "rows": 28,
+    "groups": 11,
+    "unbalanced": [],
+    "examples": []
+  },
+  {
+    "file": "corriges/02_expert_corrige.pdf",
+    "pages": 3,
+    "rows": 28,
+    "groups": 11,
+    "unbalanced": [],
+    "examples": []
+  },
+  {
+    "file": "corriges/02_intermediaire_corrige.pdf",
+    "pages": 4,
+    "rows": 28,
+    "groups": 11,
+    "unbalanced": [],
+    "examples": []
+  },
+  {
+    "file": "corriges/03_debutant_corrige.pdf",
+    "pages": 3,
+    "rows": 21,
+    "groups": 7,
+    "unbalanced": [],
+    "examples": []
+  },
+  {
+    "file": "corriges/03_expert_corrige.pdf",
+    "pages": 3,
+    "rows": 21,
+    "groups": 7,
+    "unbalanced": [],
+    "examples": []
+  },
+  {
+    "file": "corriges/03_intermediaire_corrige.pdf",
+    "pages": 4,
+    "rows": 21,
+    "groups": 7,
+    "unbalanced": [],
+    "examples": []
+  },
+  {
+    "file": "corriges/04_debutant_corrige.pdf",
+    "pages": 2,
+    "rows": 15,
+    "groups": 5,
+    "unbalanced": [],
+    "examples": []
+  },
+  {
+    "file": "corriges/04_expert_corrige.pdf",
+    "pages": 2,
+    "rows": 15,
+    "groups": 5,
+    "unbalanced": [],
+    "examples": []
+  },
+  {
+    "file": "corriges/04_intermediaire_corrige.pdf",
+    "pages": 3,
+    "rows": 15,
+    "groups": 5,
+    "unbalanced": [],
+    "examples": []
+  },
+  {
+    "file": "corriges/05_debutant_corrige.pdf",
+    "pages": 2,
+    "rows": 10,
+    "groups": 4,
+    "unbalanced": [],
+    "examples": []
+  },
+  {
+    "file": "corriges/05_expert_corrige.pdf",
+    "pages": 2,
+    "rows": 10,
+    "groups": 4,
+    "unbalanced": [],
+    "examples": []
+  },
+  {
+    "file": "corriges/05_intermediaire_corrige.pdf",
+    "pages": 3,
+    "rows": 10,
+    "groups": 4,
+    "unbalanced": [],
+    "examples": []
+  },
+  {
+    "file": "corriges/06_debutant_corrige.pdf",
+    "pages": 2,
+    "rows": 12,
+    "groups": 5,
+    "unbalanced": [],
+    "examples": []
+  },
+  {
+    "file": "corriges/06_expert_corrige.pdf",
+    "pages": 2,
+    "rows": 12,
+    "groups": 5,
+    "unbalanced": [],
+    "examples": []
+  },
+  {
+    "file": "corriges/06_intermediaire_corrige.pdf",
+    "pages": 3,
+    "rows": 12,
+    "groups": 5,
+    "unbalanced": [],
+    "examples": []
+  },
+  {
+    "file": "corriges/07_debutant_corrige.pdf",
+    "pages": 2,
+    "rows": 11,
+    "groups": 4,
+    "unbalanced": [],
+    "examples": []
+  },
+  {
+    "file": "corriges/07_expert_corrige.pdf",
+    "pages": 2,
+    "rows": 11,
+    "groups": 4,
+    "unbalanced": [],
+    "examples": []
+  },
+  {
+    "file": "corriges/07_intermediaire_corrige.pdf",
+    "pages": 3,
+    "rows": 11,
+    "groups": 4,
+    "unbalanced": [],
+    "examples": []
+  },
+  {
+    "file": "corriges-complets/01_debutant_corrige_complet.pdf",
+    "pages": 5,
+    "rows": 42,
+    "groups": 16,
+    "unbalanced": [],
+    "examples": []
+  },
+  {
+    "file": "corriges-complets/01_expert_corrige_complet.pdf",
+    "pages": 5,
+    "rows": 42,
+    "groups": 16,
+    "unbalanced": [],
+    "examples": []
+  },
+  {
+    "file": "corriges-complets/01_intermediaire_corrige_complet.pdf",
+    "pages": 6,
+    "rows": 42,
+    "groups": 16,
+    "unbalanced": [],
+    "examples": []
+  },
+  {
+    "file": "corriges-complets/02_debutant_corrige_complet.pdf",
+    "pages": 6,
+    "rows": 53,
+    "groups": 20,
+    "unbalanced": [],
+    "examples": []
+  },
+  {
+    "file": "corriges-complets/02_expert_corrige_complet.pdf",
+    "pages": 6,
+    "rows": 53,
+    "groups": 20,
+    "unbalanced": [],
+    "examples": []
+  },
+  {
+    "file": "corriges-complets/02_intermediaire_corrige_complet.pdf",
+    "pages": 7,
+    "rows": 53,
+    "groups": 20,
+    "unbalanced": [],
+    "examples": []
+  },
+  {
+    "file": "corriges-complets/03_debutant_corrige_complet.pdf",
+    "pages": 5,
+    "rows": 32,
+    "groups": 13,
+    "unbalanced": [],
+    "examples": []
+  },
+  {
+    "file": "corriges-complets/03_expert_corrige_complet.pdf",
+    "pages": 5,
+    "rows": 32,
+    "groups": 13,
+    "unbalanced": [],
+    "examples": []
+  },
+  {
+    "file": "corriges-complets/03_intermediaire_corrige_complet.pdf",
+    "pages": 6,
+    "rows": 32,
+    "groups": 13,
+    "unbalanced": [],
+    "examples": []
+  },
+  {
+    "file": "corriges-complets/04_debutant_corrige_complet.pdf",
+    "pages": 4,
+    "rows": 32,
+    "groups": 11,
+    "unbalanced": [],
+    "examples": []
+  },
+  {
+    "file": "corriges-complets/04_expert_corrige_complet.pdf",
+    "pages": 4,
+    "rows": 32,
+    "groups": 11,
+    "unbalanced": [],
+    "examples": []
+  },
+  {
+    "file": "corriges-complets/04_intermediaire_corrige_complet.pdf",
+    "pages": 5,
+    "rows": 32,
+    "groups": 11,
+    "unbalanced": [],
+    "examples": []
+  },
+  {
+    "file": "corriges-complets/05_debutant_corrige_complet.pdf",
+    "pages": 4,
+    "rows": 19,
+    "groups": 8,
+    "unbalanced": [],
+    "examples": []
+  },
+  {
+    "file": "corriges-complets/05_expert_corrige_complet.pdf",
+    "pages": 4,
+    "rows": 19,
+    "groups": 8,
+    "unbalanced": [],
+    "examples": []
+  },
+  {
+    "file": "corriges-complets/05_intermediaire_corrige_complet.pdf",
+    "pages": 5,
+    "rows": 19,
+    "groups": 8,
+    "unbalanced": [],
+    "examples": []
+  },
+  {
+    "file": "corriges-complets/06_debutant_corrige_complet.pdf",
+    "pages": 4,
+    "rows": 24,
+    "groups": 10,
+    "unbalanced": [],
+    "examples": []
+  },
+  {
+    "file": "corriges-complets/06_expert_corrige_complet.pdf",
+    "pages": 4,
+    "rows": 24,
+    "groups": 10,
+    "unbalanced": [],
+    "examples": []
+  },
+  {
+    "file": "corriges-complets/06_intermediaire_corrige_complet.pdf",
+    "pages": 5,
+    "rows": 24,
+    "groups": 10,
+    "unbalanced": [],
+    "examples": []
+  },
+  {
+    "file": "corriges-complets/07_debutant_corrige_complet.pdf",
+    "pages": 4,
+    "rows": 23,
+    "groups": 9,
+    "unbalanced": [],
+    "examples": []
+  },
+  {
+    "file": "corriges-complets/07_expert_corrige_complet.pdf",
+    "pages": 4,
+    "rows": 23,
+    "groups": 9,
+    "unbalanced": [],
+    "examples": []
+  },
+  {
+    "file": "corriges-complets/07_intermediaire_corrige_complet.pdf",
+    "pages": 5,
+    "rows": 23,
+    "groups": 9,
+    "unbalanced": [],
+    "examples": []
+  }
+]
