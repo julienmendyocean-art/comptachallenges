@@ -1,12 +1,12 @@
 'use strict';
 const $=id=>document.getElementById(id);
 const names=['Comptes usuels','Opérations courantes','Immobilisations','TVA et CA3','Lettrage et rapprochement bancaire','Compte de résultat','Bilan actif et passif','Système d’information comptable','PAIE'];
-const colors=['#2576c8','#167754','#7952aa','#d37821','#167c91','#a05b78','#5369a8','#7B6FA5','#A55D85'];
+const colors=['#2463AE','#117A70','#8150A1','#B06416'];
 
-const CC_BUILD='20261022-r12';
+const CC_BUILD='20261026-r12-5';
 const CC_EXPECTED_QUIZ_COUNT=810;
 const CC_EXPECTED_PER_GROUP=30;
-const levels=['debutant','intermediaire','expert'];
+const levels=['debutant','intermediaire','expert']; // Difficultés affichées : 1/5, 3/5, 5/5 ; indicateurs pédagogiques.
 const shuffle=a=>{const b=[...a];for(let i=b.length-1;i>0;i--){let j=Math.floor(Math.random()*(i+1));[b[i],b[j]]=[b[j],b[i]]}return b};
 const htmlEscape=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 let quizzes=[],state=null,interval=null,miniSession=0;
@@ -20,33 +20,38 @@ function writeScore(x){try{const a=readScores();a.push(x);localStorage.setItem('
  renderScores();if(typeof window.ccOnLocalScore==='function')Promise.resolve(window.ccOnLocalScore(x)).catch(console.warn)}
 function startUI(){
  names.forEach((n,i)=>{
-  let card=document.createElement('article');card.className='course';card.style.setProperty('--accent',colors[i]);
-  let h=document.createElement('h3');h.textContent=(i+1)+'. '+n;card.append(h);
-  let p=document.createElement('p');p.textContent=i===3?'Mémo TVA chronologique : notions, règles, écritures, déclaration CA3 et rubriques CA3.':'Mémo actualisé, carte mentale, exercices et corrigés accessibles dans la bibliothèque PDF.';card.append(p);
-  const docs={
-   '08':{memo:"memos/08 - Système d'information comptable.pdf",carte:"cartes-mentales/08 - Système d'information comptable.pdf"},
-   '09':{memo:'references-paie/PAIE - Mémo consolidé 2026.pdf',carte:'references-paie/PAIE - Carte mentale consolidée 2026.pdf'}
-  };
-  const id=String(i+1).padStart(2,'0');
-  const paths=docs[id]||{memo:'memos/'+id+' - '+n+'.pdf',carte:'cartes-mentales/'+id+' - '+n+'.pdf'};
-  for(const [label,target] of [['📘 Mémo',paths.memo],['🧠 Carte mentale',paths.carte],['📚 Ressources','#ressources']]){
-    const a=document.createElement('a');a.className='linkbtn';a.textContent=label;
-    a.href=target.startsWith('#')?target:target+'?v='+CC_BUILD;
-    if(target.endsWith('.pdf'))a.download='';card.append(a);
-  }
-  /* La bibliothèque complète des PDF est construite par pdf-library.js. */
-  let option=document.createElement('option');option.value=String(i);option.textContent=n;$('topic').append(option);
-  let label=document.createElement('label'),cb=document.createElement('input');cb.type='checkbox';cb.value=i;label.append(cb,document.createTextNode(n));$('topicchecks').append(label);
+  const option=document.createElement('option');option.value=String(i);option.textContent=n;$('topic').append(option);
+  const label=document.createElement('label'),cb=document.createElement('input');cb.type='checkbox';cb.value=i;
+  label.append(cb,document.createTextNode(n));$('topicchecks').append(label);
  });
+ $('start').disabled=!quizzes.length;
  $('mode').addEventListener('change',updateMode);$('start').addEventListener('click',begin);
  $('next').addEventListener('click',next);$('quit').addEventListener('click',()=>{if(confirm('Abandonner cette partie ?'))stopGame()});
  document.querySelectorAll('[data-game]').forEach(b=>b.addEventListener('click',()=>miniGame(b.dataset.game)));
  $('privateName').addEventListener('input',renderScores);$('player').addEventListener('change',()=>{if(!$('privateName').value)$('privateName').value=$('player').value;renderScores()});
  $('export').addEventListener('click',()=>{const blob=new Blob([JSON.stringify(readScores(),null,2)],{type:'application/json'});const a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download='mes_scores_compta_challenge.json';a.click();setTimeout(()=>URL.revokeObjectURL(a.href),1000)});
- $('reset').addEventListener('click',()=>{if(confirm('Effacer les scores et le pseudonyme invité de cet appareil ? Les données serveur ne seront pas effacées.')){localStorage.removeItem('compta-verified-v48-scores');localStorage.removeItem('compta-guest-nickname');sessionStorage.removeItem('compta-pending-email-login');renderScores()}});
+ $('reset').addEventListener('click',()=>{if(confirm('Effacer les résultats et le pseudonyme enregistrés sur cet appareil ?')){localStorage.removeItem('compta-verified-v48-scores');localStorage.removeItem('compta-guest-nickname');sessionStorage.removeItem('compta-pending-email-login');renderScores()}});
  updateMode();renderScores();
+ if(pendingTheme){const selection=pendingTheme;pendingTheme=null;selectThemeForQuiz(selection);}
 }
-function updateMode(){let m=$('mode').value;$('customwrap').hidden=m!=='custom';$('opponentwrap').hidden=m!=='duel';$('topicwrap').hidden=m==='custom';$('levelwrap').hidden=m==='custom'||m==='exam';$('topicwrap').hidden=m==='custom'||m==='exam';}
+function updateMode(){
+ const m=$('mode').value;
+ $('customwrap').hidden=m!=='custom';$('opponentwrap').hidden=m!=='duel';
+ $('topicwrap').hidden=m==='custom'||m==='exam';
+ $('levelwrap').hidden=m==='custom'||m==='exam'||m==='chrono';
+ const messages={solo:'Sans chronomètre. 10 questions avec une explication après chaque réponse.',custom:'15 questions sur trois thèmes. Les trois niveaux sont mélangés.',chrono:'10 questions de niveaux mélangés, à terminer en 2 min 30.',sudden:'10 secondes par question. La partie s’arrête à la première erreur ou à la fin du temps.',duel:'10 mêmes questions, chacun à son tour sur cet appareil.',exam:'Ce mode reste indisponible.'};
+ $('quiz-mode-help').textContent=quizzes.length?messages[m]:'Questions indisponibles pour le moment.';
+ $('start').textContent=m==='custom'?'Commencer les 15 questions':m==='duel'?'Commencer le duel':'Commencer le quiz';
+}
+let pendingTheme=null;
+function selectThemeForQuiz(selection){
+ const index=Number(selection.theme)-1;if(!Number.isInteger(index)||index<0||index>=names.length)return;
+ if(!$('topic').options.length){pendingTheme=selection;return;}
+ $('mode').value='solo';$('topic').value=String(index);
+ $('level').value=levels.includes(selection.level)?selection.level:'debutant';updateMode();
+ location.hash='quiz';$('topic').focus({preventScroll:true});
+}
+window.addEventListener('compta:theme-quiz',e=>selectThemeForQuiz(e.detail||{}));
 function pickForTopic(i,level){const id=String(i+1).padStart(2,'0');const group=quizzes.filter(x=>x.fiche===id&&(level==='mixte'||x.id.endsWith(level)));return shuffle(group.flatMap(x=>x.questions.map(q=>({...q,theme:x.theme,level:x.level}))));}
 // Diversité pédagogique garantie sur chaque tirage: notions, pratique, calcul et analyse.
 // Aucun utilisateur ne reçoit un quiz exclusivement chiffré si la banque contient des cas variés.
@@ -95,7 +100,7 @@ function begin(){if(!quizzes.length){$('alert').textContent='Questions indisponi
 function tick(){if(!state)return;if(state.mode!=='chrono'&&state.mode!=='sudden')return;const secs=Math.max(0,Math.ceil((state.deadline-Date.now())/1000));$('timer').textContent='⏱ '+secs+' s';if(secs===0){if(state.mode==='sudden'){state.answers.push({item:state.questions[state.index],choice:null,correct:false});finish()}else finish()}}
 function showQuestion(){if(!state)return;if(state.index>=state.questions.length){finish();return}state.verified=false;
  if(state.mode==='sudden')state.deadline=Date.now()+10000;
- const item=state.questions[state.index];$('who').textContent=state.players[state.turn]+' · Question '+(state.index+1)+'/'+state.questions.length;
+ const item=state.questions[state.index];const scale={'Débutant':1,'Intermédiaire':3,'Expert':5};$('who').textContent=state.players[state.turn]+' · Question '+(state.index+1)+'/'+state.questions.length+' · '+item.level+' ('+(scale[item.level]||1)+'/5)';
  $('bar').style.width=(state.index/state.questions.length*100)+'%';$('bar').parentElement.setAttribute('aria-valuenow',String(Math.round(state.index/state.questions.length*100)));$('prompt').textContent=item.q;$('choices').replaceChildren();$('explanation').hidden=true;$('next').hidden=true;
  const options=shuffle(Object.entries(item.options));options.forEach(([letter,value])=>{const b=document.createElement('button');b.type='button';b.textContent=letter+' · '+value;b.dataset.letter=letter;b.addEventListener('click',()=>answer(letter));$('choices').append(b)});
  if(state.mode==='chrono')tick();else $('timer').textContent=state.mode==='sudden'?'⏱ 10 s':'';
@@ -114,7 +119,7 @@ function stopGame(){clearInterval(interval);state=null;$('quizgame').hidden=true
 function feedback(score){return score===100?'🎊 Bravo 👏🏻 Tu es (presque) comptable 😂😅':score>=90?'Bravo. Tu y es presque 💪🏻':score>=80?'C’est bien, encore un effort 👍🏿':score>=70?'Reprends tes fiches et tu feras mieux la prochaine fois 😉':'Prends ton temps. Tu vas y arriver. 🙌🏻'}
 function finish(){if(!state)return;clearInterval(interval);const s=state;state=null;$('quizgame').hidden=true;$('results').hidden=false;$('results').replaceChildren();$('results').className='panel celebrate';
  const outcomes=s.mode==='duel'?[s.first,{name:s.players[1],correct:s.correct,answers:s.answers}]:[{name:s.players[0],correct:s.correct,answers:s.answers}];
- for(const outcome of outcomes){const total=s.mode==='chrono'?Math.max(1,outcome.answers.length):s.questions.length;const score=Math.round(outcome.correct/total*100);const h=document.createElement('h3');h.textContent=s.mode==='exam'?(outcome.correct<=10?'De grosses révisions sont nécessaires : redouble d’efforts !':outcome.correct===11?'Continue à réviser pour être parfaitement prêt.':'Tu es prêt ! Reste confiant, sans relâcher tes efforts.') :feedback(score);$('results').append(h);const p=document.createElement('p');p.className='score';p.textContent=score+' %';$('results').append(p);const sub=document.createElement('p');sub.textContent=outcome.name+' · '+outcome.correct+' bonne(s) réponse(s) sur '+total;$('results').append(sub);
+ for(const outcome of outcomes){const total=s.questions.length;const score=Math.round(outcome.correct/Math.max(1,total)*100);const h=document.createElement('h3');h.textContent=s.mode==='exam'?(outcome.correct<=10?'De grosses révisions sont nécessaires : redouble d’efforts !':outcome.correct===11?'Continue à réviser pour être parfaitement prêt.':'Tu es prêt ! Reste confiant, sans relâcher tes efforts.') :feedback(score);$('results').append(h);const p=document.createElement('p');p.className='score';p.textContent=score+' %';$('results').append(p);const sub=document.createElement('p');sub.textContent=outcome.name+' · '+outcome.correct+' bonne(s) réponse(s) sur '+total+(s.mode==='chrono'?' · '+outcome.answers.length+' question(s) tentée(s) avant la fin du temps':'');$('results').append(sub);
  writeScore({name:outcome.name,score,correct:outcome.correct,total,mode:s.mode,date:new Date().toISOString(),theme:s.mode==='exam'||s.mode==='custom'?'Mixte':names[+$('topic').value],themeId:s.mode==='exam'?'all':String(+$('topic').value+1).padStart(2,'0'),level:s.mode==='exam'?'mixte':$('level').value,topics:s.mode==='exam'?['01','02','03','04','05','06','07','08','09']:undefined});
  const share=document.createElement('button');share.className='btn';share.textContent='Partager mon résultat';share.addEventListener('click',async()=>{const txt=outcome.name+' a obtenu '+score+' % sur Compta Challenge !';if(navigator.share){try{await navigator.share({title:'Compta Challenge',text:txt,url:location.href})}catch{}}else if(navigator.clipboard){await navigator.clipboard.writeText(txt);share.textContent='Copié !'}else{prompt('Copier le résultat :',txt)}});$('results').append(share);
  const details=document.createElement('details'),summary=document.createElement('summary');summary.textContent='Voir mes réponses et les corrections';details.append(summary);outcome.answers.forEach((a,i)=>{const d=document.createElement('div');d.className='reviewitem';const strong=document.createElement('strong');strong.textContent=(a.correct?'✔ ':'✘ ')+(i+1)+'. '+a.item.q;const para=document.createElement('p');para.textContent='Bonne réponse : '+a.item.options[a.item.correct]+' — '+a.item.explanation;d.append(strong,para);details.append(d)});$('results').append(details)
@@ -145,5 +150,5 @@ fetch('questions.json?v='+CC_BUILD,{cache:'no-store'}).then(r=>{if(!r.ok)throw E
  const total=validatePublishedBank(q);quizzes=q;startUI();
  $('qcm-total').textContent=String(total);
  $('qcm-level-count').textContent=String(CC_EXPECTED_PER_GROUP);
- $('alert').textContent='Banque synchronisée : '+total+' questions disponibles, 30 par thème et niveau. Une partie propose 10 questions diversifiées.';
-}).catch(e=>{quizzes=[];startUI();$('qcm-total').textContent='Indisponibles';$('qcm-level-count').textContent='—';$('alert').textContent='Quiz temporairement indisponibles : '+e.message+'. Vérifie que questions.json et index.html appartiennent au même déploiement Netlify. Recharge la page après la mise à jour.';});
+ $('alert').textContent='';
+}).catch(e=>{quizzes=[];startUI();$('qcm-total').textContent='Indisponibles';$('qcm-level-count').textContent='—';$('alert').textContent='Les questions n’ont pas pu être chargées. Recharge la page pour réessayer. Les cours et les documents restent accessibles.';});

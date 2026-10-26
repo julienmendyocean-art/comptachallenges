@@ -1,9 +1,9 @@
 [
   {
     "theme": "01",
-    "label": "Carte mentale",
+    "label": "Cours complet • étape 01/09 · 36 pages",
     "level": "tous",
-    "path": "cartes-mentales/01 - Comptes usuels.pdf"
+    "path": "cours-complets/01_COURS_COMPTES_USUELS_2026.pdf"
   },
   {
     "theme": "01",
@@ -13,177 +13,135 @@
   },
   {
     "theme": "01",
-    "label": "EXO complet (édition 21/10/2026) · corrigé",
-    "level": "debutant",
-    "path": "corriges-2026-10-21/01_debutant_complet_corrige.pdf"
+    "label": "Carte mentale",
+    "level": "tous",
+    "path": "cartes-mentales/01 - Comptes usuels.pdf"
   },
   {
     "theme": "01",
-    "label": "EXO complet (édition 21/10/2026) · sujet",
-    "level": "debutant",
-    "path": "exercices-2026-10-21/01_debutant_complet_sujet.pdf"
-  },
-  {
-    "theme": "01",
-    "label": "EXO rapide (édition 21/10/2026) · corrigé",
-    "level": "debutant",
-    "path": "corriges-2026-10-21/01_debutant_rapide_corrige.pdf"
-  },
-  {
-    "theme": "01",
-    "label": "EXO rapide (édition 21/10/2026) · sujet",
+    "label": "EXO rapide (édition 21/10/2026) · sujet · difficulté 1/5",
     "level": "debutant",
     "path": "exercices-2026-10-21/01_debutant_rapide_sujet.pdf"
   },
   {
     "theme": "01",
-    "label": "EXO complet (édition 21/10/2026) · corrigé",
-    "level": "expert",
-    "path": "corriges-2026-10-21/01_expert_complet_corrige.pdf"
+    "label": "EXO rapide (édition 21/10/2026) · corrigé · difficulté 1/5",
+    "level": "debutant",
+    "path": "corriges-2026-10-21/01_debutant_rapide_corrige.pdf"
   },
   {
     "theme": "01",
-    "label": "EXO complet (édition 21/10/2026) · sujet",
-    "level": "expert",
-    "path": "exercices-2026-10-21/01_expert_complet_sujet.pdf"
-  },
-  {
-    "theme": "01",
-    "label": "EXO rapide (édition 21/10/2026) · corrigé",
-    "level": "expert",
-    "path": "corriges-2026-10-21/01_expert_rapide_corrige.pdf"
-  },
-  {
-    "theme": "01",
-    "label": "EXO rapide (édition 21/10/2026) · sujet",
-    "level": "expert",
-    "path": "exercices-2026-10-21/01_expert_rapide_sujet.pdf"
-  },
-  {
-    "theme": "01",
-    "label": "EXO complet (édition 21/10/2026) · corrigé",
-    "level": "intermediaire",
-    "path": "corriges-2026-10-21/01_intermediaire_complet_corrige.pdf"
-  },
-  {
-    "theme": "01",
-    "label": "EXO complet (édition 21/10/2026) · sujet",
-    "level": "intermediaire",
-    "path": "exercices-2026-10-21/01_intermediaire_complet_sujet.pdf"
-  },
-  {
-    "theme": "01",
-    "label": "EXO rapide (édition 21/10/2026) · corrigé",
-    "level": "intermediaire",
-    "path": "corriges-2026-10-21/01_intermediaire_rapide_corrige.pdf"
-  },
-  {
-    "theme": "01",
-    "label": "EXO rapide (édition 21/10/2026) · sujet",
+    "label": "EXO rapide (édition 21/10/2026) · sujet · difficulté 3/5",
     "level": "intermediaire",
     "path": "exercices-2026-10-21/01_intermediaire_rapide_sujet.pdf"
   },
   {
     "theme": "01",
-    "label": "EXO complet complémentaire · corrigé",
-    "level": "debutant",
-    "path": "corriges-valides/01_complet_debutant.pdf"
+    "label": "EXO rapide (édition 21/10/2026) · corrigé · difficulté 3/5",
+    "level": "intermediaire",
+    "path": "corriges-2026-10-21/01_intermediaire_rapide_corrige.pdf"
   },
   {
     "theme": "01",
-    "label": "EXO complet complémentaire · sujet",
-    "level": "debutant",
-    "path": "exercices-valides/01_complet_debutant.pdf"
+    "label": "EXO rapide (édition 21/10/2026) · sujet · difficulté 5/5",
+    "level": "expert",
+    "path": "exercices-2026-10-21/01_expert_rapide_sujet.pdf"
   },
   {
     "theme": "01",
-    "label": "EXO complet · corrigé",
-    "level": "debutant",
-    "path": "corriges-complets/01_debutant_corrige_complet.pdf"
+    "label": "EXO rapide (édition 21/10/2026) · corrigé · difficulté 5/5",
+    "level": "expert",
+    "path": "corriges-2026-10-21/01_expert_rapide_corrige.pdf"
   },
   {
     "theme": "01",
-    "label": "EXO complet · sujet",
+    "label": "EXO complet (édition 21/10/2026) · sujet · difficulté 1/5",
+    "level": "debutant",
+    "path": "exercices-2026-10-21/01_debutant_complet_sujet.pdf"
+  },
+  {
+    "theme": "01",
+    "label": "EXO complet · sujet · difficulté 1/5",
     "level": "debutant",
     "path": "exercices-complets/01_debutant_exercices_complets.pdf"
   },
   {
     "theme": "01",
-    "label": "EXO rapide complémentaire · corrigé",
+    "label": "EXO complet complémentaire · sujet · difficulté 1/5",
     "level": "debutant",
-    "path": "corriges-valides/01_rapide_debutant.pdf"
+    "path": "exercices-valides/01_complet_debutant.pdf"
   },
   {
     "theme": "01",
-    "label": "EXO rapide complémentaire · sujet",
+    "label": "EXO complet (édition 21/10/2026) · corrigé · difficulté 1/5",
     "level": "debutant",
-    "path": "exercices-valides/01_rapide_debutant.pdf"
+    "path": "corriges-2026-10-21/01_debutant_complet_corrige.pdf"
   },
   {
     "theme": "01",
-    "label": "EXO rapide · corrigé",
+    "label": "EXO complet · corrigé · difficulté 1/5",
     "level": "debutant",
-    "path": "corriges/01_debutant_corrige.pdf"
+    "path": "corriges-complets/01_debutant_corrige_complet.pdf"
   },
   {
     "theme": "01",
-    "label": "EXO rapide · sujet",
+    "label": "EXO complet complémentaire · corrigé · difficulté 1/5",
     "level": "debutant",
-    "path": "exercices/01_debutant_exercices.pdf"
+    "path": "corriges-valides/01_complet_debutant.pdf"
   },
   {
     "theme": "01",
-    "label": "EXO complet · corrigé",
-    "level": "expert",
-    "path": "corriges-complets/01_expert_corrige_complet.pdf"
-  },
-  {
-    "theme": "01",
-    "label": "EXO complet · sujet",
-    "level": "expert",
-    "path": "exercices-complets/01_expert_exercices_complets.pdf"
-  },
-  {
-    "theme": "01",
-    "label": "EXO rapide · corrigé",
-    "level": "expert",
-    "path": "corriges/01_expert_corrige.pdf"
-  },
-  {
-    "theme": "01",
-    "label": "EXO rapide · sujet",
-    "level": "expert",
-    "path": "exercices/01_expert_exercices.pdf"
-  },
-  {
-    "theme": "01",
-    "label": "EXO complet · corrigé",
+    "label": "EXO complet (édition 21/10/2026) · sujet · difficulté 3/5",
     "level": "intermediaire",
-    "path": "corriges-complets/01_intermediaire_corrige_complet.pdf"
+    "path": "exercices-2026-10-21/01_intermediaire_complet_sujet.pdf"
   },
   {
     "theme": "01",
-    "label": "EXO complet · sujet",
+    "label": "EXO complet · sujet · difficulté 3/5",
     "level": "intermediaire",
     "path": "exercices-complets/01_intermediaire_exercices_complets.pdf"
   },
   {
     "theme": "01",
-    "label": "EXO rapide · corrigé",
+    "label": "EXO complet (édition 21/10/2026) · corrigé · difficulté 3/5",
     "level": "intermediaire",
-    "path": "corriges/01_intermediaire_corrige.pdf"
+    "path": "corriges-2026-10-21/01_intermediaire_complet_corrige.pdf"
   },
   {
     "theme": "01",
-    "label": "EXO rapide · sujet",
+    "label": "EXO complet · corrigé · difficulté 3/5",
     "level": "intermediaire",
-    "path": "exercices/01_intermediaire_exercices.pdf"
+    "path": "corriges-complets/01_intermediaire_corrige_complet.pdf"
+  },
+  {
+    "theme": "01",
+    "label": "EXO complet (édition 21/10/2026) · sujet · difficulté 5/5",
+    "level": "expert",
+    "path": "exercices-2026-10-21/01_expert_complet_sujet.pdf"
+  },
+  {
+    "theme": "01",
+    "label": "EXO complet · sujet · difficulté 5/5",
+    "level": "expert",
+    "path": "exercices-complets/01_expert_exercices_complets.pdf"
+  },
+  {
+    "theme": "01",
+    "label": "EXO complet (édition 21/10/2026) · corrigé · difficulté 5/5",
+    "level": "expert",
+    "path": "corriges-2026-10-21/01_expert_complet_corrige.pdf"
+  },
+  {
+    "theme": "01",
+    "label": "EXO complet · corrigé · difficulté 5/5",
+    "level": "expert",
+    "path": "corriges-complets/01_expert_corrige_complet.pdf"
   },
   {
     "theme": "02",
-    "label": "Carte mentale",
+    "label": "Cours complet • étape 03/09 · 32 pages",
     "level": "tous",
-    "path": "cartes-mentales/02 - Opérations courantes.pdf"
+    "path": "cours-complets/03_COURS_OPERATIONS_COURANTES_2026.pdf"
   },
   {
     "theme": "02",
@@ -193,177 +151,135 @@
   },
   {
     "theme": "02",
-    "label": "EXO complet (édition 21/10/2026) · corrigé",
-    "level": "debutant",
-    "path": "corriges-2026-10-21/02_debutant_complet_corrige.pdf"
+    "label": "Carte mentale",
+    "level": "tous",
+    "path": "cartes-mentales/02 - Opérations courantes.pdf"
   },
   {
     "theme": "02",
-    "label": "EXO complet (édition 21/10/2026) · sujet",
-    "level": "debutant",
-    "path": "exercices-2026-10-21/02_debutant_complet_sujet.pdf"
-  },
-  {
-    "theme": "02",
-    "label": "EXO rapide (édition 21/10/2026) · corrigé",
-    "level": "debutant",
-    "path": "corriges-2026-10-21/02_debutant_rapide_corrige.pdf"
-  },
-  {
-    "theme": "02",
-    "label": "EXO rapide (édition 21/10/2026) · sujet",
+    "label": "EXO rapide (édition 21/10/2026) · sujet · difficulté 1/5",
     "level": "debutant",
     "path": "exercices-2026-10-21/02_debutant_rapide_sujet.pdf"
   },
   {
     "theme": "02",
-    "label": "EXO complet (édition 21/10/2026) · corrigé",
-    "level": "expert",
-    "path": "corriges-2026-10-21/02_expert_complet_corrige.pdf"
+    "label": "EXO rapide (édition 21/10/2026) · corrigé · difficulté 1/5",
+    "level": "debutant",
+    "path": "corriges-2026-10-21/02_debutant_rapide_corrige.pdf"
   },
   {
     "theme": "02",
-    "label": "EXO complet (édition 21/10/2026) · sujet",
-    "level": "expert",
-    "path": "exercices-2026-10-21/02_expert_complet_sujet.pdf"
-  },
-  {
-    "theme": "02",
-    "label": "EXO rapide (édition 21/10/2026) · corrigé",
-    "level": "expert",
-    "path": "corriges-2026-10-21/02_expert_rapide_corrige.pdf"
-  },
-  {
-    "theme": "02",
-    "label": "EXO rapide (édition 21/10/2026) · sujet",
-    "level": "expert",
-    "path": "exercices-2026-10-21/02_expert_rapide_sujet.pdf"
-  },
-  {
-    "theme": "02",
-    "label": "EXO complet (édition 21/10/2026) · corrigé",
-    "level": "intermediaire",
-    "path": "corriges-2026-10-21/02_intermediaire_complet_corrige.pdf"
-  },
-  {
-    "theme": "02",
-    "label": "EXO complet (édition 21/10/2026) · sujet",
-    "level": "intermediaire",
-    "path": "exercices-2026-10-21/02_intermediaire_complet_sujet.pdf"
-  },
-  {
-    "theme": "02",
-    "label": "EXO rapide (édition 21/10/2026) · corrigé",
-    "level": "intermediaire",
-    "path": "corriges-2026-10-21/02_intermediaire_rapide_corrige.pdf"
-  },
-  {
-    "theme": "02",
-    "label": "EXO rapide (édition 21/10/2026) · sujet",
+    "label": "EXO rapide (édition 21/10/2026) · sujet · difficulté 3/5",
     "level": "intermediaire",
     "path": "exercices-2026-10-21/02_intermediaire_rapide_sujet.pdf"
   },
   {
     "theme": "02",
-    "label": "EXO complet complémentaire · corrigé",
-    "level": "debutant",
-    "path": "corriges-valides/02_complet_debutant.pdf"
+    "label": "EXO rapide (édition 21/10/2026) · corrigé · difficulté 3/5",
+    "level": "intermediaire",
+    "path": "corriges-2026-10-21/02_intermediaire_rapide_corrige.pdf"
   },
   {
     "theme": "02",
-    "label": "EXO complet complémentaire · sujet",
-    "level": "debutant",
-    "path": "exercices-valides/02_complet_debutant.pdf"
+    "label": "EXO rapide (édition 21/10/2026) · sujet · difficulté 5/5",
+    "level": "expert",
+    "path": "exercices-2026-10-21/02_expert_rapide_sujet.pdf"
   },
   {
     "theme": "02",
-    "label": "EXO complet · corrigé",
-    "level": "debutant",
-    "path": "corriges-complets/02_debutant_corrige_complet.pdf"
+    "label": "EXO rapide (édition 21/10/2026) · corrigé · difficulté 5/5",
+    "level": "expert",
+    "path": "corriges-2026-10-21/02_expert_rapide_corrige.pdf"
   },
   {
     "theme": "02",
-    "label": "EXO complet · sujet",
+    "label": "EXO complet (édition 21/10/2026) · sujet · difficulté 1/5",
+    "level": "debutant",
+    "path": "exercices-2026-10-21/02_debutant_complet_sujet.pdf"
+  },
+  {
+    "theme": "02",
+    "label": "EXO complet · sujet · difficulté 1/5",
     "level": "debutant",
     "path": "exercices-complets/02_debutant_exercices_complets.pdf"
   },
   {
     "theme": "02",
-    "label": "EXO rapide complémentaire · corrigé",
+    "label": "EXO complet complémentaire · sujet · difficulté 1/5",
     "level": "debutant",
-    "path": "corriges-valides/02_rapide_debutant.pdf"
+    "path": "exercices-valides/02_complet_debutant.pdf"
   },
   {
     "theme": "02",
-    "label": "EXO rapide complémentaire · sujet",
+    "label": "EXO complet (édition 21/10/2026) · corrigé · difficulté 1/5",
     "level": "debutant",
-    "path": "exercices-valides/02_rapide_debutant.pdf"
+    "path": "corriges-2026-10-21/02_debutant_complet_corrige.pdf"
   },
   {
     "theme": "02",
-    "label": "EXO rapide · corrigé",
+    "label": "EXO complet · corrigé · difficulté 1/5",
     "level": "debutant",
-    "path": "corriges/02_debutant_corrige.pdf"
+    "path": "corriges-complets/02_debutant_corrige_complet.pdf"
   },
   {
     "theme": "02",
-    "label": "EXO rapide · sujet",
+    "label": "EXO complet complémentaire · corrigé · difficulté 1/5",
     "level": "debutant",
-    "path": "exercices/02_debutant_exercices.pdf"
+    "path": "corriges-valides/02_complet_debutant.pdf"
   },
   {
     "theme": "02",
-    "label": "EXO complet · corrigé",
-    "level": "expert",
-    "path": "corriges-complets/02_expert_corrige_complet.pdf"
-  },
-  {
-    "theme": "02",
-    "label": "EXO complet · sujet",
-    "level": "expert",
-    "path": "exercices-complets/02_expert_exercices_complets.pdf"
-  },
-  {
-    "theme": "02",
-    "label": "EXO rapide · corrigé",
-    "level": "expert",
-    "path": "corriges/02_expert_corrige.pdf"
-  },
-  {
-    "theme": "02",
-    "label": "EXO rapide · sujet",
-    "level": "expert",
-    "path": "exercices/02_expert_exercices.pdf"
-  },
-  {
-    "theme": "02",
-    "label": "EXO complet · corrigé",
+    "label": "EXO complet (édition 21/10/2026) · sujet · difficulté 3/5",
     "level": "intermediaire",
-    "path": "corriges-complets/02_intermediaire_corrige_complet.pdf"
+    "path": "exercices-2026-10-21/02_intermediaire_complet_sujet.pdf"
   },
   {
     "theme": "02",
-    "label": "EXO complet · sujet",
+    "label": "EXO complet · sujet · difficulté 3/5",
     "level": "intermediaire",
     "path": "exercices-complets/02_intermediaire_exercices_complets.pdf"
   },
   {
     "theme": "02",
-    "label": "EXO rapide · corrigé",
+    "label": "EXO complet (édition 21/10/2026) · corrigé · difficulté 3/5",
     "level": "intermediaire",
-    "path": "corriges/02_intermediaire_corrige.pdf"
+    "path": "corriges-2026-10-21/02_intermediaire_complet_corrige.pdf"
   },
   {
     "theme": "02",
-    "label": "EXO rapide · sujet",
+    "label": "EXO complet · corrigé · difficulté 3/5",
     "level": "intermediaire",
-    "path": "exercices/02_intermediaire_exercices.pdf"
+    "path": "corriges-complets/02_intermediaire_corrige_complet.pdf"
+  },
+  {
+    "theme": "02",
+    "label": "EXO complet (édition 21/10/2026) · sujet · difficulté 5/5",
+    "level": "expert",
+    "path": "exercices-2026-10-21/02_expert_complet_sujet.pdf"
+  },
+  {
+    "theme": "02",
+    "label": "EXO complet · sujet · difficulté 5/5",
+    "level": "expert",
+    "path": "exercices-complets/02_expert_exercices_complets.pdf"
+  },
+  {
+    "theme": "02",
+    "label": "EXO complet (édition 21/10/2026) · corrigé · difficulté 5/5",
+    "level": "expert",
+    "path": "corriges-2026-10-21/02_expert_complet_corrige.pdf"
+  },
+  {
+    "theme": "02",
+    "label": "EXO complet · corrigé · difficulté 5/5",
+    "level": "expert",
+    "path": "corriges-complets/02_expert_corrige_complet.pdf"
   },
   {
     "theme": "03",
-    "label": "Carte mentale",
+    "label": "Cours complet • étape 05/09 · 27 pages",
     "level": "tous",
-    "path": "cartes-mentales/03 - Immobilisations.pdf"
+    "path": "cours-complets/05_COURS_IMMOBILISATIONS_2026.pdf"
   },
   {
     "theme": "03",
@@ -373,177 +289,135 @@
   },
   {
     "theme": "03",
-    "label": "EXO complet (édition 21/10/2026) · corrigé",
-    "level": "debutant",
-    "path": "corriges-2026-10-21/03_debutant_complet_corrige.pdf"
+    "label": "Carte mentale",
+    "level": "tous",
+    "path": "cartes-mentales/03 - Immobilisations.pdf"
   },
   {
     "theme": "03",
-    "label": "EXO complet (édition 21/10/2026) · sujet",
-    "level": "debutant",
-    "path": "exercices-2026-10-21/03_debutant_complet_sujet.pdf"
-  },
-  {
-    "theme": "03",
-    "label": "EXO rapide (édition 21/10/2026) · corrigé",
-    "level": "debutant",
-    "path": "corriges-2026-10-21/03_debutant_rapide_corrige.pdf"
-  },
-  {
-    "theme": "03",
-    "label": "EXO rapide (édition 21/10/2026) · sujet",
+    "label": "EXO rapide (édition 21/10/2026) · sujet · difficulté 1/5",
     "level": "debutant",
     "path": "exercices-2026-10-21/03_debutant_rapide_sujet.pdf"
   },
   {
     "theme": "03",
-    "label": "EXO complet (édition 21/10/2026) · corrigé",
-    "level": "expert",
-    "path": "corriges-2026-10-21/03_expert_complet_corrige.pdf"
+    "label": "EXO rapide (édition 21/10/2026) · corrigé · difficulté 1/5",
+    "level": "debutant",
+    "path": "corriges-2026-10-21/03_debutant_rapide_corrige.pdf"
   },
   {
     "theme": "03",
-    "label": "EXO complet (édition 21/10/2026) · sujet",
-    "level": "expert",
-    "path": "exercices-2026-10-21/03_expert_complet_sujet.pdf"
-  },
-  {
-    "theme": "03",
-    "label": "EXO rapide (édition 21/10/2026) · corrigé",
-    "level": "expert",
-    "path": "corriges-2026-10-21/03_expert_rapide_corrige.pdf"
-  },
-  {
-    "theme": "03",
-    "label": "EXO rapide (édition 21/10/2026) · sujet",
-    "level": "expert",
-    "path": "exercices-2026-10-21/03_expert_rapide_sujet.pdf"
-  },
-  {
-    "theme": "03",
-    "label": "EXO complet (édition 21/10/2026) · corrigé",
-    "level": "intermediaire",
-    "path": "corriges-2026-10-21/03_intermediaire_complet_corrige.pdf"
-  },
-  {
-    "theme": "03",
-    "label": "EXO complet (édition 21/10/2026) · sujet",
-    "level": "intermediaire",
-    "path": "exercices-2026-10-21/03_intermediaire_complet_sujet.pdf"
-  },
-  {
-    "theme": "03",
-    "label": "EXO rapide (édition 21/10/2026) · corrigé",
-    "level": "intermediaire",
-    "path": "corriges-2026-10-21/03_intermediaire_rapide_corrige.pdf"
-  },
-  {
-    "theme": "03",
-    "label": "EXO rapide (édition 21/10/2026) · sujet",
+    "label": "EXO rapide (édition 21/10/2026) · sujet · difficulté 3/5",
     "level": "intermediaire",
     "path": "exercices-2026-10-21/03_intermediaire_rapide_sujet.pdf"
   },
   {
     "theme": "03",
-    "label": "EXO complet complémentaire · corrigé",
-    "level": "debutant",
-    "path": "corriges-valides/03_complet_debutant.pdf"
+    "label": "EXO rapide (édition 21/10/2026) · corrigé · difficulté 3/5",
+    "level": "intermediaire",
+    "path": "corriges-2026-10-21/03_intermediaire_rapide_corrige.pdf"
   },
   {
     "theme": "03",
-    "label": "EXO complet complémentaire · sujet",
-    "level": "debutant",
-    "path": "exercices-valides/03_complet_debutant.pdf"
+    "label": "EXO rapide (édition 21/10/2026) · sujet · difficulté 5/5",
+    "level": "expert",
+    "path": "exercices-2026-10-21/03_expert_rapide_sujet.pdf"
   },
   {
     "theme": "03",
-    "label": "EXO complet · corrigé",
-    "level": "debutant",
-    "path": "corriges-complets/03_debutant_corrige_complet.pdf"
+    "label": "EXO rapide (édition 21/10/2026) · corrigé · difficulté 5/5",
+    "level": "expert",
+    "path": "corriges-2026-10-21/03_expert_rapide_corrige.pdf"
   },
   {
     "theme": "03",
-    "label": "EXO complet · sujet",
+    "label": "EXO complet (édition 21/10/2026) · sujet · difficulté 1/5",
+    "level": "debutant",
+    "path": "exercices-2026-10-21/03_debutant_complet_sujet.pdf"
+  },
+  {
+    "theme": "03",
+    "label": "EXO complet · sujet · difficulté 1/5",
     "level": "debutant",
     "path": "exercices-complets/03_debutant_exercices_complets.pdf"
   },
   {
     "theme": "03",
-    "label": "EXO rapide complémentaire · corrigé",
+    "label": "EXO complet complémentaire · sujet · difficulté 1/5",
     "level": "debutant",
-    "path": "corriges-valides/03_rapide_debutant.pdf"
+    "path": "exercices-valides/03_complet_debutant.pdf"
   },
   {
     "theme": "03",
-    "label": "EXO rapide complémentaire · sujet",
+    "label": "EXO complet (édition 21/10/2026) · corrigé · difficulté 1/5",
     "level": "debutant",
-    "path": "exercices-valides/03_rapide_debutant.pdf"
+    "path": "corriges-2026-10-21/03_debutant_complet_corrige.pdf"
   },
   {
     "theme": "03",
-    "label": "EXO rapide · corrigé",
+    "label": "EXO complet · corrigé · difficulté 1/5",
     "level": "debutant",
-    "path": "corriges/03_debutant_corrige.pdf"
+    "path": "corriges-complets/03_debutant_corrige_complet.pdf"
   },
   {
     "theme": "03",
-    "label": "EXO rapide · sujet",
+    "label": "EXO complet complémentaire · corrigé · difficulté 1/5",
     "level": "debutant",
-    "path": "exercices/03_debutant_exercices.pdf"
+    "path": "corriges-valides/03_complet_debutant.pdf"
   },
   {
     "theme": "03",
-    "label": "EXO complet · corrigé",
-    "level": "expert",
-    "path": "corriges-complets/03_expert_corrige_complet.pdf"
-  },
-  {
-    "theme": "03",
-    "label": "EXO complet · sujet",
-    "level": "expert",
-    "path": "exercices-complets/03_expert_exercices_complets.pdf"
-  },
-  {
-    "theme": "03",
-    "label": "EXO rapide · corrigé",
-    "level": "expert",
-    "path": "corriges/03_expert_corrige.pdf"
-  },
-  {
-    "theme": "03",
-    "label": "EXO rapide · sujet",
-    "level": "expert",
-    "path": "exercices/03_expert_exercices.pdf"
-  },
-  {
-    "theme": "03",
-    "label": "EXO complet · corrigé",
+    "label": "EXO complet (édition 21/10/2026) · sujet · difficulté 3/5",
     "level": "intermediaire",
-    "path": "corriges-complets/03_intermediaire_corrige_complet.pdf"
+    "path": "exercices-2026-10-21/03_intermediaire_complet_sujet.pdf"
   },
   {
     "theme": "03",
-    "label": "EXO complet · sujet",
+    "label": "EXO complet · sujet · difficulté 3/5",
     "level": "intermediaire",
     "path": "exercices-complets/03_intermediaire_exercices_complets.pdf"
   },
   {
     "theme": "03",
-    "label": "EXO rapide · corrigé",
+    "label": "EXO complet (édition 21/10/2026) · corrigé · difficulté 3/5",
     "level": "intermediaire",
-    "path": "corriges/03_intermediaire_corrige.pdf"
+    "path": "corriges-2026-10-21/03_intermediaire_complet_corrige.pdf"
   },
   {
     "theme": "03",
-    "label": "EXO rapide · sujet",
+    "label": "EXO complet · corrigé · difficulté 3/5",
     "level": "intermediaire",
-    "path": "exercices/03_intermediaire_exercices.pdf"
+    "path": "corriges-complets/03_intermediaire_corrige_complet.pdf"
+  },
+  {
+    "theme": "03",
+    "label": "EXO complet (édition 21/10/2026) · sujet · difficulté 5/5",
+    "level": "expert",
+    "path": "exercices-2026-10-21/03_expert_complet_sujet.pdf"
+  },
+  {
+    "theme": "03",
+    "label": "EXO complet · sujet · difficulté 5/5",
+    "level": "expert",
+    "path": "exercices-complets/03_expert_exercices_complets.pdf"
+  },
+  {
+    "theme": "03",
+    "label": "EXO complet (édition 21/10/2026) · corrigé · difficulté 5/5",
+    "level": "expert",
+    "path": "corriges-2026-10-21/03_expert_complet_corrige.pdf"
+  },
+  {
+    "theme": "03",
+    "label": "EXO complet · corrigé · difficulté 5/5",
+    "level": "expert",
+    "path": "corriges-complets/03_expert_corrige_complet.pdf"
   },
   {
     "theme": "04",
-    "label": "Carte mentale",
+    "label": "Cours complet • étape 04/09 · 37 pages",
     "level": "tous",
-    "path": "cartes-mentales/04 - TVA et CA3.pdf"
+    "path": "cours-complets/04_COURS_TVA_CA3_2026.pdf"
   },
   {
     "theme": "04",
@@ -553,177 +427,135 @@
   },
   {
     "theme": "04",
-    "label": "EXO complet (édition 21/10/2026) · corrigé",
-    "level": "debutant",
-    "path": "corriges-2026-10-21/04_debutant_complet_corrige.pdf"
+    "label": "Carte mentale",
+    "level": "tous",
+    "path": "cartes-mentales/04 - TVA et CA3.pdf"
   },
   {
     "theme": "04",
-    "label": "EXO complet (édition 21/10/2026) · sujet",
-    "level": "debutant",
-    "path": "exercices-2026-10-21/04_debutant_complet_sujet.pdf"
-  },
-  {
-    "theme": "04",
-    "label": "EXO rapide (édition 21/10/2026) · corrigé",
-    "level": "debutant",
-    "path": "corriges-2026-10-21/04_debutant_rapide_corrige.pdf"
-  },
-  {
-    "theme": "04",
-    "label": "EXO rapide (édition 21/10/2026) · sujet",
+    "label": "EXO rapide (édition 21/10/2026) · sujet · difficulté 1/5",
     "level": "debutant",
     "path": "exercices-2026-10-21/04_debutant_rapide_sujet.pdf"
   },
   {
     "theme": "04",
-    "label": "EXO complet (édition 21/10/2026) · corrigé",
-    "level": "expert",
-    "path": "corriges-2026-10-21/04_expert_complet_corrige.pdf"
+    "label": "EXO rapide (édition 21/10/2026) · corrigé · difficulté 1/5",
+    "level": "debutant",
+    "path": "corriges-2026-10-21/04_debutant_rapide_corrige.pdf"
   },
   {
     "theme": "04",
-    "label": "EXO complet (édition 21/10/2026) · sujet",
-    "level": "expert",
-    "path": "exercices-2026-10-21/04_expert_complet_sujet.pdf"
-  },
-  {
-    "theme": "04",
-    "label": "EXO rapide (édition 21/10/2026) · corrigé",
-    "level": "expert",
-    "path": "corriges-2026-10-21/04_expert_rapide_corrige.pdf"
-  },
-  {
-    "theme": "04",
-    "label": "EXO rapide (édition 21/10/2026) · sujet",
-    "level": "expert",
-    "path": "exercices-2026-10-21/04_expert_rapide_sujet.pdf"
-  },
-  {
-    "theme": "04",
-    "label": "EXO complet (édition 21/10/2026) · corrigé",
-    "level": "intermediaire",
-    "path": "corriges-2026-10-21/04_intermediaire_complet_corrige.pdf"
-  },
-  {
-    "theme": "04",
-    "label": "EXO complet (édition 21/10/2026) · sujet",
-    "level": "intermediaire",
-    "path": "exercices-2026-10-21/04_intermediaire_complet_sujet.pdf"
-  },
-  {
-    "theme": "04",
-    "label": "EXO rapide (édition 21/10/2026) · corrigé",
-    "level": "intermediaire",
-    "path": "corriges-2026-10-21/04_intermediaire_rapide_corrige.pdf"
-  },
-  {
-    "theme": "04",
-    "label": "EXO rapide (édition 21/10/2026) · sujet",
+    "label": "EXO rapide (édition 21/10/2026) · sujet · difficulté 3/5",
     "level": "intermediaire",
     "path": "exercices-2026-10-21/04_intermediaire_rapide_sujet.pdf"
   },
   {
     "theme": "04",
-    "label": "EXO complet complémentaire · corrigé",
-    "level": "debutant",
-    "path": "corriges-valides/04_complet_debutant.pdf"
+    "label": "EXO rapide (édition 21/10/2026) · corrigé · difficulté 3/5",
+    "level": "intermediaire",
+    "path": "corriges-2026-10-21/04_intermediaire_rapide_corrige.pdf"
   },
   {
     "theme": "04",
-    "label": "EXO complet complémentaire · sujet",
-    "level": "debutant",
-    "path": "exercices-valides/04_complet_debutant.pdf"
+    "label": "EXO rapide (édition 21/10/2026) · sujet · difficulté 5/5",
+    "level": "expert",
+    "path": "exercices-2026-10-21/04_expert_rapide_sujet.pdf"
   },
   {
     "theme": "04",
-    "label": "EXO complet · corrigé",
-    "level": "debutant",
-    "path": "corriges-complets/04_debutant_corrige_complet.pdf"
+    "label": "EXO rapide (édition 21/10/2026) · corrigé · difficulté 5/5",
+    "level": "expert",
+    "path": "corriges-2026-10-21/04_expert_rapide_corrige.pdf"
   },
   {
     "theme": "04",
-    "label": "EXO complet · sujet",
+    "label": "EXO complet (édition 21/10/2026) · sujet · difficulté 1/5",
+    "level": "debutant",
+    "path": "exercices-2026-10-21/04_debutant_complet_sujet.pdf"
+  },
+  {
+    "theme": "04",
+    "label": "EXO complet · sujet · difficulté 1/5",
     "level": "debutant",
     "path": "exercices-complets/04_debutant_exercices_complets.pdf"
   },
   {
     "theme": "04",
-    "label": "EXO rapide complémentaire · corrigé",
+    "label": "EXO complet complémentaire · sujet · difficulté 1/5",
     "level": "debutant",
-    "path": "corriges-valides/04_rapide_debutant.pdf"
+    "path": "exercices-valides/04_complet_debutant.pdf"
   },
   {
     "theme": "04",
-    "label": "EXO rapide complémentaire · sujet",
+    "label": "EXO complet (édition 21/10/2026) · corrigé · difficulté 1/5",
     "level": "debutant",
-    "path": "exercices-valides/04_rapide_debutant.pdf"
+    "path": "corriges-2026-10-21/04_debutant_complet_corrige.pdf"
   },
   {
     "theme": "04",
-    "label": "EXO rapide · corrigé",
+    "label": "EXO complet · corrigé · difficulté 1/5",
     "level": "debutant",
-    "path": "corriges/04_debutant_corrige.pdf"
+    "path": "corriges-complets/04_debutant_corrige_complet.pdf"
   },
   {
     "theme": "04",
-    "label": "EXO rapide · sujet",
+    "label": "EXO complet complémentaire · corrigé · difficulté 1/5",
     "level": "debutant",
-    "path": "exercices/04_debutant_exercices.pdf"
+    "path": "corriges-valides/04_complet_debutant.pdf"
   },
   {
     "theme": "04",
-    "label": "EXO complet · corrigé",
-    "level": "expert",
-    "path": "corriges-complets/04_expert_corrige_complet.pdf"
-  },
-  {
-    "theme": "04",
-    "label": "EXO complet · sujet",
-    "level": "expert",
-    "path": "exercices-complets/04_expert_exercices_complets.pdf"
-  },
-  {
-    "theme": "04",
-    "label": "EXO rapide · corrigé",
-    "level": "expert",
-    "path": "corriges/04_expert_corrige.pdf"
-  },
-  {
-    "theme": "04",
-    "label": "EXO rapide · sujet",
-    "level": "expert",
-    "path": "exercices/04_expert_exercices.pdf"
-  },
-  {
-    "theme": "04",
-    "label": "EXO complet · corrigé",
+    "label": "EXO complet (édition 21/10/2026) · sujet · difficulté 3/5",
     "level": "intermediaire",
-    "path": "corriges-complets/04_intermediaire_corrige_complet.pdf"
+    "path": "exercices-2026-10-21/04_intermediaire_complet_sujet.pdf"
   },
   {
     "theme": "04",
-    "label": "EXO complet · sujet",
+    "label": "EXO complet · sujet · difficulté 3/5",
     "level": "intermediaire",
     "path": "exercices-complets/04_intermediaire_exercices_complets.pdf"
   },
   {
     "theme": "04",
-    "label": "EXO rapide · corrigé",
+    "label": "EXO complet (édition 21/10/2026) · corrigé · difficulté 3/5",
     "level": "intermediaire",
-    "path": "corriges/04_intermediaire_corrige.pdf"
+    "path": "corriges-2026-10-21/04_intermediaire_complet_corrige.pdf"
   },
   {
     "theme": "04",
-    "label": "EXO rapide · sujet",
+    "label": "EXO complet · corrigé · difficulté 3/5",
     "level": "intermediaire",
-    "path": "exercices/04_intermediaire_exercices.pdf"
+    "path": "corriges-complets/04_intermediaire_corrige_complet.pdf"
+  },
+  {
+    "theme": "04",
+    "label": "EXO complet (édition 21/10/2026) · sujet · difficulté 5/5",
+    "level": "expert",
+    "path": "exercices-2026-10-21/04_expert_complet_sujet.pdf"
+  },
+  {
+    "theme": "04",
+    "label": "EXO complet · sujet · difficulté 5/5",
+    "level": "expert",
+    "path": "exercices-complets/04_expert_exercices_complets.pdf"
+  },
+  {
+    "theme": "04",
+    "label": "EXO complet (édition 21/10/2026) · corrigé · difficulté 5/5",
+    "level": "expert",
+    "path": "corriges-2026-10-21/04_expert_complet_corrige.pdf"
+  },
+  {
+    "theme": "04",
+    "label": "EXO complet · corrigé · difficulté 5/5",
+    "level": "expert",
+    "path": "corriges-complets/04_expert_corrige_complet.pdf"
   },
   {
     "theme": "05",
-    "label": "Carte mentale",
+    "label": "Cours complet • étape 07/09 · 26 pages",
     "level": "tous",
-    "path": "cartes-mentales/05 - Lettrage et rapprochement bancaire.pdf"
+    "path": "cours-complets/07_COURS_LETTRAGE_RAPPROCHEMENT_2026.pdf"
   },
   {
     "theme": "05",
@@ -733,177 +565,135 @@
   },
   {
     "theme": "05",
-    "label": "EXO complet (édition 21/10/2026) · corrigé",
-    "level": "debutant",
-    "path": "corriges-2026-10-21/05_debutant_complet_corrige.pdf"
+    "label": "Carte mentale",
+    "level": "tous",
+    "path": "cartes-mentales/05 - Lettrage et rapprochement bancaire.pdf"
   },
   {
     "theme": "05",
-    "label": "EXO complet (édition 21/10/2026) · sujet",
-    "level": "debutant",
-    "path": "exercices-2026-10-21/05_debutant_complet_sujet.pdf"
-  },
-  {
-    "theme": "05",
-    "label": "EXO rapide (édition 21/10/2026) · corrigé",
-    "level": "debutant",
-    "path": "corriges-2026-10-21/05_debutant_rapide_corrige.pdf"
-  },
-  {
-    "theme": "05",
-    "label": "EXO rapide (édition 21/10/2026) · sujet",
+    "label": "EXO rapide (édition 21/10/2026) · sujet · difficulté 1/5",
     "level": "debutant",
     "path": "exercices-2026-10-21/05_debutant_rapide_sujet.pdf"
   },
   {
     "theme": "05",
-    "label": "EXO complet (édition 21/10/2026) · corrigé",
-    "level": "expert",
-    "path": "corriges-2026-10-21/05_expert_complet_corrige.pdf"
+    "label": "EXO rapide (édition 21/10/2026) · corrigé · difficulté 1/5",
+    "level": "debutant",
+    "path": "corriges-2026-10-21/05_debutant_rapide_corrige.pdf"
   },
   {
     "theme": "05",
-    "label": "EXO complet (édition 21/10/2026) · sujet",
-    "level": "expert",
-    "path": "exercices-2026-10-21/05_expert_complet_sujet.pdf"
-  },
-  {
-    "theme": "05",
-    "label": "EXO rapide (édition 21/10/2026) · corrigé",
-    "level": "expert",
-    "path": "corriges-2026-10-21/05_expert_rapide_corrige.pdf"
-  },
-  {
-    "theme": "05",
-    "label": "EXO rapide (édition 21/10/2026) · sujet",
-    "level": "expert",
-    "path": "exercices-2026-10-21/05_expert_rapide_sujet.pdf"
-  },
-  {
-    "theme": "05",
-    "label": "EXO complet (édition 21/10/2026) · corrigé",
-    "level": "intermediaire",
-    "path": "corriges-2026-10-21/05_intermediaire_complet_corrige.pdf"
-  },
-  {
-    "theme": "05",
-    "label": "EXO complet (édition 21/10/2026) · sujet",
-    "level": "intermediaire",
-    "path": "exercices-2026-10-21/05_intermediaire_complet_sujet.pdf"
-  },
-  {
-    "theme": "05",
-    "label": "EXO rapide (édition 21/10/2026) · corrigé",
-    "level": "intermediaire",
-    "path": "corriges-2026-10-21/05_intermediaire_rapide_corrige.pdf"
-  },
-  {
-    "theme": "05",
-    "label": "EXO rapide (édition 21/10/2026) · sujet",
+    "label": "EXO rapide (édition 21/10/2026) · sujet · difficulté 3/5",
     "level": "intermediaire",
     "path": "exercices-2026-10-21/05_intermediaire_rapide_sujet.pdf"
   },
   {
     "theme": "05",
-    "label": "EXO complet complémentaire · corrigé",
-    "level": "debutant",
-    "path": "corriges-valides/05_complet_debutant.pdf"
+    "label": "EXO rapide (édition 21/10/2026) · corrigé · difficulté 3/5",
+    "level": "intermediaire",
+    "path": "corriges-2026-10-21/05_intermediaire_rapide_corrige.pdf"
   },
   {
     "theme": "05",
-    "label": "EXO complet complémentaire · sujet",
-    "level": "debutant",
-    "path": "exercices-valides/05_complet_debutant.pdf"
+    "label": "EXO rapide (édition 21/10/2026) · sujet · difficulté 5/5",
+    "level": "expert",
+    "path": "exercices-2026-10-21/05_expert_rapide_sujet.pdf"
   },
   {
     "theme": "05",
-    "label": "EXO complet · corrigé",
-    "level": "debutant",
-    "path": "corriges-complets/05_debutant_corrige_complet.pdf"
+    "label": "EXO rapide (édition 21/10/2026) · corrigé · difficulté 5/5",
+    "level": "expert",
+    "path": "corriges-2026-10-21/05_expert_rapide_corrige.pdf"
   },
   {
     "theme": "05",
-    "label": "EXO complet · sujet",
+    "label": "EXO complet (édition 21/10/2026) · sujet · difficulté 1/5",
+    "level": "debutant",
+    "path": "exercices-2026-10-21/05_debutant_complet_sujet.pdf"
+  },
+  {
+    "theme": "05",
+    "label": "EXO complet · sujet · difficulté 1/5",
     "level": "debutant",
     "path": "exercices-complets/05_debutant_exercices_complets.pdf"
   },
   {
     "theme": "05",
-    "label": "EXO rapide complémentaire · corrigé",
+    "label": "EXO complet complémentaire · sujet · difficulté 1/5",
     "level": "debutant",
-    "path": "corriges-valides/05_rapide_debutant.pdf"
+    "path": "exercices-valides/05_complet_debutant.pdf"
   },
   {
     "theme": "05",
-    "label": "EXO rapide complémentaire · sujet",
+    "label": "EXO complet (édition 21/10/2026) · corrigé · difficulté 1/5",
     "level": "debutant",
-    "path": "exercices-valides/05_rapide_debutant.pdf"
+    "path": "corriges-2026-10-21/05_debutant_complet_corrige.pdf"
   },
   {
     "theme": "05",
-    "label": "EXO rapide · corrigé",
+    "label": "EXO complet · corrigé · difficulté 1/5",
     "level": "debutant",
-    "path": "corriges/05_debutant_corrige.pdf"
+    "path": "corriges-complets/05_debutant_corrige_complet.pdf"
   },
   {
     "theme": "05",
-    "label": "EXO rapide · sujet",
+    "label": "EXO complet complémentaire · corrigé · difficulté 1/5",
     "level": "debutant",
-    "path": "exercices/05_debutant_exercices.pdf"
+    "path": "corriges-valides/05_complet_debutant.pdf"
   },
   {
     "theme": "05",
-    "label": "EXO complet · corrigé",
-    "level": "expert",
-    "path": "corriges-complets/05_expert_corrige_complet.pdf"
-  },
-  {
-    "theme": "05",
-    "label": "EXO complet · sujet",
-    "level": "expert",
-    "path": "exercices-complets/05_expert_exercices_complets.pdf"
-  },
-  {
-    "theme": "05",
-    "label": "EXO rapide · corrigé",
-    "level": "expert",
-    "path": "corriges/05_expert_corrige.pdf"
-  },
-  {
-    "theme": "05",
-    "label": "EXO rapide · sujet",
-    "level": "expert",
-    "path": "exercices/05_expert_exercices.pdf"
-  },
-  {
-    "theme": "05",
-    "label": "EXO complet · corrigé",
+    "label": "EXO complet (édition 21/10/2026) · sujet · difficulté 3/5",
     "level": "intermediaire",
-    "path": "corriges-complets/05_intermediaire_corrige_complet.pdf"
+    "path": "exercices-2026-10-21/05_intermediaire_complet_sujet.pdf"
   },
   {
     "theme": "05",
-    "label": "EXO complet · sujet",
+    "label": "EXO complet · sujet · difficulté 3/5",
     "level": "intermediaire",
     "path": "exercices-complets/05_intermediaire_exercices_complets.pdf"
   },
   {
     "theme": "05",
-    "label": "EXO rapide · corrigé",
+    "label": "EXO complet (édition 21/10/2026) · corrigé · difficulté 3/5",
     "level": "intermediaire",
-    "path": "corriges/05_intermediaire_corrige.pdf"
+    "path": "corriges-2026-10-21/05_intermediaire_complet_corrige.pdf"
   },
   {
     "theme": "05",
-    "label": "EXO rapide · sujet",
+    "label": "EXO complet · corrigé · difficulté 3/5",
     "level": "intermediaire",
-    "path": "exercices/05_intermediaire_exercices.pdf"
+    "path": "corriges-complets/05_intermediaire_corrige_complet.pdf"
+  },
+  {
+    "theme": "05",
+    "label": "EXO complet (édition 21/10/2026) · sujet · difficulté 5/5",
+    "level": "expert",
+    "path": "exercices-2026-10-21/05_expert_complet_sujet.pdf"
+  },
+  {
+    "theme": "05",
+    "label": "EXO complet · sujet · difficulté 5/5",
+    "level": "expert",
+    "path": "exercices-complets/05_expert_exercices_complets.pdf"
+  },
+  {
+    "theme": "05",
+    "label": "EXO complet (édition 21/10/2026) · corrigé · difficulté 5/5",
+    "level": "expert",
+    "path": "corriges-2026-10-21/05_expert_complet_corrige.pdf"
+  },
+  {
+    "theme": "05",
+    "label": "EXO complet · corrigé · difficulté 5/5",
+    "level": "expert",
+    "path": "corriges-complets/05_expert_corrige_complet.pdf"
   },
   {
     "theme": "06",
-    "label": "Carte mentale",
+    "label": "Cours complet • étape 08/09 · 25 pages",
     "level": "tous",
-    "path": "cartes-mentales/06 - Compte de résultat.pdf"
+    "path": "cours-complets/08_COURS_COMPTE_DE_RESULTAT_2026.pdf"
   },
   {
     "theme": "06",
@@ -913,177 +703,135 @@
   },
   {
     "theme": "06",
-    "label": "EXO complet (édition 21/10/2026) · corrigé",
-    "level": "debutant",
-    "path": "corriges-2026-10-21/06_debutant_complet_corrige.pdf"
+    "label": "Carte mentale",
+    "level": "tous",
+    "path": "cartes-mentales/06 - Compte de résultat.pdf"
   },
   {
     "theme": "06",
-    "label": "EXO complet (édition 21/10/2026) · sujet",
-    "level": "debutant",
-    "path": "exercices-2026-10-21/06_debutant_complet_sujet.pdf"
-  },
-  {
-    "theme": "06",
-    "label": "EXO rapide (édition 21/10/2026) · corrigé",
-    "level": "debutant",
-    "path": "corriges-2026-10-21/06_debutant_rapide_corrige.pdf"
-  },
-  {
-    "theme": "06",
-    "label": "EXO rapide (édition 21/10/2026) · sujet",
+    "label": "EXO rapide (édition 21/10/2026) · sujet · difficulté 1/5",
     "level": "debutant",
     "path": "exercices-2026-10-21/06_debutant_rapide_sujet.pdf"
   },
   {
     "theme": "06",
-    "label": "EXO complet (édition 21/10/2026) · corrigé",
-    "level": "expert",
-    "path": "corriges-2026-10-21/06_expert_complet_corrige.pdf"
+    "label": "EXO rapide (édition 21/10/2026) · corrigé · difficulté 1/5",
+    "level": "debutant",
+    "path": "corriges-2026-10-21/06_debutant_rapide_corrige.pdf"
   },
   {
     "theme": "06",
-    "label": "EXO complet (édition 21/10/2026) · sujet",
-    "level": "expert",
-    "path": "exercices-2026-10-21/06_expert_complet_sujet.pdf"
-  },
-  {
-    "theme": "06",
-    "label": "EXO rapide (édition 21/10/2026) · corrigé",
-    "level": "expert",
-    "path": "corriges-2026-10-21/06_expert_rapide_corrige.pdf"
-  },
-  {
-    "theme": "06",
-    "label": "EXO rapide (édition 21/10/2026) · sujet",
-    "level": "expert",
-    "path": "exercices-2026-10-21/06_expert_rapide_sujet.pdf"
-  },
-  {
-    "theme": "06",
-    "label": "EXO complet (édition 21/10/2026) · corrigé",
-    "level": "intermediaire",
-    "path": "corriges-2026-10-21/06_intermediaire_complet_corrige.pdf"
-  },
-  {
-    "theme": "06",
-    "label": "EXO complet (édition 21/10/2026) · sujet",
-    "level": "intermediaire",
-    "path": "exercices-2026-10-21/06_intermediaire_complet_sujet.pdf"
-  },
-  {
-    "theme": "06",
-    "label": "EXO rapide (édition 21/10/2026) · corrigé",
-    "level": "intermediaire",
-    "path": "corriges-2026-10-21/06_intermediaire_rapide_corrige.pdf"
-  },
-  {
-    "theme": "06",
-    "label": "EXO rapide (édition 21/10/2026) · sujet",
+    "label": "EXO rapide (édition 21/10/2026) · sujet · difficulté 3/5",
     "level": "intermediaire",
     "path": "exercices-2026-10-21/06_intermediaire_rapide_sujet.pdf"
   },
   {
     "theme": "06",
-    "label": "EXO complet complémentaire · corrigé",
-    "level": "debutant",
-    "path": "corriges-valides/06_complet_debutant.pdf"
+    "label": "EXO rapide (édition 21/10/2026) · corrigé · difficulté 3/5",
+    "level": "intermediaire",
+    "path": "corriges-2026-10-21/06_intermediaire_rapide_corrige.pdf"
   },
   {
     "theme": "06",
-    "label": "EXO complet complémentaire · sujet",
-    "level": "debutant",
-    "path": "exercices-valides/06_complet_debutant.pdf"
+    "label": "EXO rapide (édition 21/10/2026) · sujet · difficulté 5/5",
+    "level": "expert",
+    "path": "exercices-2026-10-21/06_expert_rapide_sujet.pdf"
   },
   {
     "theme": "06",
-    "label": "EXO complet · corrigé",
-    "level": "debutant",
-    "path": "corriges-complets/06_debutant_corrige_complet.pdf"
+    "label": "EXO rapide (édition 21/10/2026) · corrigé · difficulté 5/5",
+    "level": "expert",
+    "path": "corriges-2026-10-21/06_expert_rapide_corrige.pdf"
   },
   {
     "theme": "06",
-    "label": "EXO complet · sujet",
+    "label": "EXO complet (édition 21/10/2026) · sujet · difficulté 1/5",
+    "level": "debutant",
+    "path": "exercices-2026-10-21/06_debutant_complet_sujet.pdf"
+  },
+  {
+    "theme": "06",
+    "label": "EXO complet · sujet · difficulté 1/5",
     "level": "debutant",
     "path": "exercices-complets/06_debutant_exercices_complets.pdf"
   },
   {
     "theme": "06",
-    "label": "EXO rapide complémentaire · corrigé",
+    "label": "EXO complet complémentaire · sujet · difficulté 1/5",
     "level": "debutant",
-    "path": "corriges-valides/06_rapide_debutant.pdf"
+    "path": "exercices-valides/06_complet_debutant.pdf"
   },
   {
     "theme": "06",
-    "label": "EXO rapide complémentaire · sujet",
+    "label": "EXO complet (édition 21/10/2026) · corrigé · difficulté 1/5",
     "level": "debutant",
-    "path": "exercices-valides/06_rapide_debutant.pdf"
+    "path": "corriges-2026-10-21/06_debutant_complet_corrige.pdf"
   },
   {
     "theme": "06",
-    "label": "EXO rapide · corrigé",
+    "label": "EXO complet · corrigé · difficulté 1/5",
     "level": "debutant",
-    "path": "corriges/06_debutant_corrige.pdf"
+    "path": "corriges-complets/06_debutant_corrige_complet.pdf"
   },
   {
     "theme": "06",
-    "label": "EXO rapide · sujet",
+    "label": "EXO complet complémentaire · corrigé · difficulté 1/5",
     "level": "debutant",
-    "path": "exercices/06_debutant_exercices.pdf"
+    "path": "corriges-valides/06_complet_debutant.pdf"
   },
   {
     "theme": "06",
-    "label": "EXO complet · corrigé",
-    "level": "expert",
-    "path": "corriges-complets/06_expert_corrige_complet.pdf"
-  },
-  {
-    "theme": "06",
-    "label": "EXO complet · sujet",
-    "level": "expert",
-    "path": "exercices-complets/06_expert_exercices_complets.pdf"
-  },
-  {
-    "theme": "06",
-    "label": "EXO rapide · corrigé",
-    "level": "expert",
-    "path": "corriges/06_expert_corrige.pdf"
-  },
-  {
-    "theme": "06",
-    "label": "EXO rapide · sujet",
-    "level": "expert",
-    "path": "exercices/06_expert_exercices.pdf"
-  },
-  {
-    "theme": "06",
-    "label": "EXO complet · corrigé",
+    "label": "EXO complet (édition 21/10/2026) · sujet · difficulté 3/5",
     "level": "intermediaire",
-    "path": "corriges-complets/06_intermediaire_corrige_complet.pdf"
+    "path": "exercices-2026-10-21/06_intermediaire_complet_sujet.pdf"
   },
   {
     "theme": "06",
-    "label": "EXO complet · sujet",
+    "label": "EXO complet · sujet · difficulté 3/5",
     "level": "intermediaire",
     "path": "exercices-complets/06_intermediaire_exercices_complets.pdf"
   },
   {
     "theme": "06",
-    "label": "EXO rapide · corrigé",
+    "label": "EXO complet (édition 21/10/2026) · corrigé · difficulté 3/5",
     "level": "intermediaire",
-    "path": "corriges/06_intermediaire_corrige.pdf"
+    "path": "corriges-2026-10-21/06_intermediaire_complet_corrige.pdf"
   },
   {
     "theme": "06",
-    "label": "EXO rapide · sujet",
+    "label": "EXO complet · corrigé · difficulté 3/5",
     "level": "intermediaire",
-    "path": "exercices/06_intermediaire_exercices.pdf"
+    "path": "corriges-complets/06_intermediaire_corrige_complet.pdf"
+  },
+  {
+    "theme": "06",
+    "label": "EXO complet (édition 21/10/2026) · sujet · difficulté 5/5",
+    "level": "expert",
+    "path": "exercices-2026-10-21/06_expert_complet_sujet.pdf"
+  },
+  {
+    "theme": "06",
+    "label": "EXO complet · sujet · difficulté 5/5",
+    "level": "expert",
+    "path": "exercices-complets/06_expert_exercices_complets.pdf"
+  },
+  {
+    "theme": "06",
+    "label": "EXO complet (édition 21/10/2026) · corrigé · difficulté 5/5",
+    "level": "expert",
+    "path": "corriges-2026-10-21/06_expert_complet_corrige.pdf"
+  },
+  {
+    "theme": "06",
+    "label": "EXO complet · corrigé · difficulté 5/5",
+    "level": "expert",
+    "path": "corriges-complets/06_expert_corrige_complet.pdf"
   },
   {
     "theme": "07",
-    "label": "Carte mentale",
+    "label": "Cours complet • étape 09/09 · 24 pages",
     "level": "tous",
-    "path": "cartes-mentales/07 - Bilan actif et passif.pdf"
+    "path": "cours-complets/09_COURS_BILAN_ACTIF_PASSIF_2026.pdf"
   },
   {
     "theme": "07",
@@ -1093,171 +841,141 @@
   },
   {
     "theme": "07",
-    "label": "EXO complet (édition 21/10/2026) · corrigé",
-    "level": "debutant",
-    "path": "corriges-2026-10-21/07_debutant_complet_corrige.pdf"
+    "label": "Carte mentale",
+    "level": "tous",
+    "path": "cartes-mentales/07 - Bilan actif et passif.pdf"
   },
   {
     "theme": "07",
-    "label": "EXO complet (édition 21/10/2026) · sujet",
-    "level": "debutant",
-    "path": "exercices-2026-10-21/07_debutant_complet_sujet.pdf"
-  },
-  {
-    "theme": "07",
-    "label": "EXO rapide (édition 21/10/2026) · corrigé",
-    "level": "debutant",
-    "path": "corriges-2026-10-21/07_debutant_rapide_corrige.pdf"
-  },
-  {
-    "theme": "07",
-    "label": "EXO rapide (édition 21/10/2026) · sujet",
+    "label": "EXO rapide (édition 21/10/2026) · sujet · difficulté 1/5",
     "level": "debutant",
     "path": "exercices-2026-10-21/07_debutant_rapide_sujet.pdf"
   },
   {
     "theme": "07",
-    "label": "EXO complet (édition 21/10/2026) · corrigé",
-    "level": "expert",
-    "path": "corriges-2026-10-21/07_expert_complet_corrige.pdf"
+    "label": "EXO rapide (édition 21/10/2026) · corrigé · difficulté 1/5",
+    "level": "debutant",
+    "path": "corriges-2026-10-21/07_debutant_rapide_corrige.pdf"
   },
   {
     "theme": "07",
-    "label": "EXO complet (édition 21/10/2026) · sujet",
-    "level": "expert",
-    "path": "exercices-2026-10-21/07_expert_complet_sujet.pdf"
-  },
-  {
-    "theme": "07",
-    "label": "EXO rapide (édition 21/10/2026) · corrigé",
-    "level": "expert",
-    "path": "corriges-2026-10-21/07_expert_rapide_corrige.pdf"
-  },
-  {
-    "theme": "07",
-    "label": "EXO rapide (édition 21/10/2026) · sujet",
-    "level": "expert",
-    "path": "exercices-2026-10-21/07_expert_rapide_sujet.pdf"
-  },
-  {
-    "theme": "07",
-    "label": "EXO complet (édition 21/10/2026) · corrigé",
-    "level": "intermediaire",
-    "path": "corriges-2026-10-21/07_intermediaire_complet_corrige.pdf"
-  },
-  {
-    "theme": "07",
-    "label": "EXO complet (édition 21/10/2026) · sujet",
-    "level": "intermediaire",
-    "path": "exercices-2026-10-21/07_intermediaire_complet_sujet.pdf"
-  },
-  {
-    "theme": "07",
-    "label": "EXO rapide (édition 21/10/2026) · corrigé",
-    "level": "intermediaire",
-    "path": "corriges-2026-10-21/07_intermediaire_rapide_corrige.pdf"
-  },
-  {
-    "theme": "07",
-    "label": "EXO rapide (édition 21/10/2026) · sujet",
+    "label": "EXO rapide (édition 21/10/2026) · sujet · difficulté 3/5",
     "level": "intermediaire",
     "path": "exercices-2026-10-21/07_intermediaire_rapide_sujet.pdf"
   },
   {
     "theme": "07",
-    "label": "EXO complet complémentaire · corrigé",
-    "level": "debutant",
-    "path": "corriges-valides/07_complet_debutant.pdf"
+    "label": "EXO rapide (édition 21/10/2026) · corrigé · difficulté 3/5",
+    "level": "intermediaire",
+    "path": "corriges-2026-10-21/07_intermediaire_rapide_corrige.pdf"
   },
   {
     "theme": "07",
-    "label": "EXO complet complémentaire · sujet",
-    "level": "debutant",
-    "path": "exercices-valides/07_complet_debutant.pdf"
+    "label": "EXO rapide (édition 21/10/2026) · sujet · difficulté 5/5",
+    "level": "expert",
+    "path": "exercices-2026-10-21/07_expert_rapide_sujet.pdf"
   },
   {
     "theme": "07",
-    "label": "EXO complet · corrigé",
-    "level": "debutant",
-    "path": "corriges-complets/07_debutant_corrige_complet.pdf"
+    "label": "EXO rapide (édition 21/10/2026) · corrigé · difficulté 5/5",
+    "level": "expert",
+    "path": "corriges-2026-10-21/07_expert_rapide_corrige.pdf"
   },
   {
     "theme": "07",
-    "label": "EXO complet · sujet",
+    "label": "EXO complet (édition 21/10/2026) · sujet · difficulté 1/5",
+    "level": "debutant",
+    "path": "exercices-2026-10-21/07_debutant_complet_sujet.pdf"
+  },
+  {
+    "theme": "07",
+    "label": "EXO complet · sujet · difficulté 1/5",
     "level": "debutant",
     "path": "exercices-complets/07_debutant_exercices_complets.pdf"
   },
   {
     "theme": "07",
-    "label": "EXO rapide complémentaire · corrigé",
+    "label": "EXO complet complémentaire · sujet · difficulté 1/5",
     "level": "debutant",
-    "path": "corriges-valides/07_rapide_debutant.pdf"
+    "path": "exercices-valides/07_complet_debutant.pdf"
   },
   {
     "theme": "07",
-    "label": "EXO rapide complémentaire · sujet",
+    "label": "EXO complet (édition 21/10/2026) · corrigé · difficulté 1/5",
     "level": "debutant",
-    "path": "exercices-valides/07_rapide_debutant.pdf"
+    "path": "corriges-2026-10-21/07_debutant_complet_corrige.pdf"
   },
   {
     "theme": "07",
-    "label": "EXO rapide · corrigé",
+    "label": "EXO complet · corrigé · difficulté 1/5",
     "level": "debutant",
-    "path": "corriges/07_debutant_corrige.pdf"
+    "path": "corriges-complets/07_debutant_corrige_complet.pdf"
   },
   {
     "theme": "07",
-    "label": "EXO rapide · sujet",
+    "label": "EXO complet complémentaire · corrigé · difficulté 1/5",
     "level": "debutant",
-    "path": "exercices/07_debutant_exercices.pdf"
+    "path": "corriges-valides/07_complet_debutant.pdf"
   },
   {
     "theme": "07",
-    "label": "EXO complet · corrigé",
-    "level": "expert",
-    "path": "corriges-complets/07_expert_corrige_complet.pdf"
-  },
-  {
-    "theme": "07",
-    "label": "EXO complet · sujet",
-    "level": "expert",
-    "path": "exercices-complets/07_expert_exercices_complets.pdf"
-  },
-  {
-    "theme": "07",
-    "label": "EXO rapide · corrigé",
-    "level": "expert",
-    "path": "corriges/07_expert_corrige.pdf"
-  },
-  {
-    "theme": "07",
-    "label": "EXO rapide · sujet",
-    "level": "expert",
-    "path": "exercices/07_expert_exercices.pdf"
-  },
-  {
-    "theme": "07",
-    "label": "EXO complet · corrigé",
+    "label": "EXO complet (édition 21/10/2026) · sujet · difficulté 3/5",
     "level": "intermediaire",
-    "path": "corriges-complets/07_intermediaire_corrige_complet.pdf"
+    "path": "exercices-2026-10-21/07_intermediaire_complet_sujet.pdf"
   },
   {
     "theme": "07",
-    "label": "EXO complet · sujet",
+    "label": "EXO complet · sujet · difficulté 3/5",
     "level": "intermediaire",
     "path": "exercices-complets/07_intermediaire_exercices_complets.pdf"
   },
   {
     "theme": "07",
-    "label": "EXO rapide · corrigé",
+    "label": "EXO complet (édition 21/10/2026) · corrigé · difficulté 3/5",
     "level": "intermediaire",
-    "path": "corriges/07_intermediaire_corrige.pdf"
+    "path": "corriges-2026-10-21/07_intermediaire_complet_corrige.pdf"
   },
   {
     "theme": "07",
-    "label": "EXO rapide · sujet",
+    "label": "EXO complet · corrigé · difficulté 3/5",
     "level": "intermediaire",
-    "path": "exercices/07_intermediaire_exercices.pdf"
+    "path": "corriges-complets/07_intermediaire_corrige_complet.pdf"
+  },
+  {
+    "theme": "07",
+    "label": "EXO complet (édition 21/10/2026) · sujet · difficulté 5/5",
+    "level": "expert",
+    "path": "exercices-2026-10-21/07_expert_complet_sujet.pdf"
+  },
+  {
+    "theme": "07",
+    "label": "EXO complet · sujet · difficulté 5/5",
+    "level": "expert",
+    "path": "exercices-complets/07_expert_exercices_complets.pdf"
+  },
+  {
+    "theme": "07",
+    "label": "EXO complet (édition 21/10/2026) · corrigé · difficulté 5/5",
+    "level": "expert",
+    "path": "corriges-2026-10-21/07_expert_complet_corrige.pdf"
+  },
+  {
+    "theme": "07",
+    "label": "EXO complet · corrigé · difficulté 5/5",
+    "level": "expert",
+    "path": "corriges-complets/07_expert_corrige_complet.pdf"
+  },
+  {
+    "theme": "08",
+    "label": "Cours complet • étape 02/09 · 25 pages",
+    "level": "tous",
+    "path": "cours-complets/02_COURS_SYSTEME_INFORMATION_COMPTABLE_2026.pdf"
+  },
+  {
+    "theme": "08",
+    "label": "Mémo",
+    "level": "tous",
+    "path": "memos/08 - Système d'information comptable.pdf"
   },
   {
     "theme": "08",
@@ -1267,16 +985,112 @@
   },
   {
     "theme": "08",
-    "label": "Mémo",
+    "label": "Exercice rapide SIC — sujet · édition 22/10/2026 · difficulté 1/5",
+    "level": "debutant",
+    "path": "exercices-2026-10-22/08_debutant_rapide_sujet.pdf",
+    "type": "rapide",
+    "source_status": "qcm issus banque R9; écritures nouvelles contrôlées par double entrée"
+  },
+  {
+    "theme": "08",
+    "label": "Exercice rapide SIC — corrigé · édition 22/10/2026 · difficulté 1/5",
+    "level": "debutant",
+    "path": "corriges-2026-10-22/08_debutant_rapide_corrige.pdf",
+    "type": "rapide",
+    "source_status": "qcm issus banque R9; écritures nouvelles contrôlées par double entrée"
+  },
+  {
+    "theme": "08",
+    "label": "Exercice rapide SIC — sujet · édition 22/10/2026 · difficulté 3/5",
+    "level": "intermediaire",
+    "path": "exercices-2026-10-22/08_intermediaire_rapide_sujet.pdf",
+    "type": "rapide",
+    "source_status": "qcm issus banque R9; écritures nouvelles contrôlées par double entrée"
+  },
+  {
+    "theme": "08",
+    "label": "Exercice rapide SIC — corrigé · édition 22/10/2026 · difficulté 3/5",
+    "level": "intermediaire",
+    "path": "corriges-2026-10-22/08_intermediaire_rapide_corrige.pdf",
+    "type": "rapide",
+    "source_status": "qcm issus banque R9; écritures nouvelles contrôlées par double entrée"
+  },
+  {
+    "theme": "08",
+    "label": "Exercice rapide SIC — sujet · édition 22/10/2026 · difficulté 5/5",
+    "level": "expert",
+    "path": "exercices-2026-10-22/08_expert_rapide_sujet.pdf",
+    "type": "rapide",
+    "source_status": "qcm issus banque R9; écritures nouvelles contrôlées par double entrée"
+  },
+  {
+    "theme": "08",
+    "label": "Exercice rapide SIC — corrigé · édition 22/10/2026 · difficulté 5/5",
+    "level": "expert",
+    "path": "corriges-2026-10-22/08_expert_rapide_corrige.pdf",
+    "type": "rapide",
+    "source_status": "qcm issus banque R9; écritures nouvelles contrôlées par double entrée"
+  },
+  {
+    "theme": "08",
+    "label": "Exercice complet SIC — sujet · édition 22/10/2026 · difficulté 1/5",
+    "level": "debutant",
+    "path": "exercices-2026-10-22/08_debutant_complet_sujet.pdf",
+    "type": "complet",
+    "source_status": "qcm issus banque R9; écritures nouvelles contrôlées par double entrée"
+  },
+  {
+    "theme": "08",
+    "label": "Exercice complet SIC — corrigé · édition 22/10/2026 · difficulté 1/5",
+    "level": "debutant",
+    "path": "corriges-2026-10-22/08_debutant_complet_corrige.pdf",
+    "type": "complet",
+    "source_status": "qcm issus banque R9; écritures nouvelles contrôlées par double entrée"
+  },
+  {
+    "theme": "08",
+    "label": "Exercice complet SIC — sujet · édition 22/10/2026 · difficulté 3/5",
+    "level": "intermediaire",
+    "path": "exercices-2026-10-22/08_intermediaire_complet_sujet.pdf",
+    "type": "complet",
+    "source_status": "qcm issus banque R9; écritures nouvelles contrôlées par double entrée"
+  },
+  {
+    "theme": "08",
+    "label": "Exercice complet SIC — corrigé · édition 22/10/2026 · difficulté 3/5",
+    "level": "intermediaire",
+    "path": "corriges-2026-10-22/08_intermediaire_complet_corrige.pdf",
+    "type": "complet",
+    "source_status": "qcm issus banque R9; écritures nouvelles contrôlées par double entrée"
+  },
+  {
+    "theme": "08",
+    "label": "Exercice complet SIC — sujet · édition 22/10/2026 · difficulté 5/5",
+    "level": "expert",
+    "path": "exercices-2026-10-22/08_expert_complet_sujet.pdf",
+    "type": "complet",
+    "source_status": "qcm issus banque R9; écritures nouvelles contrôlées par double entrée"
+  },
+  {
+    "theme": "08",
+    "label": "Exercice complet SIC — corrigé · édition 22/10/2026 · difficulté 5/5",
+    "level": "expert",
+    "path": "corriges-2026-10-22/08_expert_complet_corrige.pdf",
+    "type": "complet",
+    "source_status": "qcm issus banque R9; écritures nouvelles contrôlées par double entrée"
+  },
+  {
+    "theme": "09",
+    "label": "Cours complet • étape 06/09 · 47 pages — PAIE / PSS 2026",
     "level": "tous",
-    "path": "memos/08 - Système d'information comptable.pdf"
+    "path": "cours-complets/06_COURS_PAIE_2026.pdf"
   },
   {
     "theme": "09",
     "label": "Mémo PAIE",
     "level": "tous",
     "path": "references-paie/PAIE - Mémo consolidé 2026.pdf",
-    "sha256": "74afea32fe50e4612b549a9ba96c8c4ef4a69f411b45d2167bd994164ba91925",
+    "sha256": "0e18dc15be092230dc547755a494df25b1761e23390269c9a3034663479a5800",
     "type": "memos",
     "note": "Consolidation des supports PAIE du 22/10/2026"
   },
@@ -1285,163 +1099,13 @@
     "label": "Carte mentale PAIE",
     "level": "tous",
     "path": "references-paie/PAIE - Carte mentale consolidée 2026.pdf",
-    "sha256": "61ec7d92f25e232db7181045ec98a2e8f4f8d7caab22a09581f648b9502a3880",
+    "sha256": "62e2dd13df29045675819db6d9da7474297ce183bd7c8dd3cb23e19f0a76ee87",
     "type": "cartes-mentales",
     "note": "Consolidation des supports PAIE du 22/10/2026"
   },
   {
-    "theme": "01",
-    "label": "Cours complet • étape 01/09 · 54 pages",
-    "level": "tous",
-    "path": "cours-complets/01_COURS_COMPTES_USUELS_2026.pdf"
-  },
-  {
-    "theme": "08",
-    "label": "Cours complet • étape 02/09 · 54 pages",
-    "level": "tous",
-    "path": "cours-complets/02_COURS_SYSTEME_INFORMATION_COMPTABLE_2026.pdf"
-  },
-  {
-    "theme": "02",
-    "label": "Cours complet • étape 03/09 · 54 pages",
-    "level": "tous",
-    "path": "cours-complets/03_COURS_OPERATIONS_COURANTES_2026.pdf"
-  },
-  {
-    "theme": "04",
-    "label": "Cours complet • étape 04/09 · 54 pages",
-    "level": "tous",
-    "path": "cours-complets/04_COURS_TVA_CA3_2026.pdf"
-  },
-  {
-    "theme": "03",
-    "label": "Cours complet • étape 05/09 · 54 pages",
-    "level": "tous",
-    "path": "cours-complets/05_COURS_IMMOBILISATIONS_2026.pdf"
-  },
-  {
     "theme": "09",
-    "label": "Cours complet • étape 06/09 · 70 pages — PAIE enrichie",
-    "level": "tous",
-    "path": "cours-complets/06_COURS_PAIE_2026.pdf"
-  },
-  {
-    "theme": "05",
-    "label": "Cours complet • étape 07/09 · 54 pages",
-    "level": "tous",
-    "path": "cours-complets/07_COURS_LETTRAGE_RAPPROCHEMENT_2026.pdf"
-  },
-  {
-    "theme": "06",
-    "label": "Cours complet • étape 08/09 · 54 pages",
-    "level": "tous",
-    "path": "cours-complets/08_COURS_COMPTE_DE_RESULTAT_2026.pdf"
-  },
-  {
-    "theme": "07",
-    "label": "Cours complet • étape 09/09 · 54 pages",
-    "level": "tous",
-    "path": "cours-complets/09_COURS_BILAN_ACTIF_PASSIF_2026.pdf"
-  },
-  {
-    "theme": "08",
-    "label": "EXO rapide (SIC/PAIE · édition 22/10/2026) · sujet",
-    "level": "debutant",
-    "path": "exercices-2026-10-22/08_debutant_rapide_sujet.pdf",
-    "type": "rapide",
-    "source_status": "qcm issus banque R9; écritures nouvelles contrôlées par double entrée"
-  },
-  {
-    "theme": "08",
-    "label": "EXO rapide (SIC/PAIE · édition 22/10/2026) · corrigé",
-    "level": "debutant",
-    "path": "corriges-2026-10-22/08_debutant_rapide_corrige.pdf",
-    "type": "rapide",
-    "source_status": "qcm issus banque R9; écritures nouvelles contrôlées par double entrée"
-  },
-  {
-    "theme": "08",
-    "label": "EXO complet (SIC/PAIE · édition 22/10/2026) · sujet",
-    "level": "debutant",
-    "path": "exercices-2026-10-22/08_debutant_complet_sujet.pdf",
-    "type": "complet",
-    "source_status": "qcm issus banque R9; écritures nouvelles contrôlées par double entrée"
-  },
-  {
-    "theme": "08",
-    "label": "EXO complet (SIC/PAIE · édition 22/10/2026) · corrigé",
-    "level": "debutant",
-    "path": "corriges-2026-10-22/08_debutant_complet_corrige.pdf",
-    "type": "complet",
-    "source_status": "qcm issus banque R9; écritures nouvelles contrôlées par double entrée"
-  },
-  {
-    "theme": "08",
-    "label": "EXO rapide (SIC/PAIE · édition 22/10/2026) · sujet",
-    "level": "intermediaire",
-    "path": "exercices-2026-10-22/08_intermediaire_rapide_sujet.pdf",
-    "type": "rapide",
-    "source_status": "qcm issus banque R9; écritures nouvelles contrôlées par double entrée"
-  },
-  {
-    "theme": "08",
-    "label": "EXO rapide (SIC/PAIE · édition 22/10/2026) · corrigé",
-    "level": "intermediaire",
-    "path": "corriges-2026-10-22/08_intermediaire_rapide_corrige.pdf",
-    "type": "rapide",
-    "source_status": "qcm issus banque R9; écritures nouvelles contrôlées par double entrée"
-  },
-  {
-    "theme": "08",
-    "label": "EXO complet (SIC/PAIE · édition 22/10/2026) · sujet",
-    "level": "intermediaire",
-    "path": "exercices-2026-10-22/08_intermediaire_complet_sujet.pdf",
-    "type": "complet",
-    "source_status": "qcm issus banque R9; écritures nouvelles contrôlées par double entrée"
-  },
-  {
-    "theme": "08",
-    "label": "EXO complet (SIC/PAIE · édition 22/10/2026) · corrigé",
-    "level": "intermediaire",
-    "path": "corriges-2026-10-22/08_intermediaire_complet_corrige.pdf",
-    "type": "complet",
-    "source_status": "qcm issus banque R9; écritures nouvelles contrôlées par double entrée"
-  },
-  {
-    "theme": "08",
-    "label": "EXO rapide (SIC/PAIE · édition 22/10/2026) · sujet",
-    "level": "expert",
-    "path": "exercices-2026-10-22/08_expert_rapide_sujet.pdf",
-    "type": "rapide",
-    "source_status": "qcm issus banque R9; écritures nouvelles contrôlées par double entrée"
-  },
-  {
-    "theme": "08",
-    "label": "EXO rapide (SIC/PAIE · édition 22/10/2026) · corrigé",
-    "level": "expert",
-    "path": "corriges-2026-10-22/08_expert_rapide_corrige.pdf",
-    "type": "rapide",
-    "source_status": "qcm issus banque R9; écritures nouvelles contrôlées par double entrée"
-  },
-  {
-    "theme": "08",
-    "label": "EXO complet (SIC/PAIE · édition 22/10/2026) · sujet",
-    "level": "expert",
-    "path": "exercices-2026-10-22/08_expert_complet_sujet.pdf",
-    "type": "complet",
-    "source_status": "qcm issus banque R9; écritures nouvelles contrôlées par double entrée"
-  },
-  {
-    "theme": "08",
-    "label": "EXO complet (SIC/PAIE · édition 22/10/2026) · corrigé",
-    "level": "expert",
-    "path": "corriges-2026-10-22/08_expert_complet_corrige.pdf",
-    "type": "complet",
-    "source_status": "qcm issus banque R9; écritures nouvelles contrôlées par double entrée"
-  },
-  {
-    "theme": "09",
-    "label": "EXO rapide (SIC/PAIE · édition 22/10/2026) · sujet",
+    "label": "Exercice rapide PAIE — sujet · édition 22/10/2026 · difficulté 1/5",
     "level": "debutant",
     "path": "exercices-2026-10-22/09_debutant_rapide_sujet.pdf",
     "type": "rapide",
@@ -1449,7 +1113,7 @@
   },
   {
     "theme": "09",
-    "label": "EXO rapide (SIC/PAIE · édition 22/10/2026) · corrigé",
+    "label": "Exercice rapide PAIE — corrigé · édition 22/10/2026 · difficulté 1/5",
     "level": "debutant",
     "path": "corriges-2026-10-22/09_debutant_rapide_corrige.pdf",
     "type": "rapide",
@@ -1457,23 +1121,7 @@
   },
   {
     "theme": "09",
-    "label": "EXO complet (SIC/PAIE · édition 22/10/2026) · sujet",
-    "level": "debutant",
-    "path": "exercices-2026-10-22/09_debutant_complet_sujet.pdf",
-    "type": "complet",
-    "source_status": "qcm issus banque R9; écritures nouvelles contrôlées par double entrée"
-  },
-  {
-    "theme": "09",
-    "label": "EXO complet (SIC/PAIE · édition 22/10/2026) · corrigé",
-    "level": "debutant",
-    "path": "corriges-2026-10-22/09_debutant_complet_corrige.pdf",
-    "type": "complet",
-    "source_status": "qcm issus banque R9; écritures nouvelles contrôlées par double entrée"
-  },
-  {
-    "theme": "09",
-    "label": "EXO rapide (SIC/PAIE · édition 22/10/2026) · sujet",
+    "label": "Exercice rapide PAIE — sujet · édition 22/10/2026 · difficulté 3/5",
     "level": "intermediaire",
     "path": "exercices-2026-10-22/09_intermediaire_rapide_sujet.pdf",
     "type": "rapide",
@@ -1481,7 +1129,7 @@
   },
   {
     "theme": "09",
-    "label": "EXO rapide (SIC/PAIE · édition 22/10/2026) · corrigé",
+    "label": "Exercice rapide PAIE — corrigé · édition 22/10/2026 · difficulté 3/5",
     "level": "intermediaire",
     "path": "corriges-2026-10-22/09_intermediaire_rapide_corrige.pdf",
     "type": "rapide",
@@ -1489,23 +1137,7 @@
   },
   {
     "theme": "09",
-    "label": "EXO complet (SIC/PAIE · édition 22/10/2026) · sujet",
-    "level": "intermediaire",
-    "path": "exercices-2026-10-22/09_intermediaire_complet_sujet.pdf",
-    "type": "complet",
-    "source_status": "qcm issus banque R9; écritures nouvelles contrôlées par double entrée"
-  },
-  {
-    "theme": "09",
-    "label": "EXO complet (SIC/PAIE · édition 22/10/2026) · corrigé",
-    "level": "intermediaire",
-    "path": "corriges-2026-10-22/09_intermediaire_complet_corrige.pdf",
-    "type": "complet",
-    "source_status": "qcm issus banque R9; écritures nouvelles contrôlées par double entrée"
-  },
-  {
-    "theme": "09",
-    "label": "EXO rapide (SIC/PAIE · édition 22/10/2026) · sujet",
+    "label": "Exercice rapide PAIE — sujet · édition 22/10/2026 · difficulté 5/5",
     "level": "expert",
     "path": "exercices-2026-10-22/09_expert_rapide_sujet.pdf",
     "type": "rapide",
@@ -1513,7 +1145,7 @@
   },
   {
     "theme": "09",
-    "label": "EXO rapide (SIC/PAIE · édition 22/10/2026) · corrigé",
+    "label": "Exercice rapide PAIE — corrigé · édition 22/10/2026 · difficulté 5/5",
     "level": "expert",
     "path": "corriges-2026-10-22/09_expert_rapide_corrige.pdf",
     "type": "rapide",
@@ -1521,7 +1153,39 @@
   },
   {
     "theme": "09",
-    "label": "EXO complet (SIC/PAIE · édition 22/10/2026) · sujet",
+    "label": "Exercice complet PAIE — sujet · édition 22/10/2026 · difficulté 1/5",
+    "level": "debutant",
+    "path": "exercices-2026-10-22/09_debutant_complet_sujet.pdf",
+    "type": "complet",
+    "source_status": "qcm issus banque R9; écritures nouvelles contrôlées par double entrée"
+  },
+  {
+    "theme": "09",
+    "label": "Exercice complet PAIE — corrigé · édition 22/10/2026 · difficulté 1/5",
+    "level": "debutant",
+    "path": "corriges-2026-10-22/09_debutant_complet_corrige.pdf",
+    "type": "complet",
+    "source_status": "qcm issus banque R9; écritures nouvelles contrôlées par double entrée"
+  },
+  {
+    "theme": "09",
+    "label": "Exercice complet PAIE — sujet · édition 22/10/2026 · difficulté 3/5",
+    "level": "intermediaire",
+    "path": "exercices-2026-10-22/09_intermediaire_complet_sujet.pdf",
+    "type": "complet",
+    "source_status": "qcm issus banque R9; écritures nouvelles contrôlées par double entrée"
+  },
+  {
+    "theme": "09",
+    "label": "Exercice complet PAIE — corrigé · édition 22/10/2026 · difficulté 3/5",
+    "level": "intermediaire",
+    "path": "corriges-2026-10-22/09_intermediaire_complet_corrige.pdf",
+    "type": "complet",
+    "source_status": "qcm issus banque R9; écritures nouvelles contrôlées par double entrée"
+  },
+  {
+    "theme": "09",
+    "label": "Exercice complet PAIE — sujet · édition 22/10/2026 · difficulté 5/5",
     "level": "expert",
     "path": "exercices-2026-10-22/09_expert_complet_sujet.pdf",
     "type": "complet",
@@ -1529,7 +1193,7 @@
   },
   {
     "theme": "09",
-    "label": "EXO complet (SIC/PAIE · édition 22/10/2026) · corrigé",
+    "label": "Exercice complet PAIE — corrigé · édition 22/10/2026 · difficulté 5/5",
     "level": "expert",
     "path": "corriges-2026-10-22/09_expert_complet_corrige.pdf",
     "type": "complet",
