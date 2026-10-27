@@ -1,25 +1,28 @@
 (() => {
 'use strict';
 const labels={debutant:'Débutant',intermediaire:'Intermédiaire',expert:'Expert',tous:'Tous niveaux'};
-const topics=['Comptes usuels','Opérations courantes','Immobilisations','TVA et CA3','Lettrage et rapprochement bancaire','Compte de résultat','Bilan actif et passif','Système d’information comptable (SIC)','PAIE'];
+const topics=["Comptes usuels", "Opérations courantes", "Immobilisations", "TVA et CA3", "Lettrage et rapprochement bancaire", "Compte de résultat", "Bilan actif et passif", "Système d’information comptable", "PAIE", "Analyse des coûts et budgets", "Clôture et travaux d’inventaire", "Fiscalité des entreprises et IS", "Diagnostic financier et flux", "RSE et sobriété numérique"];
 const library = [
   {
     "theme": "01",
-    "label": "Cours complet • étape 01/09 · 36 pages",
+    "label": "Cours complet • étape 01/14 · 38 pages",
     "level": "tous",
-    "path": "cours-complets/01_COURS_COMPTES_USUELS_2026.pdf"
+    "path": "cours-complets/01_COURS_COMPTES_USUELS_2026.pdf",
+    "sha256": "c48e73483f44b508bc556789caf1e28f29bc88431e713e0daa783b945a633b48"
   },
   {
     "theme": "01",
-    "label": "Mémo",
+    "label": "Mémo · 22 pages",
     "level": "tous",
-    "path": "memos/01 - Comptes usuels.pdf"
+    "path": "memos/01 - Comptes usuels.pdf",
+    "sha256": "f77fb2012606671671e21aa318b14979e4f3dc3246deff4079e1ae7ae5fb712e"
   },
   {
     "theme": "01",
-    "label": "Carte mentale",
+    "label": "Carte mentale · 7 pages",
     "level": "tous",
-    "path": "cartes-mentales/01 - Comptes usuels.pdf"
+    "path": "cartes-mentales/01 - Comptes usuels.pdf",
+    "sha256": "736f8602b79ce3af237d9e05abb97c8944ceb08d45b6fe3f9a838558853a3eee"
   },
   {
     "theme": "01",
@@ -142,22 +145,142 @@ const library = [
     "path": "corriges-complets/01_expert_corrige_complet.pdf"
   },
   {
-    "theme": "02",
-    "label": "Cours complet • étape 03/09 · 32 pages",
+    "theme": "08",
+    "label": "Cours complet • étape 02/14 · 28 pages",
     "level": "tous",
-    "path": "cours-complets/03_COURS_OPERATIONS_COURANTES_2026.pdf"
+    "path": "cours-complets/02_COURS_SYSTEME_INFORMATION_COMPTABLE_2026.pdf",
+    "sha256": "35e6a642949dc0705b8d8329210f28a19058e730ef558315697ef2f1ec5c2972"
+  },
+  {
+    "theme": "08",
+    "label": "Mémo · 10 pages",
+    "level": "tous",
+    "path": "memos/08 - Système d'information comptable.pdf",
+    "sha256": "82123b6e219422e5b4c61ab68cfdfe8822d4ffee3cc73120a5dab3084a53c528"
+  },
+  {
+    "theme": "08",
+    "label": "Carte mentale · 6 pages",
+    "level": "tous",
+    "path": "cartes-mentales/08 - Système d'information comptable.pdf",
+    "sha256": "a0b1562aa3772a0e9e7a905a3d3cc939231296e7ec9aefe7cd56bb4289af019a"
+  },
+  {
+    "theme": "08",
+    "label": "Exercice rapide SIC — sujet · édition 22/10/2026 · difficulté 1/5",
+    "level": "debutant",
+    "path": "exercices-2026-10-22/08_debutant_rapide_sujet.pdf",
+    "type": "rapide",
+    "source_status": "qcm issus banque R9; écritures nouvelles contrôlées par double entrée"
+  },
+  {
+    "theme": "08",
+    "label": "Exercice rapide SIC — corrigé · édition 22/10/2026 · difficulté 1/5",
+    "level": "debutant",
+    "path": "corriges-2026-10-22/08_debutant_rapide_corrige.pdf",
+    "type": "rapide",
+    "source_status": "qcm issus banque R9; écritures nouvelles contrôlées par double entrée"
+  },
+  {
+    "theme": "08",
+    "label": "Exercice rapide SIC — sujet · édition 22/10/2026 · difficulté 3/5",
+    "level": "intermediaire",
+    "path": "exercices-2026-10-22/08_intermediaire_rapide_sujet.pdf",
+    "type": "rapide",
+    "source_status": "qcm issus banque R9; écritures nouvelles contrôlées par double entrée"
+  },
+  {
+    "theme": "08",
+    "label": "Exercice rapide SIC — corrigé · édition 22/10/2026 · difficulté 3/5",
+    "level": "intermediaire",
+    "path": "corriges-2026-10-22/08_intermediaire_rapide_corrige.pdf",
+    "type": "rapide",
+    "source_status": "qcm issus banque R9; écritures nouvelles contrôlées par double entrée"
+  },
+  {
+    "theme": "08",
+    "label": "Exercice rapide SIC — sujet · édition 22/10/2026 · difficulté 5/5",
+    "level": "expert",
+    "path": "exercices-2026-10-22/08_expert_rapide_sujet.pdf",
+    "type": "rapide",
+    "source_status": "qcm issus banque R9; écritures nouvelles contrôlées par double entrée"
+  },
+  {
+    "theme": "08",
+    "label": "Exercice rapide SIC — corrigé · édition 22/10/2026 · difficulté 5/5",
+    "level": "expert",
+    "path": "corriges-2026-10-22/08_expert_rapide_corrige.pdf",
+    "type": "rapide",
+    "source_status": "qcm issus banque R9; écritures nouvelles contrôlées par double entrée"
+  },
+  {
+    "theme": "08",
+    "label": "Exercice complet SIC — sujet · édition 22/10/2026 · difficulté 1/5",
+    "level": "debutant",
+    "path": "exercices-2026-10-22/08_debutant_complet_sujet.pdf",
+    "type": "complet",
+    "source_status": "qcm issus banque R9; écritures nouvelles contrôlées par double entrée"
+  },
+  {
+    "theme": "08",
+    "label": "Exercice complet SIC — corrigé · édition 22/10/2026 · difficulté 1/5",
+    "level": "debutant",
+    "path": "corriges-2026-10-22/08_debutant_complet_corrige.pdf",
+    "type": "complet",
+    "source_status": "qcm issus banque R9; écritures nouvelles contrôlées par double entrée"
+  },
+  {
+    "theme": "08",
+    "label": "Exercice complet SIC — sujet · édition 22/10/2026 · difficulté 3/5",
+    "level": "intermediaire",
+    "path": "exercices-2026-10-22/08_intermediaire_complet_sujet.pdf",
+    "type": "complet",
+    "source_status": "qcm issus banque R9; écritures nouvelles contrôlées par double entrée"
+  },
+  {
+    "theme": "08",
+    "label": "Exercice complet SIC — corrigé · édition 22/10/2026 · difficulté 3/5",
+    "level": "intermediaire",
+    "path": "corriges-2026-10-22/08_intermediaire_complet_corrige.pdf",
+    "type": "complet",
+    "source_status": "qcm issus banque R9; écritures nouvelles contrôlées par double entrée"
+  },
+  {
+    "theme": "08",
+    "label": "Exercice complet SIC — sujet · édition 22/10/2026 · difficulté 5/5",
+    "level": "expert",
+    "path": "exercices-2026-10-22/08_expert_complet_sujet.pdf",
+    "type": "complet",
+    "source_status": "qcm issus banque R9; écritures nouvelles contrôlées par double entrée"
+  },
+  {
+    "theme": "08",
+    "label": "Exercice complet SIC — corrigé · édition 22/10/2026 · difficulté 5/5",
+    "level": "expert",
+    "path": "corriges-2026-10-22/08_expert_complet_corrige.pdf",
+    "type": "complet",
+    "source_status": "qcm issus banque R9; écritures nouvelles contrôlées par double entrée"
   },
   {
     "theme": "02",
-    "label": "Mémo",
+    "label": "Cours complet • étape 03/14 · 35 pages",
     "level": "tous",
-    "path": "memos/02 - Opérations courantes.pdf"
+    "path": "cours-complets/03_COURS_OPERATIONS_COURANTES_2026.pdf",
+    "sha256": "18641ea85c0fec8c1113489db58eabcd0fcb52aa0d2d36c18c868c8ac8e17afa"
   },
   {
     "theme": "02",
-    "label": "Carte mentale",
+    "label": "Mémo · 13 pages",
     "level": "tous",
-    "path": "cartes-mentales/02 - Opérations courantes.pdf"
+    "path": "memos/02 - Opérations courantes.pdf",
+    "sha256": "372b8985c39ad4732e012b754f2899034878e56e05bffc2cc594f7e57be22946"
+  },
+  {
+    "theme": "02",
+    "label": "Carte mentale · 6 pages",
+    "level": "tous",
+    "path": "cartes-mentales/02 - Opérations courantes.pdf",
+    "sha256": "c001df5f68b489a9c5fe4aa19d1e66d0a141d9f60dfe0dfdc6c8072c7418ebbf"
   },
   {
     "theme": "02",
@@ -281,21 +404,24 @@ const library = [
   },
   {
     "theme": "03",
-    "label": "Cours complet • étape 05/09 · 27 pages",
+    "label": "Cours complet • étape 04/14 · 30 pages",
     "level": "tous",
-    "path": "cours-complets/05_COURS_IMMOBILISATIONS_2026.pdf"
+    "path": "cours-complets/05_COURS_IMMOBILISATIONS_2026.pdf",
+    "sha256": "9a9fa8d85015229476374ced7f9845c166fb9c405198cbeb646f350dc415f96d"
   },
   {
     "theme": "03",
-    "label": "Mémo",
+    "label": "Mémo · 11 pages",
     "level": "tous",
-    "path": "memos/03 - Immobilisations.pdf"
+    "path": "memos/03 - Immobilisations.pdf",
+    "sha256": "e1dfc1fe25e2fadf882534d961c0818a01e0255c0d5dd4f3050fbe652766fb7c"
   },
   {
     "theme": "03",
-    "label": "Carte mentale",
+    "label": "Carte mentale · 6 pages",
     "level": "tous",
-    "path": "cartes-mentales/03 - Immobilisations.pdf"
+    "path": "cartes-mentales/03 - Immobilisations.pdf",
+    "sha256": "2d9fcf924143994b7a9577b6eed63628a52be8196ddcc5a0a519f4d78864d40e"
   },
   {
     "theme": "03",
@@ -418,160 +544,146 @@ const library = [
     "path": "corriges-complets/03_expert_corrige_complet.pdf"
   },
   {
-    "theme": "04",
-    "label": "Cours complet • étape 04/09 · 37 pages",
+    "theme": "09",
+    "label": "Cours complet • étape 05/14 · 53 pages",
     "level": "tous",
-    "path": "cours-complets/04_COURS_TVA_CA3_2026.pdf"
+    "path": "cours-complets/06_COURS_PAIE_2026.pdf",
+    "sha256": "32f90123350a04b2b9906751964af8a6dcdc059459730ff33ad7d2a6ddf9eb70"
   },
   {
-    "theme": "04",
-    "label": "Mémo TVA chronologique (21/10/2026)",
+    "theme": "09",
+    "label": "Mémo · 16 pages",
     "level": "tous",
-    "path": "memos/04 - TVA et CA3.pdf"
+    "path": "references-paie/PAIE - Mémo consolidé 2026.pdf",
+    "sha256": "63f27f9bd117624af9558755f00cf885e03c602687bf6ec84594da982ed5575d",
+    "type": "memos",
+    "note": "Consolidation des supports PAIE du 22/10/2026"
   },
   {
-    "theme": "04",
-    "label": "Carte mentale",
+    "theme": "09",
+    "label": "Carte mentale · 9 pages",
     "level": "tous",
-    "path": "cartes-mentales/04 - TVA et CA3.pdf"
+    "path": "references-paie/PAIE - Carte mentale consolidée 2026.pdf",
+    "sha256": "d137ba32fab2d53669d0c4b2cecb0d8a7db0b790a207638fd4fcb840c38a2a28",
+    "type": "cartes-mentales",
+    "note": "Consolidation des supports PAIE du 22/10/2026"
   },
   {
-    "theme": "04",
-    "label": "EXO rapide (édition 21/10/2026) · sujet · difficulté 1/5",
+    "theme": "09",
+    "label": "Exercice rapide PAIE — sujet · édition 22/10/2026 · difficulté 1/5",
     "level": "debutant",
-    "path": "exercices-2026-10-21/04_debutant_rapide_sujet.pdf"
+    "path": "exercices-2026-10-22/09_debutant_rapide_sujet.pdf",
+    "type": "rapide",
+    "source_status": "qcm issus banque R9; écritures nouvelles contrôlées par double entrée"
   },
   {
-    "theme": "04",
-    "label": "EXO rapide (édition 21/10/2026) · corrigé · difficulté 1/5",
+    "theme": "09",
+    "label": "Exercice rapide PAIE — corrigé · édition 22/10/2026 · difficulté 1/5",
     "level": "debutant",
-    "path": "corriges-2026-10-21/04_debutant_rapide_corrige.pdf"
+    "path": "corriges-2026-10-22/09_debutant_rapide_corrige.pdf",
+    "type": "rapide",
+    "source_status": "qcm issus banque R9; écritures nouvelles contrôlées par double entrée"
   },
   {
-    "theme": "04",
-    "label": "EXO rapide (édition 21/10/2026) · sujet · difficulté 3/5",
+    "theme": "09",
+    "label": "Exercice rapide PAIE — sujet · édition 22/10/2026 · difficulté 3/5",
     "level": "intermediaire",
-    "path": "exercices-2026-10-21/04_intermediaire_rapide_sujet.pdf"
+    "path": "exercices-2026-10-22/09_intermediaire_rapide_sujet.pdf",
+    "type": "rapide",
+    "source_status": "qcm issus banque R9; écritures nouvelles contrôlées par double entrée"
   },
   {
-    "theme": "04",
-    "label": "EXO rapide (édition 21/10/2026) · corrigé · difficulté 3/5",
+    "theme": "09",
+    "label": "Exercice rapide PAIE — corrigé · édition 22/10/2026 · difficulté 3/5",
     "level": "intermediaire",
-    "path": "corriges-2026-10-21/04_intermediaire_rapide_corrige.pdf"
+    "path": "corriges-2026-10-22/09_intermediaire_rapide_corrige.pdf",
+    "type": "rapide",
+    "source_status": "qcm issus banque R9; écritures nouvelles contrôlées par double entrée"
   },
   {
-    "theme": "04",
-    "label": "EXO rapide (édition 21/10/2026) · sujet · difficulté 5/5",
+    "theme": "09",
+    "label": "Exercice rapide PAIE — sujet · édition 22/10/2026 · difficulté 5/5",
     "level": "expert",
-    "path": "exercices-2026-10-21/04_expert_rapide_sujet.pdf"
+    "path": "exercices-2026-10-22/09_expert_rapide_sujet.pdf",
+    "type": "rapide",
+    "source_status": "qcm issus banque R9; écritures nouvelles contrôlées par double entrée"
   },
   {
-    "theme": "04",
-    "label": "EXO rapide (édition 21/10/2026) · corrigé · difficulté 5/5",
+    "theme": "09",
+    "label": "Exercice rapide PAIE — corrigé · édition 22/10/2026 · difficulté 5/5",
     "level": "expert",
-    "path": "corriges-2026-10-21/04_expert_rapide_corrige.pdf"
+    "path": "corriges-2026-10-22/09_expert_rapide_corrige.pdf",
+    "type": "rapide",
+    "source_status": "qcm issus banque R9; écritures nouvelles contrôlées par double entrée"
   },
   {
-    "theme": "04",
-    "label": "EXO complet (édition 21/10/2026) · sujet · difficulté 1/5",
+    "theme": "09",
+    "label": "Exercice complet PAIE — sujet · édition 22/10/2026 · difficulté 1/5",
     "level": "debutant",
-    "path": "exercices-2026-10-21/04_debutant_complet_sujet.pdf"
+    "path": "exercices-2026-10-22/09_debutant_complet_sujet.pdf",
+    "type": "complet",
+    "source_status": "qcm issus banque R9; écritures nouvelles contrôlées par double entrée"
   },
   {
-    "theme": "04",
-    "label": "EXO complet · sujet · difficulté 1/5",
+    "theme": "09",
+    "label": "Exercice complet PAIE — corrigé · édition 22/10/2026 · difficulté 1/5",
     "level": "debutant",
-    "path": "exercices-complets/04_debutant_exercices_complets.pdf"
+    "path": "corriges-2026-10-22/09_debutant_complet_corrige.pdf",
+    "type": "complet",
+    "source_status": "qcm issus banque R9; écritures nouvelles contrôlées par double entrée"
   },
   {
-    "theme": "04",
-    "label": "EXO complet complémentaire · sujet · difficulté 1/5",
-    "level": "debutant",
-    "path": "exercices-valides/04_complet_debutant.pdf"
-  },
-  {
-    "theme": "04",
-    "label": "EXO complet (édition 21/10/2026) · corrigé · difficulté 1/5",
-    "level": "debutant",
-    "path": "corriges-2026-10-21/04_debutant_complet_corrige.pdf"
-  },
-  {
-    "theme": "04",
-    "label": "EXO complet · corrigé · difficulté 1/5",
-    "level": "debutant",
-    "path": "corriges-complets/04_debutant_corrige_complet.pdf"
-  },
-  {
-    "theme": "04",
-    "label": "EXO complet complémentaire · corrigé · difficulté 1/5",
-    "level": "debutant",
-    "path": "corriges-valides/04_complet_debutant.pdf"
-  },
-  {
-    "theme": "04",
-    "label": "EXO complet (édition 21/10/2026) · sujet · difficulté 3/5",
+    "theme": "09",
+    "label": "Exercice complet PAIE — sujet · édition 22/10/2026 · difficulté 3/5",
     "level": "intermediaire",
-    "path": "exercices-2026-10-21/04_intermediaire_complet_sujet.pdf"
+    "path": "exercices-2026-10-22/09_intermediaire_complet_sujet.pdf",
+    "type": "complet",
+    "source_status": "qcm issus banque R9; écritures nouvelles contrôlées par double entrée"
   },
   {
-    "theme": "04",
-    "label": "EXO complet · sujet · difficulté 3/5",
+    "theme": "09",
+    "label": "Exercice complet PAIE — corrigé · édition 22/10/2026 · difficulté 3/5",
     "level": "intermediaire",
-    "path": "exercices-complets/04_intermediaire_exercices_complets.pdf"
+    "path": "corriges-2026-10-22/09_intermediaire_complet_corrige.pdf",
+    "type": "complet",
+    "source_status": "qcm issus banque R9; écritures nouvelles contrôlées par double entrée"
   },
   {
-    "theme": "04",
-    "label": "EXO complet (édition 21/10/2026) · corrigé · difficulté 3/5",
-    "level": "intermediaire",
-    "path": "corriges-2026-10-21/04_intermediaire_complet_corrige.pdf"
-  },
-  {
-    "theme": "04",
-    "label": "EXO complet · corrigé · difficulté 3/5",
-    "level": "intermediaire",
-    "path": "corriges-complets/04_intermediaire_corrige_complet.pdf"
-  },
-  {
-    "theme": "04",
-    "label": "EXO complet (édition 21/10/2026) · sujet · difficulté 5/5",
+    "theme": "09",
+    "label": "Exercice complet PAIE — sujet · édition 22/10/2026 · difficulté 5/5",
     "level": "expert",
-    "path": "exercices-2026-10-21/04_expert_complet_sujet.pdf"
+    "path": "exercices-2026-10-22/09_expert_complet_sujet.pdf",
+    "type": "complet",
+    "source_status": "qcm issus banque R9; écritures nouvelles contrôlées par double entrée"
   },
   {
-    "theme": "04",
-    "label": "EXO complet · sujet · difficulté 5/5",
+    "theme": "09",
+    "label": "Exercice complet PAIE — corrigé · édition 22/10/2026 · difficulté 5/5",
     "level": "expert",
-    "path": "exercices-complets/04_expert_exercices_complets.pdf"
-  },
-  {
-    "theme": "04",
-    "label": "EXO complet (édition 21/10/2026) · corrigé · difficulté 5/5",
-    "level": "expert",
-    "path": "corriges-2026-10-21/04_expert_complet_corrige.pdf"
-  },
-  {
-    "theme": "04",
-    "label": "EXO complet · corrigé · difficulté 5/5",
-    "level": "expert",
-    "path": "corriges-complets/04_expert_corrige_complet.pdf"
+    "path": "corriges-2026-10-22/09_expert_complet_corrige.pdf",
+    "type": "complet",
+    "source_status": "qcm issus banque R9; écritures nouvelles contrôlées par double entrée"
   },
   {
     "theme": "05",
-    "label": "Cours complet • étape 07/09 · 26 pages",
+    "label": "Cours complet • étape 06/14 · 28 pages",
     "level": "tous",
-    "path": "cours-complets/07_COURS_LETTRAGE_RAPPROCHEMENT_2026.pdf"
+    "path": "cours-complets/07_COURS_LETTRAGE_RAPPROCHEMENT_2026.pdf",
+    "sha256": "993bdbf002d1ba5b4e1f94faafcef70a8d1f6c28e25ee945f9a03e223fbe5f7d"
   },
   {
     "theme": "05",
-    "label": "Mémo",
+    "label": "Mémo · 11 pages",
     "level": "tous",
-    "path": "memos/05 - Lettrage et rapprochement bancaire.pdf"
+    "path": "memos/05 - Lettrage et rapprochement bancaire.pdf",
+    "sha256": "443a9c3b02c9437c5b728631f76f915f9adf0c3f2bf9df808ed6443625f4e43b"
   },
   {
     "theme": "05",
-    "label": "Carte mentale",
+    "label": "Carte mentale · 7 pages",
     "level": "tous",
-    "path": "cartes-mentales/05 - Lettrage et rapprochement bancaire.pdf"
+    "path": "cartes-mentales/05 - Lettrage et rapprochement bancaire.pdf",
+    "sha256": "2faa28e093d9ba7c3fa9d21fc09d681b840664423afa7ea5e8c807922ae11b77"
   },
   {
     "theme": "05",
@@ -694,22 +806,400 @@ const library = [
     "path": "corriges-complets/05_expert_corrige_complet.pdf"
   },
   {
-    "theme": "06",
-    "label": "Cours complet • étape 08/09 · 25 pages",
+    "theme": "04",
+    "label": "Cours complet • étape 07/14 · 40 pages",
     "level": "tous",
-    "path": "cours-complets/08_COURS_COMPTE_DE_RESULTAT_2026.pdf"
+    "path": "cours-complets/04_COURS_TVA_CA3_2026.pdf",
+    "sha256": "d7b72979e9942ccd5d93a074fd93fe27479411280b466e2d60a5911f8ce9a3ad"
+  },
+  {
+    "theme": "04",
+    "label": "Mémo · 17 pages",
+    "level": "tous",
+    "path": "memos/04 - TVA et CA3.pdf",
+    "sha256": "76388a5ba98b470ecc5db861078b72731c000ac8ae9b955b06e15c5c2e670d91"
+  },
+  {
+    "theme": "04",
+    "label": "Carte mentale · 8 pages",
+    "level": "tous",
+    "path": "cartes-mentales/04 - TVA et CA3.pdf",
+    "sha256": "c86f895fba15ae23cee6d9977e2d3d958323d4dd7834f509e646c9a32ab75692"
+  },
+  {
+    "theme": "04",
+    "label": "EXO rapide (édition 21/10/2026) · sujet · difficulté 1/5",
+    "level": "debutant",
+    "path": "exercices-2026-10-21/04_debutant_rapide_sujet.pdf"
+  },
+  {
+    "theme": "04",
+    "label": "EXO rapide (édition 21/10/2026) · corrigé · difficulté 1/5",
+    "level": "debutant",
+    "path": "corriges-2026-10-21/04_debutant_rapide_corrige.pdf"
+  },
+  {
+    "theme": "04",
+    "label": "EXO rapide (édition 21/10/2026) · sujet · difficulté 3/5",
+    "level": "intermediaire",
+    "path": "exercices-2026-10-21/04_intermediaire_rapide_sujet.pdf"
+  },
+  {
+    "theme": "04",
+    "label": "EXO rapide (édition 21/10/2026) · corrigé · difficulté 3/5",
+    "level": "intermediaire",
+    "path": "corriges-2026-10-21/04_intermediaire_rapide_corrige.pdf"
+  },
+  {
+    "theme": "04",
+    "label": "EXO rapide (édition 21/10/2026) · sujet · difficulté 5/5",
+    "level": "expert",
+    "path": "exercices-2026-10-21/04_expert_rapide_sujet.pdf"
+  },
+  {
+    "theme": "04",
+    "label": "EXO rapide (édition 21/10/2026) · corrigé · difficulté 5/5",
+    "level": "expert",
+    "path": "corriges-2026-10-21/04_expert_rapide_corrige.pdf"
+  },
+  {
+    "theme": "04",
+    "label": "EXO complet (édition 21/10/2026) · sujet · difficulté 1/5",
+    "level": "debutant",
+    "path": "exercices-2026-10-21/04_debutant_complet_sujet.pdf"
+  },
+  {
+    "theme": "04",
+    "label": "EXO complet · sujet · difficulté 1/5",
+    "level": "debutant",
+    "path": "exercices-complets/04_debutant_exercices_complets.pdf"
+  },
+  {
+    "theme": "04",
+    "label": "EXO complet complémentaire · sujet · difficulté 1/5",
+    "level": "debutant",
+    "path": "exercices-valides/04_complet_debutant.pdf"
+  },
+  {
+    "theme": "04",
+    "label": "EXO complet (édition 21/10/2026) · corrigé · difficulté 1/5",
+    "level": "debutant",
+    "path": "corriges-2026-10-21/04_debutant_complet_corrige.pdf"
+  },
+  {
+    "theme": "04",
+    "label": "EXO complet · corrigé · difficulté 1/5",
+    "level": "debutant",
+    "path": "corriges-complets/04_debutant_corrige_complet.pdf"
+  },
+  {
+    "theme": "04",
+    "label": "EXO complet complémentaire · corrigé · difficulté 1/5",
+    "level": "debutant",
+    "path": "corriges-valides/04_complet_debutant.pdf"
+  },
+  {
+    "theme": "04",
+    "label": "EXO complet (édition 21/10/2026) · sujet · difficulté 3/5",
+    "level": "intermediaire",
+    "path": "exercices-2026-10-21/04_intermediaire_complet_sujet.pdf"
+  },
+  {
+    "theme": "04",
+    "label": "EXO complet · sujet · difficulté 3/5",
+    "level": "intermediaire",
+    "path": "exercices-complets/04_intermediaire_exercices_complets.pdf"
+  },
+  {
+    "theme": "04",
+    "label": "EXO complet (édition 21/10/2026) · corrigé · difficulté 3/5",
+    "level": "intermediaire",
+    "path": "corriges-2026-10-21/04_intermediaire_complet_corrige.pdf"
+  },
+  {
+    "theme": "04",
+    "label": "EXO complet · corrigé · difficulté 3/5",
+    "level": "intermediaire",
+    "path": "corriges-complets/04_intermediaire_corrige_complet.pdf"
+  },
+  {
+    "theme": "04",
+    "label": "EXO complet (édition 21/10/2026) · sujet · difficulté 5/5",
+    "level": "expert",
+    "path": "exercices-2026-10-21/04_expert_complet_sujet.pdf"
+  },
+  {
+    "theme": "04",
+    "label": "EXO complet · sujet · difficulté 5/5",
+    "level": "expert",
+    "path": "exercices-complets/04_expert_exercices_complets.pdf"
+  },
+  {
+    "theme": "04",
+    "label": "EXO complet (édition 21/10/2026) · corrigé · difficulté 5/5",
+    "level": "expert",
+    "path": "corriges-2026-10-21/04_expert_complet_corrige.pdf"
+  },
+  {
+    "theme": "04",
+    "label": "EXO complet · corrigé · difficulté 5/5",
+    "level": "expert",
+    "path": "corriges-complets/04_expert_corrige_complet.pdf"
+  },
+  {
+    "theme": "11",
+    "label": "Cours complet • étape 08/14 · 11 pages",
+    "level": "tous",
+    "path": "cours-complets/11_COURS_CLOTURE_INVENTAIRE_2026.pdf",
+    "sha256": "56791601020ae6ad2678a9d7d6a81b3251b060333f95bac97ef0ca4446ed3ed9"
+  },
+  {
+    "theme": "11",
+    "label": "Mémo · 4 pages",
+    "level": "tous",
+    "path": "memos/11 - Cloture et inventaire.pdf",
+    "sha256": "e77ed2f49f0ba52f531f1ff9b76c5492fffa33ec9ce1d6061c457072d8c1e599"
+  },
+  {
+    "theme": "11",
+    "label": "Carte mentale · 2 pages",
+    "level": "tous",
+    "path": "cartes-mentales/11 - Cloture et inventaire.pdf",
+    "sha256": "ccc01daceae6b84e0c56b22b31e2298e6984b80be2de4e84bf8ba434e52d5b66"
+  },
+  {
+    "theme": "11",
+    "label": "Exercice rapide · sujet · 10 exercices · difficulté 1/5",
+    "level": "debutant",
+    "path": "exercices-2026-10-27/11_debutant_rapide_sujet.pdf",
+    "type": "rapide",
+    "sha256": "2ca932c3bf35baae297b483e274af9d5b73f2f405c94602361899d69dfff86d4"
+  },
+  {
+    "theme": "11",
+    "label": "Exercice rapide · corrigé · 10 exercices · difficulté 1/5",
+    "level": "debutant",
+    "path": "corriges-2026-10-27/11_debutant_rapide_corrige.pdf",
+    "type": "rapide",
+    "sha256": "be17c18da310a8fe20cb3c0979ea051752fd9490d67ae2c2995937dd1a73dbc1"
+  },
+  {
+    "theme": "11",
+    "label": "Exercice complet · sujet · 10 exercices · difficulté 1/5",
+    "level": "debutant",
+    "path": "exercices-2026-10-27/11_debutant_complet_sujet.pdf",
+    "type": "complet",
+    "sha256": "6f2bae66cd5e4810cba179bb11221b925d0e83b2cbcc34922f210839eb14a474"
+  },
+  {
+    "theme": "11",
+    "label": "Exercice complet · corrigé · 10 exercices · difficulté 1/5",
+    "level": "debutant",
+    "path": "corriges-2026-10-27/11_debutant_complet_corrige.pdf",
+    "type": "complet",
+    "sha256": "e2a8fd807936ce8e369ce0fed0f34cbc798fc9205669f0f8c3ff8859bacd3694"
+  },
+  {
+    "theme": "11",
+    "label": "Exercice rapide · sujet · 10 exercices · difficulté 3/5",
+    "level": "intermediaire",
+    "path": "exercices-2026-10-27/11_intermediaire_rapide_sujet.pdf",
+    "type": "rapide",
+    "sha256": "5037255081f10e05c67e5cb5c54dccd1b0c8252f5f5537e08eeec2fd90a2288f"
+  },
+  {
+    "theme": "11",
+    "label": "Exercice rapide · corrigé · 10 exercices · difficulté 3/5",
+    "level": "intermediaire",
+    "path": "corriges-2026-10-27/11_intermediaire_rapide_corrige.pdf",
+    "type": "rapide",
+    "sha256": "f57f43c1d6174113e400f770fe907a5c7a5bb854b45bbbe944e6754290a00b4e"
+  },
+  {
+    "theme": "11",
+    "label": "Exercice complet · sujet · 10 exercices · difficulté 3/5",
+    "level": "intermediaire",
+    "path": "exercices-2026-10-27/11_intermediaire_complet_sujet.pdf",
+    "type": "complet",
+    "sha256": "743822bfc044f45253b162896dded580dc582db4c322b42d439a1cab3fac3f50"
+  },
+  {
+    "theme": "11",
+    "label": "Exercice complet · corrigé · 10 exercices · difficulté 3/5",
+    "level": "intermediaire",
+    "path": "corriges-2026-10-27/11_intermediaire_complet_corrige.pdf",
+    "type": "complet",
+    "sha256": "f54985e0f65bb4bf0c873b4538935dfd32d1c64819db327f6d8278132e6e2f61"
+  },
+  {
+    "theme": "11",
+    "label": "Exercice rapide · sujet · 10 exercices · difficulté 5/5",
+    "level": "expert",
+    "path": "exercices-2026-10-27/11_expert_rapide_sujet.pdf",
+    "type": "rapide",
+    "sha256": "1ca8f5ef70f190c02ed6e92e474ec812db7b27b42403f46404d07946f0fff46f"
+  },
+  {
+    "theme": "11",
+    "label": "Exercice rapide · corrigé · 10 exercices · difficulté 5/5",
+    "level": "expert",
+    "path": "corriges-2026-10-27/11_expert_rapide_corrige.pdf",
+    "type": "rapide",
+    "sha256": "557db20135386eceb02b3e09e7d5c1c22ecbc74e1d03dd51bdda04071686f964"
+  },
+  {
+    "theme": "11",
+    "label": "Exercice complet · sujet · 10 exercices · difficulté 5/5",
+    "level": "expert",
+    "path": "exercices-2026-10-27/11_expert_complet_sujet.pdf",
+    "type": "complet",
+    "sha256": "1fbe15eda3e836c390f9e6c7d64ceea806cbdd494e19e28fe8a56bf31ea4102b"
+  },
+  {
+    "theme": "11",
+    "label": "Exercice complet · corrigé · 10 exercices · difficulté 5/5",
+    "level": "expert",
+    "path": "corriges-2026-10-27/11_expert_complet_corrige.pdf",
+    "type": "complet",
+    "sha256": "e22b45f32f50a2ef1f12e12de3d2d408eb49fcff8236831aed76d6529c0ae987"
+  },
+  {
+    "theme": "12",
+    "label": "Cours complet • étape 09/14 · 11 pages",
+    "level": "tous",
+    "path": "cours-complets/12_COURS_FISCALITE_IS_2026.pdf",
+    "sha256": "b10848a4353333cdf214dfb90687e2b4f89e7c55117de9d4c442a580fd1d6bf5"
+  },
+  {
+    "theme": "12",
+    "label": "Mémo · 4 pages",
+    "level": "tous",
+    "path": "memos/12 - Fiscalite et IS.pdf",
+    "sha256": "44436e6ea83fc4a2f682a275ebeecc625d32f6b66dd8af9a2dd92174b99f35e1"
+  },
+  {
+    "theme": "12",
+    "label": "Carte mentale · 2 pages",
+    "level": "tous",
+    "path": "cartes-mentales/12 - Fiscalite et IS.pdf",
+    "sha256": "59704c698468aec66be02c0d38efe13c80c634d4a935c75fd2994e80cee54ed0"
+  },
+  {
+    "theme": "12",
+    "label": "Exercice rapide · sujet · 10 exercices · difficulté 1/5",
+    "level": "debutant",
+    "path": "exercices-2026-10-27/12_debutant_rapide_sujet.pdf",
+    "type": "rapide",
+    "sha256": "75934180053ce6f6ae2b50eb248cac7d0aae66f5978d6df96a788b0ee98a000b"
+  },
+  {
+    "theme": "12",
+    "label": "Exercice rapide · corrigé · 10 exercices · difficulté 1/5",
+    "level": "debutant",
+    "path": "corriges-2026-10-27/12_debutant_rapide_corrige.pdf",
+    "type": "rapide",
+    "sha256": "c31de40e32ecc97e53e9381838777b264e65435d7b46c66a80a3279a371c978a"
+  },
+  {
+    "theme": "12",
+    "label": "Exercice complet · sujet · 10 exercices · difficulté 1/5",
+    "level": "debutant",
+    "path": "exercices-2026-10-27/12_debutant_complet_sujet.pdf",
+    "type": "complet",
+    "sha256": "9dd4cf6ba8714ee74ec547e8d572861b4eb82b7c5134b96f98a10077760a16c1"
+  },
+  {
+    "theme": "12",
+    "label": "Exercice complet · corrigé · 10 exercices · difficulté 1/5",
+    "level": "debutant",
+    "path": "corriges-2026-10-27/12_debutant_complet_corrige.pdf",
+    "type": "complet",
+    "sha256": "0e4e600e45a43da91656fb4767ad1ccb143d010920abb166840e0721725eaf44"
+  },
+  {
+    "theme": "12",
+    "label": "Exercice rapide · sujet · 10 exercices · difficulté 3/5",
+    "level": "intermediaire",
+    "path": "exercices-2026-10-27/12_intermediaire_rapide_sujet.pdf",
+    "type": "rapide",
+    "sha256": "b3a98ed80990848edcd93d56e3e33b45fdac69e9656eec575ef6c3645695cb50"
+  },
+  {
+    "theme": "12",
+    "label": "Exercice rapide · corrigé · 10 exercices · difficulté 3/5",
+    "level": "intermediaire",
+    "path": "corriges-2026-10-27/12_intermediaire_rapide_corrige.pdf",
+    "type": "rapide",
+    "sha256": "870ace269fbee117fdd8e56b4e8c98c6313bd69ce650cc035b50c23e849a0fad"
+  },
+  {
+    "theme": "12",
+    "label": "Exercice complet · sujet · 10 exercices · difficulté 3/5",
+    "level": "intermediaire",
+    "path": "exercices-2026-10-27/12_intermediaire_complet_sujet.pdf",
+    "type": "complet",
+    "sha256": "599df3a9894759565c97994373e302f25a2754e032cae7a4814ee8af7e6b36eb"
+  },
+  {
+    "theme": "12",
+    "label": "Exercice complet · corrigé · 10 exercices · difficulté 3/5",
+    "level": "intermediaire",
+    "path": "corriges-2026-10-27/12_intermediaire_complet_corrige.pdf",
+    "type": "complet",
+    "sha256": "d252770ae3042c29ff67a87d12d1242c3e7da0101935184785205141eb92b501"
+  },
+  {
+    "theme": "12",
+    "label": "Exercice rapide · sujet · 10 exercices · difficulté 5/5",
+    "level": "expert",
+    "path": "exercices-2026-10-27/12_expert_rapide_sujet.pdf",
+    "type": "rapide",
+    "sha256": "33c00560efd3c8344dac7c28c610d96daaa5f4668c156f4c26fd121bffb7725d"
+  },
+  {
+    "theme": "12",
+    "label": "Exercice rapide · corrigé · 10 exercices · difficulté 5/5",
+    "level": "expert",
+    "path": "corriges-2026-10-27/12_expert_rapide_corrige.pdf",
+    "type": "rapide",
+    "sha256": "457740f519fe14f9b7dc8209753a82130aea9d6f0cd80889dfbd04f807dfb2e4"
+  },
+  {
+    "theme": "12",
+    "label": "Exercice complet · sujet · 10 exercices · difficulté 5/5",
+    "level": "expert",
+    "path": "exercices-2026-10-27/12_expert_complet_sujet.pdf",
+    "type": "complet",
+    "sha256": "629affedcd839cdc6ead7dcc676e1dc843e100af36c32dc78211dd0e7d20ea54"
+  },
+  {
+    "theme": "12",
+    "label": "Exercice complet · corrigé · 10 exercices · difficulté 5/5",
+    "level": "expert",
+    "path": "corriges-2026-10-27/12_expert_complet_corrige.pdf",
+    "type": "complet",
+    "sha256": "3bfde7d76d9c61d37c598bbfb43c575cb5fbb56362b439e7f475ddc6959215c9"
   },
   {
     "theme": "06",
-    "label": "Mémo",
+    "label": "Cours complet • étape 10/14 · 27 pages",
     "level": "tous",
-    "path": "memos/06 - Compte de résultat.pdf"
+    "path": "cours-complets/08_COURS_COMPTE_DE_RESULTAT_2026.pdf",
+    "sha256": "f8f62ec499fa1aee28163be3a6fd093b6fb6cbd4b7200ae37ee030f33535f73c"
   },
   {
     "theme": "06",
-    "label": "Carte mentale",
+    "label": "Mémo · 11 pages",
     "level": "tous",
-    "path": "cartes-mentales/06 - Compte de résultat.pdf"
+    "path": "memos/06 - Compte de résultat.pdf",
+    "sha256": "2dc6c2ccdf31ecabea9f9d3901013d0900664661c3f3278eb7bafa37811e2894"
+  },
+  {
+    "theme": "06",
+    "label": "Carte mentale · 6 pages",
+    "level": "tous",
+    "path": "cartes-mentales/06 - Compte de résultat.pdf",
+    "sha256": "c46b767394be064d3eed86acddc9a0d2e88be08421c4a55410a3b5725ddb4cbf"
   },
   {
     "theme": "06",
@@ -833,21 +1323,24 @@ const library = [
   },
   {
     "theme": "07",
-    "label": "Cours complet • étape 09/09 · 24 pages",
+    "label": "Cours complet • étape 11/14 · 26 pages",
     "level": "tous",
-    "path": "cours-complets/09_COURS_BILAN_ACTIF_PASSIF_2026.pdf"
+    "path": "cours-complets/09_COURS_BILAN_ACTIF_PASSIF_2026.pdf",
+    "sha256": "7a35a495060b3e0872c2ee7e77139bd8ff9fcf551d7e03ef262bb9058502c67e"
   },
   {
     "theme": "07",
-    "label": "Mémo",
+    "label": "Mémo · 10 pages",
     "level": "tous",
-    "path": "memos/07 - Bilan actif et passif.pdf"
+    "path": "memos/07 - Bilan actif et passif.pdf",
+    "sha256": "d28bae3b78dad1f06ee74edb15b2223d8e86e21987d08967ffb24419ab4b3f49"
   },
   {
     "theme": "07",
-    "label": "Carte mentale",
+    "label": "Carte mentale · 6 pages",
     "level": "tous",
-    "path": "cartes-mentales/07 - Bilan actif et passif.pdf"
+    "path": "cartes-mentales/07 - Bilan actif et passif.pdf",
+    "sha256": "ef5d1a8443fea3a89ef00480a430a3acc4c4dd639a008dc4c25c7c010fe65238"
   },
   {
     "theme": "07",
@@ -970,238 +1463,355 @@ const library = [
     "path": "corriges-complets/07_expert_corrige_complet.pdf"
   },
   {
-    "theme": "08",
-    "label": "Cours complet • étape 02/09 · 25 pages",
+    "theme": "13",
+    "label": "Cours complet • étape 12/14 · 11 pages",
     "level": "tous",
-    "path": "cours-complets/02_COURS_SYSTEME_INFORMATION_COMPTABLE_2026.pdf"
+    "path": "cours-complets/13_COURS_DIAGNOSTIC_FINANCIER_2026.pdf",
+    "sha256": "e5c2f5cd357f2414e4cc370ea4c5d076daf63aa1561ebcb9f4993a906c94e015"
   },
   {
-    "theme": "08",
-    "label": "Mémo",
+    "theme": "13",
+    "label": "Mémo · 4 pages",
     "level": "tous",
-    "path": "memos/08 - Système d'information comptable.pdf"
+    "path": "memos/13 - Diagnostic financier.pdf",
+    "sha256": "2829b11eafba6df50e98abd9b575374138b595f2fdedc86b35f04b63ba643cd7"
   },
   {
-    "theme": "08",
-    "label": "Carte mentale",
+    "theme": "13",
+    "label": "Carte mentale · 2 pages",
     "level": "tous",
-    "path": "cartes-mentales/08 - Système d'information comptable.pdf"
+    "path": "cartes-mentales/13 - Diagnostic financier.pdf",
+    "sha256": "815f7419348e4ef65235de45fa36c1f1cef456d6caf063b17d7ef53220a69e74"
   },
   {
-    "theme": "08",
-    "label": "Exercice rapide SIC — sujet · édition 22/10/2026 · difficulté 1/5",
+    "theme": "13",
+    "label": "Exercice rapide · sujet · 10 exercices · difficulté 1/5",
     "level": "debutant",
-    "path": "exercices-2026-10-22/08_debutant_rapide_sujet.pdf",
+    "path": "exercices-2026-10-27/13_debutant_rapide_sujet.pdf",
     "type": "rapide",
-    "source_status": "qcm issus banque R9; écritures nouvelles contrôlées par double entrée"
+    "sha256": "f6e3c7c6dfd2821af5e5f6ecf380ea0898db5d7f917d0c53016b3edb44c795b8"
   },
   {
-    "theme": "08",
-    "label": "Exercice rapide SIC — corrigé · édition 22/10/2026 · difficulté 1/5",
+    "theme": "13",
+    "label": "Exercice rapide · corrigé · 10 exercices · difficulté 1/5",
     "level": "debutant",
-    "path": "corriges-2026-10-22/08_debutant_rapide_corrige.pdf",
+    "path": "corriges-2026-10-27/13_debutant_rapide_corrige.pdf",
     "type": "rapide",
-    "source_status": "qcm issus banque R9; écritures nouvelles contrôlées par double entrée"
+    "sha256": "ecd591ade0b30d13e3d84a42e67b1ad7559b36f1b054a94b2eb2ed46cf152214"
   },
   {
-    "theme": "08",
-    "label": "Exercice rapide SIC — sujet · édition 22/10/2026 · difficulté 3/5",
-    "level": "intermediaire",
-    "path": "exercices-2026-10-22/08_intermediaire_rapide_sujet.pdf",
-    "type": "rapide",
-    "source_status": "qcm issus banque R9; écritures nouvelles contrôlées par double entrée"
-  },
-  {
-    "theme": "08",
-    "label": "Exercice rapide SIC — corrigé · édition 22/10/2026 · difficulté 3/5",
-    "level": "intermediaire",
-    "path": "corriges-2026-10-22/08_intermediaire_rapide_corrige.pdf",
-    "type": "rapide",
-    "source_status": "qcm issus banque R9; écritures nouvelles contrôlées par double entrée"
-  },
-  {
-    "theme": "08",
-    "label": "Exercice rapide SIC — sujet · édition 22/10/2026 · difficulté 5/5",
-    "level": "expert",
-    "path": "exercices-2026-10-22/08_expert_rapide_sujet.pdf",
-    "type": "rapide",
-    "source_status": "qcm issus banque R9; écritures nouvelles contrôlées par double entrée"
-  },
-  {
-    "theme": "08",
-    "label": "Exercice rapide SIC — corrigé · édition 22/10/2026 · difficulté 5/5",
-    "level": "expert",
-    "path": "corriges-2026-10-22/08_expert_rapide_corrige.pdf",
-    "type": "rapide",
-    "source_status": "qcm issus banque R9; écritures nouvelles contrôlées par double entrée"
-  },
-  {
-    "theme": "08",
-    "label": "Exercice complet SIC — sujet · édition 22/10/2026 · difficulté 1/5",
+    "theme": "13",
+    "label": "Exercice complet · sujet · 10 exercices · difficulté 1/5",
     "level": "debutant",
-    "path": "exercices-2026-10-22/08_debutant_complet_sujet.pdf",
+    "path": "exercices-2026-10-27/13_debutant_complet_sujet.pdf",
     "type": "complet",
-    "source_status": "qcm issus banque R9; écritures nouvelles contrôlées par double entrée"
+    "sha256": "0f2898e3f58f8b744508948f2ccc56fe5415232a592b899793fd021af0e10a47"
   },
   {
-    "theme": "08",
-    "label": "Exercice complet SIC — corrigé · édition 22/10/2026 · difficulté 1/5",
+    "theme": "13",
+    "label": "Exercice complet · corrigé · 10 exercices · difficulté 1/5",
     "level": "debutant",
-    "path": "corriges-2026-10-22/08_debutant_complet_corrige.pdf",
+    "path": "corriges-2026-10-27/13_debutant_complet_corrige.pdf",
     "type": "complet",
-    "source_status": "qcm issus banque R9; écritures nouvelles contrôlées par double entrée"
+    "sha256": "bd5c6d36ef7fd1c5f726aec668cef96278ec6aeaf3137a258e88fd9928e815f2"
   },
   {
-    "theme": "08",
-    "label": "Exercice complet SIC — sujet · édition 22/10/2026 · difficulté 3/5",
+    "theme": "13",
+    "label": "Exercice rapide · sujet · 10 exercices · difficulté 3/5",
     "level": "intermediaire",
-    "path": "exercices-2026-10-22/08_intermediaire_complet_sujet.pdf",
-    "type": "complet",
-    "source_status": "qcm issus banque R9; écritures nouvelles contrôlées par double entrée"
+    "path": "exercices-2026-10-27/13_intermediaire_rapide_sujet.pdf",
+    "type": "rapide",
+    "sha256": "2105b9868c8c1bde35ba1ee6b0ccf5a4d1e1d8af603a496f498840ce19250918"
   },
   {
-    "theme": "08",
-    "label": "Exercice complet SIC — corrigé · édition 22/10/2026 · difficulté 3/5",
+    "theme": "13",
+    "label": "Exercice rapide · corrigé · 10 exercices · difficulté 3/5",
     "level": "intermediaire",
-    "path": "corriges-2026-10-22/08_intermediaire_complet_corrige.pdf",
-    "type": "complet",
-    "source_status": "qcm issus banque R9; écritures nouvelles contrôlées par double entrée"
+    "path": "corriges-2026-10-27/13_intermediaire_rapide_corrige.pdf",
+    "type": "rapide",
+    "sha256": "14475d0ede0ba848d37be096ad62a3543f8d5ce15854ed85c957ddc3ea0e01a9"
   },
   {
-    "theme": "08",
-    "label": "Exercice complet SIC — sujet · édition 22/10/2026 · difficulté 5/5",
+    "theme": "13",
+    "label": "Exercice complet · sujet · 10 exercices · difficulté 3/5",
+    "level": "intermediaire",
+    "path": "exercices-2026-10-27/13_intermediaire_complet_sujet.pdf",
+    "type": "complet",
+    "sha256": "b1ea954375570a6e8b13a8e56b2d9e1211c9fec448ec57271aef8baf3bcc41e9"
+  },
+  {
+    "theme": "13",
+    "label": "Exercice complet · corrigé · 10 exercices · difficulté 3/5",
+    "level": "intermediaire",
+    "path": "corriges-2026-10-27/13_intermediaire_complet_corrige.pdf",
+    "type": "complet",
+    "sha256": "92864d3e0664983502acdb4fa167d07bd3516377b54435481cb062ace1376ae9"
+  },
+  {
+    "theme": "13",
+    "label": "Exercice rapide · sujet · 10 exercices · difficulté 5/5",
     "level": "expert",
-    "path": "exercices-2026-10-22/08_expert_complet_sujet.pdf",
-    "type": "complet",
-    "source_status": "qcm issus banque R9; écritures nouvelles contrôlées par double entrée"
+    "path": "exercices-2026-10-27/13_expert_rapide_sujet.pdf",
+    "type": "rapide",
+    "sha256": "5841f39182e0e86401b2affee81a223aa08e17ac624380fe558a91d9ce3565b9"
   },
   {
-    "theme": "08",
-    "label": "Exercice complet SIC — corrigé · édition 22/10/2026 · difficulté 5/5",
+    "theme": "13",
+    "label": "Exercice rapide · corrigé · 10 exercices · difficulté 5/5",
     "level": "expert",
-    "path": "corriges-2026-10-22/08_expert_complet_corrige.pdf",
-    "type": "complet",
-    "source_status": "qcm issus banque R9; écritures nouvelles contrôlées par double entrée"
+    "path": "corriges-2026-10-27/13_expert_rapide_corrige.pdf",
+    "type": "rapide",
+    "sha256": "aecfecf4a346f6b0f3450f6616cb19e385315ba5f256570bc693f7f8e139695d"
   },
   {
-    "theme": "09",
-    "label": "Cours complet • étape 06/09 · 47 pages — PAIE / PSS 2026",
+    "theme": "13",
+    "label": "Exercice complet · sujet · 10 exercices · difficulté 5/5",
+    "level": "expert",
+    "path": "exercices-2026-10-27/13_expert_complet_sujet.pdf",
+    "type": "complet",
+    "sha256": "f47fabe711eeaefa71b9b13b5fca2c503b236a7462588ee5e072c8f4c614012e"
+  },
+  {
+    "theme": "13",
+    "label": "Exercice complet · corrigé · 10 exercices · difficulté 5/5",
+    "level": "expert",
+    "path": "corriges-2026-10-27/13_expert_complet_corrige.pdf",
+    "type": "complet",
+    "sha256": "a2ab94add09a7bc744e1580aa2e6c195fce61a3a769b61a3b4f0768a398e1af4"
+  },
+  {
+    "theme": "10",
+    "label": "Cours complet • étape 13/14 · 23 pages",
     "level": "tous",
-    "path": "cours-complets/06_COURS_PAIE_2026.pdf"
+    "path": "cours-complets/10_COURS_ANALYSE_COUTS_2026.pdf",
+    "sha256": "0cd3f81af16c1624ff006501546999cd5b8e0a2114af890d0bb9b9dccbafdae4"
   },
   {
-    "theme": "09",
-    "label": "Mémo PAIE",
+    "theme": "10",
+    "label": "Mémo · 13 pages",
     "level": "tous",
-    "path": "references-paie/PAIE - Mémo consolidé 2026.pdf",
-    "sha256": "0e18dc15be092230dc547755a494df25b1761e23390269c9a3034663479a5800",
-    "type": "memos",
-    "note": "Consolidation des supports PAIE du 22/10/2026"
+    "path": "memos/10 - Analyse des couts.pdf",
+    "sha256": "1066b51944a9c4cfaff535323396d431135498c8915b9950765792f02d0f1e02"
   },
   {
-    "theme": "09",
-    "label": "Carte mentale PAIE",
+    "theme": "10",
+    "label": "Carte mentale · 9 pages",
     "level": "tous",
-    "path": "references-paie/PAIE - Carte mentale consolidée 2026.pdf",
-    "sha256": "62e2dd13df29045675819db6d9da7474297ce183bd7c8dd3cb23e19f0a76ee87",
-    "type": "cartes-mentales",
-    "note": "Consolidation des supports PAIE du 22/10/2026"
+    "path": "cartes-mentales/10 - Analyse des couts.pdf",
+    "sha256": "8747df5340165e829c3e46c0fff703aa7f569769e3711ba1531df84b8be949ca"
   },
   {
-    "theme": "09",
-    "label": "Exercice rapide PAIE — sujet · édition 22/10/2026 · difficulté 1/5",
+    "theme": "10",
+    "label": "Exercice rapide · sujet · 10 exercices · édition 27/10/2026 · difficulté 1/5",
     "level": "debutant",
-    "path": "exercices-2026-10-22/09_debutant_rapide_sujet.pdf",
+    "path": "exercices-2026-10-27/10_debutant_rapide_sujet.pdf",
     "type": "rapide",
-    "source_status": "qcm issus banque R9; écritures nouvelles contrôlées par double entrée"
+    "sha256": "3f808b0e359c95c8765bbf14f3138be7b54e4de5b09583994cd900c110fce4b5"
   },
   {
-    "theme": "09",
-    "label": "Exercice rapide PAIE — corrigé · édition 22/10/2026 · difficulté 1/5",
+    "theme": "10",
+    "label": "Exercice rapide · corrigé · 10 exercices · édition 27/10/2026 · difficulté 1/5",
     "level": "debutant",
-    "path": "corriges-2026-10-22/09_debutant_rapide_corrige.pdf",
+    "path": "corriges-2026-10-27/10_debutant_rapide_corrige.pdf",
     "type": "rapide",
-    "source_status": "qcm issus banque R9; écritures nouvelles contrôlées par double entrée"
+    "sha256": "ee4245accaa83fbd94fce51f61c46cc48b3e4b5d93028be166d8e25d3fe99007"
   },
   {
-    "theme": "09",
-    "label": "Exercice rapide PAIE — sujet · édition 22/10/2026 · difficulté 3/5",
-    "level": "intermediaire",
-    "path": "exercices-2026-10-22/09_intermediaire_rapide_sujet.pdf",
-    "type": "rapide",
-    "source_status": "qcm issus banque R9; écritures nouvelles contrôlées par double entrée"
-  },
-  {
-    "theme": "09",
-    "label": "Exercice rapide PAIE — corrigé · édition 22/10/2026 · difficulté 3/5",
-    "level": "intermediaire",
-    "path": "corriges-2026-10-22/09_intermediaire_rapide_corrige.pdf",
-    "type": "rapide",
-    "source_status": "qcm issus banque R9; écritures nouvelles contrôlées par double entrée"
-  },
-  {
-    "theme": "09",
-    "label": "Exercice rapide PAIE — sujet · édition 22/10/2026 · difficulté 5/5",
-    "level": "expert",
-    "path": "exercices-2026-10-22/09_expert_rapide_sujet.pdf",
-    "type": "rapide",
-    "source_status": "qcm issus banque R9; écritures nouvelles contrôlées par double entrée"
-  },
-  {
-    "theme": "09",
-    "label": "Exercice rapide PAIE — corrigé · édition 22/10/2026 · difficulté 5/5",
-    "level": "expert",
-    "path": "corriges-2026-10-22/09_expert_rapide_corrige.pdf",
-    "type": "rapide",
-    "source_status": "qcm issus banque R9; écritures nouvelles contrôlées par double entrée"
-  },
-  {
-    "theme": "09",
-    "label": "Exercice complet PAIE — sujet · édition 22/10/2026 · difficulté 1/5",
+    "theme": "10",
+    "label": "Exercice complet · sujet · 10 exercices · édition 27/10/2026 · difficulté 1/5",
     "level": "debutant",
-    "path": "exercices-2026-10-22/09_debutant_complet_sujet.pdf",
+    "path": "exercices-2026-10-27/10_debutant_complet_sujet.pdf",
     "type": "complet",
-    "source_status": "qcm issus banque R9; écritures nouvelles contrôlées par double entrée"
+    "sha256": "3d4dce5aae032b80a8ef5df9edc5b71661856d569f9b347ef4c9e31016b4d80d"
   },
   {
-    "theme": "09",
-    "label": "Exercice complet PAIE — corrigé · édition 22/10/2026 · difficulté 1/5",
+    "theme": "10",
+    "label": "Exercice complet · corrigé · 10 exercices · édition 27/10/2026 · difficulté 1/5",
     "level": "debutant",
-    "path": "corriges-2026-10-22/09_debutant_complet_corrige.pdf",
+    "path": "corriges-2026-10-27/10_debutant_complet_corrige.pdf",
     "type": "complet",
-    "source_status": "qcm issus banque R9; écritures nouvelles contrôlées par double entrée"
+    "sha256": "1b6cab27ee9a1bed8e487f1a7fcd8efb141b424a68b1f9afeff36184c5fdcfb8"
   },
   {
-    "theme": "09",
-    "label": "Exercice complet PAIE — sujet · édition 22/10/2026 · difficulté 3/5",
+    "theme": "10",
+    "label": "Exercice rapide · sujet · 10 exercices · édition 27/10/2026 · difficulté 3/5",
     "level": "intermediaire",
-    "path": "exercices-2026-10-22/09_intermediaire_complet_sujet.pdf",
-    "type": "complet",
-    "source_status": "qcm issus banque R9; écritures nouvelles contrôlées par double entrée"
+    "path": "exercices-2026-10-27/10_intermediaire_rapide_sujet.pdf",
+    "type": "rapide",
+    "sha256": "12680128adfa525ec1f87e732c908acef69a5b4a1bf6c5d405754a7e9b66026b"
   },
   {
-    "theme": "09",
-    "label": "Exercice complet PAIE — corrigé · édition 22/10/2026 · difficulté 3/5",
+    "theme": "10",
+    "label": "Exercice rapide · corrigé · 10 exercices · édition 27/10/2026 · difficulté 3/5",
     "level": "intermediaire",
-    "path": "corriges-2026-10-22/09_intermediaire_complet_corrige.pdf",
-    "type": "complet",
-    "source_status": "qcm issus banque R9; écritures nouvelles contrôlées par double entrée"
+    "path": "corriges-2026-10-27/10_intermediaire_rapide_corrige.pdf",
+    "type": "rapide",
+    "sha256": "2362f25cd7dde7c83bcc7dd2d1817265664d49b822942214842fb526ba7e9f9f"
   },
   {
-    "theme": "09",
-    "label": "Exercice complet PAIE — sujet · édition 22/10/2026 · difficulté 5/5",
-    "level": "expert",
-    "path": "exercices-2026-10-22/09_expert_complet_sujet.pdf",
+    "theme": "10",
+    "label": "Exercice complet · sujet · 10 exercices · édition 27/10/2026 · difficulté 3/5",
+    "level": "intermediaire",
+    "path": "exercices-2026-10-27/10_intermediaire_complet_sujet.pdf",
     "type": "complet",
-    "source_status": "qcm issus banque R9; écritures nouvelles contrôlées par double entrée"
+    "sha256": "6d25d87859b79d771ce07ece1ec6dae492370d2ad930f07ba6e0268c9385a5f5"
   },
   {
-    "theme": "09",
-    "label": "Exercice complet PAIE — corrigé · édition 22/10/2026 · difficulté 5/5",
-    "level": "expert",
-    "path": "corriges-2026-10-22/09_expert_complet_corrige.pdf",
+    "theme": "10",
+    "label": "Exercice complet · corrigé · 10 exercices · édition 27/10/2026 · difficulté 3/5",
+    "level": "intermediaire",
+    "path": "corriges-2026-10-27/10_intermediaire_complet_corrige.pdf",
     "type": "complet",
-    "source_status": "qcm issus banque R9; écritures nouvelles contrôlées par double entrée"
+    "sha256": "fdbde0fa0167f5ed27ce8d3c66ae472cfa768bf29dab1610c42fcde3de7b7a99"
+  },
+  {
+    "theme": "10",
+    "label": "Exercice rapide · sujet · 10 exercices · édition 27/10/2026 · difficulté 5/5",
+    "level": "expert",
+    "path": "exercices-2026-10-27/10_expert_rapide_sujet.pdf",
+    "type": "rapide",
+    "sha256": "c0f5f22ed4f8a386f0778c3fb3f3c91480f9650e1b982c0f579b00ccedd3f6ce"
+  },
+  {
+    "theme": "10",
+    "label": "Exercice rapide · corrigé · 10 exercices · édition 27/10/2026 · difficulté 5/5",
+    "level": "expert",
+    "path": "corriges-2026-10-27/10_expert_rapide_corrige.pdf",
+    "type": "rapide",
+    "sha256": "e2f0dfc44f691530c2f93c342e6904603bb23190f13ae43c253849b6330578d9"
+  },
+  {
+    "theme": "10",
+    "label": "Exercice complet · sujet · 10 exercices · édition 27/10/2026 · difficulté 5/5",
+    "level": "expert",
+    "path": "exercices-2026-10-27/10_expert_complet_sujet.pdf",
+    "type": "complet",
+    "sha256": "02802c994b4e9a26441314f33177f1117cd0d20bcc53a71198b9c119a5aff8f3"
+  },
+  {
+    "theme": "10",
+    "label": "Exercice complet · corrigé · 10 exercices · édition 27/10/2026 · difficulté 5/5",
+    "level": "expert",
+    "path": "corriges-2026-10-27/10_expert_complet_corrige.pdf",
+    "type": "complet",
+    "sha256": "a3a7aab20869857651e531bade9fb79a80fb2fbf024f3d615002022e283dcb66"
+  },
+  {
+    "theme": "14",
+    "label": "Cours complet • étape 14/14 · 11 pages",
+    "level": "tous",
+    "path": "cours-complets/14_COURS_RSE_SOBRIETE_2026.pdf",
+    "sha256": "356f6386760dfa372fd5f50677b4f076f34db0f3848033c86b985939fd26ffea"
+  },
+  {
+    "theme": "14",
+    "label": "Mémo · 4 pages",
+    "level": "tous",
+    "path": "memos/14 - RSE et sobriete numerique.pdf",
+    "sha256": "1264222771343b3b2b94266b446038e3ae0b9ad5fc2491d92cdac196fe6f68ad"
+  },
+  {
+    "theme": "14",
+    "label": "Carte mentale · 2 pages",
+    "level": "tous",
+    "path": "cartes-mentales/14 - RSE et sobriete numerique.pdf",
+    "sha256": "0e2ca8852cf0e6d63e9863b187b8180b171a4730a11fc8c6f681926797897c9c"
+  },
+  {
+    "theme": "14",
+    "label": "Exercice rapide · sujet · 10 exercices · difficulté 1/5",
+    "level": "debutant",
+    "path": "exercices-2026-10-27/14_debutant_rapide_sujet.pdf",
+    "type": "rapide",
+    "sha256": "567daa02f6d5ee038061363c702e9d59048021d244d9fc6453d9f874de90ad96"
+  },
+  {
+    "theme": "14",
+    "label": "Exercice rapide · corrigé · 10 exercices · difficulté 1/5",
+    "level": "debutant",
+    "path": "corriges-2026-10-27/14_debutant_rapide_corrige.pdf",
+    "type": "rapide",
+    "sha256": "84ef1c3724a7339b6e0d9eaf6c0e411ea7d216ba2f918230832ef70cbebe9fd4"
+  },
+  {
+    "theme": "14",
+    "label": "Exercice complet · sujet · 10 exercices · difficulté 1/5",
+    "level": "debutant",
+    "path": "exercices-2026-10-27/14_debutant_complet_sujet.pdf",
+    "type": "complet",
+    "sha256": "7e0ba831ccd076f713430fb1c44ccb2fa39e7aa4b1b2e0b5fc0d64832d97a3ca"
+  },
+  {
+    "theme": "14",
+    "label": "Exercice complet · corrigé · 10 exercices · difficulté 1/5",
+    "level": "debutant",
+    "path": "corriges-2026-10-27/14_debutant_complet_corrige.pdf",
+    "type": "complet",
+    "sha256": "de2f026d85b777fd7f2edfa040e7cd6a975a791ed4035c3ae1f701b79355ebbd"
+  },
+  {
+    "theme": "14",
+    "label": "Exercice rapide · sujet · 10 exercices · difficulté 3/5",
+    "level": "intermediaire",
+    "path": "exercices-2026-10-27/14_intermediaire_rapide_sujet.pdf",
+    "type": "rapide",
+    "sha256": "bb16b943b28ecb4c164047cca80d08c644bd9d78a6d545c9f458cf3a7ec33685"
+  },
+  {
+    "theme": "14",
+    "label": "Exercice rapide · corrigé · 10 exercices · difficulté 3/5",
+    "level": "intermediaire",
+    "path": "corriges-2026-10-27/14_intermediaire_rapide_corrige.pdf",
+    "type": "rapide",
+    "sha256": "5d8600189e5dd6acc2d5c9e9d436d9f80ca50fe51cd98c34488b7a85c6cd3a4a"
+  },
+  {
+    "theme": "14",
+    "label": "Exercice complet · sujet · 10 exercices · difficulté 3/5",
+    "level": "intermediaire",
+    "path": "exercices-2026-10-27/14_intermediaire_complet_sujet.pdf",
+    "type": "complet",
+    "sha256": "60b58b5658f8f481b4b72bcb01b9e8753b617430d759cfb4c0c7090c36961a9c"
+  },
+  {
+    "theme": "14",
+    "label": "Exercice complet · corrigé · 10 exercices · difficulté 3/5",
+    "level": "intermediaire",
+    "path": "corriges-2026-10-27/14_intermediaire_complet_corrige.pdf",
+    "type": "complet",
+    "sha256": "b9db1c7e2abf4fd26b6064c06d2ecb8cf8c82c6d065cdb5a7cc9fd1fb446f5db"
+  },
+  {
+    "theme": "14",
+    "label": "Exercice rapide · sujet · 10 exercices · difficulté 5/5",
+    "level": "expert",
+    "path": "exercices-2026-10-27/14_expert_rapide_sujet.pdf",
+    "type": "rapide",
+    "sha256": "964a8392e979751bea53fb74664f4634ef1b324c24755c7396f00ace51c1aa31"
+  },
+  {
+    "theme": "14",
+    "label": "Exercice rapide · corrigé · 10 exercices · difficulté 5/5",
+    "level": "expert",
+    "path": "corriges-2026-10-27/14_expert_rapide_corrige.pdf",
+    "type": "rapide",
+    "sha256": "6076c9641d0cf43510c04540d655b5945b61739242da67353ea0cb1cffbec25f"
+  },
+  {
+    "theme": "14",
+    "label": "Exercice complet · sujet · 10 exercices · difficulté 5/5",
+    "level": "expert",
+    "path": "exercices-2026-10-27/14_expert_complet_sujet.pdf",
+    "type": "complet",
+    "sha256": "13f44fcebfca7408f7522020f006c76ea25372642df232e03fd0cd3f8f0e37a9"
+  },
+  {
+    "theme": "14",
+    "label": "Exercice complet · corrigé · 10 exercices · difficulté 5/5",
+    "level": "expert",
+    "path": "corriges-2026-10-27/14_expert_complet_corrige.pdf",
+    "type": "complet",
+    "sha256": "a917b56db6b061e8c6be9e8d5595a3db483ecb3d99118b85d389cf0ffccf6f09"
   }
 ];
 window.ComptaAllowedPdfPaths = new Set(library.map(x=>x.path));
@@ -1214,7 +1824,7 @@ const search=document.getElementById('pdf-search');
 const reset=document.getElementById('pdf-reset');
 const count=document.getElementById('pdf-library-summary');
 if(!root||!themeselect||!levelselect||!kindselect||!search||!reset)return;
-const learningOrder=['01','08','02','04','03','09','05','06','07'];
+const learningOrder=["01", "08", "02", "03", "09", "05", "04", "11", "12", "06", "07", "13", "10", "14"];
 for(const id of learningOrder){const option=document.createElement('option');option.value=id;option.textContent=topics[Number(id)-1];themeselect.append(option)}
 function kind(label){const v=label.toLowerCase();return v.startsWith('cours complet')?'cours':v.startsWith('exercice rapide')||v.startsWith('exo rapide')?'rapide':v.startsWith('exercice complet')||v.startsWith('exo complet')?'complet':'fiches'}
 const PARTS=[{id:'cours',label:'Cours complet'},{id:'memo',label:'Mémo'},{id:'carte',label:'Carte mentale'},{id:'rapide',label:'Exercices rapides et corrigés'},{id:'complet',label:'Exercices complets et corrigés'}];
@@ -1226,7 +1836,7 @@ function preview(item,title,cls='btn subtle'){
  const button=make('button',cls,title);button.type='button';button.dataset.previewLocal=item.path;button.dataset.previewTitle=topics[Number(item.theme)-1]+' — '+item.label;return button;
 }
 function series(item){
- const dated=item.path.match(/2026-10-(21|22)/);if(dated)return {id:'edition-'+dated[0],label:'Série du '+dated[1]+' octobre 2026',priority:0};
+ const dated=item.path.match(/2026-10-(21|22|27)/);if(dated)return {id:'edition-'+dated[0],label:'Série du '+dated[1]+' octobre 2026',priority:0};
  if(item.path.includes('-complets/'))return {id:'serie-complete',label:'Autre série complète',priority:1};
  if(item.path.includes('-valides/'))return {id:'serie-complementaire',label:'Série complémentaire',priority:2};
  return {id:item.path.replace(/corrig[ée]s?|sujets?|exercices?/gi,''),label:'Série complémentaire',priority:3};
@@ -1271,7 +1881,7 @@ function render(){
   const card=make('article','course pdf-topic-card');card.id='theme-'+id;
   card.append(make('span','course-order','Étape '+String(learningOrder.indexOf(id)+1).padStart(2,'0')));
   const title=make('h3','',topics[Number(id)-1]);title.id='theme-title-'+id;card.setAttribute('aria-labelledby',title.id);card.append(title);
-  const descriptions={'01':'Comprendre les comptes et les écritures.','08':'Suivre les documents et organiser les contrôles.','02':'Du devis jusqu’au règlement.','04':'Comprendre la TVA et préparer la CA3.','03':'Acheter, utiliser et céder un bien durable.','09':'Comprendre le bulletin et les calculs de paie.','05':'Vérifier les factures, les paiements et la banque.','06':'Expliquer les charges, les produits et le résultat.','07':'Lire la situation de l’entreprise à une date.'};
+  const descriptions={"01": "Préparer · Comptes usuels", "08": "Préparer · Système d’information comptable", "02": "Enregistrer · Opérations courantes", "03": "Enregistrer · Immobilisations", "09": "Enregistrer · PAIE", "05": "Contrôler · Lettrage et rapprochement bancaire", "04": "Contrôler · TVA et CA3", "11": "Clôturer · Clôture et travaux d’inventaire", "12": "Clôturer · Fiscalité des entreprises et IS", "06": "Établir · Compte de résultat", "07": "Établir · Bilan actif et passif", "13": "Piloter · Diagnostic financier et flux", "10": "Piloter · Analyse des coûts et budgets", "14": "Améliorer · RSE et sobriété numérique"};
   card.append(make('p','theme-description',descriptions[id]));
   const docs=make('div','theme-documents');
   for(const part of PARTS.slice(0,3)){

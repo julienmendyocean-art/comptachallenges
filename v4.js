@@ -38,9 +38,9 @@
   const file=button.dataset.previewLocal;
   if(!window.ComptaAllowedPdfPaths?.has(file))return;
   $('pdf-title').textContent=button.dataset.previewTitle||'Document de révision';
-  const link=$('pdf-download');link.href=file+'?v=20261026-r12-5';link.textContent='⬇ Télécharger le PDF';link.setAttribute('download','');link.removeAttribute('target');
-  frame.src=file+'?v=20261026-r12-5';
-  if(typeof dialog.showModal==='function')dialog.showModal();else window.open(file+'?v=20261026-r12-5','_blank','noopener');
+  const link=$('pdf-download');link.href=file+'?v=20261027-r12-7';link.textContent='⬇ Télécharger le PDF';link.setAttribute('download','');link.removeAttribute('target');
+  frame.src=file+'?v=20261027-r12-7';
+  if(typeof dialog.showModal==='function')dialog.showModal();else window.open(file+'?v=20261027-r12-7','_blank','noopener');
  });
  $('pdf-close').addEventListener('click',()=>dialog.close());
  dialog.addEventListener('close',()=>frame.removeAttribute('src'));

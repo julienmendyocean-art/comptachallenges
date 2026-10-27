@@ -1,10 +1,11 @@
 'use strict';
 const $=id=>document.getElementById(id);
-const names=['Comptes usuels','Opérations courantes','Immobilisations','TVA et CA3','Lettrage et rapprochement bancaire','Compte de résultat','Bilan actif et passif','Système d’information comptable','PAIE'];
+const names=["Comptes usuels", "Opérations courantes", "Immobilisations", "TVA et CA3", "Lettrage et rapprochement bancaire", "Compte de résultat", "Bilan actif et passif", "Système d’information comptable", "PAIE", "Analyse des coûts et budgets", "Clôture et travaux d’inventaire", "Fiscalité des entreprises et IS", "Diagnostic financier et flux", "RSE et sobriété numérique"];
+const themeOrder=["01", "08", "02", "03", "09", "05", "04", "11", "12", "06", "07", "13", "10", "14"];
 const colors=['#2463AE','#117A70','#8150A1','#B06416'];
 
-const CC_BUILD='20261026-r12-5';
-const CC_EXPECTED_QUIZ_COUNT=810;
+const CC_BUILD='20261027-r12-7';
+const CC_EXPECTED_QUIZ_COUNT=1260;
 const CC_EXPECTED_PER_GROUP=30;
 const levels=['debutant','intermediaire','expert']; // Difficultés affichées : 1/5, 3/5, 5/5 ; indicateurs pédagogiques.
 const shuffle=a=>{const b=[...a];for(let i=b.length-1;i>0;i--){let j=Math.floor(Math.random()*(i+1));[b[i],b[j]]=[b[j],b[i]]}return b};
@@ -19,7 +20,8 @@ function readScores(){try{
 function writeScore(x){try{const a=readScores();a.push(x);localStorage.setItem('compta-verified-v48-scores',JSON.stringify(a.slice(-500)))}catch{}
  renderScores();if(typeof window.ccOnLocalScore==='function')Promise.resolve(window.ccOnLocalScore(x)).catch(console.warn)}
 function startUI(){
- names.forEach((n,i)=>{
+ themeOrder.forEach(theme=>{
+  const i=Number(theme)-1,n=names[i];
   const option=document.createElement('option');option.value=String(i);option.textContent=n;$('topic').append(option);
   const label=document.createElement('label'),cb=document.createElement('input');cb.type='checkbox';cb.value=i;
   label.append(cb,document.createTextNode(n));$('topicchecks').append(label);
@@ -120,7 +122,7 @@ function feedback(score){return score===100?'🎊 Bravo 👏🏻 Tu es (presque)
 function finish(){if(!state)return;clearInterval(interval);const s=state;state=null;$('quizgame').hidden=true;$('results').hidden=false;$('results').replaceChildren();$('results').className='panel celebrate';
  const outcomes=s.mode==='duel'?[s.first,{name:s.players[1],correct:s.correct,answers:s.answers}]:[{name:s.players[0],correct:s.correct,answers:s.answers}];
  for(const outcome of outcomes){const total=s.questions.length;const score=Math.round(outcome.correct/Math.max(1,total)*100);const h=document.createElement('h3');h.textContent=s.mode==='exam'?(outcome.correct<=10?'De grosses révisions sont nécessaires : redouble d’efforts !':outcome.correct===11?'Continue à réviser pour être parfaitement prêt.':'Tu es prêt ! Reste confiant, sans relâcher tes efforts.') :feedback(score);$('results').append(h);const p=document.createElement('p');p.className='score';p.textContent=score+' %';$('results').append(p);const sub=document.createElement('p');sub.textContent=outcome.name+' · '+outcome.correct+' bonne(s) réponse(s) sur '+total+(s.mode==='chrono'?' · '+outcome.answers.length+' question(s) tentée(s) avant la fin du temps':'');$('results').append(sub);
- writeScore({name:outcome.name,score,correct:outcome.correct,total,mode:s.mode,date:new Date().toISOString(),theme:s.mode==='exam'||s.mode==='custom'?'Mixte':names[+$('topic').value],themeId:s.mode==='exam'?'all':String(+$('topic').value+1).padStart(2,'0'),level:s.mode==='exam'?'mixte':$('level').value,topics:s.mode==='exam'?['01','02','03','04','05','06','07','08','09']:undefined});
+ writeScore({name:outcome.name,score,correct:outcome.correct,total,mode:s.mode,date:new Date().toISOString(),theme:s.mode==='exam'||s.mode==='custom'?'Mixte':names[+$('topic').value],themeId:s.mode==='exam'?'all':String(+$('topic').value+1).padStart(2,'0'),level:s.mode==='exam'?'mixte':$('level').value,topics:s.mode==='exam'?['01','02','03','04','05','06','07','08','09','10']:undefined});
  const share=document.createElement('button');share.className='btn';share.textContent='Partager mon résultat';share.addEventListener('click',async()=>{const txt=outcome.name+' a obtenu '+score+' % sur Compta Challenge !';if(navigator.share){try{await navigator.share({title:'Compta Challenge',text:txt,url:location.href})}catch{}}else if(navigator.clipboard){await navigator.clipboard.writeText(txt);share.textContent='Copié !'}else{prompt('Copier le résultat :',txt)}});$('results').append(share);
  const details=document.createElement('details'),summary=document.createElement('summary');summary.textContent='Voir mes réponses et les corrections';details.append(summary);outcome.answers.forEach((a,i)=>{const d=document.createElement('div');d.className='reviewitem';const strong=document.createElement('strong');strong.textContent=(a.correct?'✔ ':'✘ ')+(i+1)+'. '+a.item.q;const para=document.createElement('p');para.textContent='Bonne réponse : '+a.item.options[a.item.correct]+' — '+a.item.explanation;d.append(strong,para);details.append(d)});$('results').append(details)
  }
@@ -132,7 +134,7 @@ function renderScores(){const scores=readScores(),best=new Map();scores.forEach(
 // Les anciens jeux demeurent hors ligne tant que leurs banques ne sont pas validées.
 function miniGame(){const target=$('minigame');if(target){target.hidden=true;target.replaceChildren()}}
 function validatePublishedBank(q){
- if(!Array.isArray(q)||q.length!==27)throw Error('banque incomplète : 27 groupes de questions requis');
+ if(!Array.isArray(q)||q.length!==names.length*levels.length)throw Error('banque incomplète : 42 groupes de questions requis');
  const expected=new Set(names.flatMap((_,i)=>levels.map(l=>String(i+1).padStart(2,'0')+'-'+l)));
  const seen=new Set();let total=0;
  for(const g of q){
