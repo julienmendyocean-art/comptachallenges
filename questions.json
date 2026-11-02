@@ -14985,15 +14985,16 @@
           "D": "La date du prochain congé"
         },
         "correct": "A",
-        "explanation": "Un produit, une commande, un client ou un service peut être un objet de coût.",
+        "explanation": "Un produit, une commande, un client ou un service peut être un objet de coût. Définition : Valeur des ressources retenues pour un objet donné, sur une période et selon une méthode définies. Un coût peut concerner un produit, une commande, un service ou une activité.",
         "category": "notion",
         "reviewed_at": "2026-10-27",
-        "review_status": "revue_pedagogique_couts_r12_6",
-        "review_method": "lecture des quatre livrets ; corrections documentées ; cas fermés ; recalcul Decimal et contrôle indépendant des identités ; revue externe non réalisée",
+        "review_status": "revue_definitions_r12_7_2",
+        "review_method": "lecture des quatre livrets ; corrections documentées ; cas fermés ; recalcul Decimal et contrôle indépendant des identités ; revue externe non réalisée ; définition harmonisée avec le lexique commun, PCG 2026 et Code de commerce pour les règles juridiques",
         "source": "https://comptachallenges.netlify.app/cours-complets/10_COURS_ANALYSE_COUTS_2026.pdf",
         "source_kind": "cours_issu_livrets_fournis",
         "source_basis": "Livrets J1-J4 fournis et chapitre correspondant du cours ; hypothèses indiquées dans le cas",
-        "scope": "Hypothèses explicites du cas, montants HT sauf indication contraire"
+        "scope": "Hypothèses explicites du cas, montants HT sauf indication contraire",
+        "definition_id": "cout"
       },
       {
         "n": 2,
@@ -15029,15 +15030,16 @@
           "D": "Toujours fixe"
         },
         "correct": "C",
-        "explanation": "La consommation est rattachée au modèle sans clé de répartition.",
+        "explanation": "La consommation est rattachée au modèle sans clé de répartition. Définition : Charges que l’on rattache à un objet de coût déterminé sans passer par une répartition entre plusieurs objets.",
         "category": "notion",
         "reviewed_at": "2026-10-27",
-        "review_status": "revue_pedagogique_couts_r12_6",
-        "review_method": "lecture des quatre livrets ; corrections documentées ; cas fermés ; recalcul Decimal et contrôle indépendant des identités ; revue externe non réalisée",
+        "review_status": "revue_definitions_r12_7_2",
+        "review_method": "lecture des quatre livrets ; corrections documentées ; cas fermés ; recalcul Decimal et contrôle indépendant des identités ; revue externe non réalisée ; définition harmonisée avec le lexique commun, PCG 2026 et Code de commerce pour les règles juridiques",
         "source": "https://comptachallenges.netlify.app/cours-complets/10_COURS_ANALYSE_COUTS_2026.pdf",
         "source_kind": "cours_issu_livrets_fournis",
         "source_basis": "Livrets J1-J4 fournis et chapitre correspondant du cours ; hypothèses indiquées dans le cas",
-        "scope": "Hypothèses explicites du cas, montants HT sauf indication contraire"
+        "scope": "Hypothèses explicites du cas, montants HT sauf indication contraire",
+        "definition_id": "directes"
       },
       {
         "n": 4,
@@ -15109,23 +15111,24 @@
       },
       {
         "n": 7,
-        "q": "Quel document décrit les entrées, sorties et soldes d’une référence ?",
+        "q": "Dans un calcul de coût, que désignent les charges incorporables ?",
         "options": {
-          "A": "Le seul relevé bancaire",
-          "B": "Une facture de vente isolée",
-          "C": "La fiche de stock",
-          "D": "La liste des mots de passe"
+          "A": "Uniquement les charges directes",
+          "B": "Les seuls dividendes versés",
+          "C": "Les charges comptables retenues pour le coût étudié",
+          "D": "Toutes les sorties du compte bancaire"
         },
         "correct": "C",
-        "explanation": "La fiche suit les quantités et les valeurs disponibles.",
+        "explanation": "Charges comptables que l’on retient pour construire le coût étudié parce qu’elles sont pertinentes pour son objet, sa période et la méthode choisie. Incorporable n’est pas synonyme de payé, direct ou fiscalement déductible. Une charge non incorporable reste enregistrée dans les comptes lorsqu’elle doit l’être.",
         "category": "notion",
         "reviewed_at": "2026-10-27",
-        "review_status": "revue_pedagogique_couts_r12_6",
-        "review_method": "lecture des quatre livrets ; corrections documentées ; cas fermés ; recalcul Decimal et contrôle indépendant des identités ; revue externe non réalisée",
+        "review_status": "revue_definitions_r12_7_2",
+        "review_method": "lecture des quatre livrets ; corrections documentées ; cas fermés ; recalcul Decimal et contrôle indépendant des identités ; revue externe non réalisée ; définition harmonisée avec le lexique commun, PCG 2026 et Code de commerce pour les règles juridiques",
         "source": "https://comptachallenges.netlify.app/cours-complets/10_COURS_ANALYSE_COUTS_2026.pdf",
         "source_kind": "cours_issu_livrets_fournis",
         "source_basis": "Livrets J1-J4 fournis et chapitre correspondant du cours ; hypothèses indiquées dans le cas",
-        "scope": "Hypothèses explicites du cas, montants HT sauf indication contraire"
+        "scope": "Hypothèses explicites du cas, montants HT sauf indication contraire",
+        "definition_id": "incorporables"
       },
       {
         "n": 8,
@@ -15137,15 +15140,16 @@
           "D": "Non, elle utilise une hypothèse à justifier"
         },
         "correct": "D",
-        "explanation": "Une clé peut être utile mais reste un modèle de répartition.",
+        "explanation": "Une clé peut être utile mais reste un modèle de répartition. Définition : Critère de partage d’une charge commune entre plusieurs centres ou objets de coût, par exemple la surface, les effectifs ou le nombre de commandes.",
         "category": "analyse",
         "reviewed_at": "2026-10-27",
-        "review_status": "revue_pedagogique_couts_r12_6",
-        "review_method": "lecture des quatre livrets ; corrections documentées ; cas fermés ; recalcul Decimal et contrôle indépendant des identités ; revue externe non réalisée",
+        "review_status": "revue_definitions_r12_7_2",
+        "review_method": "lecture des quatre livrets ; corrections documentées ; cas fermés ; recalcul Decimal et contrôle indépendant des identités ; revue externe non réalisée ; définition harmonisée avec le lexique commun, PCG 2026 et Code de commerce pour les règles juridiques",
         "source": "https://comptachallenges.netlify.app/cours-complets/10_COURS_ANALYSE_COUTS_2026.pdf",
         "source_kind": "cours_issu_livrets_fournis",
         "source_basis": "Livrets J1-J4 fournis et chapitre correspondant du cours ; hypothèses indiquées dans le cas",
-        "scope": "Hypothèses explicites du cas, montants HT sauf indication contraire"
+        "scope": "Hypothèses explicites du cas, montants HT sauf indication contraire",
+        "definition_id": "cle"
       },
       {
         "n": 9,
@@ -15225,15 +15229,16 @@
           "D": "Non, c’est une évaluation analytique"
         },
         "correct": "D",
-        "explanation": "L’élément supplétif ne prouve ni une charge comptable ni un flux de trésorerie.",
+        "explanation": "L’élément supplétif ne prouve ni une charge comptable ni un flux de trésorerie. Définition : Évaluations ajoutées aux coûts de gestion alors qu’elles ne figurent pas comme charges dans la comptabilité générale. Elles rendent visible une ressource utilisée sans charge comptable correspondante.",
         "category": "analyse",
         "reviewed_at": "2026-10-27",
-        "review_status": "revue_pedagogique_couts_r12_6",
-        "review_method": "lecture des quatre livrets ; corrections documentées ; cas fermés ; recalcul Decimal et contrôle indépendant des identités ; revue externe non réalisée",
+        "review_status": "revue_definitions_r12_7_2",
+        "review_method": "lecture des quatre livrets ; corrections documentées ; cas fermés ; recalcul Decimal et contrôle indépendant des identités ; revue externe non réalisée ; définition harmonisée avec le lexique commun, PCG 2026 et Code de commerce pour les règles juridiques",
         "source": "https://comptachallenges.netlify.app/cours-complets/10_COURS_ANALYSE_COUTS_2026.pdf",
         "source_kind": "cours_issu_livrets_fournis",
         "source_basis": "Livrets J1-J4 fournis et chapitre correspondant du cours ; hypothèses indiquées dans le cas",
-        "scope": "Hypothèses explicites du cas, montants HT sauf indication contraire"
+        "scope": "Hypothèses explicites du cas, montants HT sauf indication contraire",
+        "definition_id": "suppletives"
       },
       {
         "n": 13,
@@ -15269,15 +15274,16 @@
           "D": "Supprimer toute assurance du coût"
         },
         "correct": "B",
-        "explanation": "Le tableau de passage doit éviter de doubler les corrections de période.",
+        "explanation": "Le tableau de passage doit éviter de doubler les corrections de période. Définition : Répartir une charge prévue sur plusieurs périodes de gestion afin que chaque période supporte sa part. Cette pratique s’appelle l’abonnement des charges.",
         "category": "application",
         "reviewed_at": "2026-10-27",
-        "review_status": "revue_pedagogique_couts_r12_6",
-        "review_method": "lecture des quatre livrets ; corrections documentées ; cas fermés ; recalcul Decimal et contrôle indépendant des identités ; revue externe non réalisée",
+        "review_status": "revue_definitions_r12_7_2",
+        "review_method": "lecture des quatre livrets ; corrections documentées ; cas fermés ; recalcul Decimal et contrôle indépendant des identités ; revue externe non réalisée ; définition harmonisée avec le lexique commun, PCG 2026 et Code de commerce pour les règles juridiques",
         "source": "https://comptachallenges.netlify.app/cours-complets/10_COURS_ANALYSE_COUTS_2026.pdf",
         "source_kind": "cours_issu_livrets_fournis",
         "source_basis": "Livrets J1-J4 fournis et chapitre correspondant du cours ; hypothèses indiquées dans le cas",
-        "scope": "Hypothèses explicites du cas, montants HT sauf indication contraire"
+        "scope": "Hypothèses explicites du cas, montants HT sauf indication contraire",
+        "definition_id": "abonnement"
       },
       {
         "n": 15,
@@ -15657,23 +15663,24 @@
     "questions": [
       {
         "n": 1,
-        "q": "Comment classer le salaire mensuel fixe d’un salarié affecté uniquement au produit A ?",
+        "q": "Que signifie amortir une immobilisation utilisée dans l’activité ?",
         "options": {
-          "A": "Direct et fixe pour A",
-          "B": "Indirect et variable obligatoirement",
-          "C": "Supplétif uniquement",
-          "D": "Toujours non incorporable"
+          "A": "Répartir son montant amortissable selon son utilisation prévue",
+          "B": "Rembourser automatiquement son emprunt",
+          "C": "Mettre chaque année la même somme en banque",
+          "D": "Constater uniquement son prix de revente"
         },
         "correct": "A",
-        "explanation": "Le rattachement et le comportement sont deux axes indépendants.",
+        "explanation": "Répartition du montant amortissable d’un actif en charges, au rythme de son utilisation prévue. Elle traduit la consommation des avantages que le bien apporte à l’entreprise. Ce n’est ni un paiement annuel, ni une réserve d’argent, ni le remboursement d’un emprunt. Une dépréciation répond à une autre question : la perte de valeur.",
         "category": "notion",
         "reviewed_at": "2026-10-27",
-        "review_status": "revue_pedagogique_couts_r12_6",
-        "review_method": "lecture des quatre livrets ; corrections documentées ; cas fermés ; recalcul Decimal et contrôle indépendant des identités ; revue externe non réalisée",
-        "source": "https://comptachallenges.netlify.app/cours-complets/10_COURS_ANALYSE_COUTS_2026.pdf",
-        "source_kind": "cours_issu_livrets_fournis",
+        "review_status": "revue_definitions_r12_7_2",
+        "review_method": "lecture des quatre livrets ; corrections documentées ; cas fermés ; recalcul Decimal et contrôle indépendant des identités ; revue externe non réalisée ; définition harmonisée avec le lexique commun, PCG 2026 et Code de commerce pour les règles juridiques",
+        "source": "https://www.anc.gouv.fr/files/anc/files/1_Normes_fran%C3%A7aises/recueil/2026/PCG--1er-janvier-2026.pdf",
+        "source_kind": "officielle",
         "source_basis": "Livrets J1-J4 fournis et chapitre correspondant du cours ; hypothèses indiquées dans le cas",
-        "scope": "Hypothèses explicites du cas, montants HT sauf indication contraire"
+        "scope": "Hypothèses explicites du cas, montants HT sauf indication contraire",
+        "definition_id": "amortissement"
       },
       {
         "n": 2,
@@ -15685,15 +15692,16 @@
           "D": "Non incorporable automatiquement"
         },
         "correct": "B",
-        "explanation": "Indirect ne signifie pas fixe ; les deux classements se croisent.",
+        "explanation": "Indirect ne signifie pas fixe ; les deux classements se croisent. Définition : Charges communes à plusieurs objets de coût qui nécessitent un traitement de répartition avant leur imputation à chaque objet.",
         "category": "analyse",
         "reviewed_at": "2026-10-27",
-        "review_status": "revue_pedagogique_couts_r12_6",
-        "review_method": "lecture des quatre livrets ; corrections documentées ; cas fermés ; recalcul Decimal et contrôle indépendant des identités ; revue externe non réalisée",
+        "review_status": "revue_definitions_r12_7_2",
+        "review_method": "lecture des quatre livrets ; corrections documentées ; cas fermés ; recalcul Decimal et contrôle indépendant des identités ; revue externe non réalisée ; définition harmonisée avec le lexique commun, PCG 2026 et Code de commerce pour les règles juridiques",
         "source": "https://comptachallenges.netlify.app/cours-complets/10_COURS_ANALYSE_COUTS_2026.pdf",
         "source_kind": "cours_issu_livrets_fournis",
         "source_basis": "Livrets J1-J4 fournis et chapitre correspondant du cours ; hypothèses indiquées dans le cas",
-        "scope": "Hypothèses explicites du cas, montants HT sauf indication contraire"
+        "scope": "Hypothèses explicites du cas, montants HT sauf indication contraire",
+        "definition_id": "indirectes"
       },
       {
         "n": 3,
@@ -15705,15 +15713,16 @@
           "D": "Créer des coûts supplémentaires"
         },
         "correct": "C",
-        "explanation": "L’auxiliaire rend un service ; son coût est redistribué sans créer de charge.",
+        "explanation": "L’auxiliaire rend un service ; son coût est redistribué sans créer de charge. Définition : Mesures physiques de l’activité d’un centre d’analyse utilisées pour imputer ses charges aux objets de coût qui consomment cette activité.",
         "category": "notion",
         "reviewed_at": "2026-10-27",
-        "review_status": "revue_pedagogique_couts_r12_6",
-        "review_method": "lecture des quatre livrets ; corrections documentées ; cas fermés ; recalcul Decimal et contrôle indépendant des identités ; revue externe non réalisée",
+        "review_status": "revue_definitions_r12_7_2",
+        "review_method": "lecture des quatre livrets ; corrections documentées ; cas fermés ; recalcul Decimal et contrôle indépendant des identités ; revue externe non réalisée ; définition harmonisée avec le lexique commun, PCG 2026 et Code de commerce pour les règles juridiques",
         "source": "https://comptachallenges.netlify.app/cours-complets/10_COURS_ANALYSE_COUTS_2026.pdf",
         "source_kind": "cours_issu_livrets_fournis",
         "source_basis": "Livrets J1-J4 fournis et chapitre correspondant du cours ; hypothèses indiquées dans le cas",
-        "scope": "Hypothèses explicites du cas, montants HT sauf indication contraire"
+        "scope": "Hypothèses explicites du cas, montants HT sauf indication contraire",
+        "definition_id": "uo"
       },
       {
         "n": 4,
@@ -16353,23 +16362,24 @@
     "questions": [
       {
         "n": 1,
-        "q": "Le coût d’un centre semble baisser après un changement de clé, sans dépense économisée. Quelle analyse est correcte ?",
+        "q": "En principe, quel ensemble de critères justifie le classement d’une charge en résultat exceptionnel selon le PCG actuel ?",
         "options": {
-          "A": "La répartition a changé ; l’économie totale n’est pas démontrée",
-          "B": "Une économie bancaire est certaine",
-          "C": "Le chiffre d’affaires a augmenté",
-          "D": "Les charges sont devenues directes"
+          "A": "Un lien direct avec un événement majeur et inhabituel",
+          "B": "Le simple fait que la dépense n’était pas budgétée",
+          "C": "Le seul fait que le montant n’est pas arrondi",
+          "D": "Toute facture reçue après un retard de paiement"
         },
         "correct": "A",
-        "explanation": "Un transfert de coût entre objets n’est pas une diminution de ressources consommées.",
+        "explanation": "Charges classées dans le résultat exceptionnel selon les critères du PCG. Le principe vise celles qui sont directement liées à un événement à la fois majeur et inhabituel. Rare ou imprévu ne suffit pas. Une amende n’est pas automatiquement exceptionnelle. Le classement comptable ne décide pas, à lui seul, de l’incorporation au coût de gestion ou de la déductibilité fiscale.",
         "category": "analyse",
         "reviewed_at": "2026-10-27",
-        "review_status": "revue_pedagogique_couts_r12_6",
-        "review_method": "lecture des quatre livrets ; corrections documentées ; cas fermés ; recalcul Decimal et contrôle indépendant des identités ; revue externe non réalisée",
-        "source": "https://comptachallenges.netlify.app/cours-complets/10_COURS_ANALYSE_COUTS_2026.pdf",
-        "source_kind": "cours_issu_livrets_fournis",
+        "review_status": "revue_definitions_r12_7_2",
+        "review_method": "lecture des quatre livrets ; corrections documentées ; cas fermés ; recalcul Decimal et contrôle indépendant des identités ; revue externe non réalisée ; définition harmonisée avec le lexique commun, PCG 2026 et Code de commerce pour les règles juridiques",
+        "source": "https://www.anc.gouv.fr/files/anc/files/1_Normes_fran%C3%A7aises/recueil/2026/PCG--1er-janvier-2026.pdf",
+        "source_kind": "officielle",
         "source_basis": "Livrets J1-J4 fournis et chapitre correspondant du cours ; hypothèses indiquées dans le cas",
-        "scope": "Hypothèses explicites du cas, montants HT sauf indication contraire"
+        "scope": "Hypothèses explicites du cas, montants HT sauf indication contraire",
+        "definition_id": "exceptionnelles"
       },
       {
         "n": 2,
@@ -16629,23 +16639,24 @@
       },
       {
         "n": 14,
-        "q": "Un poste de 4 000 € s’intitule remboursement d’emprunt sans ventilation. Peut-on connaître les intérêts à incorporer ?",
+        "q": "Pour la société qui distribue, quelle est la nature de dividendes régulièrement décidés ?",
         "options": {
-          "A": "Oui, toujours 20 %",
-          "B": "Non, il faut le tableau d’amortissement ou la ventilation",
-          "C": "Oui, toujours 4 000 €",
-          "D": "Oui, toujours zéro"
+          "A": "Un remboursement obligatoire du capital de tout emprunt",
+          "B": "Une affectation des capitaux propres, sans charge de résultat",
+          "C": "Une charge d’exploitation systématique",
+          "D": "Une charge supplétive automatique égale au dividende"
         },
         "correct": "B",
-        "explanation": "Le capital et les intérêts n’ont pas le même traitement ; le libellé ne fournit pas la ventilation.",
+        "explanation": "Sommes distribuées aux associés ou actionnaires sur les montants légalement distribuables, après une décision de l’organe compétent. Il s’agit d’une affectation des capitaux propres. Pour la société qui distribue, les dividendes ne sont pas une charge et ne diminuent pas son résultat comptable. Ils ne sont pas automatiquement un coût supplétif. Chez le bénéficiaire, le traitement est différent.",
         "category": "analyse",
         "reviewed_at": "2026-10-27",
-        "review_status": "revue_pedagogique_couts_r12_6",
-        "review_method": "lecture des quatre livrets ; corrections documentées ; cas fermés ; recalcul Decimal et contrôle indépendant des identités ; revue externe non réalisée",
-        "source": "https://www.anc.gouv.fr/files/anc/files/1_Normes_fran%C3%A7aises/recueil/2026/PCG--1er-janvier-2026.pdf",
+        "review_status": "revue_definitions_r12_7_2",
+        "review_method": "lecture des quatre livrets ; corrections documentées ; cas fermés ; recalcul Decimal et contrôle indépendant des identités ; revue externe non réalisée ; définition harmonisée avec le lexique commun, PCG 2026 et Code de commerce pour les règles juridiques",
+        "source": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000005634379/LEGISCTA000006161291/",
         "source_kind": "officielle",
         "source_basis": "Livrets J1-J4 fournis et chapitre correspondant du cours ; hypothèses indiquées dans le cas",
-        "scope": "Hypothèses explicites du cas, montants HT sauf indication contraire"
+        "scope": "Hypothèses explicites du cas, montants HT sauf indication contraire",
+        "definition_id": "dividendes"
       },
       {
         "n": 15,

@@ -1,0 +1,1073 @@
+{
+  "revision": "R12.16",
+  "date": "2026-10-30",
+  "themes": {
+    "08": {
+      "notions": "SIC = personnes, procédures, données et outils. Pièce = preuve. Piste d’audit = lien pièce / écriture / états. FEC = export fiscal normalisé. Contrôle interne = responsabilités et vérifications organisées.",
+      "regles": "Collecter → identifier → contrôler → enregistrer → restituer → archiver. Séparer saisie et validation lorsque possible. Limiter les accès et tester la restauration des sauvegardes.",
+      "reperes": "Livres et justificatifs comptables : 10 ans dès la clôture. Factures électroniques : réception dès le 01/09/2026 ; émission GE/ETI en 2026, PME/micro en 2027, dans le champ de la réforme.",
+      "comptes": "401 fournisseurs ; 411 clients ; 445 TVA ; 512 banque ; classe 6 charges ; classe 7 produits.",
+      "formules": "Total D = total C. Écart = montant justifié - montant enregistré.",
+      "exemple": "Facture marchandises 120 € TTC à 20 %, TVA déductible : D 607 = 100 ; D 44566 = 20 ; C 401 = 120. Puis D 401 / C 512 = 120 au règlement.",
+      "vigilance": "Une écriture équilibrée peut être fausse. Rechercher doublon, mauvais tiers ou mauvaise période. Un PDF envoyé par courriel ne suffit pas à remplir la réforme de facturation électronique.",
+      "explication": "Le SIC ressemble à une chaîne de preuves. La facture explique l’achat, l’écriture le traduit, le grand livre le classe et les états le résument. Le règlement éteint ensuite la dette : il ne crée pas un deuxième achat. Pour corriger une anomalie, on revient à la pièce et l’on conserve la trace de la correction. Le nombre de sauvegardes ne garantit pas, à lui seul, que les données pourront être restaurées.",
+      "sources": [
+        "ARCHIVES",
+        "FACTURES",
+        "COMPTES"
+      ],
+      "carte": [
+        [
+          "SIC : personnes + procédures + outils.",
+          "Pièce ↔ écriture ↔ états."
+        ],
+        [
+          "Vérifier → saisir → contrôler → archiver.",
+          "Compta : conservation 10 ans / clôture.",
+          "E-factures : réception 01/09/2026."
+        ],
+        [
+          "401 fourn. ; 411 clients ; 445 TVA.",
+          "512 banque ; 6 charges ; 7 produits."
+        ],
+        [
+          "Σ D = Σ C.",
+          "Écart = justifié - enregistré."
+        ],
+        [
+          "120 TTC à 20 % : HT 100 ; TVA 20.",
+          "D 607 100 + D 44566 20 / C 401 120."
+        ],
+        [
+          "Équilibre ≠ exactitude.",
+          "Doublons ; accès ; restauration testée.",
+          "Émission PME/micro : 01/09/2027."
+        ]
+      ]
+    },
+    "01": {
+      "notions": "Compte = classement d’un flux ou d’un solde. Actif = ressource contrôlée. Passif = financement et obligations. Charge / produit = consommation / création de richesse de l’exercice.",
+      "regles": "Identifier la nature, puis le compte et le sens. Actif et charge augmentent généralement au D ; dette, capitaux propres et produit au C. L’écriture complète reste équilibrée.",
+      "reperes": "Classes 1 à 5 : bilan. Classe 6 : charges. Classe 7 : produits. D/C ne signifie pas automatiquement plus/moins de trésorerie.",
+      "comptes": "101 capital ; 164 emprunt ; 21 immo corporelles ; 28 amort. ; 401 fourn. ; 404 fourn. immo ; 411 clients ; 512 banque ; 53 caisse ; 607 achats ; 707 ventes.",
+      "formules": "Solde = total D - total C : positif = débiteur ; négatif = créditeur.",
+      "exemple": "Vente de marchandises 100 HT + 20 TVA : D 411 120 / C 707 100 + C 44571 20. Encaissement : D 512 120 / C 411 120.",
+      "vigilance": "Classe 4 = tiers, pas produits. 401 et 404 ne sont pas interchangeables. Distinguer l’emprunt 164 de ses intérêts 661. Adapter les subdivisions au plan de l’entreprise.",
+      "explication": "La partie double raconte deux aspects d’une même opération. Lors de la vente, une créance naît sur le client et un produit est constaté ; la TVA est une dette fiscale distincte. Lors du paiement, la banque augmente et la créance disparaît. Un virement reçu peut aussi provenir d’un emprunt : la banque augmente alors sans qu’un produit de vente apparaisse. Il faut donc qualifier le flux avant de choisir son compte.",
+      "sources": [
+        "COMPTES",
+        "PCG"
+      ],
+      "carte": [
+        [
+          "Actif : ressource ; dette : obligation.",
+          "Charge / produit ≠ paiement."
+        ],
+        [
+          "Qualifier → compte → D/C → contrôle.",
+          "Actif/charge + au D, en général.",
+          "Dette/produit + au C, en général."
+        ],
+        [
+          "1 à 5 : bilan ; 6 : charges ; 7 : produits.",
+          "401/404 fourn. ; 411 client ; 512 banque.",
+          "164 emprunt ; 661 intérêts."
+        ],
+        [
+          "Solde = Σ D - Σ C.",
+          "Journal : Σ D = Σ C."
+        ],
+        [
+          "Vente 100 HT + 20 TVA.",
+          "D 411 120 / C 707 100 + C 44571 20."
+        ],
+        [
+          "Classe 4 ≠ produits.",
+          "Pas de vente lors du règlement client.",
+          "Subdivisions selon plan utilisé."
+        ]
+      ]
+    },
+    "02": {
+      "notions": "Facture = pièce de l’opération. Avoir = correction justifiée. RRR = rabais, remise, ristourne. Escompte = réduction financière. Net commercial ≠ net financier.",
+      "regles": "Contrôler la pièce → calculer les nets et la TVA → enregistrer → régler → lettrer. Appliquer successivement les remises, sans additionner leurs taux.",
+      "reperes": "B2B, cas général : 30 j par défaut ; délai convenu ≤ 60 j après émission ou 45 j fin de mois sous conditions. Factures périodiques : plafond de 45 j ; régimes sectoriels à vérifier.",
+      "comptes": "607 achats de marchandises ; 707 ventes ; 609/709 RRR selon traitement ; 665/765 escomptes ; 401/411 tiers ; 44566/44571 TVA ; 58 virements internes.",
+      "formules": "Net commercial = brut × (1-r1) × (1-r2). TVA = base × t. TTC = HT + TVA.",
+      "exemple": "1 000 HT ; remises 10 % puis 5 % : 1 000 × 0,90 × 0,95 = 855 HT ; TVA 20 % = 171 ; TTC = 1 026 €.",
+      "vigilance": "Un avoir inverse les éléments corrigés. Le règlement ne crée pas une seconde charge. Un virement entre banques utilise 58 dans deux journaux ; 58 doit être rapproché et soldé.",
+      "explication": "Une remise commerciale diminue le prix d’achat ou de vente ; un escompte rémunère un paiement anticipé et suit une autre logique. Dans l’exemple, la seconde remise porte sur 900 €, pas sur 1 000 € : 10 % puis 5 % donnent 14,5 % de réduction totale. Les frais accessoires et les exclusions de TVA se traitent selon la pièce et leur nature. Pour un transfert interne de 500 €, D 58 / C 512-A puis D 512-B / C 58 : aucune charge ni aucun produit.",
+      "sources": [
+        "DELAIS",
+        "COMPTES",
+        "FACTURES"
+      ],
+      "carte": [
+        [
+          "Facture / avoir ; RRR / escompte.",
+          "Net commercial ≠ net financier."
+        ],
+        [
+          "Pièce → calcul → écriture → règlement.",
+          "B2B : 30 j par défaut ; exceptions.",
+          "Convenu : 60 j ou 45 j fin de mois."
+        ],
+        [
+          "607/707 achats/ventes ; 401/411 tiers.",
+          "609/709 RRR ; 665/765 escomptes.",
+          "58 transferts internes ; 512 banque."
+        ],
+        [
+          "Net = brut × (1-r1) × (1-r2).",
+          "TTC = base HT × (1+t)."
+        ],
+        [
+          "1 000 × 0,90 × 0,95 = 855 HT.",
+          "TVA 20 % = 171 ; TTC = 1 026."
+        ],
+        [
+          "Ne pas additionner les remises.",
+          "Avoir : corriger les bons éléments.",
+          "58 : deux journaux, solde contrôlé."
+        ]
+      ]
+    },
+    "04": {
+      "notions": "Exigibilité = date où la taxe est due. Déduction = droit sous conditions. Autoliquidation = taxe due par l’acheteur et déduction distincte. Crédit ≠ remboursement automatique.",
+      "regles": "Biens : livraison en principe, acomptes éligibles compris. Services : encaissements, sauf option débits ; l’acompte antérieur reste exigible. RN : CA3 mensuelle, trimestrielle si taxe annuelle < 4 000 €.",
+      "reperes": "Métropole : 20 %, 10 %, 5,5 %, 2,1 % selon opération. Franchise ordinaire : ventes 85 000/93 500 € ; services 37 500/41 250 €. Seuil majoré dépassé : fin dès le jour du dépassement.",
+      "comptes": "C initial : 44571 collectée ; 4452 due AIC ; 44551 à payer. D initial : 44562 immo ; 44566 B&S ; 44567 crédit ; 44581 acompte RSI. Import : subdivision adaptée, ex. 4457-IMP.",
+      "formules": "TVA = HT × t ; HT = TTC/(1+t). Nette = taxe due - déd. - crédit antérieur imputable. RSI 2026 : CA12/CA12E + acomptes 55 % juillet / 40 % décembre, base ligne 57.",
+      "exemple": "Collectée 2 400 + due AIC 200 - déd. ABS 1 000 - immo 600 - crédit 300 = 700 € à payer. Liquidation : D 44571 2 400 + D 4452 200 / C 44566 1 000 + C 44562 600 + C 44567 300 + C 44551 700.",
+      "vigilance": "CA3 : euros entiers par rubrique, 0,50 arrondi au-dessus. Compta : centimes exacts ; écart D 658 ou C 758. Banque : D 44551 / C 512 = 700. AIC : pas de second paiement de taxe.",
+      "explication": "La TVA collectée et la TVA déductible ne s’annulent pas opération par opération dans le journal. On les suit séparément, puis on liquide la période. L’AIC du cas crée 200 € dus et 200 € déductibles inclus dans les 1 000 € d’ABS ; neutralité seulement avec droit intégral. Au RSI, la base des acomptes précède la déduction de TVA sur immobilisations ; base inférieure à 1 000 € : dispense. Franchise : aucune déduction ordinaire ; achats internationaux et activités particulières à examiner séparément.",
+      "sources": [
+        "CA3",
+        "TVA",
+        "FRANCHISE",
+        "TAUX",
+        "COMPTES"
+      ],
+      "carte": [
+        [
+          "Exigibilité : date ; déduction : droit.",
+          "Autoliquidation : due + déd. séparées."
+        ],
+        [
+          "RN : CA3 mensuelle ; trimestriel si < 4 k€.",
+          "RSI 2026 : CA12 + 55 % / 40 % + solde.",
+          "Taux métropole : 20 / 10 / 5,5 / 2,1 %."
+        ],
+        [
+          "C : 44571, 4452 ; D : 44562, 44566.",
+          "44567 crédit ; 44551 à payer.",
+          "44581 acompte RSI ; import : sous-cpte."
+        ],
+        [
+          "TVA = HT × t ; HT = TTC/(1+t).",
+          "Nette = due - déd. - crédit imputable."
+        ],
+        [
+          "2 600 - 1 600 - 300 = 700 à payer.",
+          "D 44551 / C 512 = 700 €.",
+          "AIC : fournisseur payé HT."
+        ],
+        [
+          "CA3 : € entiers ; compta : centimes.",
+          "Arrondis : D 658 perte / C 758 gain.",
+          "Neutralité AIC seulement si droit intégral."
+        ]
+      ]
+    },
+    "03": {
+      "notions": "Immo = actif utilisé durablement. Amortissement = répartition du montant amortissable selon l’utilisation. Dépréciation = perte de valeur constatée. Composant = élément à suivre séparément si nécessaire.",
+      "regles": "Qualifier → déterminer le coût → constater l’actif → démarrer le plan à la consommation des avantages, généralement à la mise en service → réviser et tester la valeur à la clôture.",
+      "reperes": "Tolérance fiscale ≤ 500 € HT : certains petits matériels, sous conditions. Ce n’est pas un seuil comptable général. La durée dépend de l’utilisation ; aucun nombre d’années unique pour tous les biens.",
+      "comptes": "20 incorporelles ; 21 corporelles ; 23 en cours ; 28 amort. ; 29 dépréciations ; 404 fourn. immo ; 44562 TVA déd. immo ; 6811 dotations amort.",
+      "formules": "Base amortissable = coût - valeur résiduelle retenue. Linéaire annuel = base/durée. VNC = valeur brute - amort. cumulés - dépréciations.",
+      "exemple": "Machine 12 000 HT, TVA déductible, résiduel nul, durée 5 ans : 2 400 €/an. Mise en service 01/07, convention 6/12 : dotation 1 200. D 6811 / C 2815 = 1 200 ; VNC = 10 800.",
+      "vigilance": "Amortissement ≠ décaissement annuel. Séparer durée comptable et fiscale. Les terrains ordinaires ne s’amortissent pas. Frais directement attribuables et TVA non récupérable : examiner le coût.",
+      "explication": "Acheter la machine transforme de la trésorerie, ou une dette fournisseur, en actif. Son utilisation sur plusieurs périodes justifie ensuite la charge d’amortissement. On n’inscrit donc pas de nouveau paiement à chaque dotation. Si les avantages attendus diminuent au-delà du plan, on examine une dépréciation distincte. La valeur résiduelle n’est déduite que si elle est significative et mesurable ; toute modification d’estimation doit être documentée.",
+      "sources": [
+        "PCG",
+        "COMPTES",
+        "DEDUCTIBILITE"
+      ],
+      "carte": [
+        [
+          "Immo : usage durable ; amort. : répartition.",
+          "Dépréciation : perte de valeur."
+        ],
+        [
+          "Coût → mise en service → plan → contrôle.",
+          "Durée selon usage, pas taux universel.",
+          "≤ 500 HT : tolérance fiscale conditionnelle."
+        ],
+        [
+          "21 actif ; 28 amort. ; 29 dépréc.",
+          "404 fourn. immo ; 44562 TVA déd.",
+          "6811 dotation ; subdivisions adaptées."
+        ],
+        [
+          "Annuité linéaire = base/durée.",
+          "VNC = brut - amort. - dépréc."
+        ],
+        [
+          "12 000 / 5 × 6/12 = 1 200.",
+          "D 6811 / C 2815 ; VNC 10 800."
+        ],
+        [
+          "Amortissement ≠ sortie de banque.",
+          "Début : consommation des avantages.",
+          "Compta et fiscalité à distinguer."
+        ]
+      ]
+    },
+    "09": {
+      "notions": "Brut = rémunération avant retenues. Cotisations = prélèvements selon assiette et taux. PAS = impôt retenu. Net à payer, net imposable et montant net social ont des définitions distinctes.",
+      "regles": "Collecter variables → vérifier contrat/convention → calculer brut et assiettes → cotisations → PAS → net → comptabiliser → payer et déclarer. Contrôler les plafonds et leur proratisation.",
+      "reperes": "Cas général au 01/06/2026 : SMIC 12,31 €/h ; 1 867,02 €/mois à 35 h. 2026 : PMSS 4 005 € ; PASS 48 060 €. HS sans accord : +25 % pour 8 premières/semaine, +50 % ensuite ; accord : minimum +10 %.",
+      "comptes": "641 rémunérations ; 645 charges patronales ; 421 personnel à payer ; 431 Sécurité sociale ; 437 autres organismes ; 4421 PAS ; 512 banque.",
+      "formules": "Mensualisation : 35 × 52/12 = 151,666… h. Coût employeur = brut + cotisations patronales, hors autres coûts. Net payé = net avant PAS - PAS.",
+      "exemple": "Cas pédagogique : brut 2 500, retenues salariales 500, base PAS 2 050, taux PAS 5 %. PAS = 102,50 ; net avant PAS = 2 000 ; net payé = 1 897,50 €. Taux de cotisations non déduit de cet exemple.",
+      "vigilance": "Pas de taux net/brut universel. Ne pas confondre HS et heures complémentaires du temps partiel. SMIC, minimum conventionnel, situation territoriale et date de paie : vérifier avant calcul.",
+      "explication": "Le PAS se calcule sur une base fiscale, pas nécessairement sur le montant viré au salarié. Dans le cas proposé, la base de 2 050 € est une hypothèse : elle ne se déduit pas des seules retenues annoncées. Les cotisations salariales sont retenues sur le brut, alors que les cotisations patronales s’ajoutent au coût de l’employeur. Les montants 2026 présentés sont des repères du cas général ; Mayotte, temps partiel, absences et conventions appellent des contrôles propres.",
+      "sources": [
+        "SMIC",
+        "SMIC2",
+        "PSS",
+        "HS",
+        "COMPTES"
+      ],
+      "carte": [
+        [
+          "Brut ; EVP ; AN ; frais professionnels.",
+          "Net imposable ≠ MNS ≠ net versé."
+        ],
+        [
+          "Contrat/CCN → brut → retenues → net.",
+          "AN : + au brut, - au net en argent.",
+          "HC ≠ HS ; limites et taux à vérifier."
+        ],
+        [
+          "641/645 charges ; 421 personnel.",
+          "425 acompte ; 431/437 organismes.",
+          "4421 PAS ; 512 banque."
+        ],
+        [
+          "SMIC 01/06/26 : 12,31 €/h brut.",
+          "35 h : 1 867,02 €/mois brut.",
+          "PMSS 4 005 ; PASS 48 060 (2026)."
+        ],
+        [
+          "Repas 2026 : 7,50 / 10,40 / 21,40 €.",
+          "Situations distinctes ; exon. conditionnelle.",
+          "Titres : 7,32 €/titre ; employeur 50-60 %."
+        ],
+        [
+          "Pas de taux net/brut universel.",
+          "Grève/représentation : mentions interdites.",
+          "Acompte ≠ avance ; pièces et CCN."
+        ]
+      ]
+    },
+    "12": {
+      "notions": "Résultat comptable = produits - charges. Résultat fiscal = base imposable après corrections. Réintégration = ajout fiscal ; déduction extra-comptable = retrait fiscal autorisé.",
+      "regles": "Déterminer IR/IS → partir du résultat comptable → justifier corrections → appliquer taux et règles de période → imputer acomptes/crédits → déclarer et payer.",
+      "reperes": "IS normal 25 %. Taux PME 15 % jusqu’à 42 500 € de bénéfice pour 12 mois si CA ≤ 10 M€, capital entièrement libéré et détention ≥ 75 % par personnes physiques ou société éligible.",
+      "comptes": "695 impôts sur les bénéfices ; 444 État-impôts sur les bénéfices ; 512 banque. Les réintégrations ne créent pas une seconde charge dans le journal.",
+      "formules": "RF = RC + réintégrations - déductions. PME éligible, 12 mois : IS = 15 % × min(RF,42 500) + 25 % × max(RF-42 500,0), si RF positif.",
+      "exemple": "RC avant IS 50 000 + réintégrations 5 000 - déductions 2 000 = RF 53 000. PME éligible : 6 375 + 2 625 = IS 9 000 €. D 695 / C 444 = 9 000 ; paiement D 444 / C 512.",
+      "vigilance": "Une charge comptable n’est pas toujours fiscalement déductible. Une TVA déductible n’est pas une déduction du résultat fiscal. Ne pas appliquer automatiquement 15 % à toute société.",
+      "explication": "L’impôt n’est pas calculé en multipliant directement le solde bancaire ou le chiffre d’affaires par 25 %. On part du bénéfice et l’on explique chaque correction fiscale. Le taux réduit vise une première tranche et non tout le bénéfice. Dans l’exemple, 42 500 × 15 % = 6 375 ; les 10 500 restants sont imposés à 25 %, soit 2 625. Si les conditions PME ne sont pas réunies, l’hypothèse du taux réduit devient inapplicable.",
+      "sources": [
+        "IS",
+        "DEDUCTIBILITE",
+        "COMPTES"
+      ],
+      "carte": [
+        [
+          "RC : résultat comptable ; RF : fiscal.",
+          "Réintégrer = ajouter ; déduire = retirer."
+        ],
+        [
+          "Régime → RC → corrections → taux.",
+          "IS normal 25 % ; PME 15 % sous conditions."
+        ],
+        [
+          "695 charge IS ; 444 dette/créance IS.",
+          "512 banque ; acomptes à imputer."
+        ],
+        [
+          "RF = RC + réintégrations - déductions.",
+          "15 % jusqu’à 42 500 pour 12 mois.",
+          "CA ≤ 10 M€ ; capital libéré ; ≥ 75 %."
+        ],
+        [
+          "50 000 + 5 000 - 2 000 = 53 000.",
+          "PME éligible : IS = 9 000 €."
+        ],
+        [
+          "Corrections justifiées, hors journal.",
+          "TVA déductible ≠ déduction fiscale.",
+          "Taux réduit jamais automatique."
+        ]
+      ]
+    },
+    "05": {
+      "notions": "Lettrage = associer factures, avoirs et règlements d’un tiers. Rapprochement = expliquer l’écart entre 512 et relevé bancaire à une date commune.",
+      "regles": "Fixer la date → pointer → distinguer décalage, omission et erreur → justifier → comptabiliser les éléments manquants → vérifier les soldes rapprochés.",
+      "reperes": "Lettrage complet : somme D = somme C du groupe. Rapprochement régulier, souvent mensuel selon l’organisation ; ne pas inventer une fréquence légale universelle.",
+      "comptes": "401 fournisseurs ; 411 clients ; 512 banque ; 58 transferts internes ; 627 services bancaires ; 661 intérêts. TVA sur frais bancaires : examiner la pièce, pas automatique.",
+      "formules": "Reste tiers = facture - avoir - règlements. Solde comptable ajusté = solde bancaire ajusté, avec une même convention de signe.",
+      "exemple": "512 débiteur 5 000. Relevé, fonds disponibles : 4 780. Chèque émis non débité 200 ; frais débités par banque, non saisis : 20. Comptable ajusté 5 000-20 = 4 980 ; relevé ajusté 4 780+200 = 4 980.",
+      "vigilance": "Ne pas ressaisir le chèque déjà comptabilisé. Enregistrer seulement les frais omis : D 627 / C 512 = 20 dans cet exemple sans TVA. D/C du relevé est vu du côté banque.",
+      "explication": "Le relevé et le compte 512 décrivent la même relation depuis deux points de vue. Pour comparer, on convertit les soldes en fonds disponibles avec une convention commune. Le chèque déjà enregistré réduit 512, mais la banque ne le voit pas encore : c’est un décalage. Les frais omis dans les livres demandent une écriture. Le rapprochement explique ainsi l’écart sans forcer un montant artificiel dans un compte d’attente.",
+      "sources": [
+        "COMPTES",
+        "PCG"
+      ],
+      "carte": [
+        [
+          "Lettrage : factures ↔ règlements tiers.",
+          "Rapprochement : 512 ↔ relevé."
+        ],
+        [
+          "Même date → pointer → expliquer.",
+          "Décalage / oubli / erreur : distinguer."
+        ],
+        [
+          "401/411 tiers ; 512 banque ; 58 virements.",
+          "627 frais ; 661 intérêts."
+        ],
+        [
+          "Reste = facture - avoir - règlements.",
+          "Soldes ajustés identiques."
+        ],
+        [
+          "512 : 5 000 ; relevé : 4 780.",
+          "Chèque en cours 200 ; frais omis 20.",
+          "5 000-20 = 4 780+200 = 4 980."
+        ],
+        [
+          "Saisir les frais omis, pas le chèque.",
+          "Convention de signe commune.",
+          "TVA bancaire selon pièce."
+        ]
+      ]
+    },
+    "11": {
+      "notions": "Clôture = rattacher les opérations au bon exercice. CCA/PCA = charge/produit déjà enregistré concernant une période future. FNP/FAE = charge/produit de N dont la facture manque.",
+      "regles": "Contrôler tiers et banque → inventorier → valoriser → amortir/déprécier/provisionner → rattacher charges/produits → établir états et annexe → valider et archiver.",
+      "reperes": "Commerçants : inventaire au moins une fois tous les 12 mois. Charges et produits rattachés à l’exercice, indépendamment de la date de paiement. Exercice de 12 mois : cas usuel, pas une clôture au 31/12 imposée à tous.",
+      "comptes": "486 CCA ; 487 PCA ; 4081 FNP ; 4181 FAE ; 44586/44587 TVA à régulariser selon conditions ; 28/29 amort./dépréc. ; 15 provisions ; 4886 abonnement des charges.",
+      "formules": "CCA = montant de charge × fraction future. Dotation/reprise : justifier l’estimation. Abonnement annuel régulier : montant/12, à régulariser selon le réel.",
+      "exemple": "Assurance 1 200 pour 01/10/N au 30/09/N+1. À la clôture 31/12 : CCA = 1 200 × 9/12 = 900. D 486 / C 616 = 900. Charge de N : 300 ; extourne en N+1 selon méthode.",
+      "vigilance": "Provision ≠ réserve ; amortissement ≠ dépréciation. Une facture non reçue ne rend pas automatiquement la TVA déductible. 4886 étale la charge en gestion périodique ; 486 la rattache à l’exercice : éviter le double comptage.",
+      "explication": "La date du virement n’est pas la frontière entre N et N+1. L’assurance couvre douze mois, mais seuls trois mois bénéficient à N : la partie future devient une CCA. À l’inverse, une prestation reçue en décembre et facturée en janvier peut appeler une FNP. L’inventaire porte aussi sur l’existence des actifs, les dettes et les estimations. Chaque écriture doit pouvoir être expliquée par sa pièce, sa période et son calcul.",
+      "sources": [
+        "INVENTAIRE",
+        "PCG",
+        "COMPTES"
+      ],
+      "carte": [
+        [
+          "CCA/PCA : période future.",
+          "FNP/FAE : opération de N, facture absente."
+        ],
+        [
+          "Inventorier → valoriser → rattacher.",
+          "Inventaire : au moins 1 fois / 12 mois."
+        ],
+        [
+          "486 CCA ; 487 PCA ; 4081 FNP.",
+          "4181 FAE ; 28/29 ; 15 provisions.",
+          "4886 abonnement ≠ 486 CCA."
+        ],
+        [
+          "CCA = charge × part future.",
+          "Annuel régulier / 12 : suivi périodique."
+        ],
+        [
+          "Assurance 1 200, oct. N → sept. N+1.",
+          "CCA = 1 200 × 9/12 = 900.",
+          "D 486 / C 616 ; charge N = 300."
+        ],
+        [
+          "Paiement ≠ rattachement.",
+          "TVA à qualifier séparément.",
+          "Pas de double charge 4886/486."
+        ]
+      ]
+    },
+    "06": {
+      "notions": "Compte de résultat = activité d’une période. CA = ventes de l’activité, hors TVA collectée. Résultat = produits - charges. EBE et CAF ne sont ni le résultat net ni le solde bancaire.",
+      "regles": "Rattacher → classer exploitation/financier/exceptionnel → calculer soldes → expliquer variations. PCG 2026 : exceptionnel lié à un événement majeur et inhabituel, sous réserves des autres cas prévus.",
+      "reperes": "Le résultat est un flux sur l’exercice ; le bilan est une situation à une date. Depuis la modernisation du PCG, une cession courante d’immo corporelle/incorporelle n’est pas automatiquement exceptionnelle.",
+      "comptes": "70 ventes ; 60 achats ; 64 personnel ; 66/76 financier ; 67/77 exceptionnel ; 68/78 dotations/reprises ; 695 IS ; 657/757 valeurs comptables/produits de cession d’immo corporelles et incorporelles.",
+      "formules": "Résultat net = total produits - total charges, IS inclus. Achats consommés = achats nets + stock initial - stock final, hors autres ajustements.",
+      "exemple": "Ventes HT 80 000 ; charges totales 65 000 dont dotations 3 000 et IS 2 000 : bénéfice 15 000. Les dotations réduisent le résultat sans paiement de 3 000 à cette date.",
+      "vigilance": "Encaisser une ancienne facture n’ajoute pas du CA de N. Rembourser le capital d’emprunt n’est pas une charge. Pas de classement exceptionnel sur le seul motif « rare » ou « montant élevé ».",
+      "explication": "Le compte de résultat mesure une performance, pas la trésorerie. Une vente à crédit peut augmenter le bénéfice avant l’encaissement. À l’inverse, un paiement d’immobilisation peut faire baisser la banque sans être une charge intégrale de la période. L’amortissement répartit ensuite le coût dans le temps. Pour expliquer une baisse du résultat, on examine volumes, prix, consommations et charges, en isolant les changements de classement et de périmètre.",
+      "sources": [
+        "PCG",
+        "COMPTES"
+      ],
+      "carte": [
+        [
+          "CA : ventes HT ; résultat : produits-charges.",
+          "Flux de période ≠ solde de banque."
+        ],
+        [
+          "Rattacher → classer → calculer → expliquer.",
+          "Exceptionnel : majeur ET inhabituel.",
+          "Autres cas PCG à examiner."
+        ],
+        [
+          "70 ventes ; 60 achats ; 64 personnel.",
+          "66/76 financier ; 67/77 exceptionnel.",
+          "657/757 cession immo corp./incorp."
+        ],
+        [
+          "RN = produits - charges (IS inclus).",
+          "Consommé = achats + SI - SF."
+        ],
+        [
+          "80 000 - 65 000 = 15 000 bénéfice.",
+          "Dotation incluse 3 000 : sans paiement."
+        ],
+        [
+          "Capital emprunt remboursé ≠ charge.",
+          "Vente à crédit ≠ encaissement.",
+          "Cession ≠ exceptionnel automatique."
+        ]
+      ]
+    },
+    "07": {
+      "notions": "Bilan = situation à une date. Actif = ressources contrôlées ; passif = capitaux propres et dettes. Créance = droit à recevoir ; dette = obligation à régler. Dividende = distribution décidée, pas une charge.",
+      "regles": "Valider l’inventaire → évaluer actifs/dettes → calculer les valeurs nettes → reporter le résultat → présenter et contrôler l’équilibre. La distribution exige un montant distribuable et une décision régulière.",
+      "reperes": "Pour SARL et sociétés par actions : réserve légale, au moins 5 % du bénéfice diminué des pertes antérieures, jusqu’à 10 % du capital. Autres réserves/statuts et capitaux propres : contrôler avant dividendes.",
+      "comptes": "101 capital ; 1061 réserve légale ; 110/119 report à nouveau ; 120 bénéfice / 129 perte ; 164 emprunts ; 21/28/29 immo ; 401/411 tiers ; 457 dividendes à payer.",
+      "formules": "Actif net = capitaux propres + dettes. Valeur nette d’actif = brut - amort. - dépréc. Distribuable = bénéfice - pertes antérieures - réserves obligatoires + report bénéficiaire.",
+      "exemple": "Actif net 100 000 ; dettes 60 000 : capitaux propres 40 000. Si bénéfice 10 000, sans pertes ni réserve déjà constituée et capital 20 000 : réserve légale minimale 500, avant autres affectations.",
+      "vigilance": "Capitaux propres ≠ argent disponible. Un emprunt augmente actif et dette, pas le bénéfice. Les dividendes ne se prélèvent pas automatiquement sur N-1 ; la trésorerie et les limites légales se contrôlent.",
+      "explication": "Le bilan est une photographie des ressources et de leur financement. Le capital de l’emprunt reste une dette jusqu’à son remboursement ; la créance client subsiste jusqu’au règlement ou à son traitement justifié. Une réserve résulte d’une affectation du bénéfice ; une provision constate un passif estimé et relève d’un autre mécanisme. Une décision de dividendes peut créer une dette en 457 avant le paiement, sans créer de charge d’exploitation.",
+      "sources": [
+        "DIVIDENDES",
+        "RESERVES",
+        "COMPTES",
+        "PCG"
+      ],
+      "carte": [
+        [
+          "Bilan : situation à une date.",
+          "Actif ; dettes ; capitaux propres.",
+          "Dividende : distribution décidée."
+        ],
+        [
+          "Inventaire → valeurs nettes → équilibre.",
+          "SARL/SA/SAS : réserve légale ≥ 5 %.",
+          "Plafond réserve légale : 10 % capital."
+        ],
+        [
+          "101 capital ; 1061 réserve ; 120/129 RN.",
+          "164 emprunt ; 401/411 tiers.",
+          "457 dividendes à payer."
+        ],
+        [
+          "Actif net = capitaux propres + dettes.",
+          "Net = brut - amort. - dépréc."
+        ],
+        [
+          "Actif 100 000 - dettes 60 000.",
+          "Capitaux propres = 40 000."
+        ],
+        [
+          "Réserve ≠ provision ≠ banque.",
+          "Dividendes : décision + base distribuable.",
+          "5 % : après pertes antérieures."
+        ]
+      ]
+    },
+    "13": {
+      "notions": "FRNG = excédent de ressources stables sur emplois stables. BFR = financement du cycle courant. TN = trésorerie nette. Rentabilité, solvabilité et liquidité répondent à des questions différentes.",
+      "regles": "Contrôler les données → retraiter selon méthode → calculer → comparer N/N-1 et secteur → expliquer causes → proposer actions et suivi. Conserver la même définition des ratios.",
+      "reperes": "Pas de ratio légal « idéal » universel. Retenir un périmètre et une période homogènes. Délais clients/fournisseurs : cohérence TTC si les encours comprennent la TVA.",
+      "comptes": "1 financement ; 2 immo ; 3 stocks ; 401/411 dettes et créances ; 512/519 trésorerie. Le diagnostic utilise des regroupements et retraitements, pas un compte unique.",
+      "formules": "FRNG = ressources stables - emplois stables. BFR = actif circulant hors trésorerie - passif circulant hors trésorerie. TN = FRNG - BFR.",
+      "exemple": "Ressources stables 150 000 ; emplois 120 000 : FRNG 30 000. Stocks 20 000 + créances 30 000 - dettes courantes 35 000 : BFR 15 000. TN = 15 000 €.",
+      "vigilance": "Bénéfice ≠ trésorerie disponible. Un BFR négatif peut être normal selon l’activité ; un FRNG positif ne suffit pas à prouver une bonne santé. Comparer les méthodes et la saisonnalité.",
+      "explication": "Une entreprise peut vendre avec une marge positive et manquer de liquidités si elle paie ses fournisseurs avant d’encaisser ses clients. Les stocks et créances immobilisent alors une ressource. Dans le cas, le FRNG couvre le BFR et laisse 15 000 € de trésorerie nette. Si le BFR monte à 40 000 à ressources inchangées, la TN devient -10 000. On recherche la cause avant de décider : rotation de stock, impayés, délais ou financement.",
+      "sources": [
+        "BFR",
+        "SR",
+        "COMPTES"
+      ],
+      "carte": [
+        [
+          "FRNG : financement stable disponible.",
+          "BFR : cycle ; TN : trésorerie nette."
+        ],
+        [
+          "Données → retraiter → ratios → actions.",
+          "Comparer période et secteur.",
+          "Aucun ratio idéal universel."
+        ],
+        [
+          "1 financement ; 2 immo ; 3 stocks.",
+          "401/411 tiers ; 512/519 trésorerie."
+        ],
+        [
+          "FRNG = ressources - emplois stables.",
+          "BFR = actif circ. - passif circ., hors tréso.",
+          "TN = FRNG - BFR."
+        ],
+        [
+          "150 000 - 120 000 = FRNG 30 000.",
+          "BFR 15 000 → TN 15 000."
+        ],
+        [
+          "Bénéfice ≠ liquidités.",
+          "TTC/HT cohérents pour les délais.",
+          "BFR négatif à expliquer, pas condamner."
+        ]
+      ]
+    },
+    "10": {
+      "notions": "Coût = ressources consommées pour un objet. Direct = affectable sans répartition ; indirect = imputé après répartition. Incorporables = charges retenues ; supplétives = coûts ajoutés en gestion sans charge générale correspondante.",
+      "regles": "Définir objet/période → retraiter les charges → affecter les directes → répartir les indirectes → calculer coûts et marges → comparer → décider. UO = mesure d’activité ; clé = critère de répartition.",
+      "reperes": "La comptabilité de gestion choisit une méthode adaptée. Pas de compte PCG universel pour une UO ou un coût. Direct/indirect et fixe/variable sont deux axes différents.",
+      "comptes": "Classe 6 = point de départ à retraiter ; 3 = stocks. Charges supplétives : aucune écriture fictive de charge générale. 4886 : abonnement périodique, distinct du retraitement analytique.",
+      "formules": "CUO = coût du centre/nombre d’UO. Coût complet = directes + indirectes imputées. MCV = CA - CV ; TMCV = MCV/CA ; SR = CF/TMCV (taux décimal positif).",
+      "exemple": "Centre 6 000 €, 300 h-machine : CUO = 20 €/h. Produit 40 h : indirect = 800 ; direct 1 200 → coût 2 000. Prix HT 2 500 → marge sur coût complet 500 €.",
+      "vigilance": "Documenter la clé ; un coût n’est pas un prix. Ne pas exclure toutes les charges exceptionnelles sans analyser la méthode. Ne pas ajouter deux fois amortissement, abonnement ou charge supplétive.",
+      "explication": "Une charge directe est suivie pour l’objet de coût, par exemple une matière identifiée. L’énergie commune à plusieurs produits peut demander une répartition. L’UO mesure l’activité du centre ; le CUO est son prix calculé et la clé répartit la charge : ce sont trois notions distinctes. Exemple de seuil : prix unitaire 50, variable 30, CF 12 000 ; TMCV = 40 %, SR = 30 000 HT. Ce seuil suppose prix, structure et capacité cohérents.",
+      "sources": [
+        "SR",
+        "PCG",
+        "COMPTES"
+      ],
+      "carte": [
+        [
+          "Direct/indirect ; fixe/variable.",
+          "Incorporables ; supplétives.",
+          "UO : activité ; clé : répartition."
+        ],
+        [
+          "Objet → retraitements → coûts → décision.",
+          "Méthode et périmètre documentés."
+        ],
+        [
+          "6 : charges de départ ; 3 : stocks.",
+          "Supplétives : pas d’écriture fictive.",
+          "Aucun compte PCG unique du coût."
+        ],
+        [
+          "CUO = coût centre / nb UO.",
+          "Complet = direct + indirect imputé.",
+          "SR = CF / TMCV ; taux décimal."
+        ],
+        [
+          "6 000 / 300 h = 20 €/h ; 40 h = 800.",
+          "Direct 1 200 → coût 2 000.",
+          "Prix 2 500 → marge 500."
+        ],
+        [
+          "Direct ≠ variable ; coût ≠ prix.",
+          "Clé justifiée ; pas de double charge.",
+          "SR valable sous hypothèses."
+        ]
+      ]
+    },
+    "14": {
+      "notions": "RSE = responsabilité des effets de l’activité. ESG = environnement, social, gouvernance. Double matérialité = impacts de l’entreprise et risques/opportunités financiers pour elle. Sobriété = usage ajusté au besoin.",
+      "regles": "Définir périmètre → mesurer → prioriser avec parties prenantes → agir → suivre → prouver. Distinguer démarche volontaire, obligations propres et reporting de durabilité.",
+      "reperes": "Scopes GES : 1 directs ; 2 énergie achetée ; 3 autres indirects. Omnibus 2026 : futurs seuils CSRD > 1 000 salariés ET CA > 450 M€, sous transposition française ; ne pas les traiter comme exemption déjà acquise.",
+      "comptes": "606 fournitures ; 615 entretien ; 2183 matériel bureau/informatique ; 28 amort. ; 6811 dotations. Aucun compte RSE universel : comptabiliser selon la nature réelle.",
+      "formules": "Intensité = ressources/unité de service. Baisse % = (initial-final)/initial × 100, initial > 0. Suivre aussi les volumes absolus.",
+      "exemple": "Papier : 1 000 → 900 feuilles, activité 100 → 120 factures. Baisse volume = 10 %. Intensité 10 → 7,5 feuilles/facture : baisse 25 %. Ces chiffres ne prouvent pas seuls une baisse de CO2.",
+      "vigilance": "Pas d’allégation environnementale sans méthode et preuve. Vérifier le champ CSRD, le calendrier, le groupe et la transposition. Dématérialiser n’a pas un impact nul ; préserver sécurité et accessibilité.",
+      "explication": "Une baisse d’intensité peut venir d’un changement du volume d’activité ; elle doit donc se lire avec les valeurs absolues. Le papier évité n’est pas automatiquement une émission de GES évitée : un facteur et un périmètre adaptés seraient nécessaires. Pour la CSRD, une directive européenne modificative et sa mise en œuvre française ne sont pas la même étape juridique. Le cas de l’entreprise se vérifie avec ses données et les textes effectivement applicables à son exercice.",
+      "sources": [
+        "RSE",
+        "CSRD",
+        "CSRD2",
+        "GES",
+        "COMPTES"
+      ],
+      "carte": [
+        [
+          "RSE ; ESG ; double matérialité.",
+          "Sobriété : usage adapté au besoin."
+        ],
+        [
+          "Périmètre → mesurer → agir → prouver.",
+          "Scopes 1 direct / 2 énergie / 3 autres.",
+          "CSRD : vérifier champ et exercice."
+        ],
+        [
+          "606 fournitures ; 615 entretien.",
+          "2183 matériel ; 28 amort. ; 6811 dot.",
+          "Aucun compte RSE universel."
+        ],
+        [
+          "Intensité = ressources / service.",
+          "Baisse % = (initial-final)/initial × 100."
+        ],
+        [
+          "1 000→900 feuilles : -10 %.",
+          "100→120 factures : 10→7,5 feuilles/fact.",
+          "Intensité : -25 % ; CO2 non déduit."
+        ],
+        [
+          "Preuves ; méthode ; périmètre constant.",
+          "CSRD futur : >1 000 ET >450 M€.",
+          "Seuils soumis à transposition FR."
+        ]
+      ]
+    }
+  },
+  "sources": {
+    "PCG": [
+      "ANC - PCG consolidé 2026",
+      "https://www.anc.gouv.fr/files/anc/files/1_Normes_fran%C3%A7aises/Reglements/Recueils/PCG_janvier2026/PCG--1er-janvier-2026.pdf"
+    ],
+    "COMPTES": [
+      "ANC - Plan de comptes 2026",
+      "https://www.anc.gouv.fr/files/anc/files/1_Normes_fran%C3%A7aises/Plans%20comptables/2026/Plan-de-comptes-2026.pdf"
+    ],
+    "ARCHIVES": [
+      "Service Public - Conservation",
+      "https://entreprendre.service-public.gouv.fr/vosdroits/F10029"
+    ],
+    "INVENTAIRE": [
+      "Code de commerce - L123-12",
+      "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006219304/2026-10-30"
+    ],
+    "FACTURES": [
+      "DGFiP - Facturation électronique",
+      "https://www.impots.gouv.fr/professionnel/questions/partir-de-quand-suis-je-concerne-par-la-reforme-de-la-facturation"
+    ],
+    "DELAIS": [
+      "Service Public - Délais B2B",
+      "https://entreprendre.service-public.gouv.fr/vosdroits/F23211"
+    ],
+    "TVA": [
+      "DGFiP - Régimes de TVA",
+      "https://www.impots.gouv.fr/professionnel/tva"
+    ],
+    "CA3": [
+      "DGFiP - CA3 et notice 2026",
+      "https://www.impots.gouv.fr/formulaire/3310-ca3-sd/tva-et-taxes-assimilees-regime-du-reel-normal-mini-reel"
+    ],
+    "FRANCHISE": [
+      "Service Public - Franchise TVA",
+      "https://entreprendre.service-public.gouv.fr/vosdroits/F21746"
+    ],
+    "TAUX": [
+      "Douane - Taux de TVA",
+      "https://www.douane.gouv.fr/fiche/les-taux-de-tva"
+    ],
+    "SMIC": [
+      "INSEE - SMIC, octobre 2026",
+      "https://www.insee.fr/fr/statistiques/serie/000822484"
+    ],
+    "SMIC2": [
+      "Urssaf - SMIC au 01/06/2026",
+      "https://www.urssaf.fr/accueil/outils-documentation/taux-baremes/montant-smic.html"
+    ],
+    "PSS": [
+      "Ameli - Plafonds 2026",
+      "https://www.ameli.fr/entreprise/vos-salaries/montants-reference/plafond-securite-sociale"
+    ],
+    "HS": [
+      "Service Public - Heures supplémentaires",
+      "https://www.service-public.gouv.fr/particuliers/vosdroits/F2391"
+    ],
+    "IS": [
+      "Service Public - IS",
+      "https://entreprendre.service-public.gouv.fr/vosdroits/F23575"
+    ],
+    "DEDUCTIBILITE": [
+      "DGFiP - Charges déductibles",
+      "https://www.impots.gouv.fr/professionnel/questions/que-puis-je-deduire-de-mes-resultats-professionnels"
+    ],
+    "DIVIDENDES": [
+      "Code de commerce - L232-11",
+      "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006229026/2026-10-30"
+    ],
+    "RESERVES": [
+      "Service Public - Capitaux propres",
+      "https://entreprendre.service-public.gouv.fr/vosdroits/F24024"
+    ],
+    "BFR": [
+      "Bpifrance Création - BFR",
+      "https://bpifrance-creation.fr/encyclopedie/previsions-financieres-business-plan/previsions-financieres/besoin-fonds-roulement-bfr"
+    ],
+    "SR": [
+      "Bpifrance Création - Rentabilité",
+      "https://bpifrance-creation.fr/encyclopedie/previsions-financieres-business-plan/previsions-financieres/seuil-rentabilite"
+    ],
+    "RSE": [
+      "Bercy - RSE",
+      "https://www.economie.gouv.fr/entreprises/gerer-son-entreprise-au-quotidien/gerer-sa-comptabilite-et-ses-demarches/quest-ce-que-la-responsabilite-societale-des-entreprises-rse"
+    ],
+    "CSRD": [
+      "Portail RSE - Champ et transposition",
+      "https://portail-rse.beta.gouv.fr/fiches-reglementaires/rapport-de-durabilite-csrd/"
+    ],
+    "CSRD2": [
+      "Service Public - Directive 2026/470",
+      "https://entreprendre.service-public.gouv.fr/actualites/A18827"
+    ],
+    "GES": [
+      "ADEME - Scopes GES",
+      "https://mission-transition-ecologique.beta.gouv.fr/projets-entreprise/bilan-ges"
+    ],
+    "BULLETIN": [
+      "Service Public - Bulletin de paie",
+      "https://www.service-public.gouv.fr/particuliers/vosdroits/F559"
+    ],
+    "BULLETIN2": [
+      "Ministère du Travail - Bulletin",
+      "https://travail-emploi.gouv.fr/droit-du-travail/la-remuneration/article/le-bulletin-de-paie"
+    ],
+    "AN": [
+      "Urssaf - Avantage en nature",
+      "https://mon-entreprise.urssaf.fr/documentation/salari%C3%A9/r%C3%A9mun%C3%A9ration/avantages-en-nature"
+    ],
+    "REPAS": [
+      "Urssaf - Frais professionnels 2026",
+      "https://www.urssaf.fr/accueil/employeur/beneficier-exonerations/frais-professionnels.html"
+    ],
+    "REPAS2": [
+      "Service Public - Repas 2026",
+      "https://entreprendre.service-public.gouv.fr/actualites/A17991"
+    ],
+    "TITRES": [
+      "Service Public - Titres-restaurant 2026",
+      "https://www.service-public.gouv.fr/entreprendre/actualites/A17989"
+    ],
+    "TRANSPORT": [
+      "Ministère du Travail - Transports",
+      "https://travail-emploi.gouv.fr/la-prise-en-charge-des-frais-de-transport-par-lemployeur"
+    ],
+    "PAIEMENT": [
+      "Service Public - Paiement du salaire",
+      "https://www.service-public.gouv.fr/particuliers/vosdroits/F2308"
+    ],
+    "ACOMPTE": [
+      "Bercy - Acompte sur salaire",
+      "https://www.economie.gouv.fr/particuliers/gerer-mon-argent/gerer-mon-budget-et-mon-epargne/tout-savoir-sur-lacompte-sur-salaire"
+    ],
+    "ANCIENNETE": [
+      "Service Public - Prime d’ancienneté",
+      "https://www.service-public.gouv.fr/particuliers/vosdroits/F718"
+    ],
+    "HC": [
+      "Service Public - Temps partiel",
+      "https://www.service-public.gouv.fr/particuliers/vosdroits/F32428"
+    ],
+    "ABSENCE": [
+      "Cass. soc. 11/02/1982, n°80-40.359",
+      "https://www.courdecassation.fr/decision/6079b0c59ba5988459c50335"
+    ],
+    "CP": [
+      "Service Public - Indemnité congés payés",
+      "https://www.service-public.gouv.fr/particuliers/vosdroits/F33359"
+    ],
+    "MALADIE": [
+      "Service Public - Congés et maladie",
+      "https://www.service-public.gouv.fr/particuliers/vosdroits/F37482"
+    ],
+    "MNS": [
+      "Urssaf - Montant net social",
+      "https://mon-entreprise.urssaf.fr/documentation/salari%C3%A9/r%C3%A9mun%C3%A9ration/montant-net-social"
+    ]
+  },
+  "paie_cours": [
+    {
+      "title": "Lire le bulletin et justifier les contrôles",
+      "sources": [
+        "BULLETIN",
+        "BULLETIN2",
+        "PAIEMENT",
+        "MNS"
+      ],
+      "blocks": [
+        [
+          "comprendre",
+          "Les cinq zones pour apprendre",
+          "1. Identifier employeur, salarié, emploi et convention. 2. Reconstituer le brut. 3. Lire les bases, taux et montants des prélèvements. 4. Traiter les frais et retenues sur le net. 5. Distinguer les nets, le PAS et le coût employeur. Ce regroupement est pédagogique ; le modèle officiel détaille davantage de rubriques."
+        ],
+        [
+          "methode",
+          "Du haut vers le bas",
+          "Vérifier identité, période et contrat avant les montants : une bonne multiplication sur une mauvaise période donne une mauvaise paie. IDCC identifie la convention collective ; la classification aide à retrouver le minimum et les règles applicables. Le code NAF n’établit pas, à lui seul, tous les droits du salarié."
+        ],
+        [
+          "comprendre",
+          "Quatre montants, quatre usages",
+          "Le brut sert de point de départ. Le net imposable sert notamment de base au PAS. Le montant net social sert aux prestations sociales concernées. Le net à payer est la somme réellement versée après les retenues et ajouts du bulletin. Ces montants ne se remplacent pas les uns les autres."
+        ],
+        [
+          "exemple",
+          "Suivre un PAS sans confondre les bases",
+          "Hypothèses : net avant impôt 2 000 €, net imposable soumis au PAS 2 050 €, taux 5 %. Le PAS est 2 050 × 5 % = 102,50 €, puis le virement est 1 897,50 €. Il serait faux d’appliquer 5 % à 2 000 : cela conduirait à retenir 100 au lieu de 102,50."
+        ],
+        [
+          "methode",
+          "Remettre et conserver",
+          "Remise du bulletin lors du paiement. Double conservé par l’employeur pendant 5 ans ; conservation sans limitation de durée conseillée au salarié. La disponibilité du bulletin électronique relève de règles propres : ne pas la confondre avec les 5 ans du double."
+        ],
+        [
+          "vigilance",
+          "Mentions interdites et fausse règle",
+          "Le bulletin ne mentionne ni l’exercice du droit de grève ni les fonctions de représentant du personnel. La rémunération de cette représentation figure sur une annexe. « Mandat social » n’est pas une mention interdite générale établie par cette règle : qualifier le statut avant de conclure."
+        ],
+        [
+          "comprendre",
+          "Le sens du contrôle",
+          "Recevoir le bulletin ne signifie pas renoncer à contester une erreur. Le contrôle doit rapprocher contrat, temps, variables autorisées, bases, virements et déclarations. Une différence avec le mois précédent s’explique avant validation ; elle ne se corrige pas en forçant le net souhaité."
+        ]
+      ]
+    },
+    {
+      "title": "Construire le brut et expliquer chaque variable",
+      "sources": [
+        "SMIC2",
+        "ANCIENNETE",
+        "AN"
+      ],
+      "blocks": [
+        [
+          "comprendre",
+          "Mensualiser sans perdre la précision",
+          "Pour 35 h par semaine : 35 × 52/12 = 151,666… h, affichées 151,67 h. Salaire de base = horaire mensualisé × taux, selon le contrat. La mensualisation stabilise le salaire à horaire contractuel constant ; absences, entrée/sortie ou variables peuvent le modifier."
+        ],
+        [
+          "methode",
+          "Comparer les minima correctement",
+          "Vérifier le SMIC et le minimum conventionnel selon leurs assiettes respectives. Au 01/06/2026, cas général : 12,31 €/h et 1 867,02 €/mois à 35 h. Le calcul mensuel utilise 12,31 × 35 × 52/12, sans réduire la formule à 12,31 × 52/12."
+        ],
+        [
+          "comprendre",
+          "Primes et ancienneté",
+          "Une prime peut résulter d’un texte, d’un contrat, d’un engagement ou d’un usage. La prime d’ancienneté n’est pas obligatoire dans tous les emplois : existence, base, ancienneté et taux dépendent de la règle applicable. Sa base n’est donc pas toujours le minimum conventionnel. Une prime salariale entre en principe dans le brut."
+        ],
+        [
+          "comprendre",
+          "Avantage en nature et argent versé",
+          "Un logement ou véhicule utilisable à titre personnel peut être un avantage en nature. Sa valeur, déterminée selon les règles propres, entre dans le brut soumis puis se retranche du net à verser : le salarié dispose déjà du bien ou service. Ce retrait sur le net ne transforme pas l’avantage en élément exonéré."
+        ],
+        [
+          "exemple",
+          "Cas original au brut de 3 400 €",
+          "Base contractuelle 3 000 €, prime 200 €, avantage en nature évalué à 200 € par hypothèse : brut 3 400. Retenues salariales supposées 680 : reste 2 720 avant retrait de l’avantage. Net en argent avant PAS = 2 720 - 200 = 2 520 €. Le taux implicite de retenues est une hypothèse, pas un barème."
+        ],
+        [
+          "methode",
+          "Pourquoi retirer l’avantage une fois",
+          "Sans le retrait de 200 €, le salarié recevrait à la fois le service et 200 € en argent représentant sa valeur. Sans l’ajout au brut, les bases sociales et fiscales seraient sous-évaluées. Les deux mouvements ont donc des fonctions différentes et ne s’annulent pas pour le calcul des prélèvements."
+        ],
+        [
+          "vigilance",
+          "Arrondis et valeur historique",
+          "Ne pas reconstituer un salaire contractuel depuis un taux horaire déjà arrondi : 3 500/151,666… ≈ 23,076923 €/h. Le 253,60 € d’avantage logement de l’ancien support est un cas historique, pas un forfait universel pour 2026. La valeur réelle exige la situation du salarié et le barème applicable."
+        ]
+      ]
+    },
+    {
+      "title": "Heures et absences choisir puis calculer",
+      "sources": [
+        "HS",
+        "HC",
+        "ABSENCE",
+        "CP",
+        "MALADIE"
+      ],
+      "blocks": [
+        [
+          "comprendre",
+          "HS et HC répondent à deux contrats",
+          "HS : dépassement de la durée légale, en principe décompté par semaine. Sans accord, les 8 premières HS de la semaine sont à +25 %, les suivantes à +50 % ; un accord peut fixer des taux avec plancher de 10 %. HC : dépassement du contrat à temps partiel, dans ses limites propres."
+        ],
+        [
+          "methode",
+          "Calculer les HC sur la bonne période",
+          "Limite ordinaire : 1/10 de la durée contractuelle ; extension possible à 1/3 selon dispositions conventionnelles. À défaut de taux conventionnel, +10 % dans le dixième, +25 % au-delà lorsqu’il est autorisé. Ne pas porter la durée au niveau du temps plein. Un total mensuel ne permet pas de contrôler seul un plafond hebdomadaire."
+        ],
+        [
+          "exemple",
+          "Exemple hebdomadaire contrôlable",
+          "Contrat 24 h/semaine, taux 20 €/h, 3 HC réalisées. Accord autorisant le dépassement du dixième, sans taux dérogatoire : 2,4 h à +10 % et 0,6 h à +25 %. Supplément = 2,4 × 20 × 1,10 + 0,6 × 20 × 1,25 = 52,80 + 15 = 67,80 €. Horaire final : 27 h."
+        ],
+        [
+          "comprendre",
+          "Pourquoi une absence ne vaut pas toujours 1/30",
+          "La mensualisation lisse le salaire, mais la retenue pour une absence non rémunérée doit, en principe, utiliser l’horaire réel du mois concerné. Il faut connaître les heures qui auraient dû être travaillées. Le montant tiré d’un autre mois ne se transpose donc pas sans vérifier le calendrier."
+        ],
+        [
+          "exemple",
+          "Absence avec hypothèses complètes",
+          "Salaire 3 500 €, mois normalement prévu à 161 h, absence non rémunérée 14 h : retenue = 3 500 × 14/161 = 304,35 € au centime. Brut restant = 3 195,65 €, hors autres variables. Un autre horaire réel changerait la retenue."
+        ],
+        [
+          "comprendre",
+          "Congés et maladie à traiter séparément",
+          "CP : cas général 2,5 j ouvrables/mois, jusqu’à 30 sur une année complète. Arrêt non professionnel : 2 j par mois d’arrêt, plafond de 24 au titre de ces périodes ; AT/MP : 2,5 j, sous conditions de décompte. Comparer maintien et dixième pour l’indemnité, retenir le plus favorable."
+        ],
+        [
+          "vigilance",
+          "Éviter trois erreurs de lecture",
+          "Les libellés HC25/HC50 du tableau ancien ne correspondent pas aux taux de 10/25 % expliqués à côté : retenir les taux juridiquement applicables. Les IJSS ne se rajoutent pas sans analyse du brut, du maintien et de la subrogation. Jours ouvrables et ouvrés ne se mélangent pas dans une même fraction."
+        ]
+      ]
+    },
+    {
+      "title": "Frais retenues et paiement du net",
+      "sources": [
+        "REPAS",
+        "REPAS2",
+        "TITRES",
+        "TRANSPORT",
+        "PAIEMENT",
+        "ACOMPTE",
+        "COMPTES"
+      ],
+      "blocks": [
+        [
+          "comprendre",
+          "Frais professionnels ou rémunération",
+          "Un remboursement couvre une dépense professionnelle justifiée. Une prime de salaire rémunère le travail. Le mot « panier » ne suffit pas à déterminer l’exonération : la situation et les conditions d’utilisation de l’allocation doivent être établies. Un plafond social ne crée pas, seul, une obligation de verser une prime."
+        ],
+        [
+          "methode",
+          "Repas les trois plafonds 2026",
+          "7,50 €/repas : contrainte sur le lieu de travail liée aux conditions d’organisation ou horaires. 10,40 € : déplacement hors locaux, sans obligation de restaurant. 21,40 € : déplacement avec obligation de restaurant. Ce sont des plafonds d’exonération forfaitaire sous conditions, pas trois options à choisir librement."
+        ],
+        [
+          "comprendre",
+          "Titres restaurant et transport",
+          "Titres-restaurant 2026 : part employeur de 50 à 60 % et limite d’exonération de 7,32 €/titre, autres conditions vérifiées. Abonnement de transport collectif domicile/travail : prise en charge obligatoire de 50 %, avec règles de prorata pour moins d’un mi-temps. En 2026, une prise en charge volontaire jusqu’à 75 % peut bénéficier des exonérations prévues."
+        ],
+        [
+          "exemple",
+          "Lire les éléments qui modifient le virement",
+          "Exemple indépendant, droit à exonération supposé vérifié : rémunération en argent après cotisations, avant frais, PAS et retenues sur le net : 2 000 ; remboursement transport 50 ; PAS 100 ; acompte déjà versé 500 ; participation salariale aux titres 80. Solde viré = 2 000 + 50 - 100 - 500 - 80 = 1 370 €. L’acompte n’est pas une nouvelle retenue sociale."
+        ],
+        [
+          "comprendre",
+          "Acompte avance et saisie",
+          "L’acompte porte sur du travail déjà effectué. Pour le salarié mensualisé concerné, un acompte d’une quinzaine est dû sur demande ; le premier ne peut être refusé dans les conditions légales. L’avance porte sur du travail futur et peut être refusée. Une saisie suit son barème et sa procédure : pas de pourcentage improvisé."
+        ],
+        [
+          "methode",
+          "Comptes et modes de règlement",
+          "Acompte payé : D 425 / C 512 ; à la paie, imputation D 421 / C 425, sans double paiement. Le salaire est versé par virement ou chèque barré ; espèces possibles à la demande du salarié si le salaire net mensuel ne dépasse pas 1 500 €. Le solde après acompte ne permet pas de contourner ce seuil."
+        ],
+        [
+          "vigilance",
+          "Contrôler avant de payer",
+          "Qualifier les frais, garder les preuves, vérifier les limites et les cumuls. Pour le transport, un ticket à l’unité n’est pas un abonnement. Si le net à payer avant impôt inclut déjà les frais, ne pas les ajouter à nouveau. Le virement doit correspondre au net restant dû et au compte 421 ; les cotisations et le PAS sont réglés aux organismes selon leurs échéances propres."
+        ]
+      ]
+    }
+  ],
+  "paie_memos": [
+    {
+      "title": "Bulletin et brut les bons réflexes",
+      "sources": [
+        "BULLETIN",
+        "ANCIENNETE",
+        "AN",
+        "HC",
+        "ABSENCE"
+      ],
+      "blocks": [
+        [
+          "comprendre",
+          "Lire les 5 zones pédagogiques",
+          "Identité / contrat → brut → cotisations → frais et retenues → nets / PAS. IDCC = convention ; EVP = éléments variables ; AN = avantage en nature ; HC ≠ HS."
+        ],
+        [
+          "methode",
+          "Calculer le brut",
+          "Base + primes + HS/HC + AN - absences + indemnités selon régime. AN : ajouté au brut, retiré du net en argent. Prime d’ancienneté : texte applicable, base et taux à vérifier."
+        ],
+        [
+          "methode",
+          "Formules utiles",
+          "Mensualisation = h/sem. × 52/12. Absence non rémunérée = salaire × h absentes / h réelles prévues du mois. HC : 1/10 ; extension à 1/3 si autorisée ; taux par défaut 10 % / 25 %."
+        ],
+        [
+          "exemple",
+          "Trois calculs courts",
+          "35 h → 151,666… h/mois. 24 h/sem., 3 HC, taux 20, extension autorisée : 2,4×22 + 0,6×25 = 67,80 €. Absence 14 h sur mois de 161 h, salaire 3 500 : 304,35 €."
+        ],
+        [
+          "methode",
+          "Comptes à retrouver",
+          "641 brut ; 645 charges patronales ; 421 net dû ; 425 avances/acompte ; 431/437 organismes ; 4421 PAS ; 512 banque."
+        ],
+        [
+          "vigilance",
+          "À ne pas recopier sans contrôle",
+          "Brut ≠ net fiscal ≠ MNS ≠ net payé. Le retrait AN n’est pas une exonération. Taux affiché arrondi ≠ taux à réutiliser. Bulletin : pas de mention de grève ou de représentation du personnel."
+        ],
+        [
+          "comprendre",
+          "Note de compréhension",
+          "Un montant de l’ancien support n’est pas un barème 2026. Contrat, calendrier et convention précèdent le calcul ; le cours explique le pourquoi de chaque traitement."
+        ]
+      ]
+    },
+    {
+      "title": "Frais et net chiffres 2026",
+      "sources": [
+        "REPAS2",
+        "TITRES",
+        "TRANSPORT",
+        "PAIEMENT",
+        "ACOMPTE"
+      ],
+      "blocks": [
+        [
+          "comprendre",
+          "Repas les situations avant les chiffres",
+          "7,50 € : contrainte sur lieu de travail. 10,40 € : déplacement hors locaux sans obligation de restaurant. 21,40 € : déplacement avec restaurant imposé. Plafonds forfaitaires exonérés sous conditions."
+        ],
+        [
+          "methode",
+          "Titres et abonnement transport",
+          "Titres : employeur 50-60 %, plafond exonéré 7,32 €/titre. Abonnement transport : 50 % obligatoire, prorata possible sous mi-temps ; 75 % volontaire exonérable en 2026 sous conditions."
+        ],
+        [
+          "methode",
+          "Acompte et avance",
+          "Acompte = travail réalisé ; avance = travail futur, refus possible. Salarié mensualisé éligible : acompte de quinzaine sur demande. D 425 / C 512 au versement ; D 421 / C 425 à l’imputation."
+        ],
+        [
+          "methode",
+          "Solde à virer",
+          "Rémunération nette avant frais et retenues + frais exonérés - PAS - acompte - retenues sur le net = solde payé. Si les frais sont déjà compris dans le net à payer avant impôt du bulletin, ne pas les ajouter de nouveau."
+        ],
+        [
+          "exemple",
+          "Exemple bref",
+          "2 000 de rémunération nette avant frais/PAS + 50 transport - 100 PAS - 500 acompte - 80 titres = 1 370 € virés. Montants du cas supposés justifiés, sans autre variable."
+        ],
+        [
+          "vigilance",
+          "Vigilance paiement et preuves",
+          "Espèces sur demande : salaire net mensuel ≤ 1 500 €, pas seulement solde après acompte. Sinon virement/chèque barré. Plafond repas ≠ prime obligatoire ; aucune exonération automatique liée au libellé."
+        ],
+        [
+          "comprendre",
+          "Repères documentaires",
+          "Bulletin remis au paiement ; double employeur 5 ans. Salarié : conserver sans limite conseillée. Frais, saisies et avantages : pièces et règles propres, puis contrôle du 421 et de la banque."
+        ]
+      ]
+    }
+  ]
+}

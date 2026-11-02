@@ -1,10 +1,10 @@
 'use strict';
 const $=id=>document.getElementById(id);
 const names=["Comptes usuels", "Opérations courantes", "Immobilisations", "TVA et CA3", "Lettrage et rapprochement bancaire", "Compte de résultat", "Bilan actif et passif", "Système d’information comptable", "PAIE", "Analyse des coûts et budgets", "Clôture et travaux d’inventaire", "Fiscalité des entreprises et IS", "Diagnostic financier et flux", "RSE et sobriété numérique"];
-const themeOrder=["01", "08", "02", "03", "09", "05", "04", "11", "12", "06", "07", "13", "10", "14"];
+const themeOrder=["08", "01", "02", "04", "03", "09", "12", "11", "05", "06", "07", "13", "10", "14"];
 const colors=['#2463AE','#117A70','#8150A1','#B06416'];
 
-const CC_BUILD='20261027-r12-7';
+const CC_BUILD='20261027-r12-9';
 const CC_EXPECTED_QUIZ_COUNT=1260;
 const CC_EXPECTED_PER_GROUP=30;
 const levels=['debutant','intermediaire','expert']; // Difficultés affichées : 1/5, 3/5, 5/5 ; indicateurs pédagogiques.
@@ -22,9 +22,9 @@ function writeScore(x){try{const a=readScores();a.push(x);localStorage.setItem('
 function startUI(){
  themeOrder.forEach(theme=>{
   const i=Number(theme)-1,n=names[i];
-  const option=document.createElement('option');option.value=String(i);option.textContent=n;$('topic').append(option);
+  const option=document.createElement('option');option.value=String(i);option.textContent=String(themeOrder.indexOf(theme)+1).padStart(2,'0')+' · '+n;$('topic').append(option);
   const label=document.createElement('label'),cb=document.createElement('input');cb.type='checkbox';cb.value=i;
-  label.append(cb,document.createTextNode(n));$('topicchecks').append(label);
+  label.append(cb,document.createTextNode(String(themeOrder.indexOf(theme)+1).padStart(2,'0')+' · '+n));$('topicchecks').append(label);
  });
  $('start').disabled=!quizzes.length;
  $('mode').addEventListener('change',updateMode);$('start').addEventListener('click',begin);
