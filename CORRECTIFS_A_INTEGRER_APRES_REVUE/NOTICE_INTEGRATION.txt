@@ -1,0 +1,1 @@
+Correctifs de travail — ne pas remplacer directement les PDF sources par ces fichiers. Consolider et valider le contenu avant publication.

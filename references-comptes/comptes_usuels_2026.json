@@ -1,12 +1,12 @@
 {
   "title": "Comptes usuels - index transversal par thème",
-  "edition": "2026-10-27",
+  "edition": "2026-10-22",
   "source": "https://www.anc.gouv.fr/files/anc/files/1_Normes_fran%C3%A7aises/Plans%20comptables/2026/Plan-de-comptes-2026.pdf",
   "source_version": "1er janvier 2026",
   "source_note": "Codes fondés sur le plan de comptes ANC 2026. Intitulés abrégés pédagogiquement. Sous-compte 28183 déduit de la ventilation des 2818 selon les 218, et non cité individuellement dans la liste abrégée.",
   "topics": [
     {
-      "id": "02",
+      "id": "01",
       "title": "Les repères de base",
       "description": "Sept classes, sens débit/crédit et comptes que l’on retrouve partout.",
       "accounts": [
@@ -52,9 +52,8 @@
         }
       ],
       "related": [
-        "Cours 02 : Comptes usuels",
-        "Mémo 02 : Comptes usuels",
-        "Carte 02 : Comptes usuels"
+        "Les cours associés",
+        "Mémo 01"
       ],
       "vigilance": "Une somme débitée n’est pas forcément une dépense; un crédit n’est pas forcément une recette."
     },
@@ -146,8 +145,8 @@
       ],
       "related": [
         "Cours 03 : Opérations courantes",
-        "Mémo 03 : Opérations courantes",
-        "Carte 03 : Opérations courantes"
+        "Mémo 02 : Opérations courantes",
+        "Carte 02 : Opérations courantes"
       ],
       "vigilance": "665/765 = escompte financier ; 609/709 = réduction commerciale ; 656/756 = change COMMERCIAL."
     },
@@ -213,9 +212,9 @@
         }
       ],
       "related": [
-        "Cours 04 : TVA",
-        "Mémo 04 : TVA",
-        "Carte 04 : TVA"
+        "Cours 04 : TVA et CA3",
+        "Mémo 04 : TVA et CA3",
+        "Carte 04 : TVA et CA3"
       ],
       "vigilance": "4458 n’est pas automatiquement 44586/44587. Débits/encaissements et acomptes sont des règles fiscales distinctes du choix du compte."
     },
@@ -302,8 +301,8 @@
       ],
       "related": [
         "Cours 05 : Immobilisations",
-        "Mémo 05 : Immobilisations",
-        "Carte 05 : Immobilisations"
+        "Mémo 03 : Immobilisations",
+        "Carte 03 : Immobilisations"
       ],
       "vigilance": "657/757 : cessions incorporelles et corporelles. 6671/7671 : immobilisations financières. 28183 est une subdivision issue de la ventilation 2818/2183."
     },
@@ -389,14 +388,14 @@
         }
       ],
       "related": [
-        "Cours 06 : Paie",
-        "Mémo 06 : Paie",
-        "Carte 06 : Paie"
+        "Cours 06 : PAIE",
+        "Mémo PAIE consolidé",
+        "Carte mentale PAIE consolidée"
       ],
       "vigilance": "641 : brut et autres rémunérations ; 645 : charges patronales ; 421 : rémunérations dues ; 4421 : PAS. Les taux dépendent du cas."
     },
     {
-      "id": "09",
+      "id": "07",
       "title": "Lettrage et rapprochement bancaire",
       "description": "Raccorder chaque facture à son règlement; comparer journal et banque.",
       "accounts": [
@@ -452,14 +451,14 @@
         }
       ],
       "related": [
-        "Cours 09 : Lettrage et rapprochement",
-        "Mémo 09 : Lettrage et rapprochement",
-        "Carte 09 : Lettrage et rapprochement"
+        "Cours 07 : Lettrage et rapprochement",
+        "Mémo 05 : Lettrage",
+        "Carte 05 : Lettrage"
       ],
       "vigilance": "Lettrage et rapprochement sont deux contrôles différents; le relevé bancaire peut contenir des mouvements non encore saisis."
     },
     {
-      "id": "10",
+      "id": "08",
       "title": "Compte de résultat",
       "description": "Distinguer charges (classe 6) et produits (classe 7).",
       "accounts": [
@@ -555,14 +554,14 @@
         }
       ],
       "related": [
-        "Cours 10 : Compte de résultat",
-        "Mémo 10 : Compte de résultat",
-        "Carte 10 : Compte de résultat"
+        "Cours 08 : Compte de résultat",
+        "Mémo 06 : Compte de résultat",
+        "Carte 06 : Compte de résultat"
       ],
       "vigilance": "Le produit 757 et la charge 657 ne sont pas les anciens comptes exceptionnels 775/675 dans les opérations de cessions ordinaires visées par le PCG 2026."
     },
     {
-      "id": "11",
+      "id": "09",
       "title": "Bilan : actif et passif",
       "description": "Photographie des ressources, des biens et des dettes à une date.",
       "accounts": [
@@ -663,9 +662,9 @@
         }
       ],
       "related": [
-        "Cours 11 : Bilan",
-        "Mémo 11 : Bilan",
-        "Carte 11 : Bilan"
+        "Cours 09 : Bilan actif/passif",
+        "Mémo 07 : Bilan",
+        "Carte 07 : Bilan"
       ],
       "vigilance": "Un compte de charge ou de produit n’est pas directement un poste de bilan ; vérifier classement, échéance, amortissement et dépréciation."
     }

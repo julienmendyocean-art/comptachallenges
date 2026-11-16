@@ -1617,21 +1617,23 @@
         "review_method": "énoncé indépendant; vérification par libellés PCG 2026 / mécanisme comptable et arithmétique explicite"
       },
       {
-        "n": 30,
-        "q": "Un dépôt de garantie versé à long terme par l’entreprise doit être immobilisé. Quel compte du PCG est approprié ?",
+        "q": "Une entreprise détient un crypto-actif sans droit sur un bien ou un service qu’elle prévoit d’utiliser dans son activité. Quel compte est prévu par ANC 2026-01 ?",
         "options": {
-          "A": "165",
-          "B": "275",
-          "C": "271",
-          "D": "274"
+          "A": "522 — Crypto-actifs et assimilés détenus",
+          "B": "218 — Matériel",
+          "C": "401 — Fournisseurs",
+          "D": "707 — Ventes de marchandises"
         },
-        "correct": "B",
-        "explanation": "275 = dépôts et cautionnements versés; le 165 concerne les dépôts reçus.",
-        "category": "application",
-        "reviewed_at": "2026-10-21",
-        "source": "https://www.anc.gouv.fr/files/anc/files/1_Normes_fran%C3%A7aises/Plans%20comptables/2026/Plan-de-comptes-2026.pdf",
-        "review_status": "controle_cible_2026_10_21",
-        "review_method": "énoncé indépendant; vérification par libellés PCG 2026 / mécanisme comptable et arithmétique explicite"
+        "correct": "A",
+        "explanation": "Le compte 522 accueille les crypto-actifs qui ne sont pas classés selon un droit sous-jacent destiné à l’activité, ou dont l’intention d’utilisation est indéterminée. ANC 2026-01 s’applique aux exercices ouverts à compter du 1er janvier 2027, avec anticipation possible.",
+        "category": "notion",
+        "source": "https://www.anc.gouv.fr/reglements-anc-ndeg2026-01-et-anc-ndeg2026-02-du-9-janvier-2026",
+        "source_kind": "reglementation_officielle",
+        "scope": "PCG — crypto-actifs, compte 522",
+        "n": 30,
+        "reviewed_at": "2026-11-07",
+        "review_status": "revue_reglementaire_2026_11_07",
+        "review_method": "contrôle du texte officiel, du champ d’application, de la date d’effet et de la cohérence pédagogique"
       }
     ],
     "bank_version": "2026-10-20-mixte-525"
@@ -2060,22 +2062,23 @@
         "n": 24
       },
       {
-        "q": "Une réduction commerciale directement portée sur la facture concerne :",
+        "q": "Une vente avec clause de réserve de propriété est livrée et mise à disposition le 20 décembre N ; le client paie en janvier N+1. Quand le produit est-il comptabilisé selon ANC 2026-03 ?",
         "options": {
-          "A": "Le capital social",
-          "B": "Le net commercial avant calcul de la TVA",
-          "C": "Un produit financier 765",
-          "D": "Une immobilisation au bilan"
+          "A": "En janvier N+1, au paiement",
+          "B": "Au 20 décembre N, à la mise à disposition",
+          "C": "À la date du transfert juridique de propriété uniquement",
+          "D": "À la clôture, après lettrage"
         },
         "correct": "B",
-        "explanation": "La base taxable est déterminée après réductions de prix admises.",
-        "source": "https://bofip.impots.gouv.fr/bofip/488-PGP.html/identifiant=BOI-TVA-BASE-10-10-30-20220511",
+        "explanation": "La réserve de propriété ne retarde pas la reconnaissance du produit : la mise à disposition du bien constitue la date de comptabilisation prévue par l’article 522-3.",
         "category": "application",
-        "review_status": "revue_ciblee_anc_dgfip_2026_10_20",
-        "reviewed_at": "2026-10-20",
-        "review_method": "règle normative identifiée, choix vérifiés et validation structurelle",
-        "source_basis": "B",
-        "n": 25
+        "source": "https://www.anc.gouv.fr/files/anc/files/1_Normes_fran%C3%A7aises/Reglements/2026/2026%20homologu%C3%A9/2026_03-JO.pdf",
+        "source_kind": "reglementation_officielle",
+        "scope": "PCG — produits des ventes, réserve de propriété",
+        "n": 25,
+        "reviewed_at": "2026-11-07",
+        "review_status": "revue_reglementaire_2026_11_07",
+        "review_method": "contrôle du texte officiel, du champ d’application, de la date d’effet et de la cohérence pédagogique"
       },
       {
         "n": 26,
@@ -2622,22 +2625,23 @@
         "n": 24
       },
       {
-        "q": "Une facture affiche une remise et un escompte acquis. Lequel est un élément financier ?",
+        "q": "Après facturation et comptabilisation d’une vente, une ristourne hors facture de 800 € devient probable. Quelle écriture prévoit ANC 2026-03 ?",
         "options": {
-          "A": "La remise commerciale",
-          "B": "La TVA collectée",
-          "C": "Le port facturé",
-          "D": "L'escompte"
+          "A": "Débit 709 / crédit 4198 pour 800 €",
+          "B": "Débit 4198 / crédit 707 pour 800 €",
+          "C": "Débit 512 / crédit 709 pour 800 €",
+          "D": "Débit 607 / crédit 401 pour 800 €"
         },
-        "correct": "D",
-        "explanation": "L'escompte est une réduction de nature financière, suivie notamment en 665/765.",
-        "source": "https://www.anc.gouv.fr/files/anc/files/1_Normes_fran%C3%A7aises/Plans%20comptables/2026/Plan-de-comptes-2026.pdf",
-        "category": "notion",
-        "review_status": "revue_ciblee_anc_dgfip_2026_10_20",
-        "reviewed_at": "2026-10-20",
-        "review_method": "règle normative identifiée, choix vérifiés et validation structurelle",
-        "source_basis": "P",
-        "n": 25
+        "correct": "A",
+        "explanation": "Après facturation, la réduction hors facture probable est comptabilisée distinctement au débit du compte 709 et au crédit du compte 4198.",
+        "category": "application",
+        "source": "https://www.anc.gouv.fr/files/anc/files/1_Normes_fran%C3%A7aises/Reglements/2026/2026%20homologu%C3%A9/2026_03-JO.pdf",
+        "source_kind": "reglementation_officielle",
+        "scope": "PCG — réductions de prix, 709/4198",
+        "n": 25,
+        "reviewed_at": "2026-11-07",
+        "review_status": "revue_reglementaire_2026_11_07",
+        "review_method": "contrôle du texte officiel, du champ d’application, de la date d’effet et de la cohérence pédagogique"
       },
       {
         "n": 26,
@@ -3270,21 +3274,23 @@
         "review_method": "énoncé indépendant; vérification par libellés PCG 2026 / mécanisme comptable et arithmétique explicite"
       },
       {
-        "n": 30,
-        "q": "Pour une créance client encore due après paiement partiel, quelle action serait incorrecte ?",
+        "q": "Une vente de biens comptabilisée comporte un droit de retour. Une perte liée à l’exercice probable de ce droit est estimée à 1 200 €. Quel traitement prévoit ANC 2026-03 ?",
         "options": {
-          "A": "Conserver le solde client non réglé",
-          "B": "Débiter 512 du montant encaissé",
-          "C": "Enregistrer à nouveau le produit 707 au paiement",
-          "D": "Créditer 411 du montant encaissé"
+          "A": "Aucune écriture avant le retour effectif",
+          "B": "Une provision pour le risque probable de retour, si les critères sont réunis",
+          "C": "Un débit automatique du compte 707",
+          "D": "Un produit constaté d’avance de 1 200 €"
         },
-        "correct": "C",
-        "explanation": "Le chiffre d’affaires a déjà été enregistré lors de la vente; le règlement réduit seulement la créance.",
+        "correct": "B",
+        "explanation": "L’article 522-9 prévoit une provision dès la comptabilisation du produit, à hauteur de la perte probable résultant du droit de retour.",
         "category": "analyse",
-        "reviewed_at": "2026-10-21",
-        "source": "https://www.anc.gouv.fr/files/anc/files/1_Normes_fran%C3%A7aises/Plans%20comptables/2026/Plan-de-comptes-2026.pdf",
-        "review_status": "controle_cible_2026_10_21",
-        "review_method": "énoncé indépendant; vérification par libellés PCG 2026 / mécanisme comptable et arithmétique explicite"
+        "source": "https://www.anc.gouv.fr/files/anc/files/1_Normes_fran%C3%A7aises/Reglements/2026/2026%20homologu%C3%A9/2026_03-JO.pdf",
+        "source_kind": "reglementation_officielle",
+        "scope": "PCG — provisions liées aux ventes",
+        "n": 30,
+        "reviewed_at": "2026-11-07",
+        "review_status": "revue_reglementaire_2026_11_07",
+        "review_method": "contrôle du texte officiel, du champ d’application, de la date d’effet et de la cohérence pédagogique"
       }
     ],
     "bank_version": "2026-10-20-mixte-525"
@@ -3659,22 +3665,23 @@
         "n": 21
       },
       {
-        "q": "Un véhicule acquis pour les besoins durables de l'entreprise relève normalement de :",
+        "q": "Pour vérifier si une voiture électrique satisfait le critère de score environnemental d’une liste officielle, quelle donnée faut-il comparer exactement ?",
         "options": {
-          "A": "607",
-          "B": "707",
-          "C": "512",
-          "D": "2182"
+          "A": "La seule marque du véhicule",
+          "B": "Le seul nom commercial du modèle",
+          "C": "Le type-variante-version (TVV) exact du véhicule",
+          "D": "Le montant de la facture TTC"
         },
-        "correct": "D",
-        "explanation": "Le compte 2182 concerne le matériel de transport.",
-        "source": "https://www.anc.gouv.fr/files/anc/files/1_Normes_fran%C3%A7aises/Plans%20comptables/2026/Plan-de-comptes-2026.pdf",
+        "correct": "C",
+        "explanation": "L’arrêté du 09/11/2026 ajoute des TVV précis à la liste à compter du 12/11/2026. Le nom commercial ou la marque ne suffit pas.",
         "category": "application",
-        "review_status": "revue_ciblee_anc_dgfip_2026_10_20",
-        "reviewed_at": "2026-10-20",
-        "review_method": "règle normative identifiée, choix vérifiés et validation structurelle",
-        "source_basis": "P",
-        "n": 22
+        "source": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000055075229",
+        "source_kind": "arrete_officiel",
+        "scope": "Immobilisations — éligibilité des véhicules électriques",
+        "n": 30,
+        "reviewed_at": "2026-11-11",
+        "review_status": "revue_officielle_2026_11_11",
+        "review_method": "contrôle du texte officiel, de la date d’entrée en vigueur et de la portée sectorielle"
       },
       {
         "q": "Une entreprise achète des bureaux et chaises destinés à être utilisés plusieurs années. Compte usuel ?",
@@ -3713,22 +3720,23 @@
         "n": 24
       },
       {
-        "q": "Un logiciel acquis, identifiable et immobilisable relève en principe de :",
+        "q": "Un jeton donne un droit d’utilisation d’un logiciel que l’entreprise compte utiliser dans son activité. Quel principe de classement faut-il appliquer ?",
         "options": {
-          "A": "401",
-          "B": "606",
-          "C": "205",
-          "D": "607"
+          "A": "Toujours le compte 522",
+          "B": "Les règles du droit sous-jacent ; immobilisation incorporelle si les critères sont réunis",
+          "C": "Toujours une charge financière",
+          "D": "Le compte 401"
         },
-        "correct": "C",
-        "explanation": "Le compte 205 comprend notamment les solutions informatiques immobilisées répondant aux critères du PCG.",
-        "source": "https://www.anc.gouv.fr/files/anc/files/1_Normes_fran%C3%A7aises/Plans%20comptables/2026/Plan-de-comptes-2026.pdf",
-        "category": "application",
-        "review_status": "revue_ciblee_anc_dgfip_2026_10_20",
-        "reviewed_at": "2026-10-20",
-        "review_method": "règle normative identifiée, choix vérifiés et validation structurelle",
-        "source_basis": "P",
-        "n": 25
+        "correct": "B",
+        "explanation": "ANC 2026-01 impose d’analyser le droit représenté et l’intention d’utilisation. Un droit d’usage répondant aux critères d’une immobilisation incorporelle suit les règles de cet actif.",
+        "category": "notion",
+        "source": "https://www.anc.gouv.fr/reglements-anc-ndeg2026-01-et-anc-ndeg2026-02-du-9-janvier-2026",
+        "source_kind": "reglementation_officielle",
+        "scope": "Immobilisations — droits attachés aux crypto-actifs",
+        "n": 25,
+        "reviewed_at": "2026-11-07",
+        "review_status": "revue_reglementaire_2026_11_07",
+        "review_method": "contrôle du texte officiel, du champ d’application, de la date d’effet et de la cohérence pédagogique"
       },
       {
         "n": 26,
@@ -4195,22 +4203,23 @@
         "category": "calcul"
       },
       {
-        "q": "Que représente une valeur résiduelle dans la base amortissable ?",
+        "q": "Une voiture électrique porte le même nom commercial qu’un modèle inscrit sur la liste environnementale, mais son TVV est différent. Quelle conclusion retenir ?",
         "options": {
-          "A": "Valeur attendue à la sortie après coûts de sortie, si significative",
-          "B": "Le total des amortissements antérieurs",
-          "C": "Le solde fournisseur non payé",
-          "D": "Toujours le montant de TVA collectée"
+          "A": "Elle est automatiquement éligible",
+          "B": "Elle est éligible si la marque est identique",
+          "C": "Il faut vérifier le TVV exact : le seul nom commercial ne permet pas de conclure",
+          "D": "Elle est exclue de toute immobilisation"
         },
-        "correct": "A",
-        "explanation": "Une valeur résiduelle significative et mesurable est retranchée pour déterminer le montant amortissable.",
-        "source": "https://www.anc.gouv.fr/files/anc/files/1_Normes_fran%C3%A7aises/recueil/2026/PCG--1er-janvier-2026.pdf",
-        "category": "notion",
-        "review_status": "revue_ciblee_anc_dgfip_2026_10_20",
-        "reviewed_at": "2026-10-20",
-        "review_method": "règle normative identifiée, choix vérifiés et validation structurelle",
-        "source_basis": "PCG",
-        "n": 21
+        "correct": "C",
+        "explanation": "La liste est établie par type-variante-version. Les autres conditions du dispositif doivent également être vérifiées.",
+        "category": "application",
+        "source": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000055075229",
+        "source_kind": "arrete_officiel",
+        "scope": "Immobilisations — contrôle TVV",
+        "n": 30,
+        "reviewed_at": "2026-11-11",
+        "review_status": "revue_officielle_2026_11_11",
+        "review_method": "contrôle du texte officiel, de la date d’entrée en vigueur et de la portée sectorielle"
       },
       {
         "q": "Une machine nécessite un transport et une installation pour fonctionner. Quel traitement du coût directement attribuable ?",
@@ -4729,24 +4738,23 @@
         "category": "calcul"
       },
       {
-        "n": 20,
-        "q": "Annuité 13 000,00 € ; 2 exercices pleins puis une période de 9 mois selon prorata mensuel. Dotations cumulées ?",
+        "q": "Quel est l’effet comptable direct de l’arrêté du 9 novembre 2026 actualisant la liste des versions de voitures électriques au score environnemental minimal ?",
         "options": {
-          "A": "35 750,00 €",
-          "B": "46 478,00 €",
-          "C": "39 326,00 €",
-          "D": "42 902,00 €"
+          "A": "Il modifie le plan de comptes et le taux d’amortissement des véhicules",
+          "B": "Il change la règle de déduction de TVA sur tous les véhicules électriques",
+          "C": "Il actualise un critère d’éligibilité à certaines aides et dispositions fiscales ; les règles PCG de reconnaissance et d’amortissement ne changent pas",
+          "D": "Il rend toutes les voitures électriques immédiatement subventionnées"
         },
-        "correct": "A",
-        "explanation": "Total = 2A + 9/12 A.",
-        "source": "https://www.anc.gouv.fr/files/anc/files/1_Normes_fran%C3%A7aises/recueil/2026/PCG--1er-janvier-2026.pdf",
-        "review_status": "revue_thematique_2026_10_20",
-        "audit_type": "Calcul manuel modélisé indépendamment, cohérence du cas standard et contrôle des 4 choix ; sans certification comptable externe",
-        "review_method": "questions issues des QCM historiques et contrôles PCG/TVA de cohérence; exceptions explicitées dans le rapport",
-        "family": "calculation_03_2_09",
-        "id": "calc2026-03-2-09-1",
-        "reviewed_at": "2026-10-20",
-        "category": "calcul"
+        "correct": "C",
+        "explanation": "L’arrêté actualise les TVV satisfaisant au score environnemental. Il n’apporte pas de modification au PCG, à la TVA générale ou aux règles d’amortissement ; les autres conditions de chaque dispositif restent applicables.",
+        "category": "analyse",
+        "source": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000055075229",
+        "source_kind": "arrete_officiel",
+        "scope": "Immobilisations — portée comptable de la liste",
+        "n": 30,
+        "reviewed_at": "2026-11-11",
+        "review_status": "revue_officielle_2026_11_11",
+        "review_method": "contrôle du texte officiel, de la date d’entrée en vigueur et de la portée sectorielle"
       },
       {
         "q": "Une immobilisation a une durée d'utilisation non limitée et aucune perte de valeur. Quel principe ?",
@@ -4907,21 +4915,23 @@
         "review_method": "énoncé indépendant; vérification par libellés PCG 2026 / mécanisme comptable et arithmétique explicite"
       },
       {
-        "n": 30,
-        "q": "Un contrat de location simple sans transfert de propriété est facturé mensuellement. Quelle précaution doit-on prendre avant d’inscrire le bien au compte 218 ?",
+        "q": "Un crypto-actif détenu représente un droit à une prestation de service à recevoir ultérieurement. Quel classement prévoit ANC 2026-01 si le droit est destiné à l’activité ?",
         "options": {
-          "A": "Inscrire toute facture en 231",
-          "B": "Comptabiliser systématiquement le bien en 218",
-          "C": "Vérifier les critères d’actif et la nature réelle du contrat",
-          "D": "Ignorer toute charge locative"
+          "A": "Immobilisation corporelle",
+          "B": "Charge constatée d’avance",
+          "C": "Compte 707",
+          "D": "Dette fournisseur 401"
         },
-        "correct": "C",
-        "explanation": "La qualification d’une immobilisation dépend des règles de comptabilisation de l’actif; une location ordinaire ne suffit pas à elle seule.",
-        "category": "application",
-        "reviewed_at": "2026-10-21",
-        "source": "https://www.anc.gouv.fr/plan-comptable-general-0",
-        "review_status": "controle_cible_2026_10_21",
-        "review_method": "énoncé indépendant; vérification par libellés PCG 2026 / mécanisme comptable et arithmétique explicite"
+        "correct": "B",
+        "explanation": "Lorsque le droit attaché au crypto-actif représente un service à recevoir ultérieurement et que les conditions de l’article 619-9 sont réunies, il est comptabilisé en charge constatée d’avance.",
+        "category": "analyse",
+        "source": "https://www.anc.gouv.fr/reglements-anc-ndeg2026-01-et-anc-ndeg2026-02-du-9-janvier-2026",
+        "source_kind": "reglementation_officielle",
+        "scope": "Immobilisations — crypto-actifs et droits d’usage",
+        "n": 30,
+        "reviewed_at": "2026-11-07",
+        "review_status": "revue_reglementaire_2026_11_07",
+        "review_method": "contrôle du texte officiel, du champ d’application, de la date d’effet et de la cohérence pédagogique"
       }
     ],
     "bank_version": "2026-10-20-mixte-525"
@@ -5368,21 +5378,23 @@
         "n": 25
       },
       {
-        "n": 26,
-        "q": "Dans une vente française taxable, que représente la TVA collectée ?",
+        "q": "À compter du 1er janvier 2027, que devient le régime simplifié ordinaire de TVA (hors agriculture) ?",
         "options": {
-          "A": "Un produit d’exploitation de l’entreprise",
-          "B": "La taxe facturée au client et due selon les règles d’exigibilité",
-          "C": "Une TVA à récupérer sur les achats",
-          "D": "Une réduction de charges"
+          "A": "Il est maintenu avec CA12 et deux acomptes",
+          "B": "Il est supprimé et remplacé par le réel normal avec CA3",
+          "C": "Il devient la franchise en base",
+          "D": "Il est remplacé par le régime de l’IS"
         },
         "correct": "B",
-        "explanation": "La TVA collectée constitue une dette fiscale, pas un produit propre de l’entité.",
+        "explanation": "L’article 38 de la loi de finances pour 2025 supprime le RSI TVA au 1er janvier 2027. Les entreprises basculent au réel normal, avec CA3 mensuelle ou trimestrielle ; le régime simplifié agricole reste distinct.",
         "category": "notion",
-        "reviewed_at": "2026-10-21",
-        "source": "https://bofip.impots.gouv.fr/bofip/534-PGP.html/identifiant=BOI-TVA-BASE-20-10-20221221",
-        "review_status": "controle_cible_2026_10_21",
-        "review_method": "énoncé indépendant; vérification par libellés PCG 2026 / mécanisme comptable et arithmétique explicite"
+        "source": "https://www.impots.gouv.fr/actualite/le-regime-simplifie-dimposition-la-tva-est-supprime-compter-du-1er-janvier-2027",
+        "source_kind": "doctrine_administrative",
+        "scope": "TVA — réforme des régimes déclaratifs au 01/01/2027",
+        "n": 26,
+        "reviewed_at": "2026-11-07",
+        "review_status": "revue_reglementaire_2026_11_07",
+        "review_method": "contrôle du texte officiel, du champ d’application, de la date d’effet et de la cohérence pédagogique"
       },
       {
         "n": 27,
@@ -5910,22 +5922,23 @@
         "n": 24
       },
       {
-        "q": "Dans le PCG 2026, à quoi sert le compte 4458 ?",
+        "q": "Depuis les commentaires BOFiP publiés le 1er juillet 2026, quels seuils de droit commun permettent la franchise en base de TVA pour les autres prestations de services, hors secteurs à seuils spécifiques ?",
         "options": {
-          "A": "Dette auprès d'un fournisseur d'immobilisations",
-          "B": "Produits financiers des escomptes",
-          "C": "TVA collectée définitive de toutes les ventes",
-          "D": "Taxes sur le chiffre d'affaires à régulariser ou en attente"
+          "A": "25 000 € et 27 500 €",
+          "B": "37 500 € et 41 250 €",
+          "C": "85 000 € et 93 500 €",
+          "D": "100 000 € et 110 000 €"
         },
-        "correct": "D",
-        "explanation": "4458 est destiné aux taxes sur le chiffre d'affaires à régulariser ou en attente.",
-        "source": "https://www.anc.gouv.fr/files/anc/files/1_Normes_fran%C3%A7aises/Plans%20comptables/2026/Plan-de-comptes-2026.pdf",
+        "correct": "B",
+        "explanation": "Pour les autres prestations de services, le seuil de base est de 37 500 € et le seuil majoré de 41 250 €. Pour les ventes et l’hébergement, les seuils de droit commun sont 85 000 € et 93 500 €.",
         "category": "notion",
-        "review_status": "revue_ciblee_anc_dgfip_2026_10_20",
-        "reviewed_at": "2026-10-20",
-        "review_method": "règle normative identifiée, choix vérifiés et validation structurelle",
-        "source_basis": "P",
-        "n": 25
+        "source": "https://bofip.impots.gouv.fr/bofip/849-PGP.html/identifiant=BOI-TVA-DECLA-40-10-10-20260701",
+        "source_kind": "doctrine_administrative",
+        "scope": "TVA — franchise en base, seuils 2026",
+        "n": 25,
+        "reviewed_at": "2026-11-07",
+        "review_status": "revue_reglementaire_2026_11_07",
+        "review_method": "contrôle du texte officiel, du champ d’application, de la date d’effet et de la cohérence pédagogique"
       },
       {
         "n": 26,
@@ -6556,21 +6569,23 @@
         "review_method": "énoncé indépendant; vérification par libellés PCG 2026 / mécanisme comptable et arithmétique explicite"
       },
       {
-        "n": 30,
-        "q": "Une livraison intracommunautaire et une acquisition intracommunautaire sont-elles traitées comme une vente intérieure taxée identique ?",
+        "q": "En 2027, une entreprise au réel normal a un chiffre d’affaires majoré des acquisitions taxables de 950 000 € en N-1 et de 1 050 000 € en N. Quelle périodicité CA3 peut-elle appliquer, sous réserve des autres conditions ?",
         "options": {
-          "A": "Non, elles sont toutes deux hors comptabilité",
-          "B": "Non, leurs mécanismes TVA diffèrent selon les conditions",
-          "C": "Oui, elles donnent toujours la même TVA collectée",
-          "D": "Oui, seule la date de facture change"
+          "A": "Mensuelle obligatoirement",
+          "B": "Trimestrielle",
+          "C": "CA12 annuelle",
+          "D": "Aucune déclaration si la TVA est faible"
         },
         "correct": "B",
-        "explanation": "Les ventes exonérées sous conditions et les acquisitions autoliquidées suivent des mécanismes distincts.",
-        "category": "analyse",
-        "reviewed_at": "2026-10-21",
-        "source": "https://bofip.impots.gouv.fr/bofip/697-PGP.html/identifiant=BOI-TVA-CHAMP-30-20-10-20260701",
-        "review_status": "controle_cible_2026_10_21",
-        "review_method": "énoncé indépendant; vérification par libellés PCG 2026 / mécanisme comptable et arithmétique explicite"
+        "explanation": "La périodicité trimestrielle est possible si le montant ne dépasse pas 1 M€ en N-1 et 1,1 M€ en N. Le dépassement du seuil de l’année en cours entraîne le mensuel à compter du mois du dépassement.",
+        "category": "calcul",
+        "source": "https://www.impots.gouv.fr/actualite/le-regime-simplifie-dimposition-la-tva-est-supprime-compter-du-1er-janvier-2027",
+        "source_kind": "doctrine_administrative",
+        "scope": "TVA — CA3 mensuelle/trimestrielle à compter de 2027",
+        "n": 30,
+        "reviewed_at": "2026-11-07",
+        "review_status": "revue_reglementaire_2026_11_07",
+        "review_method": "contrôle du texte officiel, du champ d’application, de la date d’effet et de la cohérence pédagogique"
       }
     ],
     "bank_version": "2026-10-20-mixte-525"
@@ -8636,22 +8651,23 @@
         "n": 24
       },
       {
-        "q": "Une entreprise paie un abonnement téléphonique professionnel consommé au cours de l'exercice. Quelle catégorie ?",
+        "q": "Une prestation est réalisée le 29 décembre N et facturée en janvier N+1. Selon ANC 2026-03, à quel exercice rattacher le produit ?",
         "options": {
-          "A": "Capitaux propres",
-          "B": "Produits financiers",
-          "C": "Charges externes d'exploitation",
-          "D": "Subventions d'investissement"
+          "A": "N+1, à la date de facture",
+          "B": "N, à la date de réalisation du service",
+          "C": "À la date du règlement",
+          "D": "À la date du lettrage"
         },
-        "correct": "C",
-        "explanation": "Les télécommunications consommées sont une charge externe de l'exercice.",
-        "source": "https://www.anc.gouv.fr/files/anc/files/1_Normes_fran%C3%A7aises/Plans%20comptables/2026/Plan-de-comptes-2026.pdf",
+        "correct": "B",
+        "explanation": "Le produit d’une prestation est comptabilisé à la réalisation du service. Si le montant n’est pas facturé à la clôture, il constitue un produit à recevoir en 418.",
         "category": "application",
-        "review_status": "revue_ciblee_anc_dgfip_2026_10_20",
-        "reviewed_at": "2026-10-20",
-        "review_method": "règle normative identifiée, choix vérifiés et validation structurelle",
-        "source_basis": "P",
-        "n": 25
+        "source": "https://www.anc.gouv.fr/files/anc/files/1_Normes_fran%C3%A7aises/Reglements/2026/2026%20homologu%C3%A9/2026_03-JO.pdf",
+        "source_kind": "reglementation_officielle",
+        "scope": "Compte de résultat — rattachement des produits",
+        "n": 25,
+        "reviewed_at": "2026-11-07",
+        "review_status": "revue_reglementaire_2026_11_07",
+        "review_method": "contrôle du texte officiel, du champ d’application, de la date d’effet et de la cohérence pédagogique"
       },
       {
         "n": 26,
@@ -9259,21 +9275,23 @@
         "review_method": "énoncé indépendant; vérification par libellés PCG 2026 / mécanisme comptable et arithmétique explicite"
       },
       {
-        "n": 29,
-        "q": "À quelle catégorie appartiennent les escomptes obtenus du fournisseur ?",
+        "q": "Une vente a été comptabilisée et facturée ; une réduction hors facture devient probable après la vente. Quel traitement est prévu par ANC 2026-03 ?",
         "options": {
-          "A": "Ventes de marchandises (707)",
-          "B": "Produits financiers (765)",
-          "C": "Produits constatés d’avance (487)",
-          "D": "Subventions (741)"
+          "A": "Réduire directement le compte 512",
+          "B": "Débiter 709 et créditer 4198",
+          "C": "Débiter 607 et créditer 401",
+          "D": "Créditer 707 sans contrepartie"
         },
         "correct": "B",
-        "explanation": "Le PCG 2026 classe les escomptes obtenus parmi les produits financiers, compte 765.",
-        "category": "notion",
-        "reviewed_at": "2026-10-21",
-        "source": "https://www.anc.gouv.fr/files/anc/files/1_Normes_fran%C3%A7aises/Plans%20comptables/2026/Plan-de-comptes-2026.pdf",
-        "review_status": "controle_cible_2026_10_21",
-        "review_method": "énoncé indépendant; vérification par libellés PCG 2026 / mécanisme comptable et arithmétique explicite"
+        "explanation": "La réduction hors facture probable est comptabilisée distinctement au débit du 709 et au crédit du 4198, après reconnaissance et facturation du produit.",
+        "category": "application",
+        "source": "https://www.anc.gouv.fr/files/anc/files/1_Normes_fran%C3%A7aises/Reglements/2026/2026%20homologu%C3%A9/2026_03-JO.pdf",
+        "source_kind": "reglementation_officielle",
+        "scope": "Compte de résultat — réductions commerciales",
+        "n": 29,
+        "reviewed_at": "2026-11-07",
+        "review_status": "revue_reglementaire_2026_11_07",
+        "review_method": "contrôle du texte officiel, du champ d’application, de la date d’effet et de la cohérence pédagogique"
       },
       {
         "n": 30,
@@ -9796,21 +9814,23 @@
         "review_method": "énoncé indépendant; vérification par libellés PCG 2026 / mécanisme comptable et arithmétique explicite"
       },
       {
-        "n": 28,
-        "q": "Une entreprise présente 18 000 € de produits d’exploitation, 14 500 € de charges d’exploitation, 600 € de produits financiers et 900 € de charges financières, sans autre poste. Quel résultat simplifié ?",
+        "q": "Selon ANC 2026-04, où comptabiliser l’impôt sur les bénéfices et les contributions qui s’y rattachent, et quel taux retenir ?",
         "options": {
-          "A": "4 100 €",
-          "B": "3 500 €",
-          "C": "3 200 €",
-          "D": "2 900 €"
+          "A": "En résultat exceptionnel, au taux voté après clôture",
+          "B": "Dans « Impôts sur les bénéfices » de l’exercice dû, au taux en vigueur à la clôture",
+          "C": "En capitaux propres, au taux du début d’exercice",
+          "D": "En charges financières, au taux moyen de l’année"
         },
-        "correct": "C",
-        "explanation": "(18 000 - 14 500) + (600 - 900) = 3 200 € de bénéfice.",
-        "category": "analyse",
-        "reviewed_at": "2026-10-21",
-        "source": "https://www.anc.gouv.fr/plan-comptable-general-0",
-        "review_status": "controle_cible_2026_10_21",
-        "review_method": "énoncé indépendant; vérification par libellés PCG 2026 / mécanisme comptable et arithmétique explicite"
+        "correct": "B",
+        "explanation": "Le règlement ANC 2026-04, applicable depuis le 4 septembre 2026 aux exercices en cours à cette date, impose la rubrique « Impôts sur les bénéfices » de l’exercice au titre duquel l’entreprise est redevable ; le taux est celui en vigueur à la clôture.",
+        "category": "notion",
+        "source": "https://www.anc.gouv.fr/files/anc/files/1_Normes_fran%C3%A7aises/Reglements/2026/2026%20homologu%C3%A9/REGLT_2026_04_JO-SITE.pdf",
+        "source_kind": "reglementation_officielle",
+        "scope": "Compte de résultat — comptabilisation de l’IS",
+        "n": 28,
+        "reviewed_at": "2026-11-07",
+        "review_status": "revue_reglementaire_2026_11_07",
+        "review_method": "contrôle du texte officiel, du champ d’application, de la date d’effet et de la cohérence pédagogique"
       },
       {
         "n": 29,
@@ -10273,22 +10293,23 @@
         "n": 24
       },
       {
-        "q": "Une immobilisation inscrite au bilan avec amortissements apparaît habituellement :",
+        "q": "Un bien est livré en N, le produit est acquis, mais la facture client n’est pas établie au 31 décembre. Quel compte de tiers est prévu par ANC 2026-03 ?",
         "options": {
-          "A": "En valeur brute, amortissements et valeur nette selon présentation applicable",
-          "B": "Toujours pour zéro",
-          "C": "Uniquement pour son TTC sans distinction",
-          "D": "Uniquement dans le compte de résultat"
+          "A": "487",
+          "B": "418",
+          "C": "4198",
+          "D": "512"
         },
-        "correct": "A",
-        "explanation": "Les états présentent ou permettent d'identifier la correction par amortissements.",
-        "source": "https://www.anc.gouv.fr/files/anc/files/1_Normes_fran%C3%A7aises/recueil/2026/PCG--1er-janvier-2026.pdf",
-        "category": "application",
-        "review_status": "revue_ciblee_anc_dgfip_2026_10_20",
-        "reviewed_at": "2026-10-20",
-        "review_method": "règle normative identifiée, choix vérifiés et validation structurelle",
-        "source_basis": "PCG",
-        "n": 25
+        "correct": "B",
+        "explanation": "Le compte 418 « Clients – produits non encore facturés » reçoit les produits acquis correspondant à des biens livrés ou services réalisés avant la clôture, mais non facturés.",
+        "category": "notion",
+        "source": "https://www.anc.gouv.fr/files/anc/files/1_Normes_fran%C3%A7aises/Reglements/2026/2026%20homologu%C3%A9/2026_03-JO.pdf",
+        "source_kind": "reglementation_officielle",
+        "scope": "Bilan — produits à recevoir",
+        "n": 25,
+        "reviewed_at": "2026-11-07",
+        "review_status": "revue_reglementaire_2026_11_07",
+        "review_method": "contrôle du texte officiel, du champ d’application, de la date d’effet et de la cohérence pédagogique"
       },
       {
         "n": 26,
@@ -10913,21 +10934,23 @@
         "review_method": "énoncé indépendant; vérification par libellés PCG 2026 / mécanisme comptable et arithmétique explicite"
       },
       {
-        "n": 30,
-        "q": "Une dette fournisseur de 650 € est encore due à la clôture. Quelle catégorie du bilan ?",
+        "q": "Une vente est comptabilisée et facturée en N, mais la livraison n’interviendra qu’en N+1. Quel compte de régularisation utiliser ?",
         "options": {
-          "A": "Capitaux propres — réserve",
-          "B": "Actif — créance client",
-          "C": "Passif — dette fournisseur",
-          "D": "Actif — immobilisation"
+          "A": "418",
+          "B": "487",
+          "C": "4198",
+          "D": "709"
         },
-        "correct": "C",
-        "explanation": "Le fournisseur créditeur représente une obligation à payer, donc un passif.",
+        "correct": "B",
+        "explanation": "Le produit enregistré avant la livraison ou la réalisation du service n’est pas rattaché à N ; il est porté au compte 487 « Produits constatés d’avance ».",
         "category": "application",
-        "reviewed_at": "2026-10-21",
-        "source": "https://www.anc.gouv.fr/plan-comptable-general-0",
-        "review_status": "controle_cible_2026_10_21",
-        "review_method": "énoncé indépendant; vérification par libellés PCG 2026 / mécanisme comptable et arithmétique explicite"
+        "source": "https://www.anc.gouv.fr/files/anc/files/1_Normes_fran%C3%A7aises/Reglements/2026/2026%20homologu%C3%A9/2026_03-JO.pdf",
+        "source_kind": "reglementation_officielle",
+        "scope": "Bilan — produits constatés d’avance",
+        "n": 30,
+        "reviewed_at": "2026-11-07",
+        "review_status": "revue_reglementaire_2026_11_07",
+        "review_method": "contrôle du texte officiel, du champ d’application, de la date d’effet et de la cohérence pédagogique"
       }
     ],
     "bank_version": "2026-10-20-mixte-525"
@@ -11381,22 +11404,23 @@
         "n": 24
       },
       {
-        "q": "À la clôture, une charge appartient à N mais n'a pas encore été facturée. Quelle démarche ?",
+        "q": "Un crypto-actif détenu en 522 présente une perte latente à la clôture. Quels comptes transitoires et traitement du risque prévoit ANC 2026-01 ?",
         "options": {
-          "A": "Attendre le paiement en N+1 sans analyser",
-          "B": "Comptabiliser une charge à payer adaptée",
-          "C": "Comptabiliser une vente fictive",
-          "D": "Augmenter automatiquement le capital"
+          "A": "4752 et reprise de produit",
+          "B": "4742 et provision pour perte latente",
+          "C": "4198 et 709",
+          "D": "418 et 707"
         },
         "correct": "B",
-        "explanation": "L'indépendance des exercices implique de rattacher les charges à la bonne période.",
-        "source": "https://www.anc.gouv.fr/files/anc/files/1_Normes_fran%C3%A7aises/recueil/2026/PCG--1er-janvier-2026.pdf",
+        "explanation": "Les écarts de valeur défavorables des crypto-actifs détenus en 522 sont suivis en 4742 ; une provision pour risque est constituée en cas de perte latente selon les dispositions applicables.",
         "category": "analyse",
-        "review_status": "revue_ciblee_anc_dgfip_2026_10_20",
-        "reviewed_at": "2026-10-20",
-        "review_method": "règle normative identifiée, choix vérifiés et validation structurelle",
-        "source_basis": "PCG",
-        "n": 25
+        "source": "https://www.anc.gouv.fr/reglements-anc-ndeg2026-01-et-anc-ndeg2026-02-du-9-janvier-2026",
+        "source_kind": "reglementation_officielle",
+        "scope": "Bilan — évaluation des crypto-actifs",
+        "n": 25,
+        "reviewed_at": "2026-11-07",
+        "review_status": "revue_reglementaire_2026_11_07",
+        "review_method": "contrôle du texte officiel, du champ d’application, de la date d’effet et de la cohérence pédagogique"
       },
       {
         "n": 26,
@@ -11968,42 +11992,42 @@
         "scope": "Périmètre des hypothèses de l’énoncé"
       },
       {
-        "n": 26,
-        "q": "Un dossier contient 12 factures de vente et 8 d’achat. Combien de pièces contient-il ?",
+        "q": "Selon les sanctions publiées par la CNIL le 9 novembre 2026, quelle mesure aurait notamment manqué pour des comptes administrateurs ?",
         "options": {
-          "A": "21 pièces",
-          "B": "20 pièces",
-          "C": "18 pièces",
-          "D": "96 pièces"
+          "A": "L’authentification multifacteur",
+          "B": "La suppression de toute journalisation",
+          "C": "Un compte partagé pour tous",
+          "D": "La conservation des mots de passe en clair"
         },
-        "correct": "B",
-        "explanation": "12 + 8 = 20 pièces. Le calcul porte uniquement sur les hypothèses indiquées dans l’énoncé.",
-        "category": "calcul",
-        "source": "https://www.anc.gouv.fr/plan-comptable-general-0",
-        "reviewed_at": "2026-10-22",
-        "review_status": "revue_documentaire_ciblee_r9",
-        "review_method": "réponse contrôlée contre la règle ou le principe institutionnel indiqué ; cas fermés explicités ; revue humaine externe non effectuée",
-        "source_basis": "ANC",
-        "scope": "Périmètre des hypothèses de l’énoncé"
+        "correct": "A",
+        "explanation": "La CNIL a notamment relevé l’absence d’authentification multifacteur pour des administrateurs. Les sanctions illustrent les exigences de sécurité déjà prévues à l’article 32 du RGPD ; elles ne créent pas une nouvelle règle.",
+        "category": "notion",
+        "source": "https://www.cnil.fr/fr/sanctions-cybersecurite-collectivites-territoriales",
+        "source_kind": "sanction_officielle_illustrant_RGPD",
+        "scope": "SIC — authentification et article 32 RGPD",
+        "n": 30,
+        "reviewed_at": "2026-11-11",
+        "review_status": "revue_officielle_2026_11_11",
+        "review_method": "contrôle du texte ou de la procédure officielle, de la date d’effet, du champ d’application et de la cohérence pédagogique"
       },
       {
-        "n": 27,
-        "q": "Une facture apparaît deux fois dans une liste de 25 lignes. Si l’on retire la ligne en double, combien reste-t-il de lignes ?",
+        "q": "Depuis le 1er septembre 2026, quelle obligation de facturation électronique concerne toutes les entreprises assujetties à la TVA ?",
         "options": {
-          "A": "23 lignes",
-          "B": "26 lignes",
-          "C": "25 lignes",
-          "D": "24 lignes"
+          "A": "Émettre toutes les factures dès cette date",
+          "B": "Pouvoir recevoir les factures électroniques",
+          "C": "Déposer une CA12 chaque mois",
+          "D": "Transmettre les bulletins de paie à la CNIL"
         },
-        "correct": "D",
-        "explanation": "25 - 1 = 24 lignes. Le calcul porte uniquement sur les hypothèses indiquées dans l’énoncé.",
-        "category": "calcul",
-        "source": "https://www.cnil.fr/fr/guide-de-la-securite-des-donnees-personnelles",
-        "reviewed_at": "2026-10-22",
-        "review_status": "revue_documentaire_ciblee_r9",
-        "review_method": "réponse contrôlée contre la règle ou le principe institutionnel indiqué ; cas fermés explicités ; revue humaine externe non effectuée",
-        "source_basis": "CNIL",
-        "scope": "Périmètre des hypothèses de l’énoncé"
+        "correct": "B",
+        "explanation": "Depuis le 1er septembre 2026, toutes les entreprises assujetties doivent pouvoir recevoir des factures électroniques. L’émission est échelonnée selon la taille de l’entreprise.",
+        "category": "notion",
+        "source": "https://www.cnil.fr/fr/facturation-electronique-quels-enjeux",
+        "source_kind": "doctrine_administrative",
+        "scope": "SIC — calendrier de réception e-invoicing",
+        "n": 27,
+        "reviewed_at": "2026-11-07",
+        "review_status": "revue_reglementaire_2026_11_07",
+        "review_method": "contrôle du texte officiel, du champ d’application, de la date d’effet et de la cohérence pédagogique"
       },
       {
         "n": 28,
@@ -12045,22 +12069,22 @@
       },
       {
         "n": 30,
-        "q": "La vérification de 9 pièces en trouve 2 incomplètes. Combien sont complètes ?",
+        "q": "Un outil de rejeu de session enregistre les clics et la navigation d’un utilisateur. Quel préalable est requis avant son utilisation ?",
         "options": {
-          "A": "9 pièces",
-          "B": "11 pièces",
-          "C": "6 pièces",
-          "D": "7 pièces"
+          "A": "Le consentement préalable aux traceurs, sauf exemption applicable",
+          "B": "Aucun consentement si le site est gratuit",
+          "C": "Le consentement après la première session",
+          "D": "La seule acceptation des conditions générales"
         },
-        "correct": "D",
-        "explanation": "9 - 2 = 7 pièces. Le calcul porte uniquement sur les hypothèses indiquées dans l’énoncé.",
-        "category": "calcul",
-        "source": "https://www.cnil.fr/fr/guide-de-la-securite-des-donnees-personnelles",
-        "reviewed_at": "2026-10-22",
-        "review_status": "revue_documentaire_ciblee_r9",
-        "review_method": "réponse contrôlée contre la règle ou le principe institutionnel indiqué ; cas fermés explicités ; revue humaine externe non effectuée",
-        "source_basis": "CNIL",
-        "scope": "Périmètre des hypothèses de l’énoncé"
+        "correct": "A",
+        "explanation": "La CNIL indique que les outils de rejeu de session utilisent des traceurs et qu’aucune exemption de l’article 82 ne leur est applicable : le consentement préalable doit être recueilli. La recommandation a été publiée le 05/11/2026.",
+        "category": "notion",
+        "source": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000055058587",
+        "source_kind": "recommandation_officielle_non_normative",
+        "scope": "SIC — consentement et rejeu de session",
+        "reviewed_at": "2026-11-08",
+        "review_status": "revue_officielle_2026_11_08",
+        "review_method": "lecture de la délibération CNIL 2026-114 publiée au JORF le 05/11/2026 et recoupement avec les règles CNIL sur les traceurs"
       }
     ]
   },
@@ -12546,23 +12570,23 @@
         "scope": "Périmètre des hypothèses de l’énoncé"
       },
       {
-        "n": 26,
-        "q": "Un lot comporte 125 factures ; 18 attendent validation. Combien peuvent être déjà validées si toutes les autres le sont ?",
+        "q": "Quel contrôle corrige le risque lié à un prestataire disposant d’un accès permanent et d’un compte partagé au réseau ?",
         "options": {
-          "A": "117",
-          "B": "125",
-          "C": "143",
-          "D": "107"
+          "A": "Conserver le compte partagé mais changer le mot de passe chaque année",
+          "B": "Créer un compte nominatif, autorisé au cas par cas, limité dans le temps et revu",
+          "C": "Supprimer les journaux d’accès",
+          "D": "Ouvrir l’accès à tous les prestataires"
         },
-        "correct": "D",
-        "explanation": "125 - 18 = 107 ; le décompte suppose que les autres sont bien validées.",
-        "category": "calcul",
-        "source": "https://www.cnil.fr/fr/guide-de-la-securite-des-donnees-personnelles",
-        "reviewed_at": "2026-10-22",
-        "review_status": "revue_documentaire_ciblee_r9",
-        "review_method": "réponse contrôlée contre la règle ou le principe institutionnel indiqué ; cas fermés explicités ; revue humaine externe non effectuée",
-        "source_basis": "CNIL",
-        "scope": "Périmètre des hypothèses de l’énoncé"
+        "correct": "B",
+        "explanation": "La CNIL a relevé des accès prestataires permanents ou des comptes partagés. Les mesures adaptées sont des comptes individuels, des habilitations limitées au besoin, une autorisation au cas par cas, une durée d’accès bornée et une traçabilité.",
+        "category": "application",
+        "source": "https://www.cnil.fr/fr/sanctions-cybersecurite-collectivites-territoriales",
+        "source_kind": "sanction_officielle_illustrant_RGPD",
+        "scope": "SIC — gestion des accès prestataires",
+        "n": 30,
+        "reviewed_at": "2026-11-11",
+        "review_status": "revue_officielle_2026_11_11",
+        "review_method": "contrôle du texte ou de la procédure officielle, de la date d’effet, du champ d’application et de la cohérence pédagogique"
       },
       {
         "n": 27,
@@ -12623,22 +12647,22 @@
       },
       {
         "n": 30,
-        "q": "Une liste a 80 mouvements dont 12 ne sont pas pointés. Combien sont pointés ?",
+        "q": "Quel est le caractère juridique de la recommandation CNIL sur les outils de rejeu de session, publiée au Journal officiel le 5 novembre 2026 ?",
         "options": {
-          "A": "92 mouvements",
-          "B": "68 mouvements",
-          "C": "70 mouvements",
-          "D": "12 mouvements"
+          "A": "Un nouveau règlement européen directement obligatoire",
+          "B": "Une recommandation non prescriptive qui explicite le cadre légal existant",
+          "C": "Une dérogation générale au RGPD",
+          "D": "Un texte applicable uniquement aux fournisseurs, jamais aux éditeurs"
         },
         "correct": "B",
-        "explanation": "80 - 12 = 68 mouvements pointés.",
-        "category": "calcul",
-        "source": "https://www.anc.gouv.fr/plan-comptable-general-0",
-        "reviewed_at": "2026-10-22",
-        "review_status": "revue_documentaire_ciblee_r9",
-        "review_method": "réponse contrôlée contre la règle ou le principe institutionnel indiqué ; cas fermés explicités ; revue humaine externe non effectuée",
-        "source_basis": "ANC",
-        "scope": "Périmètre des hypothèses de l’énoncé"
+        "explanation": "La délibération CNIL n° 2026-114 précise expressément que la recommandation est non prescriptive et non exhaustive. Elle explicite notamment l’article 82 de la loi Informatique et Libertés et les principes du RGPD.",
+        "category": "application",
+        "source": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000055058587",
+        "source_kind": "recommandation_officielle_non_normative",
+        "scope": "SIC — portée de la recommandation CNIL",
+        "reviewed_at": "2026-11-08",
+        "review_status": "revue_officielle_2026_11_08",
+        "review_method": "lecture de la délibération CNIL 2026-114 publiée au JORF le 05/11/2026 et recoupement avec les règles CNIL sur les traceurs"
       }
     ]
   },
@@ -13162,42 +13186,42 @@
         "scope": "Périmètre des hypothèses de l’énoncé"
       },
       {
-        "n": 28,
-        "q": "Sur 240 factures uniques, 18 sans pièce probante et 12 autres sans validation : combien sont conformes à ces deux contrôles si les ensembles ne se chevauchent pas ?",
+        "q": "La CNIL a publié le 9 novembre 2026 dix sanctions simplifiées contre des organismes publics. Quelle synthèse distingue correctement les obligations illustrées et leur portée ?",
         "options": {
-          "A": "240 factures",
-          "B": "210 factures",
-          "C": "228 factures",
-          "D": "222 factures"
+          "A": "Les sanctions créent une nouvelle loi applicable uniquement aux entreprises privées",
+          "B": "L’article 32 concerne la sécurité ; l’article 35 l’AIPD pour les traitements à risque élevé ; les sanctions illustrent le droit existant et le RGS cité vise les autorités administratives",
+          "C": "Toute entreprise doit homologuer son SI au RGS avant chaque mise en service",
+          "D": "Les journaux, les accès prestataires et les mots de passe ne relèvent pas de la sécurité des données"
         },
         "correct": "B",
-        "explanation": "240 - 18 - 12 = 210 ; autres vérifications possibles non incluses.",
-        "category": "calcul",
-        "source": "https://www.cnil.fr/fr/guide-de-la-securite-des-donnees-personnelles",
-        "reviewed_at": "2026-10-22",
-        "review_status": "revue_documentaire_ciblee_r9",
-        "review_method": "réponse contrôlée contre la règle ou le principe institutionnel indiqué ; cas fermés explicités ; revue humaine externe non effectuée",
-        "source_basis": "CNIL",
-        "scope": "Périmètre des hypothèses de l’énoncé"
+        "explanation": "Les décisions CNIL du 09/11/2026 sanctionnent des manquements aux articles 32 et 35 du RGPD. Elles illustrent des obligations existantes, sans créer de nouvelle règle générale. L’homologation RGS mentionnée dans les décisions concerne les systèmes d’information des autorités administratives, pas toutes les entreprises privées.",
+        "category": "analyse",
+        "source": "https://www.cnil.fr/fr/sanctions-cybersecurite-collectivites-territoriales",
+        "source_kind": "sanction_officielle_illustrant_RGPD",
+        "scope": "SIC — sécurité, AIPD et portée du RGS",
+        "n": 30,
+        "reviewed_at": "2026-11-11",
+        "review_status": "revue_officielle_2026_11_11",
+        "review_method": "contrôle du texte ou de la procédure officielle, de la date d’effet, du champ d’application et de la cohérence pédagogique"
       },
       {
         "n": 29,
-        "q": "Le contrôle de 6 journaux prend 25 minutes chacun, puis la synthèse 40 minutes. Durée totale ?",
+        "q": "Une entreprise utilise un rejeu de session pour détecter des erreurs d’ergonomie. Quel ensemble de mesures correspond à la recommandation CNIL du 5 novembre 2026 ?",
         "options": {
-          "A": "150 minutes",
-          "B": "240 minutes",
-          "C": "190 minutes",
-          "D": "165 minutes"
+          "A": "Enregistrer toutes les saisies et les conserver sans limite",
+          "B": "Définir la finalité avant collecte, recueillir le consentement préalable, masquer les données non nécessaires, limiter les sessions et la conservation",
+          "C": "Se contenter d’une clause dans les CGU et autoriser les comptes partagés",
+          "D": "Réutiliser les sessions pour la publicité sans nouvelle analyse"
         },
-        "correct": "C",
-        "explanation": "6 × 25 + 40 = 190 minutes.",
-        "category": "calcul",
-        "source": "https://www.anc.gouv.fr/plan-comptable-general-0",
-        "reviewed_at": "2026-10-22",
-        "review_status": "revue_documentaire_ciblee_r9",
-        "review_method": "réponse contrôlée contre la règle ou le principe institutionnel indiqué ; cas fermés explicités ; revue humaine externe non effectuée",
-        "source_basis": "ANC",
-        "scope": "Périmètre des hypothèses de l’énoncé"
+        "correct": "B",
+        "explanation": "La recommandation CNIL est non prescriptive, mais détaille comment respecter le droit existant : consentement préalable aux traceurs, information sur les finalités, minimisation, masquage, limitation de conservation et sécurité. Les contenus de formulaires, mots de passe, données bancaires/sensibles et chatbots doivent être protégés.",
+        "category": "analyse",
+        "source": "https://www.cnil.fr/fr/rejeu-de-session-recommandation",
+        "source_kind": "recommandation_officielle_non_normative",
+        "scope": "SIC — garanties techniques du rejeu de session",
+        "reviewed_at": "2026-11-08",
+        "review_status": "revue_officielle_2026_11_08",
+        "review_method": "lecture de la délibération CNIL 2026-114 publiée au JORF le 05/11/2026 et recoupement avec les règles CNIL sur les traceurs"
       },
       {
         "n": 30,
@@ -13707,61 +13731,61 @@
         "scope": "Périmètre des hypothèses de l’énoncé"
       },
       {
-        "n": 26,
-        "q": "Sans autre élément, salaire de base 1 900 € et prime brute 100 €. Quel brut total ?",
+        "q": "Depuis le 1er novembre 2026, quel document remplace le fichier Excel utilisé pour déclarer le congé supplémentaire de naissance ?",
         "options": {
-          "A": "1 900 €",
-          "B": "2 000 €",
-          "C": "1 800 €",
-          "D": "2 100 €"
+          "A": "Un nouveau bulletin de paie",
+          "B": "Un formulaire généré en ligne sur ameli.fr puis déposé en PDF sur le Compte entreprise",
+          "C": "Une déclaration annuelle URSSAF",
+          "D": "Une demande papier adressée à la CNIL"
         },
         "correct": "B",
-        "explanation": "1 900 + 100 = 2 000 € de brut, avant retenues.",
-        "category": "calcul",
-        "source": "https://entreprendre.service-public.gouv.fr/vosdroits/F24013",
-        "reviewed_at": "2026-10-22",
-        "review_status": "revue_documentaire_ciblee_r9",
-        "review_method": "réponse contrôlée contre la règle ou le principe institutionnel indiqué ; cas fermés explicités ; revue humaine externe non effectuée",
-        "source_basis": "COTS",
-        "scope": "Périmètre des hypothèses de l’énoncé"
+        "explanation": "Depuis le 01/11/2026, l’employeur utilise le générateur de formulaire en ligne sur ameli.fr ; le PDF est ensuite déposé sur le Compte entreprise. Le fichier Excel transitoire de juillet à octobre 2026 est remplacé.",
+        "category": "notion",
+        "source": "https://www.ameli.fr/entreprise/actualites/conge-supplementaire-de-naissance-nouveau-formulaire-des-le-1er-novembre",
+        "source_kind": "procedure_administrative_officielle",
+        "scope": "PAIE — formulaire CSN obligatoire depuis le 01/11/2026",
+        "n": 30,
+        "reviewed_at": "2026-11-11",
+        "review_status": "revue_officielle_2026_11_11",
+        "review_method": "contrôle du texte ou de la procédure officielle, de la date d’effet, du champ d’application et de la cohérence pédagogique"
       },
       {
-        "n": 27,
-        "q": "Taux horaire 12 €, heure majorée de 25 %. Quel taux horaire majoré ?",
+        "q": "À partir de quelle date le calcul dérogatoire de la RGDU prévu pour certaines branches s’applique-t-il aux périodes d’emploi ?",
         "options": {
-          "A": "13 €",
-          "B": "15 €",
-          "C": "12,25 €",
-          "D": "18 €"
+          "A": "11 novembre 2026",
+          "B": "12 novembre 2026",
+          "C": "1er janvier 2027",
+          "D": "31 janvier 2027"
         },
-        "correct": "B",
-        "explanation": "12 × 1,25 = 15 €. Le calcul porte uniquement sur les hypothèses indiquées dans l’énoncé.",
-        "category": "calcul",
-        "source": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2391",
-        "reviewed_at": "2026-10-22",
-        "review_status": "revue_documentaire_ciblee_r9",
-        "review_method": "réponse contrôlée contre la règle ou le principe institutionnel indiqué ; cas fermés explicités ; revue humaine externe non effectuée",
-        "source_basis": "HS",
-        "scope": "Périmètre des hypothèses de l’énoncé"
+        "correct": "C",
+        "explanation": "Le décret 2026-1037 entre partiellement en vigueur le 11/11/2026 pour le mécanisme de liste ; les dispositions de calcul dérogatoire s’appliquent aux périodes d’emploi courant à compter du 01/01/2027.",
+        "category": "date_application",
+        "source": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000055075486",
+        "source_kind": "decret_officiel",
+        "scope": "PAIE — RGDU dérogatoire, calendrier",
+        "n": 30,
+        "reviewed_at": "2026-11-11",
+        "review_status": "revue_officielle_2026_11_11",
+        "review_method": "contrôle du texte officiel, de la date d’entrée en vigueur et de la portée sectorielle"
       },
       {
         "n": 28,
-        "q": "À titre simplifié, brut de 2 100 € et retenues salariales de 430 €. Quel net avant les autres ajustements et PAS ?",
+        "q": "La CFP personnelle annuelle d’un entrepreneur individuel (hors régime micro) est-elle la même que la CFP patronale calculée sur la paie des salariés ?",
         "options": {
-          "A": "1 670 €",
-          "B": "1 570 €",
-          "C": "2 100 €",
-          "D": "2 530 €"
+          "A": "Oui, il s’agit toujours d’un prélèvement sur le salaire brut",
+          "B": "Non, ce sont deux contributions distinctes avec des redevables et des bases différents",
+          "C": "Oui, elles sont toutes deux déclarées par le salarié",
+          "D": "La CFP personnelle n’existe pas"
         },
-        "correct": "A",
-        "explanation": "2 100 - 430 = 1 670 € ; situation illustrative simplifiée.",
-        "category": "calcul",
-        "source": "https://entreprendre.service-public.gouv.fr/vosdroits/F24013",
-        "reviewed_at": "2026-10-22",
-        "review_status": "revue_documentaire_ciblee_r9",
-        "review_method": "réponse contrôlée contre la règle ou le principe institutionnel indiqué ; cas fermés explicités ; revue humaine externe non effectuée",
-        "source_basis": "COTS",
-        "scope": "Périmètre des hypothèses de l’énoncé"
+        "correct": "B",
+        "explanation": "La CFP personnelle concerne l’entrepreneur individuel et se règle annuellement en novembre. La CFP employeur est calculée sur la masse salariale et déclarée mensuellement en DSN.",
+        "category": "notion",
+        "source": "https://entreprendre.service-public.gouv.fr/vosdroits/F23459",
+        "source_kind": "reglementation_officielle",
+        "scope": "PAIE — distinguer CFP personnelle et CFP employeur",
+        "reviewed_at": "2026-11-10",
+        "review_status": "revue_reglementaire_2026_11_10",
+        "review_method": "lecture des articles ou fiches officielles, vérification du champ, de la date d’effet et du calcul"
       },
       {
         "n": 29,
@@ -13783,23 +13807,23 @@
         "scope": "Périmètre des hypothèses de l’énoncé"
       },
       {
-        "n": 30,
-        "q": "Taux de PAS 5 % appliqué à une assiette imposable hypothétique de 1 600 €. Quel PAS ?",
+        "q": "Une entreprise a atteint 50 salariés en 2022 et est restée à 50 salariés ou plus jusqu’en 2026. Si l’effectif reste au moins égal à 50, quel taux FNAL s’applique à compter du 1er janvier 2027 après la période de lissage ?",
         "options": {
-          "A": "800 €",
-          "B": "160 €",
-          "C": "80 €",
-          "D": "8 €"
+          "A": "0,10 % sur le salaire plafonné",
+          "B": "0,50 % sur la totalité des rémunérations",
+          "C": "1,00 % sur le salaire net",
+          "D": "Aucune contribution"
         },
-        "correct": "C",
-        "explanation": "1 600 × 0,05 = 80 €, sous l’hypothèse donnée.",
-        "category": "calcul",
-        "source": "https://www.impots.gouv.fr/particulier/je-debute-une-activite-professionnelle",
-        "reviewed_at": "2026-10-22",
-        "review_status": "revue_documentaire_ciblee_r9",
-        "review_method": "réponse contrôlée contre la règle ou le principe institutionnel indiqué ; cas fermés explicités ; revue humaine externe non effectuée",
-        "source_basis": "PAS",
-        "scope": "Périmètre des hypothèses de l’énoncé"
+        "correct": "B",
+        "explanation": "L’Urssaf indique que le dispositif d’atténuation sur cinq années prend fin pour l’exemple d’un franchissement en 2022 maintenu jusqu’en 2026 : le FNAL à 0,50 % sur la totalité s’applique à partir du 1er janvier 2027 si l’effectif demeure au moins égal à 50.",
+        "category": "application",
+        "source": "https://www.urssaf.fr/accueil/employeur/cotisations/liste-cotisations/fonds-national-aide-logement.html",
+        "source_kind": "doctrine_administrative",
+        "scope": "PAIE — FNAL, seuil de 50 salariés",
+        "n": 30,
+        "reviewed_at": "2026-11-07",
+        "review_status": "revue_reglementaire_2026_11_07",
+        "review_method": "contrôle du texte officiel, du champ d’application, de la date d’effet et de la cohérence pédagogique"
       }
     ]
   },
@@ -14290,42 +14314,42 @@
         "scope": "Périmètre des hypothèses de l’énoncé"
       },
       {
-        "n": 26,
-        "q": "Salaire brut 2 350 €, prime brute 180 €, retenue d’absence 70 €. Quel brut corrigé ?",
+        "q": "Pour chaque période de congé supplémentaire de naissance, quelles démarches l’employeur doit-il accomplir ?",
         "options": {
-          "A": "2 420 €",
-          "B": "2 530 €",
-          "C": "2 600 €",
-          "D": "2 460 €"
+          "A": "Le formulaire PDF seul",
+          "B": "Le signalement DSN/DSIJ seul",
+          "C": "Le signalement DSN/DSIJ (ou attestation si indisponible) et le dépôt du formulaire PDF, le même jour dans les cinq jours suivant le début",
+          "D": "Une DSN annuelle à la clôture"
         },
-        "correct": "D",
-        "explanation": "2 350 + 180 - 70 = 2 460 €.",
-        "category": "calcul",
-        "source": "https://entreprendre.service-public.gouv.fr/vosdroits/F24013",
-        "reviewed_at": "2026-10-22",
-        "review_status": "revue_documentaire_ciblee_r9",
-        "review_method": "réponse contrôlée contre la règle ou le principe institutionnel indiqué ; cas fermés explicités ; revue humaine externe non effectuée",
-        "source_basis": "COTS",
-        "scope": "Périmètre des hypothèses de l’énoncé"
+        "correct": "C",
+        "explanation": "Les deux démarches sont distinctes et cumulatives : signalement DSN/DSIJ (ou attestation si le signalement est indisponible) et dépôt du PDF sur le Compte entreprise. Elles sont effectuées le même jour dans les cinq jours suivant le début de chaque période.",
+        "category": "application",
+        "source": "https://entreprendre.service-public.gouv.fr/actualites/A19127",
+        "source_kind": "procedure_administrative_officielle",
+        "scope": "PAIE — deux démarches CSN et délai de cinq jours",
+        "n": 30,
+        "reviewed_at": "2026-11-11",
+        "review_status": "revue_officielle_2026_11_11",
+        "review_method": "contrôle du texte ou de la procédure officielle, de la date d’effet, du champ d’application et de la cohérence pédagogique"
       },
       {
-        "n": 27,
-        "q": "Trois heures supplémentaires majorées de 25 % à partir de 14 € de base : montant total de ces heures ?",
+        "q": "Qui fixe la liste annuelle des branches dont le minimum national professionnel est resté inférieur au SMIC pendant toute l’année précédente, et à quelle échéance ?",
         "options": {
-          "A": "56,00 €",
-          "B": "52,50 €",
-          "C": "42,00 €",
-          "D": "45,50 €"
+          "A": "L’Urssaf, chaque 30 novembre",
+          "B": "Un arrêté conjoint des ministres chargés du travail et de la sécurité sociale, au plus tard le 31 janvier",
+          "C": "Chaque employeur, lors de la DSN de décembre",
+          "D": "L’ANC, à la clôture de l’exercice"
         },
         "correct": "B",
-        "explanation": "3 × 14 × 1,25 = 52,50 €.",
-        "category": "calcul",
-        "source": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2391",
-        "reviewed_at": "2026-10-22",
-        "review_status": "revue_documentaire_ciblee_r9",
-        "review_method": "réponse contrôlée contre la règle ou le principe institutionnel indiqué ; cas fermés explicités ; revue humaine externe non effectuée",
-        "source_basis": "HS",
-        "scope": "Périmètre des hypothèses de l’énoncé"
+        "explanation": "Le nouvel article D. 241-6 prévoit un arrêté conjoint annuel publié au plus tard le 31 janvier, qui liste les branches et, le cas échéant, leur champ territorial.",
+        "category": "application",
+        "source": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000055075486",
+        "source_kind": "decret_officiel",
+        "scope": "PAIE — liste annuelle des branches RGDU",
+        "n": 30,
+        "reviewed_at": "2026-11-11",
+        "review_status": "revue_officielle_2026_11_11",
+        "review_method": "contrôle du texte officiel, de la date d’entrée en vigueur et de la portée sectorielle"
       },
       {
         "n": 28,
@@ -14348,41 +14372,41 @@
       },
       {
         "n": 29,
-        "q": "Une rémunération comporte 2 600 € de brut et 520 € de retenues salariales. Net avant autres ajustements et PAS ?",
+        "q": "Pour un entrepreneur individuel artisan hors régime micro, quel est le montant de la CFP personnelle 2026 ?",
         "options": {
-          "A": "1 980 €",
-          "B": "2 120 €",
-          "C": "2 080 €",
-          "D": "3 120 €"
+          "A": "120 €",
+          "B": "139 €",
+          "C": "163 € dans tous les cas",
+          "D": "0,3 % du salaire brut"
         },
-        "correct": "C",
-        "explanation": "2 600 - 520 = 2 080 € dans ce modèle simplifié.",
+        "correct": "B",
+        "explanation": "Service-Public indique 139 € pour l’activité artisanale hors micro, soit 0,29 % du PASS 2026. Le versement est annuel en novembre.",
         "category": "calcul",
-        "source": "https://entreprendre.service-public.gouv.fr/vosdroits/F24013",
-        "reviewed_at": "2026-10-22",
-        "review_status": "revue_documentaire_ciblee_r9",
-        "review_method": "réponse contrôlée contre la règle ou le principe institutionnel indiqué ; cas fermés explicités ; revue humaine externe non effectuée",
-        "source_basis": "COTS",
-        "scope": "Périmètre des hypothèses de l’énoncé"
+        "source": "https://entreprendre.service-public.gouv.fr/vosdroits/F23459",
+        "source_kind": "reglementation_officielle",
+        "scope": "PAIE — CFP personnelle EI artisan 2026",
+        "reviewed_at": "2026-11-10",
+        "review_status": "revue_reglementaire_2026_11_10",
+        "review_method": "lecture des articles ou fiches officielles, vérification du champ, de la date d’effet et du calcul"
       },
       {
         "n": 30,
-        "q": "À 2 jours ouvrables d’acquisition par mois de maladie non professionnelle, combien en 3 mois complets ?",
+        "q": "Depuis le 1er juin 2026, quel est le SMIC brut horaire du cas général en France hors Mayotte ?",
         "options": {
-          "A": "3 jours",
-          "B": "7,5 jours",
-          "C": "6 jours",
-          "D": "9 jours"
+          "A": "11,88 €",
+          "B": "12,02 €",
+          "C": "12,31 €",
+          "D": "12,50 €"
         },
         "correct": "C",
-        "explanation": "3 × 2 = 6 jours, dans les limites et conditions de la règle légale.",
-        "category": "calcul",
-        "source": "https://www.service-public.gouv.fr/particuliers/vosdroits/F37482",
-        "reviewed_at": "2026-10-22",
-        "review_status": "revue_documentaire_ciblee_r9",
-        "review_method": "réponse contrôlée contre la règle ou le principe institutionnel indiqué ; cas fermés explicités ; revue humaine externe non effectuée",
-        "source_basis": "CP",
-        "scope": "Périmètre des hypothèses de l’énoncé"
+        "explanation": "Le SMIC brut horaire est passé à 12,31 € au 1er juin 2026, soit 1 867,02 € brut mensuel pour 35 heures. Du 1er janvier au 31 mai 2026, il était de 12,02 €.",
+        "category": "notion",
+        "source": "https://www.urssaf.fr/accueil/actualites/augmentation-smic.html",
+        "source_kind": "doctrine_administrative",
+        "scope": "PAIE — SMIC 2026, revalorisation au 01/06/2026",
+        "reviewed_at": "2026-11-07",
+        "review_status": "revue_reglementaire_2026_11_07",
+        "review_method": "contrôle de la publication Urssaf, de la date d’effet et du montant horaire/mensuel"
       }
     ]
   },
@@ -14873,42 +14897,42 @@
         "scope": "Périmètre des hypothèses de l’énoncé"
       },
       {
-        "n": 26,
-        "q": "Sans accord dérogatoire, une semaine comporte 45 h, dont 35 h normales. Combien d’heures majorées à 50 % ?",
+        "q": "Un employeur transmet le signalement DSN/DSIJ d’un congé supplémentaire de naissance mais ne dépose pas le formulaire PDF généré sur ameli.fr. Quelle conclusion est correcte ?",
         "options": {
-          "A": "0 h",
-          "B": "2 h",
-          "C": "8 h",
-          "D": "10 h"
+          "A": "La procédure est complète, la DSN remplace le PDF",
+          "B": "La procédure est incomplète : les deux démarches sont obligatoires et complémentaires",
+          "C": "Le PDF n’est requis que pour les congés de deux mois",
+          "D": "Le formulaire remplace la DSN depuis le 1er novembre"
         },
         "correct": "B",
-        "explanation": "36e à 43e : 8 h à 25 % ; 44e et 45e : 2 h à 50 %.",
-        "category": "calcul",
-        "source": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2391",
-        "reviewed_at": "2026-10-22",
-        "review_status": "revue_documentaire_ciblee_r9",
-        "review_method": "réponse contrôlée contre la règle ou le principe institutionnel indiqué ; cas fermés explicités ; revue humaine externe non effectuée",
-        "source_basis": "HS",
-        "scope": "Périmètre des hypothèses de l’énoncé"
+        "explanation": "Le nouveau formulaire n’a pas supprimé les obligations déclaratives existantes. Pour chaque période, le signalement DSN/DSIJ (ou l’attestation si indisponible) et le dépôt du PDF doivent être effectués le même jour, dans les cinq jours suivant le début.",
+        "category": "analyse",
+        "source": "https://entreprendre.service-public.gouv.fr/actualites/A19127",
+        "source_kind": "procedure_administrative_officielle",
+        "scope": "PAIE — contrôle de complétude de la déclaration CSN",
+        "n": 30,
+        "reviewed_at": "2026-11-11",
+        "review_status": "revue_officielle_2026_11_11",
+        "review_method": "contrôle du texte ou de la procédure officielle, de la date d’effet, du champ d’application et de la cohérence pédagogique"
       },
       {
-        "n": 27,
-        "q": "Salaire base 2 000 €, 4 HS à +25 % sur un taux brut de 15 €, prime 120 €. Quel brut simplifié ?",
+        "q": "Pour une branche figurant sur l’arrêté annuel RGDU, quel montant de référence le décret prévoit-il pour le calcul dérogatoire, sous réserve des conditions de D. 241-7 ?",
         "options": {
-          "A": "2 075 €",
-          "B": "2 195 €",
-          "C": "2 180 €",
-          "D": "2 255 €"
+          "A": "Le SMIC mensuel net multiplié par 12",
+          "B": "Le salaire moyen de l’entreprise divisé par 151,67",
+          "C": "Le minimum national professionnel annuel brut des salariés sans qualification divisé par 1 820 heures",
+          "D": "Le plafond annuel de la Sécurité sociale"
         },
-        "correct": "B",
-        "explanation": "2 000 + 4 × 15 × 1,25 + 120 = 2 195 €.",
-        "category": "calcul",
-        "source": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2391",
-        "reviewed_at": "2026-10-22",
-        "review_status": "revue_documentaire_ciblee_r9",
-        "review_method": "réponse contrôlée contre la règle ou le principe institutionnel indiqué ; cas fermés explicités ; revue humaine externe non effectuée",
-        "source_basis": "HS",
-        "scope": "Périmètre des hypothèses de l’énoncé"
+        "correct": "C",
+        "explanation": "Le montant de référence est déterminé à partir du minimum national professionnel annuel brut des salariés sans qualification, divisé par 1 820 heures. Il faut vérifier l’arrêté annuel, le champ territorial, les situations multi-branches et les conditions/exceptions de D. 241-7.",
+        "category": "analyse",
+        "source": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000055075486",
+        "source_kind": "decret_officiel",
+        "scope": "PAIE — base de calcul RGDU dérogatoire",
+        "n": 30,
+        "reviewed_at": "2026-11-11",
+        "review_status": "revue_officielle_2026_11_11",
+        "review_method": "contrôle du texte officiel, de la date d’entrée en vigueur et de la portée sectorielle"
       },
       {
         "n": 28,
@@ -14931,41 +14955,41 @@
       },
       {
         "n": 29,
-        "q": "Assiette du PAS de 2 450 € et taux de 4 %. Quel montant du prélèvement ?",
+        "q": "Un micro-entrepreneur artisan déclare 40 000 € de chiffre d’affaires annuel. Quel montant de CFP personnelle résulte du taux de 0,3 % ?",
         "options": {
-          "A": "98 €",
-          "B": "245 €",
-          "C": "49 €",
-          "D": "102 €"
+          "A": "40 €",
+          "B": "80 €",
+          "C": "120 €",
+          "D": "139 €"
         },
-        "correct": "A",
-        "explanation": "2 450 × 4 % = 98 €. Le calcul porte uniquement sur les hypothèses indiquées dans l’énoncé.",
+        "correct": "C",
+        "explanation": "40 000 × 0,003 = 120 €. Pour un micro-entrepreneur artisan, la CFP est calculée sur le chiffre d’affaires annuel au taux de 0,3 % et réglée une fois en novembre.",
         "category": "calcul",
-        "source": "https://www.impots.gouv.fr/particulier/je-debute-une-activite-professionnelle",
-        "reviewed_at": "2026-10-22",
-        "review_status": "revue_documentaire_ciblee_r9",
-        "review_method": "réponse contrôlée contre la règle ou le principe institutionnel indiqué ; cas fermés explicités ; revue humaine externe non effectuée",
-        "source_basis": "PAS",
-        "scope": "Périmètre des hypothèses de l’énoncé"
+        "source": "https://entreprendre.service-public.gouv.fr/vosdroits/F23459",
+        "source_kind": "reglementation_officielle",
+        "scope": "PAIE — calcul CFP micro-entrepreneur artisan",
+        "reviewed_at": "2026-11-10",
+        "review_status": "revue_reglementaire_2026_11_10",
+        "review_method": "lecture des articles ou fiches officielles, vérification du champ, de la date d’effet et du calcul"
       },
       {
-        "n": 30,
-        "q": "Coût employeur simplifié : salaire brut 2 800 €, cotisations patronales nettes 900 €, aides imputées 100 €. Total ?",
+        "q": "Quel taux de contribution vieillesse employeur CNRACL est prévu à compter du 1er janvier 2027 pour les employeurs territoriaux et hospitaliers publics concernés ?",
         "options": {
-          "A": "3 600 €",
-          "B": "3 700 €",
-          "C": "2 700 €",
-          "D": "3 800 €"
+          "A": "37,65 %",
+          "B": "40,65 %",
+          "C": "43,65 %",
+          "D": "25,00 %"
         },
-        "correct": "A",
-        "explanation": "2 800 + 900 - 100 = 3 600 € dans ce scénario simplifié.",
-        "category": "calcul",
-        "source": "https://entreprendre.service-public.gouv.fr/vosdroits/F24013",
-        "reviewed_at": "2026-10-22",
-        "review_status": "revue_documentaire_ciblee_r9",
-        "review_method": "réponse contrôlée contre la règle ou le principe institutionnel indiqué ; cas fermés explicités ; revue humaine externe non effectuée",
-        "source_basis": "COTS",
-        "scope": "Périmètre des hypothèses de l’énoncé"
+        "correct": "B",
+        "explanation": "Le décret n° 2025-86 prévoit 40,65 % à compter du 1er janvier 2027, après 37,65 % en 2026 et avant 43,65 % en 2028.",
+        "category": "notion",
+        "source": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000051070354/",
+        "source_kind": "reglementation_officielle",
+        "scope": "PAIE — taux CNRACL 2027",
+        "n": 30,
+        "reviewed_at": "2026-11-07",
+        "review_status": "revue_reglementaire_2026_11_07",
+        "review_method": "contrôle du texte officiel, du champ d’application, de la date d’effet et de la cohérence pédagogique"
       }
     ]
   },
@@ -14985,16 +15009,15 @@
           "D": "La date du prochain congé"
         },
         "correct": "A",
-        "explanation": "Un produit, une commande, un client ou un service peut être un objet de coût. Définition : Valeur des ressources retenues pour un objet donné, sur une période et selon une méthode définies. Un coût peut concerner un produit, une commande, un service ou une activité.",
+        "explanation": "Un produit, une commande, un client ou un service peut être un objet de coût.",
         "category": "notion",
         "reviewed_at": "2026-10-27",
-        "review_status": "revue_definitions_r12_7_2",
-        "review_method": "lecture des quatre livrets ; corrections documentées ; cas fermés ; recalcul Decimal et contrôle indépendant des identités ; revue externe non réalisée ; définition harmonisée avec le lexique commun, PCG 2026 et Code de commerce pour les règles juridiques",
+        "review_status": "revue_pedagogique_couts_r12_6",
+        "review_method": "lecture des quatre livrets ; corrections documentées ; cas fermés ; recalcul Decimal et contrôle indépendant des identités ; revue externe non réalisée",
         "source": "https://comptachallenges.netlify.app/cours-complets/10_COURS_ANALYSE_COUTS_2026.pdf",
         "source_kind": "cours_issu_livrets_fournis",
         "source_basis": "Livrets J1-J4 fournis et chapitre correspondant du cours ; hypothèses indiquées dans le cas",
-        "scope": "Hypothèses explicites du cas, montants HT sauf indication contraire",
-        "definition_id": "cout"
+        "scope": "Hypothèses explicites du cas, montants HT sauf indication contraire"
       },
       {
         "n": 2,
@@ -15030,16 +15053,15 @@
           "D": "Toujours fixe"
         },
         "correct": "C",
-        "explanation": "La consommation est rattachée au modèle sans clé de répartition. Définition : Charges que l’on rattache à un objet de coût déterminé sans passer par une répartition entre plusieurs objets.",
+        "explanation": "La consommation est rattachée au modèle sans clé de répartition.",
         "category": "notion",
         "reviewed_at": "2026-10-27",
-        "review_status": "revue_definitions_r12_7_2",
-        "review_method": "lecture des quatre livrets ; corrections documentées ; cas fermés ; recalcul Decimal et contrôle indépendant des identités ; revue externe non réalisée ; définition harmonisée avec le lexique commun, PCG 2026 et Code de commerce pour les règles juridiques",
+        "review_status": "revue_pedagogique_couts_r12_6",
+        "review_method": "lecture des quatre livrets ; corrections documentées ; cas fermés ; recalcul Decimal et contrôle indépendant des identités ; revue externe non réalisée",
         "source": "https://comptachallenges.netlify.app/cours-complets/10_COURS_ANALYSE_COUTS_2026.pdf",
         "source_kind": "cours_issu_livrets_fournis",
         "source_basis": "Livrets J1-J4 fournis et chapitre correspondant du cours ; hypothèses indiquées dans le cas",
-        "scope": "Hypothèses explicites du cas, montants HT sauf indication contraire",
-        "definition_id": "directes"
+        "scope": "Hypothèses explicites du cas, montants HT sauf indication contraire"
       },
       {
         "n": 4,
@@ -15111,24 +15133,23 @@
       },
       {
         "n": 7,
-        "q": "Dans un calcul de coût, que désignent les charges incorporables ?",
+        "q": "Quel document décrit les entrées, sorties et soldes d’une référence ?",
         "options": {
-          "A": "Uniquement les charges directes",
-          "B": "Les seuls dividendes versés",
-          "C": "Les charges comptables retenues pour le coût étudié",
-          "D": "Toutes les sorties du compte bancaire"
+          "A": "Le seul relevé bancaire",
+          "B": "Une facture de vente isolée",
+          "C": "La fiche de stock",
+          "D": "La liste des mots de passe"
         },
         "correct": "C",
-        "explanation": "Charges comptables que l’on retient pour construire le coût étudié parce qu’elles sont pertinentes pour son objet, sa période et la méthode choisie. Incorporable n’est pas synonyme de payé, direct ou fiscalement déductible. Une charge non incorporable reste enregistrée dans les comptes lorsqu’elle doit l’être.",
+        "explanation": "La fiche suit les quantités et les valeurs disponibles.",
         "category": "notion",
         "reviewed_at": "2026-10-27",
-        "review_status": "revue_definitions_r12_7_2",
-        "review_method": "lecture des quatre livrets ; corrections documentées ; cas fermés ; recalcul Decimal et contrôle indépendant des identités ; revue externe non réalisée ; définition harmonisée avec le lexique commun, PCG 2026 et Code de commerce pour les règles juridiques",
+        "review_status": "revue_pedagogique_couts_r12_6",
+        "review_method": "lecture des quatre livrets ; corrections documentées ; cas fermés ; recalcul Decimal et contrôle indépendant des identités ; revue externe non réalisée",
         "source": "https://comptachallenges.netlify.app/cours-complets/10_COURS_ANALYSE_COUTS_2026.pdf",
         "source_kind": "cours_issu_livrets_fournis",
         "source_basis": "Livrets J1-J4 fournis et chapitre correspondant du cours ; hypothèses indiquées dans le cas",
-        "scope": "Hypothèses explicites du cas, montants HT sauf indication contraire",
-        "definition_id": "incorporables"
+        "scope": "Hypothèses explicites du cas, montants HT sauf indication contraire"
       },
       {
         "n": 8,
@@ -15140,16 +15161,15 @@
           "D": "Non, elle utilise une hypothèse à justifier"
         },
         "correct": "D",
-        "explanation": "Une clé peut être utile mais reste un modèle de répartition. Définition : Critère de partage d’une charge commune entre plusieurs centres ou objets de coût, par exemple la surface, les effectifs ou le nombre de commandes.",
+        "explanation": "Une clé peut être utile mais reste un modèle de répartition.",
         "category": "analyse",
         "reviewed_at": "2026-10-27",
-        "review_status": "revue_definitions_r12_7_2",
-        "review_method": "lecture des quatre livrets ; corrections documentées ; cas fermés ; recalcul Decimal et contrôle indépendant des identités ; revue externe non réalisée ; définition harmonisée avec le lexique commun, PCG 2026 et Code de commerce pour les règles juridiques",
+        "review_status": "revue_pedagogique_couts_r12_6",
+        "review_method": "lecture des quatre livrets ; corrections documentées ; cas fermés ; recalcul Decimal et contrôle indépendant des identités ; revue externe non réalisée",
         "source": "https://comptachallenges.netlify.app/cours-complets/10_COURS_ANALYSE_COUTS_2026.pdf",
         "source_kind": "cours_issu_livrets_fournis",
         "source_basis": "Livrets J1-J4 fournis et chapitre correspondant du cours ; hypothèses indiquées dans le cas",
-        "scope": "Hypothèses explicites du cas, montants HT sauf indication contraire",
-        "definition_id": "cle"
+        "scope": "Hypothèses explicites du cas, montants HT sauf indication contraire"
       },
       {
         "n": 9,
@@ -15229,16 +15249,15 @@
           "D": "Non, c’est une évaluation analytique"
         },
         "correct": "D",
-        "explanation": "L’élément supplétif ne prouve ni une charge comptable ni un flux de trésorerie. Définition : Évaluations ajoutées aux coûts de gestion alors qu’elles ne figurent pas comme charges dans la comptabilité générale. Elles rendent visible une ressource utilisée sans charge comptable correspondante.",
+        "explanation": "L’élément supplétif ne prouve ni une charge comptable ni un flux de trésorerie.",
         "category": "analyse",
         "reviewed_at": "2026-10-27",
-        "review_status": "revue_definitions_r12_7_2",
-        "review_method": "lecture des quatre livrets ; corrections documentées ; cas fermés ; recalcul Decimal et contrôle indépendant des identités ; revue externe non réalisée ; définition harmonisée avec le lexique commun, PCG 2026 et Code de commerce pour les règles juridiques",
+        "review_status": "revue_pedagogique_couts_r12_6",
+        "review_method": "lecture des quatre livrets ; corrections documentées ; cas fermés ; recalcul Decimal et contrôle indépendant des identités ; revue externe non réalisée",
         "source": "https://comptachallenges.netlify.app/cours-complets/10_COURS_ANALYSE_COUTS_2026.pdf",
         "source_kind": "cours_issu_livrets_fournis",
         "source_basis": "Livrets J1-J4 fournis et chapitre correspondant du cours ; hypothèses indiquées dans le cas",
-        "scope": "Hypothèses explicites du cas, montants HT sauf indication contraire",
-        "definition_id": "suppletives"
+        "scope": "Hypothèses explicites du cas, montants HT sauf indication contraire"
       },
       {
         "n": 13,
@@ -15274,16 +15293,15 @@
           "D": "Supprimer toute assurance du coût"
         },
         "correct": "B",
-        "explanation": "Le tableau de passage doit éviter de doubler les corrections de période. Définition : Répartir une charge prévue sur plusieurs périodes de gestion afin que chaque période supporte sa part. Cette pratique s’appelle l’abonnement des charges.",
+        "explanation": "Le tableau de passage doit éviter de doubler les corrections de période.",
         "category": "application",
         "reviewed_at": "2026-10-27",
-        "review_status": "revue_definitions_r12_7_2",
-        "review_method": "lecture des quatre livrets ; corrections documentées ; cas fermés ; recalcul Decimal et contrôle indépendant des identités ; revue externe non réalisée ; définition harmonisée avec le lexique commun, PCG 2026 et Code de commerce pour les règles juridiques",
+        "review_status": "revue_pedagogique_couts_r12_6",
+        "review_method": "lecture des quatre livrets ; corrections documentées ; cas fermés ; recalcul Decimal et contrôle indépendant des identités ; revue externe non réalisée",
         "source": "https://comptachallenges.netlify.app/cours-complets/10_COURS_ANALYSE_COUTS_2026.pdf",
         "source_kind": "cours_issu_livrets_fournis",
         "source_basis": "Livrets J1-J4 fournis et chapitre correspondant du cours ; hypothèses indiquées dans le cas",
-        "scope": "Hypothèses explicites du cas, montants HT sauf indication contraire",
-        "definition_id": "abonnement"
+        "scope": "Hypothèses explicites du cas, montants HT sauf indication contraire"
       },
       {
         "n": 15,
@@ -15663,24 +15681,23 @@
     "questions": [
       {
         "n": 1,
-        "q": "Que signifie amortir une immobilisation utilisée dans l’activité ?",
+        "q": "Comment classer le salaire mensuel fixe d’un salarié affecté uniquement au produit A ?",
         "options": {
-          "A": "Répartir son montant amortissable selon son utilisation prévue",
-          "B": "Rembourser automatiquement son emprunt",
-          "C": "Mettre chaque année la même somme en banque",
-          "D": "Constater uniquement son prix de revente"
+          "A": "Direct et fixe pour A",
+          "B": "Indirect et variable obligatoirement",
+          "C": "Supplétif uniquement",
+          "D": "Toujours non incorporable"
         },
         "correct": "A",
-        "explanation": "Répartition du montant amortissable d’un actif en charges, au rythme de son utilisation prévue. Elle traduit la consommation des avantages que le bien apporte à l’entreprise. Ce n’est ni un paiement annuel, ni une réserve d’argent, ni le remboursement d’un emprunt. Une dépréciation répond à une autre question : la perte de valeur.",
+        "explanation": "Le rattachement et le comportement sont deux axes indépendants.",
         "category": "notion",
         "reviewed_at": "2026-10-27",
-        "review_status": "revue_definitions_r12_7_2",
-        "review_method": "lecture des quatre livrets ; corrections documentées ; cas fermés ; recalcul Decimal et contrôle indépendant des identités ; revue externe non réalisée ; définition harmonisée avec le lexique commun, PCG 2026 et Code de commerce pour les règles juridiques",
-        "source": "https://www.anc.gouv.fr/files/anc/files/1_Normes_fran%C3%A7aises/recueil/2026/PCG--1er-janvier-2026.pdf",
-        "source_kind": "officielle",
+        "review_status": "revue_pedagogique_couts_r12_6",
+        "review_method": "lecture des quatre livrets ; corrections documentées ; cas fermés ; recalcul Decimal et contrôle indépendant des identités ; revue externe non réalisée",
+        "source": "https://comptachallenges.netlify.app/cours-complets/10_COURS_ANALYSE_COUTS_2026.pdf",
+        "source_kind": "cours_issu_livrets_fournis",
         "source_basis": "Livrets J1-J4 fournis et chapitre correspondant du cours ; hypothèses indiquées dans le cas",
-        "scope": "Hypothèses explicites du cas, montants HT sauf indication contraire",
-        "definition_id": "amortissement"
+        "scope": "Hypothèses explicites du cas, montants HT sauf indication contraire"
       },
       {
         "n": 2,
@@ -15692,16 +15709,15 @@
           "D": "Non incorporable automatiquement"
         },
         "correct": "B",
-        "explanation": "Indirect ne signifie pas fixe ; les deux classements se croisent. Définition : Charges communes à plusieurs objets de coût qui nécessitent un traitement de répartition avant leur imputation à chaque objet.",
+        "explanation": "Indirect ne signifie pas fixe ; les deux classements se croisent.",
         "category": "analyse",
         "reviewed_at": "2026-10-27",
-        "review_status": "revue_definitions_r12_7_2",
-        "review_method": "lecture des quatre livrets ; corrections documentées ; cas fermés ; recalcul Decimal et contrôle indépendant des identités ; revue externe non réalisée ; définition harmonisée avec le lexique commun, PCG 2026 et Code de commerce pour les règles juridiques",
+        "review_status": "revue_pedagogique_couts_r12_6",
+        "review_method": "lecture des quatre livrets ; corrections documentées ; cas fermés ; recalcul Decimal et contrôle indépendant des identités ; revue externe non réalisée",
         "source": "https://comptachallenges.netlify.app/cours-complets/10_COURS_ANALYSE_COUTS_2026.pdf",
         "source_kind": "cours_issu_livrets_fournis",
         "source_basis": "Livrets J1-J4 fournis et chapitre correspondant du cours ; hypothèses indiquées dans le cas",
-        "scope": "Hypothèses explicites du cas, montants HT sauf indication contraire",
-        "definition_id": "indirectes"
+        "scope": "Hypothèses explicites du cas, montants HT sauf indication contraire"
       },
       {
         "n": 3,
@@ -15713,16 +15729,15 @@
           "D": "Créer des coûts supplémentaires"
         },
         "correct": "C",
-        "explanation": "L’auxiliaire rend un service ; son coût est redistribué sans créer de charge. Définition : Mesures physiques de l’activité d’un centre d’analyse utilisées pour imputer ses charges aux objets de coût qui consomment cette activité.",
+        "explanation": "L’auxiliaire rend un service ; son coût est redistribué sans créer de charge.",
         "category": "notion",
         "reviewed_at": "2026-10-27",
-        "review_status": "revue_definitions_r12_7_2",
-        "review_method": "lecture des quatre livrets ; corrections documentées ; cas fermés ; recalcul Decimal et contrôle indépendant des identités ; revue externe non réalisée ; définition harmonisée avec le lexique commun, PCG 2026 et Code de commerce pour les règles juridiques",
+        "review_status": "revue_pedagogique_couts_r12_6",
+        "review_method": "lecture des quatre livrets ; corrections documentées ; cas fermés ; recalcul Decimal et contrôle indépendant des identités ; revue externe non réalisée",
         "source": "https://comptachallenges.netlify.app/cours-complets/10_COURS_ANALYSE_COUTS_2026.pdf",
         "source_kind": "cours_issu_livrets_fournis",
         "source_basis": "Livrets J1-J4 fournis et chapitre correspondant du cours ; hypothèses indiquées dans le cas",
-        "scope": "Hypothèses explicites du cas, montants HT sauf indication contraire",
-        "definition_id": "uo"
+        "scope": "Hypothèses explicites du cas, montants HT sauf indication contraire"
       },
       {
         "n": 4,
@@ -16362,24 +16377,23 @@
     "questions": [
       {
         "n": 1,
-        "q": "En principe, quel ensemble de critères justifie le classement d’une charge en résultat exceptionnel selon le PCG actuel ?",
+        "q": "Le coût d’un centre semble baisser après un changement de clé, sans dépense économisée. Quelle analyse est correcte ?",
         "options": {
-          "A": "Un lien direct avec un événement majeur et inhabituel",
-          "B": "Le simple fait que la dépense n’était pas budgétée",
-          "C": "Le seul fait que le montant n’est pas arrondi",
-          "D": "Toute facture reçue après un retard de paiement"
+          "A": "La répartition a changé ; l’économie totale n’est pas démontrée",
+          "B": "Une économie bancaire est certaine",
+          "C": "Le chiffre d’affaires a augmenté",
+          "D": "Les charges sont devenues directes"
         },
         "correct": "A",
-        "explanation": "Charges classées dans le résultat exceptionnel selon les critères du PCG. Le principe vise celles qui sont directement liées à un événement à la fois majeur et inhabituel. Rare ou imprévu ne suffit pas. Une amende n’est pas automatiquement exceptionnelle. Le classement comptable ne décide pas, à lui seul, de l’incorporation au coût de gestion ou de la déductibilité fiscale.",
+        "explanation": "Un transfert de coût entre objets n’est pas une diminution de ressources consommées.",
         "category": "analyse",
         "reviewed_at": "2026-10-27",
-        "review_status": "revue_definitions_r12_7_2",
-        "review_method": "lecture des quatre livrets ; corrections documentées ; cas fermés ; recalcul Decimal et contrôle indépendant des identités ; revue externe non réalisée ; définition harmonisée avec le lexique commun, PCG 2026 et Code de commerce pour les règles juridiques",
-        "source": "https://www.anc.gouv.fr/files/anc/files/1_Normes_fran%C3%A7aises/recueil/2026/PCG--1er-janvier-2026.pdf",
-        "source_kind": "officielle",
+        "review_status": "revue_pedagogique_couts_r12_6",
+        "review_method": "lecture des quatre livrets ; corrections documentées ; cas fermés ; recalcul Decimal et contrôle indépendant des identités ; revue externe non réalisée",
+        "source": "https://comptachallenges.netlify.app/cours-complets/10_COURS_ANALYSE_COUTS_2026.pdf",
+        "source_kind": "cours_issu_livrets_fournis",
         "source_basis": "Livrets J1-J4 fournis et chapitre correspondant du cours ; hypothèses indiquées dans le cas",
-        "scope": "Hypothèses explicites du cas, montants HT sauf indication contraire",
-        "definition_id": "exceptionnelles"
+        "scope": "Hypothèses explicites du cas, montants HT sauf indication contraire"
       },
       {
         "n": 2,
@@ -16639,24 +16653,23 @@
       },
       {
         "n": 14,
-        "q": "Pour la société qui distribue, quelle est la nature de dividendes régulièrement décidés ?",
+        "q": "Un poste de 4 000 € s’intitule remboursement d’emprunt sans ventilation. Peut-on connaître les intérêts à incorporer ?",
         "options": {
-          "A": "Un remboursement obligatoire du capital de tout emprunt",
-          "B": "Une affectation des capitaux propres, sans charge de résultat",
-          "C": "Une charge d’exploitation systématique",
-          "D": "Une charge supplétive automatique égale au dividende"
+          "A": "Oui, toujours 20 %",
+          "B": "Non, il faut le tableau d’amortissement ou la ventilation",
+          "C": "Oui, toujours 4 000 €",
+          "D": "Oui, toujours zéro"
         },
         "correct": "B",
-        "explanation": "Sommes distribuées aux associés ou actionnaires sur les montants légalement distribuables, après une décision de l’organe compétent. Il s’agit d’une affectation des capitaux propres. Pour la société qui distribue, les dividendes ne sont pas une charge et ne diminuent pas son résultat comptable. Ils ne sont pas automatiquement un coût supplétif. Chez le bénéficiaire, le traitement est différent.",
+        "explanation": "Le capital et les intérêts n’ont pas le même traitement ; le libellé ne fournit pas la ventilation.",
         "category": "analyse",
         "reviewed_at": "2026-10-27",
-        "review_status": "revue_definitions_r12_7_2",
-        "review_method": "lecture des quatre livrets ; corrections documentées ; cas fermés ; recalcul Decimal et contrôle indépendant des identités ; revue externe non réalisée ; définition harmonisée avec le lexique commun, PCG 2026 et Code de commerce pour les règles juridiques",
-        "source": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000005634379/LEGISCTA000006161291/",
+        "review_status": "revue_pedagogique_couts_r12_6",
+        "review_method": "lecture des quatre livrets ; corrections documentées ; cas fermés ; recalcul Decimal et contrôle indépendant des identités ; revue externe non réalisée",
+        "source": "https://www.anc.gouv.fr/files/anc/files/1_Normes_fran%C3%A7aises/recueil/2026/PCG--1er-janvier-2026.pdf",
         "source_kind": "officielle",
         "source_basis": "Livrets J1-J4 fournis et chapitre correspondant du cours ; hypothèses indiquées dans le cas",
-        "scope": "Hypothèses explicites du cas, montants HT sauf indication contraire",
-        "definition_id": "dividendes"
+        "scope": "Hypothèses explicites du cas, montants HT sauf indication contraire"
       },
       {
         "n": 15,
@@ -17603,27 +17616,23 @@
         }
       },
       {
-        "n": 30,
-        "q": "Risque documenté : provision nécessaire 1200 €, provision existante 600 €, aucun autre mouvement. Quelle dotation complémentaire ?",
+        "q": "Un produit de vente est acquis à N car le service est réalisé avant la clôture, mais il n’est pas facturé au 31 décembre. Quel compte utiliser ?",
         "options": {
-          "A": "601,00 €",
-          "B": "610,00 €",
-          "C": "600,00 €",
-          "D": "700,00 €"
+          "A": "487",
+          "B": "418",
+          "C": "4198",
+          "D": "709"
         },
-        "correct": "C",
-        "explanation": "1200-600 = 600,00 €. On ajuste la provision existante, sans comptabiliser deux fois le besoin total.",
-        "category": "calcul",
-        "source": "https://www.anc.gouv.fr/files/anc/files/1_Normes_fran%C3%A7aises/recueil/2026/PCG--1er-janvier-2026.pdf",
-        "source_kind": "cas_pedagogique_reference_officielle",
-        "reviewed_at": "2026-10-27",
-        "review_status": "revue_programme_r12_7",
-        "review_method": "notion rattachée au cours ; hypothèses fermées ; calculs Decimal et identités indépendantes ; pas de certification externe",
-        "scope": "France ; règles et exclusions du cas ; sources vérifiées le 27 octobre 2026",
-        "calculation_check": {
-          "expression": "1200-600",
-          "expected": "600"
-        }
+        "correct": "B",
+        "explanation": "Le compte 418 enregistre les produits acquis correspondant à des biens livrés ou services réalisés pendant l’exercice mais non facturés à la clôture.",
+        "category": "application",
+        "source": "https://www.anc.gouv.fr/files/anc/files/1_Normes_fran%C3%A7aises/Reglements/2026/2026%20homologu%C3%A9/2026_03-JO.pdf",
+        "source_kind": "reglementation_officielle",
+        "scope": "Clôture — rattachement des produits à recevoir",
+        "n": 30,
+        "reviewed_at": "2026-11-07",
+        "review_status": "revue_reglementaire_2026_11_07",
+        "review_method": "contrôle du texte officiel, du champ d’application, de la date d’effet et de la cohérence pédagogique"
       }
     ]
   },
@@ -18205,27 +18214,23 @@
         }
       },
       {
-        "n": 30,
-        "q": "Risque documenté : provision nécessaire 2400 €, provision existante 1200 €, aucun autre mouvement. Quelle dotation complémentaire ?",
+        "q": "Une vente donne au client un droit à réduction utilisable lors d’un achat futur. Quelle méthode est la méthode de référence selon ANC 2026-03 ?",
         "options": {
-          "A": "1 300,00 €",
-          "B": "1 201,00 €",
-          "C": "1 210,00 €",
-          "D": "1 200,00 €"
+          "A": "Comptabiliser immédiatement tout le produit sans ajustement",
+          "B": "Constater la valeur estimée du droit en 487 jusqu’à utilisation ou péremption",
+          "C": "Débiter 607",
+          "D": "Créditer 512"
         },
-        "correct": "D",
-        "explanation": "2400-1200 = 1 200,00 €. On ajuste la provision existante, sans comptabiliser deux fois le besoin total.",
-        "category": "calcul",
-        "source": "https://www.anc.gouv.fr/files/anc/files/1_Normes_fran%C3%A7aises/recueil/2026/PCG--1er-janvier-2026.pdf",
-        "source_kind": "cas_pedagogique_reference_officielle",
-        "reviewed_at": "2026-10-27",
-        "review_status": "revue_programme_r12_7",
-        "review_method": "notion rattachée au cours ; hypothèses fermées ; calculs Decimal et identités indépendantes ; pas de certification externe",
-        "scope": "France ; règles et exclusions du cas ; sources vérifiées le 27 octobre 2026",
-        "calculation_check": {
-          "expression": "2400-1200",
-          "expected": "1200"
-        }
+        "correct": "B",
+        "explanation": "L’article 522-10 retient comme méthode de référence la comptabilisation de la valeur estimée des droits à réduction ou avantages futurs en produits constatés d’avance au compte 487, jusqu’à leur utilisation ou péremption.",
+        "category": "notion",
+        "source": "https://www.anc.gouv.fr/files/anc/files/1_Normes_fran%C3%A7aises/Reglements/2026/2026%20homologu%C3%A9/2026_03-JO.pdf",
+        "source_kind": "reglementation_officielle",
+        "scope": "Clôture — droits à réductions futures",
+        "n": 30,
+        "reviewed_at": "2026-11-07",
+        "review_status": "revue_reglementaire_2026_11_07",
+        "review_method": "contrôle du texte officiel, du champ d’application, de la date d’effet et de la cohérence pédagogique"
       }
     ]
   },
@@ -18807,27 +18812,23 @@
         }
       },
       {
-        "n": 30,
-        "q": "Risque documenté : provision nécessaire 3600 €, provision existante 1800 €, aucun autre mouvement. Quelle dotation complémentaire ?",
+        "q": "Un contrat à long terme présente une perte globale probable de 40 000 € ; 15 000 € ont déjà été comptabilisés. Quel complément faut-il provisionner ?",
         "options": {
-          "A": "1 800,00 €",
-          "B": "1 900,00 €",
-          "C": "1 801,00 €",
-          "D": "1 810,00 €"
+          "A": "Aucun avant l’achèvement",
+          "B": "15 000 €",
+          "C": "25 000 €",
+          "D": "40 000 € en plus des pertes déjà constatées"
         },
-        "correct": "A",
-        "explanation": "3600-1800 = 1 800,00 €. On ajuste la provision existante, sans comptabiliser deux fois le besoin total.",
+        "correct": "C",
+        "explanation": "La perte globale probable est provisionnée immédiatement, sous déduction des pertes déjà constatées : 40 000 € − 15 000 € = 25 000 € de complément.",
         "category": "calcul",
-        "source": "https://www.anc.gouv.fr/files/anc/files/1_Normes_fran%C3%A7aises/recueil/2026/PCG--1er-janvier-2026.pdf",
-        "source_kind": "cas_pedagogique_reference_officielle",
-        "reviewed_at": "2026-10-27",
-        "review_status": "revue_programme_r12_7",
-        "review_method": "notion rattachée au cours ; hypothèses fermées ; calculs Decimal et identités indépendantes ; pas de certification externe",
-        "scope": "France ; règles et exclusions du cas ; sources vérifiées le 27 octobre 2026",
-        "calculation_check": {
-          "expression": "3600-1800",
-          "expected": "1800"
-        }
+        "source": "https://www.anc.gouv.fr/files/anc/files/1_Normes_fran%C3%A7aises/Reglements/2026/2026%20homologu%C3%A9/2026_03-JO.pdf",
+        "source_kind": "reglementation_officielle",
+        "scope": "Clôture — contrats à long terme, pertes à terminaison",
+        "n": 30,
+        "reviewed_at": "2026-11-07",
+        "review_status": "revue_reglementaire_2026_11_07",
+        "review_method": "contrôle du texte officiel, du champ d’application, de la date d’effet et de la cohérence pédagogique"
       }
     ]
   },
@@ -19142,23 +19143,23 @@
         "scope": "France ; règles et exclusions du cas ; sources vérifiées le 27 octobre 2026"
       },
       {
-        "n": 17,
-        "q": "Quel piège faut-il éviter pour « Identifier les obligations et les échéances » ?",
+        "q": "À compter du 1er janvier 2027, quel est l’effet de l’ajout des lamibois, bois lamellés-collés et bois lamellés-croisés à la clause d’exception de l’article A. 471-36 du CIBS ?",
         "options": {
-          "A": "Une pratique interne devient automatiquement une obligation légale pour tous.",
-          "B": "Ne pas déduire le régime fiscal de la seule dénomination commerciale.",
-          "C": "Un résultat calculé suffit toujours, sans pièce ni contrôle.",
-          "D": "Une règle future peut être appliquée avant sa date sans examen du texte."
+          "A": "Ils deviennent automatiquement soumis à la taxe",
+          "B": "Ils sont ajoutés aux exceptions de la catégorie « panneaux à base de bois »",
+          "C": "Ils bénéficient d’une exonération générale de TVA",
+          "D": "Le taux de la taxe est porté à 0 % pour toute l’industrie"
         },
         "correct": "B",
-        "explanation": "Le contrôle utile est le suivant : Ne pas déduire le régime fiscal de la seule dénomination commerciale. Une obligation = régime + période + base + échéance + preuve.",
-        "category": "analyse",
-        "source": "https://entreprendre.service-public.gouv.fr/vosdroits/F23575",
-        "source_kind": "cas_pedagogique_reference_officielle",
-        "reviewed_at": "2026-10-27",
-        "review_status": "revue_programme_r12_7",
-        "review_method": "notion rattachée au cours ; hypothèses fermées ; calculs Decimal et identités indépendantes ; pas de certification externe",
-        "scope": "France ; règles et exclusions du cas ; sources vérifiées le 27 octobre 2026"
+        "explanation": "L’arrêté du 06/11/2026 ajoute ces produits à la clause « à l’exception de… » de la catégorie des panneaux à base de bois. Ils sont donc exclus de cette catégorie taxable à compter du 01/01/2027.",
+        "category": "notion",
+        "source": "https://www.legifrance.gouv.fr/eli/jo/2026/11/8/0262",
+        "source_kind": "arrete_reglementaire",
+        "scope": "Fiscalité — taxe des industries du bois, art. A.471-36 CIBS",
+        "n": 30,
+        "reviewed_at": "2026-11-11",
+        "review_status": "revue_officielle_2026_11_11",
+        "review_method": "contrôle du texte ou de la procédure officielle, de la date d’effet, du champ d’application et de la cohérence pédagogique"
       },
       {
         "n": 18,
@@ -19256,23 +19257,23 @@
         "scope": "France ; règles et exclusions du cas ; sources vérifiées le 27 octobre 2026"
       },
       {
-        "n": 23,
-        "q": "Quel piège faut-il éviter pour « Distinguer les autres impôts et contributions » ?",
+        "q": "À partir de quelle date les nouveaux types-variantes-versions de voitures électriques ajoutés à la liste du score environnemental sont-ils inscrits ?",
         "options": {
-          "A": "Un résultat calculé suffit toujours, sans pièce ni contrôle.",
-          "B": "Une règle future peut être appliquée avant sa date sans examen du texte.",
-          "C": "Une pratique interne devient automatiquement une obligation légale pour tous.",
-          "D": "Les anciens intitulés et barèmes de TVS ne doivent pas être réutilisés comme une règle actuelle générale."
+          "A": "10 novembre 2026",
+          "B": "11 novembre 2026",
+          "C": "12 novembre 2026",
+          "D": "1er janvier 2027"
         },
-        "correct": "D",
-        "explanation": "Le contrôle utile est le suivant : Les anciens intitulés et barèmes de TVS ne doivent pas être réutilisés comme une règle actuelle générale. Assujettissement avant barème ; barème daté avant calcul.",
-        "category": "analyse",
-        "source": "https://www.impots.gouv.fr/professionnel/questions/comment-declarer-et-payer-ma-taxe-sur-les-salaires-ts",
-        "source_kind": "cas_pedagogique_reference_officielle",
-        "reviewed_at": "2026-10-27",
-        "review_status": "revue_programme_r12_7",
-        "review_method": "notion rattachée au cours ; hypothèses fermées ; calculs Decimal et identités indépendantes ; pas de certification externe",
-        "scope": "France ; règles et exclusions du cas ; sources vérifiées le 27 octobre 2026"
+        "correct": "C",
+        "explanation": "L’arrêté entre en vigueur le 11/11/2026, mais les versions ajoutées à la liste le sont à compter du 12/11/2026.",
+        "category": "date_application",
+        "source": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000055075229",
+        "source_kind": "arrete_officiel",
+        "scope": "Fiscalité — liste des véhicules et score environnemental",
+        "n": 30,
+        "reviewed_at": "2026-11-11",
+        "review_status": "revue_officielle_2026_11_11",
+        "review_method": "contrôle du texte officiel, de la date d’entrée en vigueur et de la portée sectorielle"
       },
       {
         "n": 24,
@@ -19409,27 +19410,23 @@
         }
       },
       {
-        "n": 30,
-        "q": "Base fiscale avant correction 40000 € ; une déduction de 1000 € avait été comptée deux fois. Quelle base corrigée ?",
+        "q": "Pour le premier exercice clos à compter du 31 décembre 2025, quel seuil de chiffre d’affaires peut rendre une entreprise à l’IS redevable de la contribution exceptionnelle ?",
         "options": {
-          "A": "41 001,00 €",
-          "B": "41 010,00 €",
-          "C": "41 000,00 €",
-          "D": "41 100,00 €"
+          "A": "100 millions d’euros",
+          "B": "500 millions d’euros",
+          "C": "1 milliard d’euros sur l’exercice ou le précédent",
+          "D": "1,5 milliard d’euros uniquement sur l’exercice suivant"
         },
         "correct": "C",
-        "explanation": "40000+1000 = 41 000,00 €. Annuler une déduction indue augmente la base d’autant.",
-        "category": "calcul",
-        "source": "https://entreprendre.service-public.gouv.fr/vosdroits/F23575",
-        "source_kind": "cas_pedagogique_reference_officielle",
-        "reviewed_at": "2026-10-27",
-        "review_status": "revue_programme_r12_7",
-        "review_method": "notion rattachée au cours ; hypothèses fermées ; calculs Decimal et identités indépendantes ; pas de certification externe",
-        "scope": "France ; règles et exclusions du cas ; sources vérifiées le 27 octobre 2026",
-        "calculation_check": {
-          "expression": "40000+1000",
-          "expected": "41000"
-        }
+        "explanation": "Pour le premier exercice clos à compter du 31 décembre 2025, le seuil est d’au moins 1 milliard d’euros sur l’exercice concerné ou l’exercice précédent, sous réserve du champ d’application et des autres conditions.",
+        "category": "notion",
+        "source": "https://bofip.impots.gouv.fr/bofip/14607-PGP.html/identifiant=BOI-IS-AUT-60-20260812",
+        "source_kind": "doctrine_administrative",
+        "scope": "Fiscalité — contribution exceptionnelle grandes entreprises",
+        "n": 30,
+        "reviewed_at": "2026-11-07",
+        "review_status": "revue_reglementaire_2026_11_07",
+        "review_method": "contrôle du texte officiel, du champ d’application, de la date d’effet et de la cohérence pédagogique"
       }
     ]
   },
@@ -19744,23 +19741,23 @@
         "scope": "France ; règles et exclusions du cas ; sources vérifiées le 27 octobre 2026"
       },
       {
-        "n": 17,
-        "q": "Quelle réserve doit accompagner votre traitement pour « Identifier les obligations et les échéances » ?",
+        "q": "Quels produits l’arrêté du 6 novembre 2026 ajoute-t-il à la liste des exceptions de l’article A. 471-36 du CIBS ?",
         "options": {
-          "A": "Une règle future peut être appliquée avant sa date sans examen du texte.",
-          "B": "Une pratique interne devient automatiquement une obligation légale pour tous.",
-          "C": "Ne pas déduire le régime fiscal de la seule dénomination commerciale.",
-          "D": "Un résultat calculé suffit toujours, sans pièce ni contrôle."
+          "A": "Les fenêtres et huisseries en bois",
+          "B": "Les lamibois, bois lamellés-collés et bois lamellés-croisés",
+          "C": "Tous les meubles en bois massif",
+          "D": "La laine de bois et les panneaux de particules"
         },
-        "correct": "C",
-        "explanation": "Le contrôle utile est le suivant : Ne pas déduire le régime fiscal de la seule dénomination commerciale. Une obligation = régime + période + base + échéance + preuve.",
-        "category": "analyse",
-        "source": "https://entreprendre.service-public.gouv.fr/vosdroits/F23575",
-        "source_kind": "cas_pedagogique_reference_officielle",
-        "reviewed_at": "2026-10-27",
-        "review_status": "revue_programme_r12_7",
-        "review_method": "notion rattachée au cours ; hypothèses fermées ; calculs Decimal et identités indépendantes ; pas de certification externe",
-        "scope": "France ; règles et exclusions du cas ; sources vérifiées le 27 octobre 2026"
+        "correct": "B",
+        "explanation": "L’article 1 de l’arrêté insère ces trois désignations après le mot « plastifiés » dans la clause d’exception de la catégorie « panneaux à base de bois ».",
+        "category": "application",
+        "source": "https://www.legifrance.gouv.fr/eli/jo/2026/11/8/0262",
+        "source_kind": "arrete_reglementaire",
+        "scope": "Fiscalité — produits ajoutés aux exceptions A.471-36",
+        "n": 30,
+        "reviewed_at": "2026-11-11",
+        "review_status": "revue_officielle_2026_11_11",
+        "review_method": "contrôle du texte ou de la procédure officielle, de la date d’effet, du champ d’application et de la cohérence pédagogique"
       },
       {
         "n": 18,
@@ -19858,23 +19855,23 @@
         "scope": "France ; règles et exclusions du cas ; sources vérifiées le 27 octobre 2026"
       },
       {
-        "n": 23,
-        "q": "Quelle réserve doit accompagner votre traitement pour « Distinguer les autres impôts et contributions » ?",
+        "q": "Une société veut invoquer une disposition fiscale liée au score environnemental d’un véhicule électrique. Quel contrôle est indispensable après l’arrêté du 9 novembre 2026 ?",
         "options": {
-          "A": "Les anciens intitulés et barèmes de TVS ne doivent pas être réutilisés comme une règle actuelle générale.",
-          "B": "Un résultat calculé suffit toujours, sans pièce ni contrôle.",
-          "C": "Une règle future peut être appliquée avant sa date sans examen du texte.",
-          "D": "Une pratique interne devient automatiquement une obligation légale pour tous."
+          "A": "Vérifier uniquement la marque",
+          "B": "Comparer le TVV exact à la liste applicable à la date de l’opération et vérifier les autres conditions du dispositif",
+          "C": "Appliquer automatiquement une exonération de TVA",
+          "D": "Retenir le modèle le plus proche dans la liste"
         },
-        "correct": "A",
-        "explanation": "Le contrôle utile est le suivant : Les anciens intitulés et barèmes de TVS ne doivent pas être réutilisés comme une règle actuelle générale. Assujettissement avant barème ; barème daté avant calcul.",
-        "category": "analyse",
-        "source": "https://www.impots.gouv.fr/professionnel/questions/comment-declarer-et-payer-ma-taxe-sur-les-salaires-ts",
-        "source_kind": "cas_pedagogique_reference_officielle",
-        "reviewed_at": "2026-10-27",
-        "review_status": "revue_programme_r12_7",
-        "review_method": "notion rattachée au cours ; hypothèses fermées ; calculs Decimal et identités indépendantes ; pas de certification externe",
-        "scope": "France ; règles et exclusions du cas ; sources vérifiées le 27 octobre 2026"
+        "correct": "B",
+        "explanation": "La liste identifie des TVV précis. L’inscription satisfait le critère de score pour les dispositifs qui s’y réfèrent, sans supprimer les autres conditions ni créer une exonération générale de TVA.",
+        "category": "application",
+        "source": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000055075229",
+        "source_kind": "arrete_officiel",
+        "scope": "Fiscalité — vérification de l’éligibilité fiscale",
+        "n": 30,
+        "reviewed_at": "2026-11-11",
+        "review_status": "revue_officielle_2026_11_11",
+        "review_method": "contrôle du texte officiel, de la date d’entrée en vigueur et de la portée sectorielle"
       },
       {
         "n": 24,
@@ -20011,27 +20008,23 @@
         }
       },
       {
-        "n": 30,
-        "q": "Base fiscale avant correction 80000 € ; une déduction de 2000 € avait été comptée deux fois. Quelle base corrigée ?",
+        "q": "Pour le second exercice clos à compter du 31 décembre 2025, quel seuil de chiffre d’affaires s’applique à la contribution exceptionnelle des grandes entreprises ?",
         "options": {
-          "A": "82 100,00 €",
-          "B": "82 001,00 €",
-          "C": "82 010,00 €",
-          "D": "82 000,00 €"
+          "A": "1 milliard d’euros sur l’exercice précédent",
+          "B": "1,5 milliard d’euros sur l’exercice concerné seulement",
+          "C": "500 millions d’euros sur deux exercices",
+          "D": "2 milliards d’euros sur l’exercice ou le précédent"
         },
-        "correct": "D",
-        "explanation": "80000+2000 = 82 000,00 €. Annuler une déduction indue augmente la base d’autant.",
-        "category": "calcul",
-        "source": "https://entreprendre.service-public.gouv.fr/vosdroits/F23575",
-        "source_kind": "cas_pedagogique_reference_officielle",
-        "reviewed_at": "2026-10-27",
-        "review_status": "revue_programme_r12_7",
-        "review_method": "notion rattachée au cours ; hypothèses fermées ; calculs Decimal et identités indépendantes ; pas de certification externe",
-        "scope": "France ; règles et exclusions du cas ; sources vérifiées le 27 octobre 2026",
-        "calculation_check": {
-          "expression": "80000+2000",
-          "expected": "82000"
-        }
+        "correct": "B",
+        "explanation": "Pour le second exercice, le seuil est d’au moins 1,5 milliard d’euros sur l’exercice concerné seulement ; le chiffre d’affaires de l’exercice précédent n’est pas retenu pour apprécier ce seuil.",
+        "category": "notion",
+        "source": "https://bofip.impots.gouv.fr/bofip/14607-PGP.html/identifiant=BOI-IS-AUT-60-20260812",
+        "source_kind": "doctrine_administrative",
+        "scope": "Fiscalité — contribution exceptionnelle grandes entreprises",
+        "n": 30,
+        "reviewed_at": "2026-11-07",
+        "review_status": "revue_reglementaire_2026_11_07",
+        "review_method": "contrôle du texte officiel, du champ d’application, de la date d’effet et de la cohérence pédagogique"
       }
     ]
   },
@@ -20346,23 +20339,23 @@
         "scope": "France ; règles et exclusions du cas ; sources vérifiées le 27 octobre 2026"
       },
       {
-        "n": 17,
-        "q": "Quelle limite interdit une conclusion automatique pour « Identifier les obligations et les échéances » ?",
+        "q": "Une entreprise fabrique des panneaux à base de bois. Comment traiter les lamibois, bois lamellés-collés et bois lamellés-croisés au regard de la modification de l’article A. 471-36 ?",
         "options": {
-          "A": "Un résultat calculé suffit toujours, sans pièce ni contrôle.",
-          "B": "Une règle future peut être appliquée avant sa date sans examen du texte.",
-          "C": "Une pratique interne devient automatiquement une obligation légale pour tous.",
-          "D": "Ne pas déduire le régime fiscal de la seule dénomination commerciale."
+          "A": "Les ajouter à l’assiette de la taxe dès le 08/11/2026",
+          "B": "Les exclure de la catégorie « panneaux à base de bois » taxable à compter du 01/01/2027, sans en déduire une exonération de TVA",
+          "C": "Les considérer exonérés de tous impôts",
+          "D": "Appliquer un nouveau taux fixé par l’arrêté"
         },
-        "correct": "D",
-        "explanation": "Le contrôle utile est le suivant : Ne pas déduire le régime fiscal de la seule dénomination commerciale. Une obligation = régime + période + base + échéance + preuve.",
+        "correct": "B",
+        "explanation": "Ces produits sont ajoutés à la clause d’exception de la catégorie. L’effet prend date au 01/01/2027. L’arrêté ne modifie ni la TVA, ni le taux de cette taxe, ni le plan de comptes PCG ; il faut vérifier le produit, le code CPF et le champ complet de la taxe.",
         "category": "analyse",
-        "source": "https://entreprendre.service-public.gouv.fr/vosdroits/F23575",
-        "source_kind": "cas_pedagogique_reference_officielle",
-        "reviewed_at": "2026-10-27",
-        "review_status": "revue_programme_r12_7",
-        "review_method": "notion rattachée au cours ; hypothèses fermées ; calculs Decimal et identités indépendantes ; pas de certification externe",
-        "scope": "France ; règles et exclusions du cas ; sources vérifiées le 27 octobre 2026"
+        "source": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000044595989/LEGISCTA000049802033/2027-01-01/",
+        "source_kind": "arrete_reglementaire",
+        "scope": "Fiscalité — lecture de la clause d’exception et date d’effet",
+        "n": 30,
+        "reviewed_at": "2026-11-11",
+        "review_status": "revue_officielle_2026_11_11",
+        "review_method": "contrôle du texte ou de la procédure officielle, de la date d’effet, du champ d’application et de la cohérence pédagogique"
       },
       {
         "n": 18,
@@ -20460,23 +20453,23 @@
         "scope": "France ; règles et exclusions du cas ; sources vérifiées le 27 octobre 2026"
       },
       {
-        "n": 23,
-        "q": "Quelle limite interdit une conclusion automatique pour « Distinguer les autres impôts et contributions » ?",
+        "q": "La présence du TVV d’un véhicule dans la liste actualisée du score environnemental permet-elle de conclure à l’octroi automatique de toute aide ou à une exonération générale de TVA ?",
         "options": {
-          "A": "Une pratique interne devient automatiquement une obligation légale pour tous.",
-          "B": "Les anciens intitulés et barèmes de TVS ne doivent pas être réutilisés comme une règle actuelle générale.",
-          "C": "Un résultat calculé suffit toujours, sans pièce ni contrôle.",
-          "D": "Une règle future peut être appliquée avant sa date sans examen du texte."
+          "A": "Oui, toutes les aides et taxes sont neutralisées",
+          "B": "Oui, à condition que le véhicule soit électrique",
+          "C": "Non : elle satisfait seulement le critère de score des dispositifs qui s’y réfèrent ; les autres conditions doivent être vérifiées",
+          "D": "Oui, mais uniquement pour les véhicules d’occasion"
         },
-        "correct": "B",
-        "explanation": "Le contrôle utile est le suivant : Les anciens intitulés et barèmes de TVS ne doivent pas être réutilisés comme une règle actuelle générale. Assujettissement avant barème ; barème daté avant calcul.",
+        "correct": "C",
+        "explanation": "L’arrêté actualise la liste pour certaines aides et dispositions fiscales. Il ne crée ni droit automatique à toutes les aides ni exonération générale de TVA.",
         "category": "analyse",
-        "source": "https://www.impots.gouv.fr/professionnel/questions/comment-declarer-et-payer-ma-taxe-sur-les-salaires-ts",
-        "source_kind": "cas_pedagogique_reference_officielle",
-        "reviewed_at": "2026-10-27",
-        "review_status": "revue_programme_r12_7",
-        "review_method": "notion rattachée au cours ; hypothèses fermées ; calculs Decimal et identités indépendantes ; pas de certification externe",
-        "scope": "France ; règles et exclusions du cas ; sources vérifiées le 27 octobre 2026"
+        "source": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000055075229",
+        "source_kind": "arrete_officiel",
+        "scope": "Fiscalité — portée limitée de l’éligibilité",
+        "n": 30,
+        "reviewed_at": "2026-11-11",
+        "review_status": "revue_officielle_2026_11_11",
+        "review_method": "contrôle du texte officiel, de la date d’entrée en vigueur et de la portée sectorielle"
       },
       {
         "n": 24,
@@ -20613,27 +20606,23 @@
         }
       },
       {
-        "n": 30,
-        "q": "Base fiscale avant correction 120000 € ; une déduction de 3000 € avait été comptée deux fois. Quelle base corrigée ?",
+        "q": "Selon ANC 2026-04, à quelle rubrique et à quel exercice rattacher l’impôt sur les bénéfices et les contributions qui s’y rattachent ?",
         "options": {
-          "A": "123 000,00 €",
-          "B": "123 100,00 €",
-          "C": "123 001,00 €",
-          "D": "123 010,00 €"
+          "A": "Résultat exceptionnel de l’exercice de paiement bancaire",
+          "B": "Rubrique « Impôts sur les bénéfices » de l’exercice au titre duquel l’entreprise en est redevable",
+          "C": "Capitaux propres à la date de déclaration",
+          "D": "Charges financières de l’exercice précédent"
         },
-        "correct": "A",
-        "explanation": "120000+3000 = 123 000,00 €. Annuler une déduction indue augmente la base d’autant.",
-        "category": "calcul",
-        "source": "https://entreprendre.service-public.gouv.fr/vosdroits/F23575",
-        "source_kind": "cas_pedagogique_reference_officielle",
-        "reviewed_at": "2026-10-27",
-        "review_status": "revue_programme_r12_7",
-        "review_method": "notion rattachée au cours ; hypothèses fermées ; calculs Decimal et identités indépendantes ; pas de certification externe",
-        "scope": "France ; règles et exclusions du cas ; sources vérifiées le 27 octobre 2026",
-        "calculation_check": {
-          "expression": "120000+3000",
-          "expected": "123000"
-        }
+        "correct": "B",
+        "explanation": "ANC 2026-04, en vigueur depuis le 4 septembre 2026 pour les exercices en cours, précise la rubrique et l’exercice de rattachement ; le taux est celui en vigueur à la clôture.",
+        "category": "analyse",
+        "source": "https://www.anc.gouv.fr/files/anc/files/1_Normes_fran%C3%A7aises/Reglements/2026/2026%20homologu%C3%A9/REGLT_2026_04_JO-SITE.pdf",
+        "source_kind": "reglementation_officielle",
+        "scope": "Fiscalité — comptabilisation de l’IS",
+        "n": 30,
+        "reviewed_at": "2026-11-07",
+        "review_status": "revue_reglementaire_2026_11_07",
+        "review_method": "contrôle du texte officiel, du champ d’application, de la date d’effet et de la cohérence pédagogique"
       }
     ]
   },
@@ -22868,23 +22857,23 @@
         "scope": "France ; règles et exclusions du cas ; sources vérifiées le 27 octobre 2026"
       },
       {
-        "n": 23,
-        "q": "Quel piège faut-il éviter pour « Choisir un plan d’action responsable » ?",
+        "q": "À compter de quelle date les nouvelles règles de l’arrêté du 5 novembre 2026 sur les certificats d’économies d’énergie s’appliquent-elles aux opérations engagées ?",
         "options": {
-          "A": "Un résultat calculé suffit toujours, sans pièce ni contrôle.",
-          "B": "Une règle future peut être appliquée avant sa date sans examen du texte.",
-          "C": "Une pratique interne devient automatiquement une obligation légale pour tous.",
-          "D": "Le plan doit préserver l’accessibilité, la sécurité et les obligations de conservation."
+          "A": "10 novembre 2026",
+          "B": "11 novembre 2026",
+          "C": "16 novembre 2026",
+          "D": "1er janvier 2027"
         },
-        "correct": "D",
-        "explanation": "Le contrôle utile est le suivant : Le plan doit préserver l’accessibilité, la sécurité et les obligations de conservation. Une action réaliste, un responsable et un résultat mesuré.",
-        "category": "analyse",
-        "source": "https://agirpourlatransition.ademe.fr/entreprises/conseils/transverse/numerique-responsable",
-        "source_kind": "cas_pedagogique_reference_officielle",
-        "reviewed_at": "2026-10-27",
-        "review_status": "revue_programme_r12_7",
-        "review_method": "notion rattachée au cours ; hypothèses fermées ; calculs Decimal et identités indépendantes ; pas de certification externe",
-        "scope": "France ; règles et exclusions du cas ; sources vérifiées le 27 octobre 2026"
+        "correct": "C",
+        "explanation": "L’arrêté est publié au JO du 10/11/2026 et entre en vigueur le 16/11/2026 ; il s’applique aux opérations engagées à compter de cette date.",
+        "category": "date_application",
+        "source": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000055075316",
+        "source_kind": "arrete_officiel",
+        "scope": "RSE — dispositif CEE, date d’application",
+        "n": 30,
+        "reviewed_at": "2026-11-11",
+        "review_status": "revue_officielle_2026_11_11",
+        "review_method": "contrôle du texte officiel, de la date d’entrée en vigueur et de la portée sectorielle"
       },
       {
         "n": 24,
@@ -23022,26 +23011,22 @@
       },
       {
         "n": 30,
-        "q": "Collecte annuelle : douze factures de 500 kWh chacune et une correction de -200 kWh non déjà déduite. Quel total corrigé ?",
+        "q": "Quel est le statut du règlement délégué (UE) 2026/1563 au 10 novembre 2026 ?",
         "options": {
-          "A": "5 801,00 kWh",
-          "B": "5 810,00 kWh",
-          "C": "5 800,00 kWh",
-          "D": "5 900,00 kWh"
+          "A": "Il est seulement à l’état de projet",
+          "B": "Il est entré en vigueur le 10/11/2026, mais s’applique aux exercices ouverts dès le 01/01/2027",
+          "C": "Il s’applique rétroactivement à tous les exercices clos en 2025",
+          "D": "Il rend toutes les PME soumises à la CSRD"
         },
-        "correct": "C",
-        "explanation": "12*500-200 = 5 800,00 kWh. La correction documentée est déduite une seule fois.",
-        "category": "calcul",
-        "source": "https://agirpourlatransition.ademe.fr/entreprises/conseils/transverse/numerique-responsable",
-        "source_kind": "cas_pedagogique_reference_officielle",
-        "reviewed_at": "2026-10-27",
-        "review_status": "revue_programme_r12_7",
-        "review_method": "notion rattachée au cours ; hypothèses fermées ; calculs Decimal et identités indépendantes ; pas de certification externe",
-        "scope": "France ; règles et exclusions du cas ; sources vérifiées le 27 octobre 2026",
-        "calculation_check": {
-          "expression": "12*500-200",
-          "expected": "5800"
-        }
+        "correct": "B",
+        "explanation": "Le règlement 2026/1563 entre en vigueur le 10 novembre 2026. Son application aux exercices commence le 1er janvier 2027 ou après. Il ne détermine pas à lui seul le champ des entreprises assujetties. ",
+        "category": "notion",
+        "source": "https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32026R1563",
+        "source_kind": "reglementation_officielle",
+        "scope": "RSE — statut et date d’application des ESRS simplifiés",
+        "reviewed_at": "2026-11-10",
+        "review_status": "revue_reglementaire_2026_11_10",
+        "review_method": "lecture des articles ou fiches officielles, vérification du champ, de la date d’effet et du calcul"
       }
     ]
   },
@@ -23470,23 +23455,23 @@
         "scope": "France ; règles et exclusions du cas ; sources vérifiées le 27 octobre 2026"
       },
       {
-        "n": 23,
-        "q": "Quelle réserve doit accompagner votre traitement pour « Choisir un plan d’action responsable » ?",
+        "q": "Pour une opération du secteur des transports relevant du dispositif CEE, quelle donnée complémentaire l’arrêté du 5 novembre 2026 prévoit-il de renseigner ?",
         "options": {
-          "A": "Le plan doit préserver l’accessibilité, la sécurité et les obligations de conservation.",
-          "B": "Un résultat calculé suffit toujours, sans pièce ni contrôle.",
-          "C": "Une règle future peut être appliquée avant sa date sans examen du texte.",
-          "D": "Une pratique interne devient automatiquement une obligation légale pour tous."
+          "A": "Le numéro SIRET du constructeur du véhicule",
+          "B": "Le décile de revenu fiscal de référence par part du ménage bénéficiaire",
+          "C": "Le taux de TVA de l’équipement",
+          "D": "Le résultat fiscal du demandeur de CEE"
         },
-        "correct": "A",
-        "explanation": "Le contrôle utile est le suivant : Le plan doit préserver l’accessibilité, la sécurité et les obligations de conservation. Une action réaliste, un responsable et un résultat mesuré.",
-        "category": "analyse",
-        "source": "https://agirpourlatransition.ademe.fr/entreprises/conseils/transverse/numerique-responsable",
-        "source_kind": "cas_pedagogique_reference_officielle",
-        "reviewed_at": "2026-10-27",
-        "review_status": "revue_programme_r12_7",
-        "review_method": "notion rattachée au cours ; hypothèses fermées ; calculs Decimal et identités indépendantes ; pas de certification externe",
-        "scope": "France ; règles et exclusions du cas ; sources vérifiées le 27 octobre 2026"
+        "correct": "B",
+        "explanation": "L’arrêté ajoute, pour les fiches d’opérations standardisées du secteur des transports, la déclaration du décile de revenu fiscal de référence par part du ménage bénéficiaire.",
+        "category": "application",
+        "source": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000055075316",
+        "source_kind": "arrete_officiel",
+        "scope": "RSE — CEE transport et données de revenus",
+        "n": 30,
+        "reviewed_at": "2026-11-11",
+        "review_status": "revue_officielle_2026_11_11",
+        "review_method": "contrôle du texte officiel, de la date d’entrée en vigueur et de la portée sectorielle"
       },
       {
         "n": 24,
@@ -23624,26 +23609,22 @@
       },
       {
         "n": 30,
-        "q": "Collecte annuelle : douze factures de 1000 kWh chacune et une correction de -400 kWh non déjà déduite. Quel total corrigé ?",
+        "q": "Pour un exercice qui commence en 2026 et une entreprise relevant du règlement ESRS, quelle combinaison transitoire est autorisée par l’article 2 du règlement 2026/1563 ?",
         "options": {
-          "A": "11 700,00 kWh",
-          "B": "11 601,00 kWh",
-          "C": "11 610,00 kWh",
-          "D": "11 600,00 kWh"
+          "A": "Uniquement les ESRS simplifiés",
+          "B": "ESRS antérieurs ; ESRS simplifiés ; ou ESRS antérieurs avec huit allègements",
+          "C": "Aucun reporting possible en 2026",
+          "D": "Les ESRS simplifiés sont obligatoires dès le 01/01/2026"
         },
-        "correct": "D",
-        "explanation": "12*1000-400 = 11 600,00 kWh. La correction documentée est déduite une seule fois.",
-        "category": "calcul",
-        "source": "https://agirpourlatransition.ademe.fr/entreprises/conseils/transverse/numerique-responsable",
-        "source_kind": "cas_pedagogique_reference_officielle",
-        "reviewed_at": "2026-10-27",
-        "review_status": "revue_programme_r12_7",
-        "review_method": "notion rattachée au cours ; hypothèses fermées ; calculs Decimal et identités indépendantes ; pas de certification externe",
-        "scope": "France ; règles et exclusions du cas ; sources vérifiées le 27 octobre 2026",
-        "calculation_check": {
-          "expression": "12*1000-400",
-          "expected": "11600"
-        }
+        "correct": "B",
+        "explanation": "L’article 2 autorise trois possibilités. L’entreprise doit indiquer clairement dans son état de durabilité la version retenue pour l’exercice 2026.",
+        "category": "application",
+        "source": "https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32026R1563",
+        "source_kind": "reglementation_officielle",
+        "scope": "RSE — choix transitoires pour exercices 2026",
+        "reviewed_at": "2026-11-10",
+        "review_status": "revue_reglementaire_2026_11_10",
+        "review_method": "lecture des articles ou fiches officielles, vérification du champ, de la date d’effet et du calcul"
       }
     ]
   },
@@ -24072,23 +24053,23 @@
         "scope": "France ; règles et exclusions du cas ; sources vérifiées le 27 octobre 2026"
       },
       {
-        "n": 23,
-        "q": "Quelle limite interdit une conclusion automatique pour « Choisir un plan d’action responsable » ?",
+        "q": "Une opération CEE est engagée le 15 novembre 2026, une autre le 16 novembre. Quelle méthode est correcte pour appliquer l’arrêté du 5 novembre ?",
         "options": {
-          "A": "Une pratique interne devient automatiquement une obligation légale pour tous.",
-          "B": "Le plan doit préserver l’accessibilité, la sécurité et les obligations de conservation.",
-          "C": "Un résultat calculé suffit toujours, sans pièce ni contrôle.",
-          "D": "Une règle future peut être appliquée avant sa date sans examen du texte."
+          "A": "Appliquer les nouveaux coefficients aux deux opérations, quelle que soit la date",
+          "B": "Appliquer les nouvelles dispositions aux opérations engagées dès le 16/11/2026, vérifier les règles antérieures/transitoires pour celle du 15/11 et utiliser les annexes propres à la catégorie et au secteur",
+          "C": "Appliquer les nouvelles règles uniquement aux opérations achevées après le 1er janvier 2027",
+          "D": "Appliquer les nouveaux coefficients à toutes les entreprises, même hors CEE"
         },
         "correct": "B",
-        "explanation": "Le contrôle utile est le suivant : Le plan doit préserver l’accessibilité, la sécurité et les obligations de conservation. Une action réaliste, un responsable et un résultat mesuré.",
+        "explanation": "L’arrêté entre en vigueur le 16/11/2026 et vise les opérations engagées à compter de cette date. Les catégories, justificatifs et coefficients dépendent de la fiche et du secteur ; les annexes et éventuelles règles transitoires doivent être vérifiées.",
         "category": "analyse",
-        "source": "https://agirpourlatransition.ademe.fr/entreprises/conseils/transverse/numerique-responsable",
-        "source_kind": "cas_pedagogique_reference_officielle",
-        "reviewed_at": "2026-10-27",
-        "review_status": "revue_programme_r12_7",
-        "review_method": "notion rattachée au cours ; hypothèses fermées ; calculs Decimal et identités indépendantes ; pas de certification externe",
-        "scope": "France ; règles et exclusions du cas ; sources vérifiées le 27 octobre 2026"
+        "source": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000055075316",
+        "source_kind": "arrete_officiel",
+        "scope": "RSE — CEE, date d’engagement et annexes",
+        "n": 30,
+        "reviewed_at": "2026-11-11",
+        "review_status": "revue_officielle_2026_11_11",
+        "review_method": "contrôle du texte officiel, de la date d’entrée en vigueur et de la portée sectorielle"
       },
       {
         "n": 24,
@@ -24226,26 +24207,22 @@
       },
       {
         "n": 30,
-        "q": "Collecte annuelle : douze factures de 1500 kWh chacune et une correction de -600 kWh non déjà déduite. Quel total corrigé ?",
+        "q": "Une société dans le champ CSRD ouvre son exercice le 1er avril 2026 et choisit les ESRS antérieurs avec les allègements de l’article 2(1)(b) du règlement 2026/1563. Que doit-elle faire ?",
         "options": {
-          "A": "17 400,00 kWh",
-          "B": "17 500,00 kWh",
-          "C": "17 401,00 kWh",
-          "D": "17 410,00 kWh"
+          "A": "Ne rien mentionner, car les allègements sont automatiques",
+          "B": "Indiquer clairement dans son état de durabilité la version choisie et documenter les huit allègements applicables",
+          "C": "Appliquer obligatoirement les ESRS simplifiés à compter du 10/11/2026 en cours d’exercice",
+          "D": "Reporter le reporting jusqu’en 2028"
         },
-        "correct": "A",
-        "explanation": "12*1500-600 = 17 400,00 kWh. La correction documentée est déduite une seule fois.",
-        "category": "calcul",
-        "source": "https://agirpourlatransition.ademe.fr/entreprises/conseils/transverse/numerique-responsable",
-        "source_kind": "cas_pedagogique_reference_officielle",
-        "reviewed_at": "2026-10-27",
-        "review_status": "revue_programme_r12_7",
-        "review_method": "notion rattachée au cours ; hypothèses fermées ; calculs Decimal et identités indépendantes ; pas de certification externe",
-        "scope": "France ; règles et exclusions du cas ; sources vérifiées le 27 octobre 2026",
-        "calculation_check": {
-          "expression": "12*1500-600",
-          "expected": "17400"
-        }
+        "correct": "B",
+        "explanation": "Pour les exercices commençant en 2026, l’article 2 permet les ESRS antérieurs avec huit allègements ciblés. L’article 2(2) exige que la version retenue soit clairement indiquée dans l’état de durabilité.",
+        "category": "analyse",
+        "source": "https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32026R1563",
+        "source_kind": "reglementation_officielle",
+        "scope": "RSE — traçabilité du choix transitoire 2026",
+        "reviewed_at": "2026-11-10",
+        "review_status": "revue_reglementaire_2026_11_10",
+        "review_method": "lecture des articles ou fiches officielles, vérification du champ, de la date d’effet et du calcul"
       }
     ]
   }
